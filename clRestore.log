@@ -1,0 +1,1168 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : clRestore                                                                   *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+7096  1a60  06/30 08:51:29 ### FclRestorePrivate::FclRestorePrivate(1288) - Reg Key [nRestoreMediaCorruptionReportCount] is set to value [10]
+5672  162c  06/30 08:51:29 ### FclRestorePrivate::FclRestorePrivate(1288) - Reg Key [nRestoreMediaCorruptionReportCount] is set to value [10]
+7096  1a60  06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5672  162c  06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7144  1d68  06/30 08:51:30 ### FclRestorePrivate::FclRestorePrivate(1288) - Reg Key [nRestoreMediaCorruptionReportCount] is set to value [10]
+5928  3a0   06/30 08:51:30 ### FclRestorePrivate::FclRestorePrivate(1288) - Reg Key [nRestoreMediaCorruptionReportCount] is set to value [10]
+7144  1d68  06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7096  1a60  06/30 08:51:30 ### FclRestore::initialize2() - Received message FSR_MSG_INIT_DATA
+3864  7ac   06/30 08:51:30 ### FclRestorePrivate::FclRestorePrivate(1288) - Reg Key [nRestoreMediaCorruptionReportCount] is set to value [10]
+7096  1a60  06/30 08:51:30 ### CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+7096  1a60  06/30 08:51:30 ### FclRestorePrivate::ParseInitDataReservedString(1949) - This is a distributed restore
+7096  1a60  06/30 08:51:30 1087963 Init() - Initializing job control [token=1087963:2:1:0:0:57231,cn=sanbgw], serverName [cms01039c1us02.cvmscloud.commvault.com], ControlFlag [4], Job Id [1087963]
+5928  3a0   06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7096  1a60  06/30 08:51:30 1087963 CVJobCtrlLog::registerProcess(): successfully created file [C:\Program Files\Metallic\ContentStore\Base\JobControl\7.096]
+7096  1a60  06/30 08:51:30 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3864  7ac   06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7096  1a60  06/30 08:51:30 1087963 FclRestore::initialize2() - Skip and continue on seek Failure option NOT selected, restore would fail if seek failures happen.
+7096  1a60  06/30 08:51:31 1087963 FclRestore::initialize2() - No user id found in the registry, VMName=[sanbgw], Trying getting it from the CS
+5672  162c  06/30 08:51:31 ### FclRestore::initialize2() - Received message FSR_MSG_INIT_DATA
+7096  1a60  06/30 08:51:31 1087963 CVArchive::Construct() - Constructing CVArchive Object. This=0000020AF092D7F0
+7096  1a60  06/30 08:51:31 1087963 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+5672  162c  06/30 08:51:31 ### CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+5672  162c  06/30 08:51:31 ### FclRestorePrivate::ParseInitDataReservedString(1949) - This is a distributed restore
+5672  162c  06/30 08:51:31 1087963 Init() - Initializing job control [token=1087963:2:1:0:0:57231,cn=sanbgw], serverName [cms01039c1us02.cvmscloud.commvault.com], ControlFlag [4], Job Id [1087963]
+7096  1a60  06/30 08:51:31 1087963 FclRestore::initialize2() - GUI progress updates will be sent every [300] secs
+7096  1a60  06/30 08:51:31 1087963 FclRestore::initialize2() - Keep Alive Messages will be sent every [5] minutes
+7096  1a60  06/30 08:51:31 1087963 FclRestore::initialize2() - Seek Marker will be sent on every [4096] msg, Allowed=[8192]
+7096  140c  06/30 08:51:31 1087963 FClRestore::processRestoreMsgs() - This is NOT a WOW64 system state restore
+7096  1a60  06/30 08:51:31 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - AFile read monitor will check every 1 seconds
+7096  1a60  06/30 08:51:31 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - Alerts will be issued if the restore waits for more than 600 seconds for data to come from the MA
+7096  140c  06/30 08:51:31 1087963 Multiple Tag Headers per Pipeline Buffer is Supported
+7144  1d68  06/30 08:51:31 ### FclRestore::initialize2() - Received message FSR_MSG_INIT_DATA
+7096  140c  06/30 08:51:31 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_INIT_DATA_VER2
+7096  140c  06/30 08:51:31 1087963 FclRestore::OnMsgInitDataVer2() - This is not a file level snap restore from disk backup, SnapRestore=[0], bkpType=[0], rstType=[0]
+7096  140c  06/30 08:51:31 1087963 CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+5928  3a0   06/30 08:51:31 ### FclRestore::initialize2() - Received message FSR_MSG_INIT_DATA
+7096  140c  06/30 08:51:31 1087963 FclRestorePrivate::ParseExtendedRestoreOption(21236) - Parsing Extended Option [#UseIndexingV2="1";#BrowseReq="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?><databrowse_BrowseRequest opType=\"1\" pathType=\"0\" userName=\"MetallicDemos\sranga\"><session sessionId=\"1087963\"/><entity _type_=\"7\" applicationId=\"134\" backupsetGUID=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" backupsetId=\"18693\" clientId=\"8445\" commCellId=\"2\" instanceId=\"4945\" subclientGUID=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" subclientId=\"23682\"/><paths path=\"/rrskumar4/PowerCLI-Example-Scripts\"/><timeRange fromTime=\"1656603954\" toTime=\"1656604103\"/><options DoNotCacheFilters=\"0\" PreferContentServer=\"0\" adjustPerLastDRTime=\"0\" allowInfectedFilesRestore=\"0\" browseFromCSDB=\"0\" browseFromJobType=\"0\" browseFromLatestJob=\"0\" bulkOperation=\"0\" bypassSubclientConfig=\"1\" caseInsensitive=\"0\" caseManagerDataCopy=\"0\" createRestoreVectors=\"0\" cycleBrowse=\"0\" disableSnapOptimizer=\"0\" doPrediction=\"0\" downloadSystemScan=\"0\" downloadTrueUpStubScanOutput=\"0\" enforceSuperBrowse=\"0\" fetchFileProperties=\"0\" fixPaths=\"0\" folderDelete=\"0\" fsExtentBrowse=\"0\" getACLs=\"0\" hideEmptyExtents=\"0\" imageBrowse=\"0\" includeAgedData=\"0\" includeAllParents=\"0\" includeCheckSum=\"0\" includeEndUserErasedItems=\"0\" includeExtentCRC=\"0\" includeMetadata=\"0\" includeRunningJobs=\"0\" includeSoftCommittedJobs=\"0\" includeVersions=\"0\" instantSend=\"0\" internalReq=\"0\" isLatestCycleBrowse=\"0\" isOneTouchRestore=\"0\" machineLiveBrowse=\"0\" nasFilerType=\"0\" nasSynthDirRestore=\"2\" nasSynthRestore=\"0\" nonRecursiveNASRestore=\"0\" onePassRedundancy=\"0\" onePassStubQuery=\"0\" prepareSystemScan=\"0\" pruneFromSource=\"0\" queryAgedArchiveFileData=\"0\" reCreateRestoreVector=\"0\" refCopy=\"0\" refCopyCloudMigration=\"0\" refCopySF=\"0\" relationshipBrowse=\"0\" restoreIndex=\"1\" sendBackListOfAfiles=\"0\" sendOutputToFile=\"0\" sharedFolderBrowse=\"0\" showDeletedFiles=\"0\" showFavoriteAndShareInfo=\"0\" showFolderSize=\"0\" showOnlyDeleted=\"0\" showOnlyNew=\"0\" showThumbnail=\"0\" skipDataPrediction=\"0\" skipIndexRestore=\"0\" skipInvalidMimeClassification=\"0\" skipLatestVersion=\"0\" skipMountPoints=\"0\" skipNasRenamedDirs=\"0\" skipProgressMessage=\"0\" skipSynthFullJobs=\"0\" synthFull=\"0\" tableViewBrowse=\"0\" translateSyncPath=\"0\" translateToVMReq=\"0\" useLatestCycle=\"0\" useUptoDateIndexOnly=\"0\" userRequest=\"1\" verifyArchiverQuery=\"0\" viewBackupCopy=\"0\" vsDiskBrowse=\"0\" vsExtentBrowse=\"0\" vsFileBrowse=\"1\" vsListVMs=\"0\" vsLiveSyncBrowse=\"0\" vsVolumeBrowse=\"0\" vsaFileLevelRestore=\"0\"/><mode mode=\"0\"/><ma _type_=\"3\" clientId=\"0\" clientName=\"sanbgw\"/><advOptions applyStrictACL=\"0\" browseViewName=\"\" copyPrecedence=\"0\" datasourceId=\"0\" includePsuedoItems=\"0\" retryLimit=\"10\" retryWaitSecs=\"300\" skipACLChecks=\"0\" skipUptodateCheck=\"0\" stubAsData=\"0\" timeoutSecs=\"1800\" userId=\"29456\" validateAfiles=\"1\" vmCentricClient=\"0\"><advConfig recallRequest=\"0\" useProtocolVersion=\"0\"><browseAdvancedConfigReq commcellId=\"2\" currentJobId=\"1087963\" jobType=\"0\"><additionalFlags flagType=\"0\" key=\"RequestorType\" value=\"Restore\"/><additionalFlags flagType=\"9\" value=\"&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot; ?>&lt;databrowse_JobInfoList>&lt;jobInfoList afileCtime=&quot;1656604095&quot; appId=&quot;23682&quot; commcellId=&quot;2&quot; jobId=&quot;1087953&quot;/>&lt;/databrowse_JobInfoList>\"/></browseAdvancedConfigReq><browseAdvancedConfigBrowseByJob commcellId=\"2\" jobId=\"1087953\" jobType=\"0\"/><extendedConfig><browseAdvConfigLiveBrowse><mountMa _type_=\"3\"/></browseAdvConfigLiveBrowse></extendedConfig></advConfig></advOptions><queries queryId=\"0\" type=\"0\"><dataParam><paging firstNode=\"0\" pageSize=\"4294967295\" skipNode=\"0\"/></dataParam></queries><applicationInfo><indexingInfo connectBackHost=\"\" connectBackService=\"\" extendedOptions=\"\" idxAppType=\"200125\" jobId=\"1087963\" maMangled=\"SanBGW*sanbgw*8400\" multiClientRequest=\"0\" workerId=\"1870\"><indexdbList backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/></indexdbList><mainIndexDb backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/><subclientInfos appGuid=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" appId=\"23682\" latestIdxAfCtime=\"1656604095\" minIdxAfCtime=\"1656603989\"/></mainIndexDb><flags SynthFullStreamMode=\"0\" browseFromCache=\"0\" createRestVectors=\"1\" crossComponentWorker=\"0\" getVectorNames=\"0\" includeVersions=\"0\" instantSend=\"0\" isRefCopyClient=\"0\" mergeMultiClientBrowseData=\"0\" multiEntityBrowse=\"0\" populateCache=\"0\" retentionBrowse=\"0\" showFolderSize=\"0\" showItemsMarkedDeleted=\"0\" superBrowse=\"0\" superBrowseNoLock=\"0\" superBrowseWorker=\"0\" syntheticFull=\"0\"/></indexingInfo></applicationInfo></databrowse_BrowseRequest>";#DBIdentifier="8FCBE752-BECB-467C-BCBB-1811B4FA0F84:8FCBE752-BECB-467C-BCBB-1811B4FA0F84";#SingleStreamSynthFull="1";#101="1";#DistributedRestore="1";#DistributedRestoreStreamId="1001";#CloudRestoreToFS="1";#DistributedMultiNodeRestore="1"]
+7144  1d68  06/30 08:51:31 ### CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+7144  1d68  06/30 08:51:31 ### FclRestorePrivate::ParseInitDataReservedString(1949) - This is a distributed restore
+5672  162c  06/30 08:51:31 1087963 CVJobCtrlLog::registerProcess(): successfully created file [C:\Program Files\Metallic\ContentStore\Base\JobControl\5.672]
+7144  1d68  06/30 08:51:31 1087963 Init() - Initializing job control [token=1087963:2:1:0:0:57231,cn=sanbgw], serverName [cms01039c1us02.cvmscloud.commvault.com], ControlFlag [4], Job Id [1087963]
+5928  3a0   06/30 08:51:31 ### CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+5672  162c  06/30 08:51:31 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+5928  3a0   06/30 08:51:31 ### FclRestorePrivate::ParseInitDataReservedString(1949) - This is a distributed restore
+5928  3a0   06/30 08:51:31 1087963 Init() - Initializing job control [token=1087963:2:1:0:0:57231,cn=sanbgw], serverName [cms01039c1us02.cvmscloud.commvault.com], ControlFlag [4], Job Id [1087963]
+3864  7ac   06/30 08:51:31 ### FclRestore::initialize2() - Received message FSR_MSG_INIT_DATA
+7144  1d68  06/30 08:51:31 1087963 CVJobCtrlLog::registerProcess(): successfully created file [C:\Program Files\Metallic\ContentStore\Base\JobControl\7.144]
+5672  162c  06/30 08:51:31 1087963 FclRestore::initialize2() - Skip and continue on seek Failure option NOT selected, restore would fail if seek failures happen.
+7144  1d68  06/30 08:51:31 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+5928  3a0   06/30 08:51:31 1087963 CVJobCtrlLog::registerProcess(): successfully created file [C:\Program Files\Metallic\ContentStore\Base\JobControl\5.928]
+3864  7ac   06/30 08:51:31 ### CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+5928  3a0   06/30 08:51:31 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+7096  140c  06/30 08:51:31 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SET_PARAMS
+3864  7ac   06/30 08:51:31 ### FclRestorePrivate::ParseInitDataReservedString(1949) - This is a distributed restore
+7096  140c  06/30 08:51:31 1087963 FclRestore::OnMsgSetParams() - Options=[3c]
+5672  162c  06/30 08:51:31 1087963 FclRestore::initialize2() - No user id found in the registry, VMName=[sanbgw], Trying getting it from the CS
+3864  7ac   06/30 08:51:31 1087963 Init() - Initializing job control [token=1087963:2:1:0:0:57231,cn=sanbgw], serverName [cms01039c1us02.cvmscloud.commvault.com], ControlFlag [4], Job Id [1087963]
+7096  140c  06/30 08:51:31 1087963 FclRestore::OnMsgSetParams() - destDir supplied is [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963] 
+7096  140c  06/30 08:51:31 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+5672  162c  06/30 08:51:31 1087963 CVArchive::Construct() - Constructing CVArchive Object. This=00000249195E4670
+5672  162c  06/30 08:51:31 1087963 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+7096  140c  06/30 08:51:31 1087963 FclRestore::OnMsgSetParams() - RST_CAN_OVERWRITE = -1
+7096  140c  06/30 08:51:31 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+7144  1d68  06/30 08:51:31 1087963 FclRestore::initialize2() - Skip and continue on seek Failure option NOT selected, restore would fail if seek failures happen.
+5672  162c  06/30 08:51:31 1087963 FclRestore::initialize2() - GUI progress updates will be sent every [300] secs
+7096  140c  06/30 08:51:31 1087963 FclRestore::OnMsgSetParams() - Out of place restore selected to dir [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963]
+5928  3a0   06/30 08:51:31 1087963 FclRestore::initialize2() - Skip and continue on seek Failure option NOT selected, restore would fail if seek failures happen.
+5672  162c  06/30 08:51:31 1087963 FclRestore::initialize2() - Keep Alive Messages will be sent every [5] minutes
+3864  7ac   06/30 08:51:31 1087963 CVJobCtrlLog::registerProcess(): successfully created file [C:\Program Files\Metallic\ContentStore\Base\JobControl\3.864]
+7096  140c  06/30 08:51:31 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+5672  162c  06/30 08:51:31 1087963 FclRestore::initialize2() - Seek Marker will be sent on every [4096] msg, Allowed=[8192]
+3864  7ac   06/30 08:51:31 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+7144  1d68  06/30 08:51:31 1087963 FclRestore::initialize2() - No user id found in the registry, VMName=[sanbgw], Trying getting it from the CS
+7096  140c  06/30 08:51:31 1087963 FclREstore::openResultsFile() - Setting rawMode to True
+5672  162c  06/30 08:51:31 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - AFile read monitor will check every 1 seconds
+5928  3a0   06/30 08:51:31 1087963 FclRestore::initialize2() - No user id found in the registry, VMName=[sanbgw], Trying getting it from the CS
+7096  140c  06/30 08:51:31 1087963 FclRestore::OnMsgSetParams() - compatabilityOptions set to - SEND_NO_RAW_DEVICE_DATA
+7144  1d68  06/30 08:51:31 1087963 CVArchive::Construct() - Constructing CVArchive Object. This=000001E131935770
+5672  1b60  06/30 08:51:31 1087963 FClRestore::processRestoreMsgs() - This is NOT a WOW64 system state restore
+5928  3a0   06/30 08:51:32 1087963 CVArchive::Construct() - Constructing CVArchive Object. This=0000024564282000
+7144  1d68  06/30 08:51:32 1087963 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+3864  7ac   06/30 08:51:32 1087963 FclRestore::initialize2() - Skip and continue on seek Failure option NOT selected, restore would fail if seek failures happen.
+5672  1b60  06/30 08:51:32 1087963 Multiple Tag Headers per Pipeline Buffer is Supported
+5928  3a0   06/30 08:51:32 1087963 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+7096  140c  06/30 08:51:32 1087963 FclRestore::OnMsgSetParams() - This is not a ZIP folder download job
+7144  1d68  06/30 08:51:32 1087963 FclRestore::initialize2() - GUI progress updates will be sent every [300] secs
+5672  162c  06/30 08:51:32 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - Alerts will be issued if the restore waits for more than 600 seconds for data to come from the MA
+5928  3a0   06/30 08:51:32 1087963 FclRestore::initialize2() - GUI progress updates will be sent every [300] secs
+7144  1d68  06/30 08:51:32 1087963 FclRestore::initialize2() - Keep Alive Messages will be sent every [5] minutes
+3864  7ac   06/30 08:51:32 1087963 FclRestore::initialize2() - No user id found in the registry, VMName=[sanbgw], Trying getting it from the CS
+5928  3a0   06/30 08:51:32 1087963 FclRestore::initialize2() - Keep Alive Messages will be sent every [5] minutes
+7096  140c  06/30 08:51:32 1087963 FclRestore::OnMsgSetParams(5969) - Restore data instead of stub disabled
+5672  1b60  06/30 08:51:32 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_INIT_DATA_VER2
+7144  1d68  06/30 08:51:32 1087963 FclRestore::initialize2() - Seek Marker will be sent on every [4096] msg, Allowed=[8192]
+5928  3a0   06/30 08:51:32 1087963 FclRestore::initialize2() - Seek Marker will be sent on every [4096] msg, Allowed=[8192]
+5672  1b60  06/30 08:51:32 1087963 FclRestore::OnMsgInitDataVer2() - This is not a file level snap restore from disk backup, SnapRestore=[0], bkpType=[0], rstType=[0]
+3864  7ac   06/30 08:51:32 1087963 CVArchive::Construct() - Constructing CVArchive Object. This=0000022EBAA6FFA0
+7096  140c  06/30 08:51:32 1087963 FsdmProperty::InitializeEx(386) - Empty content List retrived for subclient[23682] 
+7144  1d68  06/30 08:51:32 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - AFile read monitor will check every 1 seconds
+5928  3a0   06/30 08:51:32 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - AFile read monitor will check every 1 seconds
+5672  1b60  06/30 08:51:32 1087963 CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+3864  7ac   06/30 08:51:32 1087963 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+7096  140c  06/30 08:51:32 1087963 ContentToGlobalFilerInfo::GetFilerType() - ContentToGlobalFilerInfo::GetFilerType(972): -Error-: Context is not set for the FsdmProperty Object. Should call ReInit before making this call.
+7144  1d68  06/30 08:51:32 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - Alerts will be issued if the restore waits for more than 600 seconds for data to come from the MA
+5928  3a0   06/30 08:51:32 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - Alerts will be issued if the restore waits for more than 600 seconds for data to come from the MA
+5672  1b60  06/30 08:51:32 1087963 FclRestorePrivate::ParseExtendedRestoreOption(21236) - Parsing Extended Option [#UseIndexingV2="1";#BrowseReq="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?><databrowse_BrowseRequest opType=\"1\" pathType=\"0\" userName=\"MetallicDemos\sranga\"><session sessionId=\"1087963\"/><entity _type_=\"7\" applicationId=\"134\" backupsetGUID=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" backupsetId=\"18693\" clientId=\"8445\" commCellId=\"2\" instanceId=\"4945\" subclientGUID=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" subclientId=\"23682\"/><paths path=\"/rrskumar4/PowerCLI-Example-Scripts\"/><timeRange fromTime=\"1656603954\" toTime=\"1656604103\"/><options DoNotCacheFilters=\"0\" PreferContentServer=\"0\" adjustPerLastDRTime=\"0\" allowInfectedFilesRestore=\"0\" browseFromCSDB=\"0\" browseFromJobType=\"0\" browseFromLatestJob=\"0\" bulkOperation=\"0\" bypassSubclientConfig=\"1\" caseInsensitive=\"0\" caseManagerDataCopy=\"0\" createRestoreVectors=\"0\" cycleBrowse=\"0\" disableSnapOptimizer=\"0\" doPrediction=\"0\" downloadSystemScan=\"0\" downloadTrueUpStubScanOutput=\"0\" enforceSuperBrowse=\"0\" fetchFileProperties=\"0\" fixPaths=\"0\" folderDelete=\"0\" fsExtentBrowse=\"0\" getACLs=\"0\" hideEmptyExtents=\"0\" imageBrowse=\"0\" includeAgedData=\"0\" includeAllParents=\"0\" includeCheckSum=\"0\" includeEndUserErasedItems=\"0\" includeExtentCRC=\"0\" includeMetadata=\"0\" includeRunningJobs=\"0\" includeSoftCommittedJobs=\"0\" includeVersions=\"0\" instantSend=\"0\" internalReq=\"0\" isLatestCycleBrowse=\"0\" isOneTouchRestore=\"0\" machineLiveBrowse=\"0\" nasFilerType=\"0\" nasSynthDirRestore=\"2\" nasSynthRestore=\"0\" nonRecursiveNASRestore=\"0\" onePassRedundancy=\"0\" onePassStubQuery=\"0\" prepareSystemScan=\"0\" pruneFromSource=\"0\" queryAgedArchiveFileData=\"0\" reCreateRestoreVector=\"0\" refCopy=\"0\" refCopyCloudMigration=\"0\" refCopySF=\"0\" relationshipBrowse=\"0\" restoreIndex=\"1\" sendBackListOfAfiles=\"0\" sendOutputToFile=\"0\" sharedFolderBrowse=\"0\" showDeletedFiles=\"0\" showFavoriteAndShareInfo=\"0\" showFolderSize=\"0\" showOnlyDeleted=\"0\" showOnlyNew=\"0\" showThumbnail=\"0\" skipDataPrediction=\"0\" skipIndexRestore=\"0\" skipInvalidMimeClassification=\"0\" skipLatestVersion=\"0\" skipMountPoints=\"0\" skipNasRenamedDirs=\"0\" skipProgressMessage=\"0\" skipSynthFullJobs=\"0\" synthFull=\"0\" tableViewBrowse=\"0\" translateSyncPath=\"0\" translateToVMReq=\"0\" useLatestCycle=\"0\" useUptoDateIndexOnly=\"0\" userRequest=\"1\" verifyArchiverQuery=\"0\" viewBackupCopy=\"0\" vsDiskBrowse=\"0\" vsExtentBrowse=\"0\" vsFileBrowse=\"1\" vsListVMs=\"0\" vsLiveSyncBrowse=\"0\" vsVolumeBrowse=\"0\" vsaFileLevelRestore=\"0\"/><mode mode=\"0\"/><ma _type_=\"3\" clientId=\"0\" clientName=\"sanbgw\"/><advOptions applyStrictACL=\"0\" browseViewName=\"\" copyPrecedence=\"0\" datasourceId=\"0\" includePsuedoItems=\"0\" retryLimit=\"10\" retryWaitSecs=\"300\" skipACLChecks=\"0\" skipUptodateCheck=\"0\" stubAsData=\"0\" timeoutSecs=\"1800\" userId=\"29456\" validateAfiles=\"1\" vmCentricClient=\"0\"><advConfig recallRequest=\"0\" useProtocolVersion=\"0\"><browseAdvancedConfigReq commcellId=\"2\" currentJobId=\"1087963\" jobType=\"0\"><additionalFlags flagType=\"0\" key=\"RequestorType\" value=\"Restore\"/><additionalFlags flagType=\"9\" value=\"&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot; ?>&lt;databrowse_JobInfoList>&lt;jobInfoList afileCtime=&quot;1656604095&quot; appId=&quot;23682&quot; commcellId=&quot;2&quot; jobId=&quot;1087953&quot;/>&lt;/databrowse_JobInfoList>\"/></browseAdvancedConfigReq><browseAdvancedConfigBrowseByJob commcellId=\"2\" jobId=\"1087953\" jobType=\"0\"/><extendedConfig><browseAdvConfigLiveBrowse><mountMa _type_=\"3\"/></browseAdvConfigLiveBrowse></extendedConfig></advConfig></advOptions><queries queryId=\"0\" type=\"0\"><dataParam><paging firstNode=\"0\" pageSize=\"4294967295\" skipNode=\"0\"/></dataParam></queries><applicationInfo><indexingInfo connectBackHost=\"\" connectBackService=\"\" extendedOptions=\"\" idxAppType=\"200125\" jobId=\"1087963\" maMangled=\"SanBGW*sanbgw*8400\" multiClientRequest=\"0\" workerId=\"1870\"><indexdbList backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/></indexdbList><mainIndexDb backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/><subclientInfos appGuid=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" appId=\"23682\" latestIdxAfCtime=\"1656604095\" minIdxAfCtime=\"1656603989\"/></mainIndexDb><flags SynthFullStreamMode=\"0\" browseFromCache=\"0\" createRestVectors=\"1\" crossComponentWorker=\"0\" getVectorNames=\"0\" includeVersions=\"0\" instantSend=\"0\" isRefCopyClient=\"0\" mergeMultiClientBrowseData=\"0\" multiEntityBrowse=\"0\" populateCache=\"0\" retentionBrowse=\"0\" showFolderSize=\"0\" showItemsMarkedDeleted=\"0\" superBrowse=\"0\" superBrowseNoLock=\"0\" superBrowseWorker=\"0\" syntheticFull=\"0\"/></indexingInfo></applicationInfo></databrowse_BrowseRequest>";#DBIdentifier="8FCBE752-BECB-467C-BCBB-1811B4FA0F84:8FCBE752-BECB-467C-BCBB-1811B4FA0F84";#SingleStreamSynthFull="1";#101="1";#DistributedRestore="1";#DistributedRestoreStreamId="1003";#CloudRestoreToFS="1";#DistributedMultiNodeRestore="1"]
+3864  7ac   06/30 08:51:32 1087963 FclRestore::initialize2() - GUI progress updates will be sent every [300] secs
+7144  310   06/30 08:51:32 1087963 FClRestore::processRestoreMsgs() - This is NOT a WOW64 system state restore
+5928  1d2c  06/30 08:51:32 1087963 FClRestore::processRestoreMsgs() - This is NOT a WOW64 system state restore
+5672  1b60  06/30 08:51:32 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SET_PARAMS
+3864  7ac   06/30 08:51:32 1087963 FclRestore::initialize2() - Keep Alive Messages will be sent every [5] minutes
+7144  310   06/30 08:51:32 1087963 Multiple Tag Headers per Pipeline Buffer is Supported
+5928  1d2c  06/30 08:51:32 1087963 Multiple Tag Headers per Pipeline Buffer is Supported
+7096  140c  06/30 08:51:32 1087963 FclRestorePrivate::SetSourceDestinationParams(1441) - Final ClientId chosen as 8426
+5672  1b60  06/30 08:51:32 1087963 FclRestore::OnMsgSetParams() - Options=[3c]
+3864  7ac   06/30 08:51:32 1087963 FclRestore::initialize2() - Seek Marker will be sent on every [4096] msg, Allowed=[8192]
+7144  310   06/30 08:51:32 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_INIT_DATA_VER2
+5928  1d2c  06/30 08:51:32 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_INIT_DATA_VER2
+7096  140c  06/30 08:51:32 1087963 FclRestorePrivate::SetSourceDestinationParams(1447) - Source clientId:8445, Dest ClientId:8426
+5672  1b60  06/30 08:51:32 1087963 FclRestore::OnMsgSetParams() - destDir supplied is [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963] 
+3864  7ac   06/30 08:51:32 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - AFile read monitor will check every 1 seconds
+7144  310   06/30 08:51:32 1087963 FclRestore::OnMsgInitDataVer2() - This is not a file level snap restore from disk backup, SnapRestore=[0], bkpType=[0], rstType=[0]
+5928  1d2c  06/30 08:51:32 1087963 FclRestore::OnMsgInitDataVer2() - This is not a file level snap restore from disk backup, SnapRestore=[0], bkpType=[0], rstType=[0]
+7096  140c  06/30 08:51:32 1087963 CFSDMAPIPrivate::EnumerateAllVolumesAndInfo(1810) - Failed to get FSInfo for volume=[D:\], error=[0x80070015:{QIWIN_GetFSInfo(262)/W32.21.(The device is not ready. (ERROR_NOT_READY.21))-GetVolumeInformationW failed, Volume=[D:\]}]
+5672  1b60  06/30 08:51:32 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+3864  7ac   06/30 08:51:32 1087963 FclRestorePrivate::FetchAFileReadMonitorParams() - Alerts will be issued if the restore waits for more than 600 seconds for data to come from the MA
+7144  310   06/30 08:51:32 1087963 CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+5928  1d2c  06/30 08:51:32 1087963 CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+7096  140c  06/30 08:51:32 1087963 CVStubParameters::Initialize(550) - Src isNonNDMPClient=0
+3864  990   06/30 08:51:32 1087963 FClRestore::processRestoreMsgs() - This is NOT a WOW64 system state restore
+5672  1b60  06/30 08:51:32 1087963 FclRestore::OnMsgSetParams() - RST_CAN_OVERWRITE = -1
+7144  310   06/30 08:51:32 1087963 FclRestorePrivate::ParseExtendedRestoreOption(21236) - Parsing Extended Option [#UseIndexingV2="1";#BrowseReq="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?><databrowse_BrowseRequest opType=\"1\" pathType=\"0\" userName=\"MetallicDemos\sranga\"><session sessionId=\"1087963\"/><entity _type_=\"7\" applicationId=\"134\" backupsetGUID=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" backupsetId=\"18693\" clientId=\"8445\" commCellId=\"2\" instanceId=\"4945\" subclientGUID=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" subclientId=\"23682\"/><paths path=\"/rrskumar4/PowerCLI-Example-Scripts\"/><timeRange fromTime=\"1656603954\" toTime=\"1656604103\"/><options DoNotCacheFilters=\"0\" PreferContentServer=\"0\" adjustPerLastDRTime=\"0\" allowInfectedFilesRestore=\"0\" browseFromCSDB=\"0\" browseFromJobType=\"0\" browseFromLatestJob=\"0\" bulkOperation=\"0\" bypassSubclientConfig=\"1\" caseInsensitive=\"0\" caseManagerDataCopy=\"0\" createRestoreVectors=\"0\" cycleBrowse=\"0\" disableSnapOptimizer=\"0\" doPrediction=\"0\" downloadSystemScan=\"0\" downloadTrueUpStubScanOutput=\"0\" enforceSuperBrowse=\"0\" fetchFileProperties=\"0\" fixPaths=\"0\" folderDelete=\"0\" fsExtentBrowse=\"0\" getACLs=\"0\" hideEmptyExtents=\"0\" imageBrowse=\"0\" includeAgedData=\"0\" includeAllParents=\"0\" includeCheckSum=\"0\" includeEndUserErasedItems=\"0\" includeExtentCRC=\"0\" includeMetadata=\"0\" includeRunningJobs=\"0\" includeSoftCommittedJobs=\"0\" includeVersions=\"0\" instantSend=\"0\" internalReq=\"0\" isLatestCycleBrowse=\"0\" isOneTouchRestore=\"0\" machineLiveBrowse=\"0\" nasFilerType=\"0\" nasSynthDirRestore=\"2\" nasSynthRestore=\"0\" nonRecursiveNASRestore=\"0\" onePassRedundancy=\"0\" onePassStubQuery=\"0\" prepareSystemScan=\"0\" pruneFromSource=\"0\" queryAgedArchiveFileData=\"0\" reCreateRestoreVector=\"0\" refCopy=\"0\" refCopyCloudMigration=\"0\" refCopySF=\"0\" relationshipBrowse=\"0\" restoreIndex=\"1\" sendBackListOfAfiles=\"0\" sendOutputToFile=\"0\" sharedFolderBrowse=\"0\" showDeletedFiles=\"0\" showFavoriteAndShareInfo=\"0\" showFolderSize=\"0\" showOnlyDeleted=\"0\" showOnlyNew=\"0\" showThumbnail=\"0\" skipDataPrediction=\"0\" skipIndexRestore=\"0\" skipInvalidMimeClassification=\"0\" skipLatestVersion=\"0\" skipMountPoints=\"0\" skipNasRenamedDirs=\"0\" skipProgressMessage=\"0\" skipSynthFullJobs=\"0\" synthFull=\"0\" tableViewBrowse=\"0\" translateSyncPath=\"0\" translateToVMReq=\"0\" useLatestCycle=\"0\" useUptoDateIndexOnly=\"0\" userRequest=\"1\" verifyArchiverQuery=\"0\" viewBackupCopy=\"0\" vsDiskBrowse=\"0\" vsExtentBrowse=\"0\" vsFileBrowse=\"1\" vsListVMs=\"0\" vsLiveSyncBrowse=\"0\" vsVolumeBrowse=\"0\" vsaFileLevelRestore=\"0\"/><mode mode=\"0\"/><ma _type_=\"3\" clientId=\"0\" clientName=\"sanbgw\"/><advOptions applyStrictACL=\"0\" browseViewName=\"\" copyPrecedence=\"0\" datasourceId=\"0\" includePsuedoItems=\"0\" retryLimit=\"10\" retryWaitSecs=\"300\" skipACLChecks=\"0\" skipUptodateCheck=\"0\" stubAsData=\"0\" timeoutSecs=\"1800\" userId=\"29456\" validateAfiles=\"1\" vmCentricClient=\"0\"><advConfig recallRequest=\"0\" useProtocolVersion=\"0\"><browseAdvancedConfigReq commcellId=\"2\" currentJobId=\"1087963\" jobType=\"0\"><additionalFlags flagType=\"0\" key=\"RequestorType\" value=\"Restore\"/><additionalFlags flagType=\"9\" value=\"&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot; ?>&lt;databrowse_JobInfoList>&lt;jobInfoList afileCtime=&quot;1656604095&quot; appId=&quot;23682&quot; commcellId=&quot;2&quot; jobId=&quot;1087953&quot;/>&lt;/databrowse_JobInfoList>\"/></browseAdvancedConfigReq><browseAdvancedConfigBrowseByJob commcellId=\"2\" jobId=\"1087953\" jobType=\"0\"/><extendedConfig><browseAdvConfigLiveBrowse><mountMa _type_=\"3\"/></browseAdvConfigLiveBrowse></extendedConfig></advConfig></advOptions><queries queryId=\"0\" type=\"0\"><dataParam><paging firstNode=\"0\" pageSize=\"4294967295\" skipNode=\"0\"/></dataParam></queries><applicationInfo><indexingInfo connectBackHost=\"\" connectBackService=\"\" extendedOptions=\"\" idxAppType=\"200125\" jobId=\"1087963\" maMangled=\"SanBGW*sanbgw*8400\" multiClientRequest=\"0\" workerId=\"1870\"><indexdbList backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/></indexdbList><mainIndexDb backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/><subclientInfos appGuid=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" appId=\"23682\" latestIdxAfCtime=\"1656604095\" minIdxAfCtime=\"1656603989\"/></mainIndexDb><flags SynthFullStreamMode=\"0\" browseFromCache=\"0\" createRestVectors=\"1\" crossComponentWorker=\"0\" getVectorNames=\"0\" includeVersions=\"0\" instantSend=\"0\" isRefCopyClient=\"0\" mergeMultiClientBrowseData=\"0\" multiEntityBrowse=\"0\" populateCache=\"0\" retentionBrowse=\"0\" showFolderSize=\"0\" showItemsMarkedDeleted=\"0\" superBrowse=\"0\" superBrowseNoLock=\"0\" superBrowseWorker=\"0\" syntheticFull=\"0\"/></indexingInfo></applicationInfo></databrowse_BrowseRequest>";#DBIdentifier="8FCBE752-BECB-467C-BCBB-1811B4FA0F84:8FCBE752-BECB-467C-BCBB-1811B4FA0F84";#SingleStreamSynthFull="1";#101="1";#DistributedRestore="1";#DistributedRestoreStreamId="1004";#CloudRestoreToFS="1";#DistributedMultiNodeRestore="1"]
+5928  1d2c  06/30 08:51:32 1087963 FclRestorePrivate::ParseExtendedRestoreOption(21236) - Parsing Extended Option [#UseIndexingV2="1";#BrowseReq="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?><databrowse_BrowseRequest opType=\"1\" pathType=\"0\" userName=\"MetallicDemos\sranga\"><session sessionId=\"1087963\"/><entity _type_=\"7\" applicationId=\"134\" backupsetGUID=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" backupsetId=\"18693\" clientId=\"8445\" commCellId=\"2\" instanceId=\"4945\" subclientGUID=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" subclientId=\"23682\"/><paths path=\"/rrskumar4/PowerCLI-Example-Scripts\"/><timeRange fromTime=\"1656603954\" toTime=\"1656604103\"/><options DoNotCacheFilters=\"0\" PreferContentServer=\"0\" adjustPerLastDRTime=\"0\" allowInfectedFilesRestore=\"0\" browseFromCSDB=\"0\" browseFromJobType=\"0\" browseFromLatestJob=\"0\" bulkOperation=\"0\" bypassSubclientConfig=\"1\" caseInsensitive=\"0\" caseManagerDataCopy=\"0\" createRestoreVectors=\"0\" cycleBrowse=\"0\" disableSnapOptimizer=\"0\" doPrediction=\"0\" downloadSystemScan=\"0\" downloadTrueUpStubScanOutput=\"0\" enforceSuperBrowse=\"0\" fetchFileProperties=\"0\" fixPaths=\"0\" folderDelete=\"0\" fsExtentBrowse=\"0\" getACLs=\"0\" hideEmptyExtents=\"0\" imageBrowse=\"0\" includeAgedData=\"0\" includeAllParents=\"0\" includeCheckSum=\"0\" includeEndUserErasedItems=\"0\" includeExtentCRC=\"0\" includeMetadata=\"0\" includeRunningJobs=\"0\" includeSoftCommittedJobs=\"0\" includeVersions=\"0\" instantSend=\"0\" internalReq=\"0\" isLatestCycleBrowse=\"0\" isOneTouchRestore=\"0\" machineLiveBrowse=\"0\" nasFilerType=\"0\" nasSynthDirRestore=\"2\" nasSynthRestore=\"0\" nonRecursiveNASRestore=\"0\" onePassRedundancy=\"0\" onePassStubQuery=\"0\" prepareSystemScan=\"0\" pruneFromSource=\"0\" queryAgedArchiveFileData=\"0\" reCreateRestoreVector=\"0\" refCopy=\"0\" refCopyCloudMigration=\"0\" refCopySF=\"0\" relationshipBrowse=\"0\" restoreIndex=\"1\" sendBackListOfAfiles=\"0\" sendOutputToFile=\"0\" sharedFolderBrowse=\"0\" showDeletedFiles=\"0\" showFavoriteAndShareInfo=\"0\" showFolderSize=\"0\" showOnlyDeleted=\"0\" showOnlyNew=\"0\" showThumbnail=\"0\" skipDataPrediction=\"0\" skipIndexRestore=\"0\" skipInvalidMimeClassification=\"0\" skipLatestVersion=\"0\" skipMountPoints=\"0\" skipNasRenamedDirs=\"0\" skipProgressMessage=\"0\" skipSynthFullJobs=\"0\" synthFull=\"0\" tableViewBrowse=\"0\" translateSyncPath=\"0\" translateToVMReq=\"0\" useLatestCycle=\"0\" useUptoDateIndexOnly=\"0\" userRequest=\"1\" verifyArchiverQuery=\"0\" viewBackupCopy=\"0\" vsDiskBrowse=\"0\" vsExtentBrowse=\"0\" vsFileBrowse=\"1\" vsListVMs=\"0\" vsLiveSyncBrowse=\"0\" vsVolumeBrowse=\"0\" vsaFileLevelRestore=\"0\"/><mode mode=\"0\"/><ma _type_=\"3\" clientId=\"0\" clientName=\"sanbgw\"/><advOptions applyStrictACL=\"0\" browseViewName=\"\" copyPrecedence=\"0\" datasourceId=\"0\" includePsuedoItems=\"0\" retryLimit=\"10\" retryWaitSecs=\"300\" skipACLChecks=\"0\" skipUptodateCheck=\"0\" stubAsData=\"0\" timeoutSecs=\"1800\" userId=\"29456\" validateAfiles=\"1\" vmCentricClient=\"0\"><advConfig recallRequest=\"0\" useProtocolVersion=\"0\"><browseAdvancedConfigReq commcellId=\"2\" currentJobId=\"1087963\" jobType=\"0\"><additionalFlags flagType=\"0\" key=\"RequestorType\" value=\"Restore\"/><additionalFlags flagType=\"9\" value=\"&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot; ?>&lt;databrowse_JobInfoList>&lt;jobInfoList afileCtime=&quot;1656604095&quot; appId=&quot;23682&quot; commcellId=&quot;2&quot; jobId=&quot;1087953&quot;/>&lt;/databrowse_JobInfoList>\"/></browseAdvancedConfigReq><browseAdvancedConfigBrowseByJob commcellId=\"2\" jobId=\"1087953\" jobType=\"0\"/><extendedConfig><browseAdvConfigLiveBrowse><mountMa _type_=\"3\"/></browseAdvConfigLiveBrowse></extendedConfig></advConfig></advOptions><queries queryId=\"0\" type=\"0\"><dataParam><paging firstNode=\"0\" pageSize=\"4294967295\" skipNode=\"0\"/></dataParam></queries><applicationInfo><indexingInfo connectBackHost=\"\" connectBackService=\"\" extendedOptions=\"\" idxAppType=\"200125\" jobId=\"1087963\" maMangled=\"SanBGW*sanbgw*8400\" multiClientRequest=\"0\" workerId=\"1870\"><indexdbList backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/></indexdbList><mainIndexDb backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/><subclientInfos appGuid=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" appId=\"23682\" latestIdxAfCtime=\"1656604095\" minIdxAfCtime=\"1656603989\"/></mainIndexDb><flags SynthFullStreamMode=\"0\" browseFromCache=\"0\" createRestVectors=\"1\" crossComponentWorker=\"0\" getVectorNames=\"0\" includeVersions=\"0\" instantSend=\"0\" isRefCopyClient=\"0\" mergeMultiClientBrowseData=\"0\" multiEntityBrowse=\"0\" populateCache=\"0\" retentionBrowse=\"0\" showFolderSize=\"0\" showItemsMarkedDeleted=\"0\" superBrowse=\"0\" superBrowseNoLock=\"0\" superBrowseWorker=\"0\" syntheticFull=\"0\"/></indexingInfo></applicationInfo></databrowse_BrowseRequest>";#DBIdentifier="8FCBE752-BECB-467C-BCBB-1811B4FA0F84:8FCBE752-BECB-467C-BCBB-1811B4FA0F84";#SingleStreamSynthFull="1";#101="1";#DistributedRestore="1";#DistributedRestoreStreamId="1002";#CloudRestoreToFS="1";#DistributedMultiNodeRestore="1"]
+7096  140c  06/30 08:51:32 1087963 CVStubParameters::Initialize(573) - Dest isNonNDMPClient=0
+3864  990   06/30 08:51:32 1087963 Multiple Tag Headers per Pipeline Buffer is Supported
+5672  1b60  06/30 08:51:32 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+7144  310   06/30 08:51:32 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SET_PARAMS
+5928  1d2c  06/30 08:51:33 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SET_PARAMS
+7096  140c  06/30 08:51:33 1087963 CVStubParameters::Initialize(605) - eSourceStubType = eDstStubType = 1. No conversion necessary 
+3864  990   06/30 08:51:33 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_INIT_DATA_VER2
+5672  1b60  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - Out of place restore selected to dir [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963]
+7144  310   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - Options=[3c]
+5928  1d2c  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - Options=[3c]
+7096  140c  06/30 08:51:33 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SRC_PATH
+3864  990   06/30 08:51:33 1087963 FclRestore::OnMsgInitDataVer2() - This is not a file level snap restore from disk backup, SnapRestore=[0], bkpType=[0], rstType=[0]
+5672  1b60  06/30 08:51:33 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+7144  310   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - destDir supplied is [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963] 
+5928  1d2c  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - destDir supplied is [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963] 
+7096  140c  06/30 08:51:33 1087963 FclRestore::OnMsgSrcPath() - StripLevel=0, SourcePath=\rrskumar4\PowerCLI-Example-Scripts
+3864  990   06/30 08:51:33 1087963 CSyncRestorePathMapper::InitSyncRestore(299) - JobID=[1087963] is not a SYNC_RESTORE
+5672  1b60  06/30 08:51:33 1087963 FclREstore::openResultsFile() - Setting rawMode to True
+7144  310   06/30 08:51:33 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+5928  1d2c  06/30 08:51:33 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+7096  140c  06/30 08:51:33 1087963 Initializing the share monitor as this is not an Index cache restore
+3864  990   06/30 08:51:33 1087963 FclRestorePrivate::ParseExtendedRestoreOption(21236) - Parsing Extended Option [#UseIndexingV2="1";#BrowseReq="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?><databrowse_BrowseRequest opType=\"1\" pathType=\"0\" userName=\"MetallicDemos\sranga\"><session sessionId=\"1087963\"/><entity _type_=\"7\" applicationId=\"134\" backupsetGUID=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" backupsetId=\"18693\" clientId=\"8445\" commCellId=\"2\" instanceId=\"4945\" subclientGUID=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" subclientId=\"23682\"/><paths path=\"/rrskumar4/PowerCLI-Example-Scripts\"/><timeRange fromTime=\"1656603954\" toTime=\"1656604103\"/><options DoNotCacheFilters=\"0\" PreferContentServer=\"0\" adjustPerLastDRTime=\"0\" allowInfectedFilesRestore=\"0\" browseFromCSDB=\"0\" browseFromJobType=\"0\" browseFromLatestJob=\"0\" bulkOperation=\"0\" bypassSubclientConfig=\"1\" caseInsensitive=\"0\" caseManagerDataCopy=\"0\" createRestoreVectors=\"0\" cycleBrowse=\"0\" disableSnapOptimizer=\"0\" doPrediction=\"0\" downloadSystemScan=\"0\" downloadTrueUpStubScanOutput=\"0\" enforceSuperBrowse=\"0\" fetchFileProperties=\"0\" fixPaths=\"0\" folderDelete=\"0\" fsExtentBrowse=\"0\" getACLs=\"0\" hideEmptyExtents=\"0\" imageBrowse=\"0\" includeAgedData=\"0\" includeAllParents=\"0\" includeCheckSum=\"0\" includeEndUserErasedItems=\"0\" includeExtentCRC=\"0\" includeMetadata=\"0\" includeRunningJobs=\"0\" includeSoftCommittedJobs=\"0\" includeVersions=\"0\" instantSend=\"0\" internalReq=\"0\" isLatestCycleBrowse=\"0\" isOneTouchRestore=\"0\" machineLiveBrowse=\"0\" nasFilerType=\"0\" nasSynthDirRestore=\"2\" nasSynthRestore=\"0\" nonRecursiveNASRestore=\"0\" onePassRedundancy=\"0\" onePassStubQuery=\"0\" prepareSystemScan=\"0\" pruneFromSource=\"0\" queryAgedArchiveFileData=\"0\" reCreateRestoreVector=\"0\" refCopy=\"0\" refCopyCloudMigration=\"0\" refCopySF=\"0\" relationshipBrowse=\"0\" restoreIndex=\"1\" sendBackListOfAfiles=\"0\" sendOutputToFile=\"0\" sharedFolderBrowse=\"0\" showDeletedFiles=\"0\" showFavoriteAndShareInfo=\"0\" showFolderSize=\"0\" showOnlyDeleted=\"0\" showOnlyNew=\"0\" showThumbnail=\"0\" skipDataPrediction=\"0\" skipIndexRestore=\"0\" skipInvalidMimeClassification=\"0\" skipLatestVersion=\"0\" skipMountPoints=\"0\" skipNasRenamedDirs=\"0\" skipProgressMessage=\"0\" skipSynthFullJobs=\"0\" synthFull=\"0\" tableViewBrowse=\"0\" translateSyncPath=\"0\" translateToVMReq=\"0\" useLatestCycle=\"0\" useUptoDateIndexOnly=\"0\" userRequest=\"1\" verifyArchiverQuery=\"0\" viewBackupCopy=\"0\" vsDiskBrowse=\"0\" vsExtentBrowse=\"0\" vsFileBrowse=\"1\" vsListVMs=\"0\" vsLiveSyncBrowse=\"0\" vsVolumeBrowse=\"0\" vsaFileLevelRestore=\"0\"/><mode mode=\"0\"/><ma _type_=\"3\" clientId=\"0\" clientName=\"sanbgw\"/><advOptions applyStrictACL=\"0\" browseViewName=\"\" copyPrecedence=\"0\" datasourceId=\"0\" includePsuedoItems=\"0\" retryLimit=\"10\" retryWaitSecs=\"300\" skipACLChecks=\"0\" skipUptodateCheck=\"0\" stubAsData=\"0\" timeoutSecs=\"1800\" userId=\"29456\" validateAfiles=\"1\" vmCentricClient=\"0\"><advConfig recallRequest=\"0\" useProtocolVersion=\"0\"><browseAdvancedConfigReq commcellId=\"2\" currentJobId=\"1087963\" jobType=\"0\"><additionalFlags flagType=\"0\" key=\"RequestorType\" value=\"Restore\"/><additionalFlags flagType=\"9\" value=\"&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot; ?>&lt;databrowse_JobInfoList>&lt;jobInfoList afileCtime=&quot;1656604095&quot; appId=&quot;23682&quot; commcellId=&quot;2&quot; jobId=&quot;1087953&quot;/>&lt;/databrowse_JobInfoList>\"/></browseAdvancedConfigReq><browseAdvancedConfigBrowseByJob commcellId=\"2\" jobId=\"1087953\" jobType=\"0\"/><extendedConfig><browseAdvConfigLiveBrowse><mountMa _type_=\"3\"/></browseAdvConfigLiveBrowse></extendedConfig></advConfig></advOptions><queries queryId=\"0\" type=\"0\"><dataParam><paging firstNode=\"0\" pageSize=\"4294967295\" skipNode=\"0\"/></dataParam></queries><applicationInfo><indexingInfo connectBackHost=\"\" connectBackService=\"\" extendedOptions=\"\" idxAppType=\"200125\" jobId=\"1087963\" maMangled=\"SanBGW*sanbgw*8400\" multiClientRequest=\"0\" workerId=\"1870\"><indexdbList backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/></indexdbList><mainIndexDb backupsetGuid=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\" idxAppType=\"0\" idxDbEngineType=\"1\" maMangledName=\"SanBGW*sanbgw*8400\"><dbInfo DbIdentifer=\"8FCBE752-BECB-467C-BCBB-1811B4FA0F84\"/><subclientInfos appGuid=\"D4D3D48B-0FBD-41D1-95A2-767049A4C231\" appId=\"23682\" latestIdxAfCtime=\"1656604095\" minIdxAfCtime=\"1656603989\"/></mainIndexDb><flags SynthFullStreamMode=\"0\" browseFromCache=\"0\" createRestVectors=\"1\" crossComponentWorker=\"0\" getVectorNames=\"0\" includeVersions=\"0\" instantSend=\"0\" isRefCopyClient=\"0\" mergeMultiClientBrowseData=\"0\" multiEntityBrowse=\"0\" populateCache=\"0\" retentionBrowse=\"0\" showFolderSize=\"0\" showItemsMarkedDeleted=\"0\" superBrowse=\"0\" superBrowseNoLock=\"0\" superBrowseWorker=\"0\" syntheticFull=\"0\"/></indexingInfo></applicationInfo></databrowse_BrowseRequest>";#DBIdentifier="8FCBE752-BECB-467C-BCBB-1811B4FA0F84:8FCBE752-BECB-467C-BCBB-1811B4FA0F84";#SingleStreamSynthFull="1";#101="1";#DistributedRestore="1";#DistributedRestoreStreamId="1005";#CloudRestoreToFS="1";#DistributedMultiNodeRestore="1"]
+5672  1b60  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - compatabilityOptions set to - SEND_NO_RAW_DEVICE_DATA
+7144  310   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - RST_CAN_OVERWRITE = -1
+5928  1d2c  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - RST_CAN_OVERWRITE = -1
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## hal.dll found at C:\Windows\system32\hal.dll
+3864  990   06/30 08:51:33 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SET_PARAMS
+7144  310   06/30 08:51:33 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+5928  1d2c  06/30 08:51:33 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntoskrnl.exe found at C:\Windows\system32\ntoskrnl.exe
+3864  990   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - Options=[3c]
+5672  1b60  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - This is not a ZIP folder download job
+7144  310   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - Out of place restore selected to dir [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963]
+5928  1d2c  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - Out of place restore selected to dir [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963]
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntkrnlpa.exe found at C:\Windows\system32\ntkrnlpa.exe
+3864  990   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - destDir supplied is [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963] 
+7144  310   06/30 08:51:33 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+5928  1d2c  06/30 08:51:33 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kernel32.dll found at C:\Windows\system32\kernel32.dll
+5672  1b60  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams(5969) - Restore data instead of stub disabled
+3864  990   06/30 08:51:33 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+7144  310   06/30 08:51:33 1087963 FclREstore::openResultsFile() - Setting rawMode to True
+5928  1d2c  06/30 08:51:33 1087963 FclREstore::openResultsFile() - Setting rawMode to True
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntdll.dll found at C:\Windows\system32\ntdll.dll
+7144  310   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - compatabilityOptions set to - SEND_NO_RAW_DEVICE_DATA
+3864  990   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - RST_CAN_OVERWRITE = -1
+5928  1d2c  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - compatabilityOptions set to - SEND_NO_RAW_DEVICE_DATA
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## win32k.sys found at C:\Windows\system32\win32k.sys
+5672  1b60  06/30 08:51:33 1087963 FsdmProperty::InitializeEx(386) - Empty content List retrived for subclient[23682] 
+7144  310   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - This is not a ZIP folder download job
+3864  990   06/30 08:51:33 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## winsrv.dll found at C:\Windows\system32\winsrv.dll
+5928  1d2c  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - This is not a ZIP folder download job
+5672  1b60  06/30 08:51:33 1087963 ContentToGlobalFilerInfo::GetFilerType() - ContentToGlobalFilerInfo::GetFilerType(972): -Error-: Context is not set for the FsdmProperty Object. Should call ReInit before making this call.
+3864  990   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - Out of place restore selected to dir [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\GitRestore_4945_1087963]
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## bootvid.dll found at C:\Windows\system32\bootvid.dll
+7144  310   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams(5969) - Restore data instead of stub disabled
+5672  1b60  06/30 08:51:33 1087963 FclRestorePrivate::SetSourceDestinationParams(1441) - Final ClientId chosen as 8426
+3864  990   06/30 08:51:33 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kdcom.dll found at C:\Windows\system32\kdcom.dll
+5928  1d2c  06/30 08:51:33 1087963 FclRestore::OnMsgSetParams(5969) - Restore data instead of stub disabled
+5672  1b60  06/30 08:51:33 1087963 FclRestorePrivate::SetSourceDestinationParams(1447) - Source clientId:8445, Dest ClientId:8426
+3864  990   06/30 08:51:33 1087963 FclREstore::openResultsFile() - Setting rawMode to True
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - Simpana currently installed at C:\Program Files\Metallic\ContentStore
+5672  1b60  06/30 08:51:33 1087963 CFSDMAPIPrivate::EnumerateAllVolumesAndInfo(1810) - Failed to get FSInfo for volume=[D:\], error=[0x80070015:{QIWIN_GetFSInfo(262)/W32.21.(The device is not ready. (ERROR_NOT_READY.21))-GetVolumeInformationW failed, Volume=[D:\]}]
+7144  310   06/30 08:51:33 1087963 FsdmProperty::InitializeEx(386) - Empty content List retrived for subclient[23682] 
+3864  990   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - compatabilityOptions set to - SEND_NO_RAW_DEVICE_DATA
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory(555) - Installation base folder path is [C:\Program Files\Metallic\ContentStore\Base]
+5672  1b60  06/30 08:51:33 1087963 CVStubParameters::Initialize(550) - Src isNonNDMPClient=0
+7144  310   06/30 08:51:33 1087963 ContentToGlobalFilerInfo::GetFilerType() - ContentToGlobalFilerInfo::GetFilerType(972): -Error-: Context is not set for the FsdmProperty Object. Should call ReInit before making this call.
+5928  1d2c  06/30 08:51:33 1087963 FsdmProperty::InitializeEx(386) - Empty content List retrived for subclient[23682] 
+7096  140c  06/30 08:51:33 1087963 Option set to Unconditionally Overwrite all files
+3864  990   06/30 08:51:33 1087963 FclRestore::OnMsgSetParams() - This is not a ZIP folder download job
+5672  1b60  06/30 08:51:33 1087963 CVStubParameters::Initialize(573) - Dest isNonNDMPClient=0
+7144  310   06/30 08:51:33 1087963 FclRestorePrivate::SetSourceDestinationParams(1441) - Final ClientId chosen as 8426
+5928  1d2c  06/30 08:51:33 1087963 ContentToGlobalFilerInfo::GetFilerType() - ContentToGlobalFilerInfo::GetFilerType(972): -Error-: Context is not set for the FsdmProperty Object. Should call ReInit before making this call.
+7096  140c  06/30 08:51:33 1087963 FsRestoreNTObjectsFactory::InitializeForMappedRestores() - Empty map file paths from sync option
+5672  1b60  06/30 08:51:34 1087963 CVStubParameters::Initialize(605) - eSourceStubType = eDstStubType = 1. No conversion necessary 
+7144  310   06/30 08:51:34 1087963 FclRestorePrivate::SetSourceDestinationParams(1447) - Source clientId:8445, Dest ClientId:8426
+5928  1d2c  06/30 08:51:34 1087963 FclRestorePrivate::SetSourceDestinationParams(1441) - Final ClientId chosen as 8426
+3864  990   06/30 08:51:34 1087963 FclRestore::OnMsgSetParams(5969) - Restore data instead of stub disabled
+5672  1b60  06/30 08:51:34 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SRC_PATH
+7096  140c  06/30 08:51:34 1087963 FsRestoreObjectsFactory::InitializeStubOverwriteOption() - Unconditionally overwrite stubs only is OFF
+7144  310   06/30 08:51:34 1087963 CFSDMAPIPrivate::EnumerateAllVolumesAndInfo(1810) - Failed to get FSInfo for volume=[D:\], error=[0x80070015:{QIWIN_GetFSInfo(262)/W32.21.(The device is not ready. (ERROR_NOT_READY.21))-GetVolumeInformationW failed, Volume=[D:\]}]
+5928  1d2c  06/30 08:51:34 1087963 FclRestorePrivate::SetSourceDestinationParams(1447) - Source clientId:8445, Dest ClientId:8426
+5672  1b60  06/30 08:51:34 1087963 FclRestore::OnMsgSrcPath() - StripLevel=0, SourcePath=\rrskumar4\PowerCLI-Example-Scripts
+7144  310   06/30 08:51:34 1087963 CVStubParameters::Initialize(550) - Src isNonNDMPClient=0
+7096  140c  06/30 08:51:34 1087963 FsRestoreObjectsFactory::InitializeRestoreOnlyIfExistsOption() - Unconditionally overwrite is ON
+3864  990   06/30 08:51:34 1087963 FsdmProperty::InitializeEx(386) - Empty content List retrived for subclient[23682] 
+5928  1d2c  06/30 08:51:34 1087963 CFSDMAPIPrivate::EnumerateAllVolumesAndInfo(1810) - Failed to get FSInfo for volume=[D:\], error=[0x80070015:{QIWIN_GetFSInfo(262)/W32.21.(The device is not ready. (ERROR_NOT_READY.21))-GetVolumeInformationW failed, Volume=[D:\]}]
+5672  1b60  06/30 08:51:34 1087963 Initializing the share monitor as this is not an Index cache restore
+7096  140c  06/30 08:51:34 1087963 FsRestoreObjectsFactory::InitializeDoNotOverwriteOption() - "overwriteFiles" set to true
+7144  310   06/30 08:51:34 1087963 CVStubParameters::Initialize(573) - Dest isNonNDMPClient=0
+3864  990   06/30 08:51:34 1087963 ContentToGlobalFilerInfo::GetFilerType() - ContentToGlobalFilerInfo::GetFilerType(972): -Error-: Context is not set for the FsdmProperty Object. Should call ReInit before making this call.
+5928  1d2c  06/30 08:51:34 1087963 CVStubParameters::Initialize(550) - Src isNonNDMPClient=0
+7144  310   06/30 08:51:34 1087963 CVStubParameters::Initialize(605) - eSourceStubType = eDstStubType = 1. No conversion necessary 
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## hal.dll found at C:\Windows\system32\hal.dll
+7096  140c  06/30 08:51:34 1087963 FsRestoreObjectsFactory::InitializeRestoreDataNotStubOption() - ER_EX_NO_STUBS not set.
+3864  990   06/30 08:51:34 1087963 FclRestorePrivate::SetSourceDestinationParams(1441) - Final ClientId chosen as 8426
+7144  310   06/30 08:51:34 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SRC_PATH
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntoskrnl.exe found at C:\Windows\system32\ntoskrnl.exe
+5928  1d2c  06/30 08:51:34 1087963 CVStubParameters::Initialize(573) - Dest isNonNDMPClient=0
+7096  140c  06/30 08:51:34 1087963 FsRestoreObjectsFactory::InitializeValidateOnlyOption() - "Validate Only" option is not set.
+3864  990   06/30 08:51:34 1087963 FclRestorePrivate::SetSourceDestinationParams(1447) - Source clientId:8445, Dest ClientId:8426
+7144  310   06/30 08:51:34 1087963 FclRestore::OnMsgSrcPath() - StripLevel=0, SourcePath=\rrskumar4\PowerCLI-Example-Scripts
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntkrnlpa.exe found at C:\Windows\system32\ntkrnlpa.exe
+5928  1d2c  06/30 08:51:34 1087963 CVStubParameters::Initialize(605) - eSourceStubType = eDstStubType = 1. No conversion necessary 
+3864  990   06/30 08:51:34 1087963 CFSDMAPIPrivate::EnumerateAllVolumesAndInfo(1810) - Failed to get FSInfo for volume=[D:\], error=[0x80070015:{QIWIN_GetFSInfo(262)/W32.21.(The device is not ready. (ERROR_NOT_READY.21))-GetVolumeInformationW failed, Volume=[D:\]}]
+7144  310   06/30 08:51:34 1087963 Initializing the share monitor as this is not an Index cache restore
+7096  140c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::GetCloudAppInstanceInfo(2409) - [FS->OD4B] client id is 0
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kernel32.dll found at C:\Windows\system32\kernel32.dll
+5928  1d2c  06/30 08:51:34 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SRC_PATH
+3864  990   06/30 08:51:34 1087963 CVStubParameters::Initialize(550) - Src isNonNDMPClient=0
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## hal.dll found at C:\Windows\system32\hal.dll
+7096  140c  06/30 08:51:34 1087963 FclRestore::OnMsgDistributedTaskId(22815) - Received distributed task id 0
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntdll.dll found at C:\Windows\system32\ntdll.dll
+5928  1d2c  06/30 08:51:34 1087963 FclRestore::OnMsgSrcPath() - StripLevel=0, SourcePath=\rrskumar4\PowerCLI-Example-Scripts
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntoskrnl.exe found at C:\Windows\system32\ntoskrnl.exe
+7096  140c  06/30 08:51:34 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_OPEN_ARCHIVE
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## win32k.sys found at C:\Windows\system32\win32k.sys
+3864  990   06/30 08:51:34 1087963 CVStubParameters::Initialize(573) - Dest isNonNDMPClient=0
+5928  1d2c  06/30 08:51:34 1087963 Initializing the share monitor as this is not an Index cache restore
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntkrnlpa.exe found at C:\Windows\system32\ntkrnlpa.exe
+7096  140c  06/30 08:51:34 1087963 FclRestore::OnMsgOpenArchive() - Opening archive <2 5930 1525935> with copy = 0
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## winsrv.dll found at C:\Windows\system32\winsrv.dll
+3864  990   06/30 08:51:34 1087963 CVStubParameters::Initialize(605) - eSourceStubType = eDstStubType = 1. No conversion necessary 
+5928  1d2c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## hal.dll found at C:\Windows\system32\hal.dll
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kernel32.dll found at C:\Windows\system32\kernel32.dll
+7096  140c  06/30 08:51:34 1087963 FclRestore::OnMsgOpenArchive() - Cross-machine restore: srcMach = GitHubUsr destMach = SanBGW
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## bootvid.dll found at C:\Windows\system32\bootvid.dll
+3864  990   06/30 08:51:34 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_SRC_PATH
+5928  1d2c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntoskrnl.exe found at C:\Windows\system32\ntoskrnl.exe
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntdll.dll found at C:\Windows\system32\ntdll.dll
+7096  140c  06/30 08:51:34 1087963 FclRestore::enableSeekOptimizationIfAvailable() - Seek optimization is not available for this type of job
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kdcom.dll found at C:\Windows\system32\kdcom.dll
+3864  990   06/30 08:51:34 1087963 FclRestore::OnMsgSrcPath() - StripLevel=0, SourcePath=\rrskumar4\PowerCLI-Example-Scripts
+5928  1d2c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntkrnlpa.exe found at C:\Windows\system32\ntkrnlpa.exe
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## win32k.sys found at C:\Windows\system32\win32k.sys
+7096  140c  06/30 08:51:34 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - Simpana currently installed at C:\Program Files\Metallic\ContentStore
+3864  990   06/30 08:51:34 1087963 Initializing the share monitor as this is not an Index cache restore
+5928  1d2c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kernel32.dll found at C:\Windows\system32\kernel32.dll
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## winsrv.dll found at C:\Windows\system32\winsrv.dll
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory(555) - Installation base folder path is [C:\Program Files\Metallic\ContentStore\Base]
+3864  990   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## hal.dll found at C:\Windows\system32\hal.dll
+5928  1d2c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntdll.dll found at C:\Windows\system32\ntdll.dll
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## bootvid.dll found at C:\Windows\system32\bootvid.dll
+3864  990   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntoskrnl.exe found at C:\Windows\system32\ntoskrnl.exe
+5672  1b60  06/30 08:51:34 1087963 Option set to Unconditionally Overwrite all files
+5928  1d2c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## win32k.sys found at C:\Windows\system32\win32k.sys
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kdcom.dll found at C:\Windows\system32\kdcom.dll
+3864  990   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntkrnlpa.exe found at C:\Windows\system32\ntkrnlpa.exe
+5672  1b60  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::InitializeForMappedRestores() - Empty map file paths from sync option
+5928  1d2c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## winsrv.dll found at C:\Windows\system32\winsrv.dll
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - Simpana currently installed at C:\Program Files\Metallic\ContentStore
+3864  990   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kernel32.dll found at C:\Windows\system32\kernel32.dll
+5928  1d2c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## bootvid.dll found at C:\Windows\system32\bootvid.dll
+5672  1b60  06/30 08:51:34 1087963 FsRestoreObjectsFactory::InitializeStubOverwriteOption() - Unconditionally overwrite stubs only is OFF
+7144  310   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory(555) - Installation base folder path is [C:\Program Files\Metallic\ContentStore\Base]
+3864  990   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## ntdll.dll found at C:\Windows\system32\ntdll.dll
+5928  1d2c  06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kdcom.dll found at C:\Windows\system32\kdcom.dll
+5672  1b60  06/30 08:51:34 1087963 FsRestoreObjectsFactory::InitializeRestoreOnlyIfExistsOption() - Unconditionally overwrite is ON
+3864  990   06/30 08:51:34 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## win32k.sys found at C:\Windows\system32\win32k.sys
+7144  310   06/30 08:51:34 1087963 Option set to Unconditionally Overwrite all files
+5928  1d2c  06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - Simpana currently installed at C:\Program Files\Metallic\ContentStore
+5672  1b60  06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeDoNotOverwriteOption() - "overwriteFiles" set to true
+3864  990   06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## winsrv.dll found at C:\Windows\system32\winsrv.dll
+7144  310   06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::InitializeForMappedRestores() - Empty map file paths from sync option
+5928  1d2c  06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory(555) - Installation base folder path is [C:\Program Files\Metallic\ContentStore\Base]
+3864  990   06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## bootvid.dll found at C:\Windows\system32\bootvid.dll
+7144  310   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeStubOverwriteOption() - Unconditionally overwrite stubs only is OFF
+5672  1b60  06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeRestoreDataNotStubOption() - ER_EX_NO_STUBS not set.
+3864  990   06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - ## kdcom.dll found at C:\Windows\system32\kdcom.dll
+5928  1d2c  06/30 08:51:35 1087963 Option set to Unconditionally Overwrite all files
+7144  310   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeRestoreOnlyIfExistsOption() - Unconditionally overwrite is ON
+5672  1b60  06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeValidateOnlyOption() - "Validate Only" option is not set.
+3864  990   06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory() - Simpana currently installed at C:\Program Files\Metallic\ContentStore
+5928  1d2c  06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::InitializeForMappedRestores() - Empty map file paths from sync option
+7144  310   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeDoNotOverwriteOption() - "overwriteFiles" set to true
+7096  140c  06/30 08:51:35 1087963 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+3864  990   06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::FsRestoreNTObjectsFactory(555) - Installation base folder path is [C:\Program Files\Metallic\ContentStore\Base]
+5672  1b60  06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::GetCloudAppInstanceInfo(2409) - [FS->OD4B] client id is 0
+5928  1d2c  06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeStubOverwriteOption() - Unconditionally overwrite stubs only is OFF
+7144  310   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeRestoreDataNotStubOption() - ER_EX_NO_STUBS not set.
+7096  140c  06/30 08:51:35 1087963 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Restore] pipe
+5672  1b60  06/30 08:51:35 1087963 FclRestore::OnMsgDistributedTaskId(22815) - Received distributed task id 2
+3864  990   06/30 08:51:35 1087963 Option set to Unconditionally Overwrite all files
+7144  310   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeValidateOnlyOption() - "Validate Only" option is not set.
+5928  1d2c  06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeRestoreOnlyIfExistsOption() - Unconditionally overwrite is ON
+7096  140c  06/30 08:51:35 1087963 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+5672  1b60  06/30 08:51:35 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_OPEN_ARCHIVE
+3864  990   06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::InitializeForMappedRestores() - Empty map file paths from sync option
+5928  1d2c  06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeDoNotOverwriteOption() - "overwriteFiles" set to true
+7096  140c  06/30 08:51:35 1087963 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+7144  310   06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::GetCloudAppInstanceInfo(2409) - [FS->OD4B] client id is 0
+5672  1b60  06/30 08:51:35 1087963 FclRestore::OnMsgOpenArchive() - Opening archive <2 5930 1525937> with copy = 0
+7096  140c  06/30 08:51:35 1087963 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[2] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[3] CloudLaptopClnt[0] 
+3864  990   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeStubOverwriteOption() - Unconditionally overwrite stubs only is OFF
+7144  310   06/30 08:51:35 1087963 FclRestore::OnMsgDistributedTaskId(22815) - Received distributed task id 3
+5928  1d2c  06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeRestoreDataNotStubOption() - ER_EX_NO_STUBS not set.
+5672  1b60  06/30 08:51:35 1087963 FclRestore::OnMsgOpenArchive() - Cross-machine restore: srcMach = GitHubUsr destMach = SanBGW
+7096  140c  06/30 08:51:35 1087963 Block level SI is set. Going to set minimum single instanceable size to block size
+7144  310   06/30 08:51:35 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_OPEN_ARCHIVE
+5928  1d2c  06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeValidateOnlyOption() - "Validate Only" option is not set.
+3864  990   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeRestoreOnlyIfExistsOption() - Unconditionally overwrite is ON
+5672  1b60  06/30 08:51:35 1087963 FclRestore::enableSeekOptimizationIfAvailable() - Seek optimization is not available for this type of job
+7096  140c  06/30 08:51:35 1087963 Min SI Data Size [128 KB], SI Block Size [128 KB]
+7144  310   06/30 08:51:35 1087963 FclRestore::OnMsgOpenArchive() - Opening archive <2 5930 1525937> with copy = 0
+3864  990   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeDoNotOverwriteOption() - "overwriteFiles" set to true
+5672  1b60  06/30 08:51:35 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+5928  1d2c  06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::GetCloudAppInstanceInfo(2409) - [FS->OD4B] client id is 0
+7096  140c  06/30 08:51:35 1087963 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+7144  310   06/30 08:51:35 1087963 FclRestore::OnMsgOpenArchive() - Cross-machine restore: srcMach = GitHubUsr destMach = SanBGW
+5928  1d2c  06/30 08:51:35 1087963 FclRestore::OnMsgDistributedTaskId(22815) - Received distributed task id 1
+7096  140c  06/30 08:51:35 1087963 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [true], Block Size [128], File Level [false], Min Signature Size [128]
+3864  990   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeRestoreDataNotStubOption() - ER_EX_NO_STUBS not set.
+7144  310   06/30 08:51:35 1087963 FclRestore::enableSeekOptimizationIfAvailable() - Seek optimization is not available for this type of job
+5928  1d2c  06/30 08:51:35 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_OPEN_ARCHIVE
+7096  140c  06/30 08:51:35 1087963 CPipelayer::InitiatePipeline Initiating SDT connection [0000020AF0936FD0] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+3864  990   06/30 08:51:35 1087963 FsRestoreObjectsFactory::InitializeValidateOnlyOption() - "Validate Only" option is not set.
+7144  310   06/30 08:51:35 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+5928  1d2c  06/30 08:51:35 1087963 FclRestore::OnMsgOpenArchive() - Opening archive <2 5930 1525937> with copy = 0
+7096  140c  06/30 08:51:35 1087963 CPipelayer::InitiatePipeline compressionType [CV_UNCOMPRESS], compressWhere [CV_COMPRESS_DEST]
+5928  1d2c  06/30 08:51:35 1087963 FclRestore::OnMsgOpenArchive() - Cross-machine restore: srcMach = GitHubUsr destMach = SanBGW
+3864  990   06/30 08:51:35 1087963 FsRestoreNTObjectsFactory::GetCloudAppInstanceInfo(2409) - [FS->OD4B] client id is 0
+7096  140c  06/30 08:51:35 1087963 CPipelayer::InitiatePipeline encryptionType [CV_DECRYPT], encryptionWhere [CV_ENCRYPT_DEST]
+5928  1d2c  06/30 08:51:35 1087963 FclRestore::enableSeekOptimizationIfAvailable() - Seek optimization is not available for this type of job
+3864  990   06/30 08:51:35 1087963 FclRestore::OnMsgDistributedTaskId(22815) - Received distributed task id 4
+7096  140c  06/30 08:51:35 1087963 CPipelayer::InitiatePipeline signatureType [CV_SIGNATURE_SHA_512], signatureWhere [CV_CLIENTSIDE_DEDUP]
+5928  1d2c  06/30 08:51:35 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3864  990   06/30 08:51:35 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_OPEN_ARCHIVE
+7096  140c  06/30 08:51:35 1087963 CPipelayer::InitiatePipeline Lan-Free - 1
+3864  990   06/30 08:51:35 1087963 FclRestore::OnMsgOpenArchive() - Opening archive <2 5930 1525937> with copy = 0
+7096  140c  06/30 08:51:35 1087963 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+3864  990   06/30 08:51:35 1087963 FclRestore::OnMsgOpenArchive() - Cross-machine restore: srcMach = GitHubUsr destMach = SanBGW
+7096  140c  06/30 08:51:35 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3864  990   06/30 08:51:35 1087963 FclRestore::enableSeekOptimizationIfAvailable() - Seek optimization is not available for this type of job
+7096  140c  06/30 08:51:35 1087963 CPipelayer::InitiatePipeline SDT is using socket 1056 for connection 1/2
+3864  990   06/30 08:51:35 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+7096  140c  06/30 08:51:35 1087963 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087963_1656604295_7096_5132_0000020AF0936FD0]
+7096  140c  06/30 08:51:35 1087963 SdtNetLink() - WAN Padding is OFF
+7096  140c  06/30 08:51:35 1087963 SdtNetLink::setSocket() - Switching socket 1056 to non-blocking mode.
+7096  140c  06/30 08:51:35 1087963 SdtNetLink::authenticate() - Connection authenticated successfully
+7096  140c  06/30 08:51:36 ####### SdtBase::InitWrkPool: Initializing SDT tail thread pool
+7096  140c  06/30 08:51:36 ####### Max tail thread count set to 16. CPU # = 2
+7096  140c  06/30 08:51:36 ####### Threads per connection set to 8
+7096  140c  06/30 08:51:36 ####### Initial max. threads set to 16
+7096  140c  06/30 08:51:36 1087963 Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+7096  140c  06/30 08:51:36 ####### SdtBase::InitWrkPool: Successfully initialized Tail SDT thread pool
+7096  140c  06/30 08:51:36 1087963 MODULE_SEQUENCE Adding decryption at index [1] RCId [3]
+7096  140c  06/30 08:51:36 1087963 CipherCacheSingleton::Initialize() - MaxAFMap Sz [2048] MaxAFMap Timeout [3600] MaxKeyMap Sz [1024] CritKeyMap Sz [2048] MaxKeyMap Timeout [3600]Low WtrMrk [4194304] High WtrMrk [8388608] Debug[N] MultiAF [Y]
+7096  140c  06/30 08:51:36 1087963 MODULE_SEQUENCE Adding uncompression at index [2] RCId [3]
+7096  140c  06/30 08:51:36 1087963 SdtBase::cfgProcs() - Total Bufs=90, allocators=1
+7096  140c  06/30 08:51:36 1087963 SdtBase::cfgProcs() - Free Bufs [90]
+5672  1b60  06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+7096  140c  06/30 08:51:36 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+7096  140c  06/30 08:51:36 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+7096  140c  06/30 08:51:36 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+5672  1b60  06/30 08:51:36 1087963 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Restore] pipe
+7096  140c  06/30 08:51:36 1087963 Switching socket 1056 (1/2) to non-blking mode.
+5672  1b60  06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+7096  140c  06/30 08:51:36 1087963 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+5672  1b60  06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+7096  140c  06/30 08:51:36 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+5672  1b60  06/30 08:51:36 1087963 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[2] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[5] CloudLaptopClnt[0] 
+7096  140c  06/30 08:51:36 1087963 CPipelayer::FattenSdt SDT is using socket 1116 for connection 2/2
+5672  1b60  06/30 08:51:36 1087963 Block level SI is set. Going to set minimum single instanceable size to block size
+7096  140c  06/30 08:51:36 1087963 Switching socket 1116 (2/2) to non-blking mode.
+7144  310   06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+5672  1b60  06/30 08:51:36 1087963 Min SI Data Size [128 KB], SI Block Size [128 KB]
+7096  140c  06/30 08:51:36 ####### SdtTailServerPool::Init: Max number of clients per server to [1]
+5928  1d2c  06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+5672  1b60  06/30 08:51:36 1087963 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+7144  310   06/30 08:51:36 1087963 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Restore] pipe
+7096  140c  06/30 08:51:36 ####### SdtTailServerPool::Init: Max SDT servers [6]
+3864  990   06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+5672  1b60  06/30 08:51:36 1087963 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [true], Block Size [128], File Level [false], Min Signature Size [128]
+7144  310   06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+5928  1d2c  06/30 08:51:36 1087963 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Restore] pipe
+7096  140c  06/30 08:51:36 ####### SdtTailServerPool::Init: Sdt tail recv. buf. size is [0]KB
+5672  1b60  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline Initiating SDT connection [0000024919CE1230] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+7144  310   06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+5928  1d2c  06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+7096  140c  06/30 08:51:36 ####### SdtTailServerPool::Init: Sdt head send buf. size is [256]KB
+5672  1b60  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline compressionType [CV_UNCOMPRESS], compressWhere [CV_COMPRESS_DEST]
+7144  310   06/30 08:51:36 1087963 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[2] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[5] CloudLaptopClnt[0] 
+3864  990   06/30 08:51:36 1087963 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Restore] pipe
+5928  1d2c  06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+7096  140c  06/30 08:51:36 ####### SdtTailServerPool::Init: Successfully initialized SdtTailServerPool object.
+5672  1b60  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline encryptionType [CV_DECRYPT], encryptionWhere [CV_ENCRYPT_DEST]
+7144  310   06/30 08:51:36 1087963 Block level SI is set. Going to set minimum single instanceable size to block size
+3864  990   06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+5928  1d2c  06/30 08:51:36 1087963 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[2] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[5] CloudLaptopClnt[0] 
+7096  140c  06/30 08:51:36 1087963 SdtTailSrvPool::AddClnt: Did not find srv for clnt [SDTPipe_sanbgw_sanbgw_1087963_1656604295_7096_5132_0000020AF0936FD0], Id [0], SrvCount [0] RCId [3]
+5672  1b60  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline signatureType [CV_SIGNATURE_SHA_512], signatureWhere [CV_CLIENTSIDE_DEDUP]
+7144  310   06/30 08:51:36 1087963 Min SI Data Size [128 KB], SI Block Size [128 KB]
+3864  990   06/30 08:51:36 1087963 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+5928  1d2c  06/30 08:51:36 1087963 Block level SI is set. Going to set minimum single instanceable size to block size
+7096  140c  06/30 08:51:36 ####### SdtTailSrv::Start: Starting SDT server [0].
+5672  1b60  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline Lan-Free - 1
+7144  310   06/30 08:51:36 1087963 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+3864  990   06/30 08:51:36 1087963 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[2] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[5] CloudLaptopClnt[0] 
+5928  1d2c  06/30 08:51:36 1087963 Min SI Data Size [128 KB], SI Block Size [128 KB]
+7096  140c  06/30 08:51:36 ####### SdtTailSrv::LoadConfiguration: Client State Check Interval is [300]
+5672  1b60  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+7144  310   06/30 08:51:36 1087963 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [true], Block Size [128], File Level [false], Min Signature Size [128]
+3864  990   06/30 08:51:36 1087963 Block level SI is set. Going to set minimum single instanceable size to block size
+5928  1d2c  06/30 08:51:36 1087963 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+7096  140c  06/30 08:51:36 ####### SdtTailSrv::LoadConfiguration: Kill idle client interval is [0]
+5672  1b60  06/30 08:51:36 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+7144  310   06/30 08:51:36 1087963 CPipelayer::InitiatePipeline Initiating SDT connection [000001E132017050] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+3864  990   06/30 08:51:36 1087963 Min SI Data Size [128 KB], SI Block Size [128 KB]
+5928  1d2c  06/30 08:51:36 1087963 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [true], Block Size [128], File Level [false], Min Signature Size [128]
+7096  140c  06/30 08:51:36 ####### SdtTailSrv::LoadConfiguration: Sdt Tail Srv counters log interval set to [0] secs
+5672  1b60  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline SDT is using socket 1104 for connection 1/2
+7144  310   06/30 08:51:36 1087963 CPipelayer::InitiatePipeline compressionType [CV_UNCOMPRESS], compressWhere [CV_COMPRESS_DEST]
+3864  990   06/30 08:51:36 1087963 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+5928  1d2c  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline Initiating SDT connection [00000245649A21B0] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+7096  140c  06/30 08:51:36 ####### SdtTailSrv::CreateWakeConn: Bound to IPV4 Address=<127.0.0.1> port=0.
+5672  1b60  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087963_1656604296_5672_7008_0000024919CE1230]
+7144  310   06/30 08:51:36 1087963 CPipelayer::InitiatePipeline encryptionType [CV_DECRYPT], encryptionWhere [CV_ENCRYPT_DEST]
+3864  990   06/30 08:51:36 1087963 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [true], Block Size [128], File Level [false], Min Signature Size [128]
+5928  1d2c  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline compressionType [CV_UNCOMPRESS], compressWhere [CV_COMPRESS_DEST]
+7096  140c  06/30 08:51:36 ####### SdtTailSrv::CreateWakeConn: Trying to connect to <127.0.0.1> port=51711.
+5672  1b60  06/30 08:51:36 1087963 SdtNetLink() - WAN Padding is OFF
+7144  310   06/30 08:51:36 1087963 CPipelayer::InitiatePipeline signatureType [CV_SIGNATURE_SHA_512], signatureWhere [CV_CLIENTSIDE_DEDUP]
+3864  990   06/30 08:51:36 1087963 CPipelayer::InitiatePipeline Initiating SDT connection [0000022EBB07CC00] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+5928  1d2c  06/30 08:51:36 1087963 CPipelayer::InitiatePipeline encryptionType [CV_DECRYPT], encryptionWhere [CV_ENCRYPT_DEST]
+7096  140c  06/30 08:51:37 ####### SdtTailSrv::CreateWakeConn: Successfully created wakeup socket for SDT server [0]
+5672  1b60  06/30 08:51:37 1087963 SdtNetLink::setSocket() - Switching socket 1104 to non-blocking mode.
+7144  310   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline Lan-Free - 1
+3864  990   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline compressionType [CV_UNCOMPRESS], compressWhere [CV_COMPRESS_DEST]
+5928  1d2c  06/30 08:51:37 1087963 CPipelayer::InitiatePipeline signatureType [CV_SIGNATURE_SHA_512], signatureWhere [CV_CLIENTSIDE_DEDUP]
+7096  140c  06/30 08:51:37 ####### SdtTailSrv::Start: Waiting for the main thread to startup...
+5672  1b60  06/30 08:51:37 1087963 SdtNetLink::authenticate() - Connection authenticated successfully
+7144  310   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+3864  990   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline encryptionType [CV_DECRYPT], encryptionWhere [CV_ENCRYPT_DEST]
+5928  1d2c  06/30 08:51:37 1087963 CPipelayer::InitiatePipeline Lan-Free - 1
+7096  10a0  06/30 08:51:37 ####### SdtTailSrv::MainLoop: Server [0] started.
+5672  1b60  06/30 08:51:37 ####### SdtBase::InitWrkPool: Initializing SDT tail thread pool
+7144  310   06/30 08:51:37 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3864  990   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline signatureType [CV_SIGNATURE_SHA_512], signatureWhere [CV_CLIENTSIDE_DEDUP]
+5928  1d2c  06/30 08:51:37 1087963 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+7096  140c  06/30 08:51:37 ####### SdtTailSrv::Start: Successfully initialized the SDT server [0]
+5672  1b60  06/30 08:51:37 ####### Max tail thread count set to 16. CPU # = 2
+7144  310   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline SDT is using socket 1040 for connection 1/2
+3864  990   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline Lan-Free - 1
+5928  1d2c  06/30 08:51:37 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+7096  140c  06/30 08:51:37 1087963 SdtTailSrvPool::AddClnt: Submitted client [SDTPipe_sanbgw_sanbgw_1087963_1656604295_7096_5132_0000020AF0936FD0], Id [1116] to srv [0]. Total Clients [1], Tail=0000020AF0A0D640 RCId [3]
+5672  1b60  06/30 08:51:37 ####### Threads per connection set to 8
+7144  310   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087963_1656604297_7144_784_000001E132017050]
+3864  990   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+5928  1d2c  06/30 08:51:37 1087963 CPipelayer::InitiatePipeline SDT is using socket 1072 for connection 1/2
+7096  140c  06/30 08:51:37 ####### AddSdtTailClient: Added client [SDTPipe_sanbgw_sanbgw_1087963_1656604295_7096_5132_0000020AF0936FD0], MxId [1116], rcId [3] to SDT Srv. Agents=2. Pndng Cons=0
+5672  1b60  06/30 08:51:37 ####### Initial max. threads set to 16
+7144  310   06/30 08:51:37 1087963 SdtNetLink() - WAN Padding is OFF
+3864  990   06/30 08:51:37 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+5928  1d2c  06/30 08:51:37 1087963 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087963_1656604297_5928_7468_00000245649A21B0]
+7096  140c  06/30 08:51:37 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1056, Ret=-1, Err=47
+5672  1b60  06/30 08:51:37 1087963 Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+7144  310   06/30 08:51:37 1087963 SdtNetLink::setSocket() - Switching socket 1040 to non-blocking mode.
+3864  990   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline SDT is using socket 1104 for connection 1/2
+5928  1d2c  06/30 08:51:37 1087963 SdtNetLink() - WAN Padding is OFF
+7096  1cf8  06/30 08:51:37 ####### SdtBase::CheckNwCrc: SDT Enforce CRC check is set to [0]
+5672  1b60  06/30 08:51:37 ####### SdtBase::InitWrkPool: Successfully initialized Tail SDT thread pool
+7144  310   06/30 08:51:37 1087963 SdtNetLink::authenticate() - Connection authenticated successfully
+3864  990   06/30 08:51:37 1087963 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087963_1656604297_3864_2448_0000022EBB07CC00]
+5928  1d2c  06/30 08:51:37 1087963 SdtNetLink::setSocket() - Switching socket 1072 to non-blocking mode.
+7096  140c  06/30 08:51:37 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1116, Ret=-1, Err=47
+5672  1b60  06/30 08:51:37 1087963 MODULE_SEQUENCE Adding decryption at index [1] RCId [5]
+7144  310   06/30 08:51:37 ####### SdtBase::InitWrkPool: Initializing SDT tail thread pool
+3864  990   06/30 08:51:37 1087963 SdtNetLink() - WAN Padding is OFF
+5928  1d2c  06/30 08:51:37 1087963 SdtNetLink::authenticate() - Connection authenticated successfully
+7096  140c  06/30 08:51:37 1087963 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 3] [Starttime - 1656604297] [Starttime UTC - 1656633097]
+5672  1b60  06/30 08:51:37 1087963 CipherCacheSingleton::Initialize() - MaxAFMap Sz [2048] MaxAFMap Timeout [3600] MaxKeyMap Sz [1024] CritKeyMap Sz [2048] MaxKeyMap Timeout [3600]Low WtrMrk [4194304] High WtrMrk [8388608] Debug[N] MultiAF [Y]
+7144  310   06/30 08:51:37 ####### Max tail thread count set to 16. CPU # = 2
+3864  990   06/30 08:51:37 1087963 SdtNetLink::setSocket() - Switching socket 1104 to non-blocking mode.
+5928  1d2c  06/30 08:51:37 ####### SdtBase::InitWrkPool: Initializing SDT tail thread pool
+7096  140c  06/30 08:51:37 1087963 Received Head Name: FSR_HEAD_1170_1b44_1 with ports [51708/0]
+5672  1b60  06/30 08:51:37 1087963 MODULE_SEQUENCE Adding uncompression at index [2] RCId [5]
+7144  310   06/30 08:51:37 ####### Threads per connection set to 8
+3864  990   06/30 08:51:37 1087963 SdtNetLink::authenticate() - Connection authenticated successfully
+5928  1d2c  06/30 08:51:37 ####### Max tail thread count set to 16. CPU # = 2
+7096  140c  06/30 08:51:37 1087963 Initializing a session with pipeline head [FSR_HEAD_1170_1b44_1:51708:0] on [SanBGW]...
+5672  1b60  06/30 08:51:37 1087963 SdtBase::cfgProcs() - Total Bufs=90, allocators=1
+7144  310   06/30 08:51:37 ####### Initial max. threads set to 16
+3864  990   06/30 08:51:37 ####### SdtBase::InitWrkPool: Initializing SDT tail thread pool
+5928  1d2c  06/30 08:51:37 ####### Threads per connection set to 8
+7096  140c  06/30 08:51:37 1087963 Nagle is turned off on control channel.
+5672  1b60  06/30 08:51:37 1087963 SdtBase::cfgProcs() - Free Bufs [90]
+7144  310   06/30 08:51:37 1087963 Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+3864  990   06/30 08:51:37 ####### Max tail thread count set to 16. CPU # = 2
+5928  1d2c  06/30 08:51:37 ####### Initial max. threads set to 16
+7096  140c  06/30 08:51:37 1087963 CVArchive::FwdRstMsg() - Restore Head Msg Logging = [0]
+5672  1b60  06/30 08:51:37 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+7144  310   06/30 08:51:38 ####### SdtBase::InitWrkPool: Successfully initialized Tail SDT thread pool
+3864  990   06/30 08:51:38 ####### Threads per connection set to 8
+5928  1d2c  06/30 08:51:38 1087963 Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+7096  140c  06/30 08:51:38 1087963 FclRestore::OnMsgOpenArchive() - Launching the readPipeline thread...
+5672  1b60  06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+7144  310   06/30 08:51:38 1087963 MODULE_SEQUENCE Adding decryption at index [1] RCId [5]
+3864  990   06/30 08:51:38 ####### Initial max. threads set to 16
+5928  1d2c  06/30 08:51:38 ####### SdtBase::InitWrkPool: Successfully initialized Tail SDT thread pool
+5672  1b60  06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+7144  310   06/30 08:51:38 1087963 CipherCacheSingleton::Initialize() - MaxAFMap Sz [2048] MaxAFMap Timeout [3600] MaxKeyMap Sz [1024] CritKeyMap Sz [2048] MaxKeyMap Timeout [3600]Low WtrMrk [4194304] High WtrMrk [8388608] Debug[N] MultiAF [Y]
+7096  54c   06/30 08:51:38 1087963 FclRestore::AFileReadTimeMonitor() - Starting
+3864  990   06/30 08:51:38 1087963 Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+5928  1d2c  06/30 08:51:38 1087963 MODULE_SEQUENCE Adding decryption at index [1] RCId [5]
+5672  1b60  06/30 08:51:38 1087963 Switching socket 1104 (1/2) to non-blking mode.
+7144  310   06/30 08:51:38 1087963 MODULE_SEQUENCE Adding uncompression at index [2] RCId [5]
+5928  1d2c  06/30 08:51:38 1087963 CipherCacheSingleton::Initialize() - MaxAFMap Sz [2048] MaxAFMap Timeout [3600] MaxKeyMap Sz [1024] CritKeyMap Sz [2048] MaxKeyMap Timeout [3600]Low WtrMrk [4194304] High WtrMrk [8388608] Debug[N] MultiAF [Y]
+7096  140c  06/30 08:51:38 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_CLOSE_ARCHIVE
+3864  990   06/30 08:51:38 ####### SdtBase::InitWrkPool: Successfully initialized Tail SDT thread pool
+5672  1b60  06/30 08:51:38 1087963 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+7144  310   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Total Bufs=90, allocators=1
+5928  1d2c  06/30 08:51:38 1087963 MODULE_SEQUENCE Adding uncompression at index [2] RCId [5]
+7096  140c  06/30 08:51:38 1087963 FclRestore::OnMsgCloseArchive() - Waiting for readPipeline thread to exit...
+3864  990   06/30 08:51:38 1087963 MODULE_SEQUENCE Adding decryption at index [1] RCId [5]
+5672  1b60  06/30 08:51:38 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+7144  310   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [90]
+5928  1d2c  06/30 08:51:38 1087963 SdtBase::cfgProcs() - Total Bufs=90, allocators=1
+3864  990   06/30 08:51:38 1087963 CipherCacheSingleton::Initialize() - MaxAFMap Sz [2048] MaxAFMap Timeout [3600] MaxKeyMap Sz [1024] CritKeyMap Sz [2048] MaxKeyMap Timeout [3600]Low WtrMrk [4194304] High WtrMrk [8388608] Debug[N] MultiAF [Y]
+5672  1b60  06/30 08:51:38 1087963 CPipelayer::FattenSdt SDT is using socket 1132 for connection 2/2
+7144  310   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+5928  1d2c  06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [90]
+3864  990   06/30 08:51:38 1087963 MODULE_SEQUENCE Adding uncompression at index [2] RCId [5]
+5672  1b60  06/30 08:51:38 1087963 Switching socket 1132 (2/2) to non-blking mode.
+7144  310   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+5928  1d2c  06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+3864  990   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Total Bufs=90, allocators=1
+5672  1b60  06/30 08:51:38 ####### SdtTailServerPool::Init: Max number of clients per server to [1]
+7144  310   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+5928  1d2c  06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+3864  990   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [90]
+5672  1b60  06/30 08:51:38 ####### SdtTailServerPool::Init: Max SDT servers [6]
+7144  310   06/30 08:51:38 1087963 Switching socket 1040 (1/2) to non-blking mode.
+5928  1d2c  06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+3864  990   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+5672  1b60  06/30 08:51:38 ####### SdtTailServerPool::Init: Sdt tail recv. buf. size is [0]KB
+7144  310   06/30 08:51:38 1087963 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+5928  1d2c  06/30 08:51:38 1087963 Switching socket 1072 (1/2) to non-blking mode.
+3864  990   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+5672  1b60  06/30 08:51:38 ####### SdtTailServerPool::Init: Sdt head send buf. size is [256]KB
+7144  310   06/30 08:51:38 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+5928  1d2c  06/30 08:51:38 1087963 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+3864  990   06/30 08:51:38 1087963 SdtBase::cfgProcs() - Free Bufs [0]
+5672  1b60  06/30 08:51:38 ####### SdtTailServerPool::Init: Successfully initialized SdtTailServerPool object.
+7144  310   06/30 08:51:38 1087963 CPipelayer::FattenSdt SDT is using socket 1100 for connection 2/2
+5928  1d2c  06/30 08:51:38 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3864  990   06/30 08:51:38 1087963 Switching socket 1104 (1/2) to non-blking mode.
+5672  1b60  06/30 08:51:38 1087963 SdtTailSrvPool::AddClnt: Did not find srv for clnt [SDTPipe_sanbgw_sanbgw_1087963_1656604296_5672_7008_0000024919CE1230], Id [0], SrvCount [0] RCId [5]
+7144  310   06/30 08:51:38 1087963 Switching socket 1100 (2/2) to non-blking mode.
+5928  1d2c  06/30 08:51:38 1087963 CPipelayer::FattenSdt SDT is using socket 1092 for connection 2/2
+3864  990   06/30 08:51:38 1087963 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+5672  1b60  06/30 08:51:38 ####### SdtTailSrv::Start: Starting SDT server [0].
+7144  310   06/30 08:51:38 ####### SdtTailServerPool::Init: Max number of clients per server to [1]
+5928  1d2c  06/30 08:51:38 1087963 Switching socket 1092 (2/2) to non-blking mode.
+7096  174c  06/30 08:51:38 1087963 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtTail. [Using slice-by-8] RCId [3]
+3864  990   06/30 08:51:38 1087963 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+5672  1b60  06/30 08:51:38 ####### SdtTailSrv::LoadConfiguration: Client State Check Interval is [300]
+7144  310   06/30 08:51:38 ####### SdtTailServerPool::Init: Max SDT servers [6]
+5928  1d2c  06/30 08:51:38 ####### SdtTailServerPool::Init: Max number of clients per server to [1]
+7096  1c88  06/30 08:51:38 1087963 SdtEncDec::processSetEncProps: [0000020AF0A0D640] AfIds [1525935 ]
+3864  990   06/30 08:51:38 1087963 CPipelayer::FattenSdt SDT is using socket 1032 for connection 2/2
+5672  1b60  06/30 08:51:38 ####### SdtTailSrv::LoadConfiguration: Kill idle client interval is [0]
+7144  310   06/30 08:51:38 ####### SdtTailServerPool::Init: Sdt tail recv. buf. size is [0]KB
+5928  1d2c  06/30 08:51:38 ####### SdtTailServerPool::Init: Max SDT servers [6]
+7096  1c88  06/30 08:51:38 1087963 CArchFileKeysCache::Init() - CipherCacheSingleton object pointer [0000020AF01F9CA0] Using KeyId [T]
+3864  990   06/30 08:51:38 1087963 Switching socket 1032 (2/2) to non-blking mode.
+5672  1b60  06/30 08:51:38 ####### SdtTailSrv::LoadConfiguration: Sdt Tail Srv counters log interval set to [0] secs
+7144  310   06/30 08:51:38 ####### SdtTailServerPool::Init: Sdt head send buf. size is [256]KB
+5928  1d2c  06/30 08:51:38 ####### SdtTailServerPool::Init: Sdt tail recv. buf. size is [0]KB
+7096  1c88  06/30 08:51:38 1087963 CArchFileKeysCache::Init() - ArchFileKeys inited with CopyId [8988] CcId [2] sizeof(AFileInfo) [232]
+3864  990   06/30 08:51:38 ####### SdtTailServerPool::Init: Max number of clients per server to [1]
+5672  1b60  06/30 08:51:38 ####### SdtTailSrv::CreateWakeConn: Bound to IPV4 Address=<127.0.0.1> port=0.
+7144  310   06/30 08:51:38 ####### SdtTailServerPool::Init: Successfully initialized SdtTailServerPool object.
+5928  1d2c  06/30 08:51:39 ####### SdtTailServerPool::Init: Sdt head send buf. size is [256]KB
+7096  1a44  06/30 08:51:39 1087963 CVArchive::ReadBuffer() - PL_SET_NETWORK_CRC_PROPS (2, 5930, 1525935)
+3864  990   06/30 08:51:39 ####### SdtTailServerPool::Init: Max SDT servers [6]
+5672  1b60  06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Trying to connect to <127.0.0.1> port=51723.
+7144  310   06/30 08:51:39 1087963 SdtTailSrvPool::AddClnt: Did not find srv for clnt [SDTPipe_sanbgw_sanbgw_1087963_1656604297_7144_784_000001E132017050], Id [0], SrvCount [0] RCId [5]
+5928  1d2c  06/30 08:51:39 ####### SdtTailServerPool::Init: Successfully initialized SdtTailServerPool object.
+7096  1c88  06/30 08:51:39 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525935, copyId 8988 CCId [2]
+3864  990   06/30 08:51:39 ####### SdtTailServerPool::Init: Sdt tail recv. buf. size is [0]KB
+5672  1b60  06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Successfully created wakeup socket for SDT server [0]
+7144  310   06/30 08:51:39 ####### SdtTailSrv::Start: Starting SDT server [0].
+5928  1d2c  06/30 08:51:39 1087963 SdtTailSrvPool::AddClnt: Did not find srv for clnt [SDTPipe_sanbgw_sanbgw_1087963_1656604297_5928_7468_00000245649A21B0], Id [0], SrvCount [0] RCId [5]
+7096  1a44  06/30 08:51:39 1087963 CVArchive::ReadBuffer() - PL_SET_ENC_PROPS(2, 5930, 1525935)
+3864  990   06/30 08:51:39 ####### SdtTailServerPool::Init: Sdt head send buf. size is [256]KB
+5672  1b60  06/30 08:51:39 ####### SdtTailSrv::Start: Waiting for the main thread to startup...
+7144  310   06/30 08:51:39 ####### SdtTailSrv::LoadConfiguration: Client State Check Interval is [300]
+5928  1d2c  06/30 08:51:39 ####### SdtTailSrv::Start: Starting SDT server [0].
+7096  1a44  06/30 08:51:39 1087963 CVArchive::ReadBuffer() - PL_FS_OPEN_AFILE(2, 5930, 1525935)
+3864  990   06/30 08:51:39 ####### SdtTailServerPool::Init: Successfully initialized SdtTailServerPool object.
+5672  7e8   06/30 08:51:39 ####### SdtTailSrv::MainLoop: Server [0] started.
+7144  310   06/30 08:51:39 ####### SdtTailSrv::LoadConfiguration: Kill idle client interval is [0]
+5928  1d2c  06/30 08:51:39 ####### SdtTailSrv::LoadConfiguration: Client State Check Interval is [300]
+3864  990   06/30 08:51:39 1087963 SdtTailSrvPool::AddClnt: Did not find srv for clnt [SDTPipe_sanbgw_sanbgw_1087963_1656604297_3864_2448_0000022EBB07CC00], Id [0], SrvCount [0] RCId [5]
+5672  1b60  06/30 08:51:39 ####### SdtTailSrv::Start: Successfully initialized the SDT server [0]
+7144  310   06/30 08:51:39 ####### SdtTailSrv::LoadConfiguration: Sdt Tail Srv counters log interval set to [0] secs
+5928  1d2c  06/30 08:51:39 ####### SdtTailSrv::LoadConfiguration: Kill idle client interval is [0]
+3864  990   06/30 08:51:39 ####### SdtTailSrv::Start: Starting SDT server [0].
+5672  1b60  06/30 08:51:39 1087963 SdtTailSrvPool::AddClnt: Submitted client [SDTPipe_sanbgw_sanbgw_1087963_1656604296_5672_7008_0000024919CE1230], Id [1132] to srv [0]. Total Clients [1], Tail=0000024919DF3E70 RCId [5]
+7144  310   06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Bound to IPV4 Address=<127.0.0.1> port=0.
+7096  1c88  06/30 08:51:39 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for 9 archFiles with first AfId [1525935] keyId [4259] copyId [8988] ccId [2] flags [4]
+5928  1d2c  06/30 08:51:39 ####### SdtTailSrv::LoadConfiguration: Sdt Tail Srv counters log interval set to [0] secs
+3864  990   06/30 08:51:39 ####### SdtTailSrv::LoadConfiguration: Client State Check Interval is [300]
+5672  1b60  06/30 08:51:39 ####### AddSdtTailClient: Added client [SDTPipe_sanbgw_sanbgw_1087963_1656604296_5672_7008_0000024919CE1230], MxId [1132], rcId [5] to SDT Srv. Agents=2. Pndng Cons=0
+7144  310   06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Trying to connect to <127.0.0.1> port=51728.
+5928  1d2c  06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Bound to IPV4 Address=<127.0.0.1> port=0.
+3864  990   06/30 08:51:39 ####### SdtTailSrv::LoadConfiguration: Kill idle client interval is [0]
+5672  1b60  06/30 08:51:39 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1104, Ret=-1, Err=47
+7144  310   06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Successfully created wakeup socket for SDT server [0]
+5928  1d2c  06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Trying to connect to <127.0.0.1> port=51729.
+3864  990   06/30 08:51:39 ####### SdtTailSrv::LoadConfiguration: Sdt Tail Srv counters log interval set to [0] secs
+5672  1b60  06/30 08:51:39 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1132, Ret=-1, Err=47
+7144  310   06/30 08:51:39 ####### SdtTailSrv::Start: Waiting for the main thread to startup...
+5928  1d2c  06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Successfully created wakeup socket for SDT server [0]
+3864  990   06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Bound to IPV4 Address=<127.0.0.1> port=0.
+5672  1b60  06/30 08:51:39 1087963 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 5] [Starttime - 1656604299] [Starttime UTC - 1656633099]
+7144  1ccc  06/30 08:51:39 ####### SdtTailSrv::MainLoop: Server [0] started.
+5928  1d2c  06/30 08:51:39 ####### SdtTailSrv::Start: Waiting for the main thread to startup...
+3864  990   06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Trying to connect to <127.0.0.1> port=51732.
+5672  1f50  06/30 08:51:39 ####### SdtBase::CheckNwCrc: SDT Enforce CRC check is set to [0]
+7144  310   06/30 08:51:39 ####### SdtTailSrv::Start: Successfully initialized the SDT server [0]
+5928  12f4  06/30 08:51:39 ####### SdtTailSrv::MainLoop: Server [0] started.
+3864  990   06/30 08:51:39 ####### SdtTailSrv::CreateWakeConn: Successfully created wakeup socket for SDT server [0]
+5672  1b60  06/30 08:51:39 1087963 Received Head Name: FSR_HEAD_1170_1950_2 with ports [51716/0]
+7144  310   06/30 08:51:39 1087963 SdtTailSrvPool::AddClnt: Submitted client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_7144_784_000001E132017050], Id [1040] to srv [0]. Total Clients [1], Tail=000001E132113550 RCId [5]
+5928  1d2c  06/30 08:51:39 ####### SdtTailSrv::Start: Successfully initialized the SDT server [0]
+3864  990   06/30 08:51:39 ####### SdtTailSrv::Start: Waiting for the main thread to startup...
+5672  1b60  06/30 08:51:39 1087963 Initializing a session with pipeline head [FSR_HEAD_1170_1950_2:51716:0] on [SanBGW]...
+7144  310   06/30 08:51:39 ####### AddSdtTailClient: Added client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_7144_784_000001E132017050], MxId [1100], rcId [5] to SDT Srv. Agents=2. Pndng Cons=0
+5928  1d2c  06/30 08:51:39 1087963 SdtTailSrvPool::AddClnt: Submitted client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_5928_7468_00000245649A21B0], Id [1092] to srv [0]. Total Clients [1], Tail=0000024564A8AA80 RCId [5]
+3864  d88   06/30 08:51:39 ####### SdtTailSrv::MainLoop: Server [0] started.
+5672  1b60  06/30 08:51:39 1087963 Nagle is turned off on control channel.
+5928  1d2c  06/30 08:51:39 ####### AddSdtTailClient: Added client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_5928_7468_00000245649A21B0], MxId [1092], rcId [5] to SDT Srv. Agents=2. Pndng Cons=0
+3864  990   06/30 08:51:39 ####### SdtTailSrv::Start: Successfully initialized the SDT server [0]
+7144  310   06/30 08:51:39 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1040, Ret=-1, Err=47
+5672  1b60  06/30 08:51:39 1087963 CVArchive::FwdRstMsg() - Restore Head Msg Logging = [0]
+5928  1d2c  06/30 08:51:39 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1072, Ret=-1, Err=47
+3864  990   06/30 08:51:39 1087963 SdtTailSrvPool::AddClnt: Submitted client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_3864_2448_0000022EBB07CC00], Id [1104] to srv [0]. Total Clients [1], Tail=0000022EBB180280 RCId [5]
+7144  310   06/30 08:51:40 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1100, Ret=-1, Err=47
+5672  1b60  06/30 08:51:40 1087963 FclRestore::OnMsgOpenArchive() - Launching the readPipeline thread...
+5928  1d2c  06/30 08:51:40 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1092, Ret=-1, Err=47
+3864  990   06/30 08:51:40 ####### AddSdtTailClient: Added client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_3864_2448_0000022EBB07CC00], MxId [1104], rcId [5] to SDT Srv. Agents=2. Pndng Cons=0
+7144  310   06/30 08:51:40 1087963 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 5] [Starttime - 1656604300] [Starttime UTC - 1656633100]
+5928  1d2c  06/30 08:51:40 1087963 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 5] [Starttime - 1656604300] [Starttime UTC - 1656633100]
+5672  1410  06/30 08:51:40 1087963 FclRestore::AFileReadTimeMonitor() - Starting
+3864  990   06/30 08:51:40 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1104, Ret=-1, Err=47
+7144  1a20  06/30 08:51:40 ####### SdtBase::CheckNwCrc: SDT Enforce CRC check is set to [0]
+5928  1eb4  06/30 08:51:40 ####### SdtBase::CheckNwCrc: SDT Enforce CRC check is set to [0]
+5672  1b60  06/30 08:51:40 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_CLOSE_ARCHIVE
+3864  990   06/30 08:51:40 1087963 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1032, Ret=-1, Err=47
+7144  310   06/30 08:51:40 1087963 Received Head Name: FSR_HEAD_1170_1b44_3 with ports [51717/0]
+5928  1d2c  06/30 08:51:40 1087963 Received Head Name: FSR_HEAD_1170_1b44_4 with ports [51720/0]
+5672  1b60  06/30 08:51:40 1087963 FclRestore::OnMsgCloseArchive() - Waiting for readPipeline thread to exit...
+3864  990   06/30 08:51:40 1087963 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 5] [Starttime - 1656604300] [Starttime UTC - 1656633100]
+7144  310   06/30 08:51:40 1087963 Initializing a session with pipeline head [FSR_HEAD_1170_1b44_3:51717:0] on [SanBGW]...
+5928  1d2c  06/30 08:51:40 1087963 Initializing a session with pipeline head [FSR_HEAD_1170_1b44_4:51720:0] on [SanBGW]...
+3864  1f98  06/30 08:51:40 ####### SdtBase::CheckNwCrc: SDT Enforce CRC check is set to [0]
+7144  310   06/30 08:51:40 1087963 Nagle is turned off on control channel.
+5928  1d2c  06/30 08:51:40 1087963 Nagle is turned off on control channel.
+3864  990   06/30 08:51:40 1087963 Received Head Name: FSR_HEAD_1170_1b44_5 with ports [51724/0]
+7144  310   06/30 08:51:40 1087963 CVArchive::FwdRstMsg() - Restore Head Msg Logging = [0]
+5928  1d2c  06/30 08:51:40 1087963 CVArchive::FwdRstMsg() - Restore Head Msg Logging = [0]
+3864  990   06/30 08:51:40 1087963 Initializing a session with pipeline head [FSR_HEAD_1170_1b44_5:51724:0] on [SanBGW]...
+7144  310   06/30 08:51:40 1087963 FclRestore::OnMsgOpenArchive() - Launching the readPipeline thread...
+5928  1d2c  06/30 08:51:40 1087963 FclRestore::OnMsgOpenArchive() - Launching the readPipeline thread...
+3864  990   06/30 08:51:40 1087963 Nagle is turned off on control channel.
+7144  1ee0  06/30 08:51:40 1087963 FclRestore::AFileReadTimeMonitor() - Starting
+3864  990   06/30 08:51:40 1087963 CVArchive::FwdRstMsg() - Restore Head Msg Logging = [0]
+5928  1758  06/30 08:51:40 1087963 FclRestore::AFileReadTimeMonitor() - Starting
+3864  990   06/30 08:51:40 1087963 FclRestore::OnMsgOpenArchive() - Launching the readPipeline thread...
+7144  310   06/30 08:51:40 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_CLOSE_ARCHIVE
+5928  1d2c  06/30 08:51:40 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_CLOSE_ARCHIVE
+3864  1b94  06/30 08:51:40 1087963 FclRestore::AFileReadTimeMonitor() - Starting
+5672  1e30  06/30 08:51:40 1087963 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtTail. [Using slice-by-8] RCId [5]
+7144  310   06/30 08:51:40 1087963 FclRestore::OnMsgCloseArchive() - Waiting for readPipeline thread to exit...
+5928  1d2c  06/30 08:51:40 1087963 FclRestore::OnMsgCloseArchive() - Waiting for readPipeline thread to exit...
+5672  1f44  06/30 08:51:40 1087963 CVArchive::ReadBuffer() - PL_SET_NETWORK_CRC_PROPS (2, 5930, 1525937)
+5672  1e58  06/30 08:51:40 1087963 SdtEncDec::processSetEncProps: [0000024919DF3E70] AfIds [1525937 ]
+5672  1e58  06/30 08:51:40 1087963 CArchFileKeysCache::Init() - CipherCacheSingleton object pointer [000002491958C540] Using KeyId [T]
+3864  990   06/30 08:51:40 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_CLOSE_ARCHIVE
+5672  1e58  06/30 08:51:40 1087963 CArchFileKeysCache::Init() - ArchFileKeys inited with CopyId [8988] CcId [2] sizeof(AFileInfo) [232]
+3864  990   06/30 08:51:40 1087963 FclRestore::OnMsgCloseArchive() - Waiting for readPipeline thread to exit...
+5672  1f44  06/30 08:51:40 1087963 CVArchive::ReadBuffer() - PL_SET_ENC_PROPS(2, 5930, 1525937)
+5672  1f44  06/30 08:51:40 1087963 CVArchive::ReadBuffer() - PL_FS_OPEN_AFILE(2, 5930, 1525937)
+7144  c0    06/30 08:51:41 1087963 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtTail. [Using slice-by-8] RCId [5]
+7144  a54   06/30 08:51:41 1087963 SdtEncDec::processSetEncProps: [000001E132113550] AfIds [1525937 ]
+7144  1794  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_SET_NETWORK_CRC_PROPS (2, 5930, 1525937)
+7144  a54   06/30 08:51:41 1087963 CArchFileKeysCache::Init() - CipherCacheSingleton object pointer [000001E1318DB260] Using KeyId [T]
+7144  a54   06/30 08:51:41 1087963 CArchFileKeysCache::Init() - ArchFileKeys inited with CopyId [8988] CcId [2] sizeof(AFileInfo) [232]
+7144  1794  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_SET_ENC_PROPS(2, 5930, 1525937)
+5928  1744  06/30 08:51:41 1087963 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtTail. [Using slice-by-8] RCId [5]
+7144  1794  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_FS_OPEN_AFILE(2, 5930, 1525937)
+5928  fd0   06/30 08:51:41 1087963 SdtEncDec::processSetEncProps: [0000024564A8AA80] AfIds [1525937 ]
+5928  fd0   06/30 08:51:41 1087963 CArchFileKeysCache::Init() - CipherCacheSingleton object pointer [000002456423B0E0] Using KeyId [T]
+5928  fd0   06/30 08:51:41 1087963 CArchFileKeysCache::Init() - ArchFileKeys inited with CopyId [8988] CcId [2] sizeof(AFileInfo) [232]
+5928  1ce4  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_SET_NETWORK_CRC_PROPS (2, 5930, 1525937)
+5928  1ce4  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_SET_ENC_PROPS(2, 5930, 1525937)
+5928  1ce4  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_FS_OPEN_AFILE(2, 5930, 1525937)
+5672  1e30  06/30 08:51:41 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525937, copyId 8988 CCId [2]
+7144  1a20  06/30 08:51:41 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525937, copyId 8988 CCId [2]
+5928  1eb4  06/30 08:51:41 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525937, copyId 8988 CCId [2]
+3864  1b80  06/30 08:51:41 1087963 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtTail. [Using slice-by-8] RCId [5]
+3864  1c90  06/30 08:51:41 1087963 SdtEncDec::processSetEncProps: [0000022EBB180280] AfIds [1525937 ]
+3864  19d8  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_SET_NETWORK_CRC_PROPS (2, 5930, 1525937)
+3864  1c90  06/30 08:51:41 1087963 CArchFileKeysCache::Init() - CipherCacheSingleton object pointer [0000022EBAA35B20] Using KeyId [T]
+3864  1c90  06/30 08:51:41 1087963 CArchFileKeysCache::Init() - ArchFileKeys inited with CopyId [8988] CcId [2] sizeof(AFileInfo) [232]
+5672  1e30  06/30 08:51:41 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for 9 archFiles with first AfId [1525937] keyId [4259] copyId [8988] ccId [2] flags [4]
+3864  19d8  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_SET_ENC_PROPS(2, 5930, 1525937)
+7144  1a20  06/30 08:51:41 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for 9 archFiles with first AfId [1525937] keyId [4259] copyId [8988] ccId [2] flags [4]
+3864  19d8  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_FS_OPEN_AFILE(2, 5930, 1525937)
+5928  1eb4  06/30 08:51:41 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for 9 archFiles with first AfId [1525937] keyId [4259] copyId [8988] ccId [2] flags [4]
+5928  1ce4  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_PERF_COUNTERS (2, 5930, 1525937)
+5928  1ce4  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_FS_CLOSE_AFILE(2, 5930, 1525937)
+5928  1ce4  06/30 08:51:41 1087963 FclRestore::readPipeline() - Received PL_FS_CLOSE_AFILE buffer. Exiting thread...
+5928  1ce4  06/30 08:51:41 1087963 FclRestore::readPipeline() - Exiting the thread...
+5672  1f44  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_PERF_COUNTERS (2, 5930, 1525937)
+5928  1ce4  06/30 08:51:41 1087963 FclRestore::readPipelineStatic() - Waiting on the archive file read monitor thread to stop
+5672  1f44  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_FS_CLOSE_AFILE(2, 5930, 1525937)
+5928  1758  06/30 08:51:41 1087963 FclRestore::AFileReadTimeMonitor() - Stopping the Archive File Read Monitor Thread
+5672  1f44  06/30 08:51:41 1087963 FclRestore::readPipeline() - Received PL_FS_CLOSE_AFILE buffer. Exiting thread...
+7144  1794  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_PERF_COUNTERS (2, 5930, 1525937)
+5928  1ce4  06/30 08:51:41 1087963 FclRestore::readPipelineStatic() - Archive file read monitor thread has stopped
+5672  1f44  06/30 08:51:41 1087963 FclRestore::readPipeline() - Exiting the thread...
+7144  1794  06/30 08:51:41 1087963 CVArchive::ReadBuffer() - PL_FS_CLOSE_AFILE(2, 5930, 1525937)
+5928  1d2c  06/30 08:51:41 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_WAIT_ARCHIVE_CLOSED
+5672  1f44  06/30 08:51:41 1087963 FclRestore::readPipelineStatic() - Waiting on the archive file read monitor thread to stop
+7144  1794  06/30 08:51:41 1087963 FclRestore::readPipeline() - Received PL_FS_CLOSE_AFILE buffer. Exiting thread...
+3864  1f98  06/30 08:51:41 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525937, copyId 8988 CCId [2]
+5928  1d2c  06/30 08:51:41 1087963 FclRestore::sendMsgToFIR(10602) - DeIntializing file extent restore handler
+5672  1410  06/30 08:51:42 1087963 FclRestore::AFileReadTimeMonitor() - Stopping the Archive File Read Monitor Thread
+7144  1794  06/30 08:51:42 1087963 FclRestore::readPipeline() - Exiting the thread...
+5672  1f44  06/30 08:51:42 1087963 FclRestore::readPipelineStatic() - Archive file read monitor thread has stopped
+7144  1794  06/30 08:51:42 1087963 FclRestore::readPipelineStatic() - Waiting on the archive file read monitor thread to stop
+7144  1ee0  06/30 08:51:42 1087963 FclRestore::AFileReadTimeMonitor() - Stopping the Archive File Read Monitor Thread
+7144  1794  06/30 08:51:42 1087963 FclRestore::readPipelineStatic() - Archive file read monitor thread has stopped
+5672  1b60  06/30 08:51:42 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_WAIT_ARCHIVE_CLOSED
+3864  1f98  06/30 08:51:42 1087963 CArchFileKeysCache::FetchKeysWithKeyId(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for 9 archFiles with first AfId [1525937] keyId [4259] copyId [8988] ccId [2] flags [4]
+7144  310   06/30 08:51:42 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_WAIT_ARCHIVE_CLOSED
+5672  1b60  06/30 08:51:42 1087963 FclRestore::sendMsgToFIR(10602) - DeIntializing file extent restore handler
+7144  310   06/30 08:51:42 1087963 FclRestore::sendMsgToFIR(10602) - DeIntializing file extent restore handler
+3864  19d8  06/30 08:51:42 1087963 CVArchive::ReadBuffer() - PL_PERF_COUNTERS (2, 5930, 1525937)
+3864  19d8  06/30 08:51:42 1087963 CVArchive::ReadBuffer() - PL_FS_CLOSE_AFILE(2, 5930, 1525937)
+3864  19d8  06/30 08:51:42 1087963 FclRestore::readPipeline() - Received PL_FS_CLOSE_AFILE buffer. Exiting thread...
+3864  19d8  06/30 08:51:42 1087963 FclRestore::readPipeline() - Exiting the thread...
+3864  19d8  06/30 08:51:42 1087963 FclRestore::readPipelineStatic() - Waiting on the archive file read monitor thread to stop
+3864  1b94  06/30 08:51:42 1087963 FclRestore::AFileReadTimeMonitor() - Stopping the Archive File Read Monitor Thread
+3864  19d8  06/30 08:51:42 1087963 FclRestore::readPipelineStatic() - Archive file read monitor thread has stopped
+3864  990   06/30 08:51:42 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_WAIT_ARCHIVE_CLOSED
+3864  990   06/30 08:51:42 1087963 FclRestore::sendMsgToFIR(10602) - DeIntializing file extent restore handler
+7144  310   06/30 08:51:43 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_RESTORE_END
+7144  310   06/30 08:51:43 1087963 FclRestore::OnMsgRestoreEnd() - Restore params=[60l]
+7144  310   06/30 08:51:43 1087963 FclRestore::OnMsgRestoreEnd() - Restore on client [SanBGW] subclient [default] completed...
+7144  310   06/30 08:51:43 1087963 FclRestore::OnMsgRestoreEnd() - File Statistics: Total [8], Succeeded [8], Skipped [0] Failed [0] Need Reboot [0]
+7144  310   06/30 08:51:43 1087963 FclRestore::OnMsgRestoreEnd() - Byte Statistics: Total [16861], Succeeded [16861], Skipped [0] Failed [0]
+7144  310   06/30 08:51:43 1087963 FclRestore::OnMsgRestoreEnd() - The failed byte count does not include files that failed due to seek error
+7144  310   06/30 08:51:43 1087963 FclRestore::OnMsgRestoreEnd() - sending FSR_MSG_RESTORE_END to FSRestoreHead
+7144  1d68  06/30 08:51:43 1087963 FclRestore::receiveRestoreMsgs() - Waking up after FSR_MSG_RESTORE_END has been processed
+7144  1d68  06/30 08:51:43 1087963 FclRestore::ResumeRestoreMessageProcessor()() - Resuming restore msg processor
+7144  310   06/30 08:51:43 1087963 FClRestore::processRestoreMsgs() - Exiting the thread...
+7144  1d68  06/30 08:51:43 1087963 FclRestore::receiveRestoreMsgs() - Waiting for children threads to complete...
+7144  1d68  06/30 08:51:43 1087963 FclRestore::receiveRestoreMsgs() - Exiting the thread...
+7144  1d68  06/30 08:51:43 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [8], Time [0.034557] Sec(s), Average [0.004320] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [8], Time [0.001161] Sec(s), Average [0.000145] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [8], Time [0.198456] Sec(s), Average [0.024807] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.001186] Sec(s), Average [0.000296] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [Open file], Samples [8], Time [0.029418] Sec(s), Average [0.003677] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [OpenObject()], Samples [8], Time [0.031842] Sec(s), Average [0.003980] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [FindFirstFile], Samples [8], Time [0.001158] Sec(s), Average [0.000145] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [RemoveFile], Samples [8], Time [0.001124] Sec(s), Average [0.000140] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [GetFileAttributes], Samples [8], Time [0.001132] Sec(s), Average [0.000142] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [CloseHandle], Samples [8], Time [0.196047] Sec(s), Average [0.024506] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [SetFileTime], Samples [8], Time [0.001159] Sec(s), Average [0.000145] Sec/Sample
+7144  1d68  06/30 08:51:43 1087963 stat- ID [Restore Read Speed], Bytes [18613], Time [1.239746] Sec(s), Average Speed [0.014318] MB/Sec
+7144  1d68  06/30 08:51:43 1087963 stat- ID [Restore Write Speed], Bytes [18613], Time [0.521401] Sec(s), Average Speed [0.034044] MB/Sec
+7144  1d68  06/30 08:51:43 1087963 FclRestore::finalize() - Restore successful! - sending FSR_MSG_RESTORE_END
+7144  1d68  06/30 08:51:43 1087963 Using default close pipeline args for a backup, backupState is not being set
+7144  1d68  06/30 08:51:43 1087963 CVArchive::ClosePipeline() - Shutting down head session
+7144  1d68  06/30 08:51:43 1087963 CCVAPipelayer::ClosePipeline() - About to shut down RESTORE pipeline
+7144  1ccc  06/30 08:51:43 1087963 SdtNetLink::recvMsgPacket() - Received SDT_LINK_FIN packet.
+7144  1ccc  06/30 08:51:43 1087963 Closing all sockets.
+7144  1d68  06/30 08:51:43 1087963 CPipelayer::ShutdownPipeline() - stat- SDT [000001E132017050] [duration - 7 seconds]
+7144  1d68  06/30 08:51:44 1087963 CPipelayer::ShutdownPipeline() - SDT [000001E132017050] Shutdown completed.
+7144  1ccc  06/30 08:51:44 1087963 SdtNetLink::recvMsgPacket() - The other side has closed the network connection gracefully
+7144  1ccc  06/30 08:51:44 1087963 SdtBase::setLastErr: Setting last err [92][The other side has closed the network connection gracefully] RCId [5]
+7144  1ccc  06/30 08:51:44 1087963 SdtTail::onIncomingData: Client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_7144_784_000001E132017050]. Id [1100]. Connection was terminated gracefully. RCId [5]
+7144  1d68  06/30 08:51:44 1087963 CVJobCtrlLog::unregisterProcess(): successfully removed file [C:\Program Files\Metallic\ContentStore\Base\JobControl\7.144]
+7144  1a20  06/30 08:51:44 1087963 SdtTailSrv::DropClientWorker: Removing Client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_7144_784_000001E132017050], Id [1100] from the list. RCId [5]
+7144  1a20  06/30 08:51:44 1087963 SdtTailSrv::DropClientWorker: Size of selected list [0] RCId [5]
+7144  1a20  06/30 08:51:44 1087963 SdtTailSrv::DropClientWorker: Not draining away incoming data because the socket was closed. Graceful [1] RCId [5]
+7096  1a44  06/30 08:51:44 1087963 CVArchive::ReadBuffer() - PL_PERF_COUNTERS (2, 5930, 1525935)
+7144  1a20  06/30 08:51:44 1087963 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [5]
+7096  1a44  06/30 08:51:44 1087963 CVArchive::ReadBuffer() - PL_FS_CLOSE_AFILE(2, 5930, 1525935)
+7144  1a20  06/30 08:51:44 1087963 SdtTail::logStats:Final Clnt [sanbgw], PId [7144], Cnt - BsyProcsg/Allocs [0/10]; Time - Procsg/NwRecv/Total [1/6/7] secs, Bytes recvd [134085] RCId [5]
+7096  1a44  06/30 08:51:44 1087963 FclRestore::readPipeline() - Received PL_FS_CLOSE_AFILE buffer. Exiting thread...
+7144  1a20  06/30 08:51:44 1087963 SdtBase is being destroyed. RCId [5]
+7096  1a44  06/30 08:51:44 1087963 FclRestore::readPipeline() - Exiting the thread...
+7144  1a20  06/30 08:51:44 1087963 CipherCacheSingleton::RemoveMap() - Removed Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+7096  1a44  06/30 08:51:44 1087963 FclRestore::readPipelineStatic() - Waiting on the archive file read monitor thread to stop
+7144  1a20  06/30 08:51:44 1087963 CipherCacheSingleton::RemoveFromKeyIdMap() - Removing archive file encryption key for keyId [4259] from the map. cipherRef [0] refCount[0]
+7096  54c   06/30 08:51:44 1087963 FclRestore::AFileReadTimeMonitor() - Stopping the Archive File Read Monitor Thread
+7144  1a20  06/30 08:51:44 1087963 CipherCacheSingleton::RemoveKeyIdMap() - Removed KeyId Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+7096  1a44  06/30 08:51:44 1087963 FclRestore::readPipelineStatic() - Archive file read monitor thread has stopped
+7144  1a20  06/30 08:51:44 1087963 stat- ID [Avg FetchKeyC], Samples [1], Time [0.163954] Sec(s), Average [0.163954] Sec/Sample
+7096  140c  06/30 08:51:44 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_WAIT_ARCHIVE_CLOSED
+7096  140c  06/30 08:51:44 1087963 FclRestore::sendMsgToFIR(10602) - DeIntializing file extent restore handler
+7144  1a20  06/30 08:51:44 1087963 Name [Tail Network], Start Delay [15.06 s], Avg [1.67 s], Procsng Time [6.58 s], Avg [731.39 ms], Bytes [130.94 KB], Speed [19.89 KB/s], Samples [9] RCId [5]
+7144  1a20  06/30 08:51:44 1087963 Name [Tail Decryption], Start Delay [108.32 ms], Avg [12.04 ms], Procsng Time [323.52 ms], Avg [35.95 ms], Bytes [130.94 KB], Speed [404.75 KB/s], Samples [9] RCId [5]
+7144  1a20  06/30 08:51:44 1087963 Name [Tail Decompression], Start Delay [3.40 us], Avg [377.78 ns], Procsng Time [256.20 us], Avg [28.47 us], Bytes [130.94 KB], Speed [499.12 MB/s], Samples [9] RCId [5]
+7144  1a20  06/30 08:51:44 1087963 Name [Tail End], Start Delay [0.00 s], Avg [0.00 s], Procsng Time [0.00 s], Avg [0.00 s], Bytes [0.00 B], Speed [0.00 B/s], Samples [0] RCId [5]
+7144  1d68  06/30 08:51:45 1087963 ::main() - Exiting...
+7144  1d68  06/30 08:51:45 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+7144  1d68  06/30 08:51:45 1087963 ~CVArchive() - Destroying CVArchive. This=000001E131935770
+7144  1d68  06/30 08:51:45 ####### SdtTailSrvPool::Rel: Resetting SrvPool as ref. count is 0.
+7144  1ccc  06/30 08:51:45 ####### SdtTailSrv::MainLoop: Quit flag found set. Will get out ASAP.
+7144  1d68  06/30 08:51:45 ####### SdtTailSrv::Rel: Destroying SDT server [0], since ref count has gone to 0.
+5928  1d2c  06/30 08:51:45 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_RESTORE_END
+7144  1d68  06/30 08:51:45 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [8], Time [0.034557] Sec(s), Average [0.004320] Sec/Sample
+5928  1d2c  06/30 08:51:45 1087963 FclRestore::OnMsgRestoreEnd() - Restore params=[60l]
+7144  1d68  06/30 08:51:45 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [8], Time [0.001161] Sec(s), Average [0.000145] Sec/Sample
+5928  1d2c  06/30 08:51:45 1087963 FclRestore::OnMsgRestoreEnd() - Restore on client [SanBGW] subclient [default] completed...
+7144  1d68  06/30 08:51:45 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [8], Time [0.198456] Sec(s), Average [0.024807] Sec/Sample
+5928  1d2c  06/30 08:51:45 1087963 FclRestore::OnMsgRestoreEnd() - File Statistics: Total [8], Succeeded [8], Skipped [0] Failed [0] Need Reboot [0]
+7144  1d68  06/30 08:51:45 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.001186] Sec(s), Average [0.000296] Sec/Sample
+5928  1d2c  06/30 08:51:45 1087963 FclRestore::OnMsgRestoreEnd() - Byte Statistics: Total [2039], Succeeded [2039], Skipped [0] Failed [0]
+7144  1d68  06/30 08:51:45 1087963 stat- ID [Open file], Samples [8], Time [0.029418] Sec(s), Average [0.003677] Sec/Sample
+5928  1d2c  06/30 08:51:45 1087963 FclRestore::OnMsgRestoreEnd() - The failed byte count does not include files that failed due to seek error
+7144  1d68  06/30 08:51:45 1087963 stat- ID [OpenObject()], Samples [8], Time [0.031842] Sec(s), Average [0.003980] Sec/Sample
+5928  1d2c  06/30 08:51:45 1087963 FclRestore::OnMsgRestoreEnd() - sending FSR_MSG_RESTORE_END to FSRestoreHead
+7144  1d68  06/30 08:51:45 1087963 stat- ID [FindFirstFile], Samples [8], Time [0.001158] Sec(s), Average [0.000145] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 FclRestore::receiveRestoreMsgs() - Waking up after FSR_MSG_RESTORE_END has been processed
+7144  1d68  06/30 08:51:45 1087963 stat- ID [RemoveFile], Samples [8], Time [0.001124] Sec(s), Average [0.000140] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 FclRestore::ResumeRestoreMessageProcessor()() - Resuming restore msg processor
+7144  1d68  06/30 08:51:45 1087963 stat- ID [GetFileAttributes], Samples [8], Time [0.001132] Sec(s), Average [0.000142] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 FclRestore::receiveRestoreMsgs() - Waiting for children threads to complete...
+7144  1d68  06/30 08:51:45 1087963 stat- ID [CloseHandle], Samples [8], Time [0.196047] Sec(s), Average [0.024506] Sec/Sample
+5928  1d2c  06/30 08:51:45 1087963 FClRestore::processRestoreMsgs() - Exiting the thread...
+7144  1d68  06/30 08:51:45 1087963 stat- ID [SetFileTime], Samples [8], Time [0.001159] Sec(s), Average [0.000145] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 FclRestore::receiveRestoreMsgs() - Exiting the thread...
+7144  1d68  06/30 08:51:45 1087963 stat- ID [Restore Read Speed], Bytes [18613], Time [1.239746] Sec(s), Average Speed [0.014318] MB/Sec
+5928  3a0   06/30 08:51:45 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [8], Time [0.038802] Sec(s), Average [0.004850] Sec/Sample
+7144  1d68  06/30 08:51:45 1087963 stat- ID [Restore Write Speed], Bytes [18613], Time [0.521401] Sec(s), Average Speed [0.034044] MB/Sec
+5928  3a0   06/30 08:51:45 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [4], Time [0.000882] Sec(s), Average [0.000221] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [8], Time [0.090197] Sec(s), Average [0.011275] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.001453] Sec(s), Average [0.000363] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [Open directory], Samples [4], Time [0.001444] Sec(s), Average [0.000361] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [Open file], Samples [4], Time [0.025253] Sec(s), Average [0.006313] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [OpenObject()], Samples [8], Time [0.037062] Sec(s), Average [0.004633] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [FindFirstFile], Samples [12], Time [0.009593] Sec(s), Average [0.000799] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [RemoveFile], Samples [4], Time [0.000736] Sec(s), Average [0.000184] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [GetFileAttributes], Samples [8], Time [0.000677] Sec(s), Average [0.000085] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [CloseHandle], Samples [8], Time [0.087346] Sec(s), Average [0.010918] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [SetFileTime], Samples [8], Time [0.000959] Sec(s), Average [0.000120] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 stat- ID [Restore Read Speed], Bytes [3659], Time [1.235174] Sec(s), Average Speed [0.002825] MB/Sec
+5928  3a0   06/30 08:51:45 1087963 stat- ID [Restore Write Speed], Bytes [3659], Time [0.141308] Sec(s), Average Speed [0.024694] MB/Sec
+5928  3a0   06/30 08:51:45 1087963 stat- ID [JUNCTION_MOUNT_POINT - Processing junction and mount information], Samples [4], Time [0.000546] Sec(s), Average [0.000136] Sec/Sample
+5928  3a0   06/30 08:51:45 1087963 FclRestore::finalize() - Restore successful! - sending FSR_MSG_RESTORE_END
+5928  3a0   06/30 08:51:45 1087963 Using default close pipeline args for a backup, backupState is not being set
+5928  3a0   06/30 08:51:45 1087963 CVArchive::ClosePipeline() - Shutting down head session
+5928  3a0   06/30 08:51:45 1087963 CCVAPipelayer::ClosePipeline() - About to shut down RESTORE pipeline
+5928  12f4  06/30 08:51:45 1087963 SdtNetLink::recvMsgPacket() - Received SDT_LINK_FIN packet.
+5928  3a0   06/30 08:51:45 1087963 CPipelayer::ShutdownPipeline() - stat- SDT [00000245649A21B0] [duration - 9 seconds]
+5928  3a0   06/30 08:51:45 1087963 CPipelayer::ShutdownPipeline() - SDT [00000245649A21B0] Shutdown completed.
+5928  12f4  06/30 08:51:45 1087963 Closing all sockets.
+5928  12f4  06/30 08:51:45 1087963 SdtNetLink::recvMsgPacket() - The other side has closed the network connection gracefully
+5928  12f4  06/30 08:51:45 1087963 SdtBase::setLastErr: Setting last err [92][The other side has closed the network connection gracefully] RCId [5]
+5928  3a0   06/30 08:51:45 1087963 CVJobCtrlLog::unregisterProcess(): successfully removed file [C:\Program Files\Metallic\ContentStore\Base\JobControl\5.928]
+5928  12f4  06/30 08:51:45 1087963 SdtTail::onIncomingData: Client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_5928_7468_00000245649A21B0]. Id [1092]. Connection was terminated gracefully. RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 SdtTailSrv::DropClientWorker: Removing Client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_5928_7468_00000245649A21B0], Id [1092] from the list. RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 SdtTailSrv::DropClientWorker: Size of selected list [0] RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 SdtTailSrv::DropClientWorker: Not draining away incoming data because the socket was closed. Graceful [1] RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 SdtTail::logStats:Final Clnt [sanbgw], PId [5928], Cnt - BsyProcsg/Allocs [0/10]; Time - Procsg/NwRecv/Total [0/8/8] secs, Bytes recvd [124645] RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 SdtBase is being destroyed. RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 CipherCacheSingleton::RemoveMap() - Removed Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+5928  1eb4  06/30 08:51:45 1087963 CipherCacheSingleton::RemoveFromKeyIdMap() - Removing archive file encryption key for keyId [4259] from the map. cipherRef [0] refCount[0]
+5928  1eb4  06/30 08:51:45 1087963 CipherCacheSingleton::RemoveKeyIdMap() - Removed KeyId Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+5928  1eb4  06/30 08:51:45 1087963 stat- ID [Avg FetchKeyC], Samples [1], Time [0.150336] Sec(s), Average [0.150336] Sec/Sample
+5928  1eb4  06/30 08:51:45 1087963 Name [Tail Network], Start Delay [18.67 s], Avg [2.07 s], Procsng Time [8.27 s], Avg [919.17 ms], Bytes [121.72 KB], Speed [14.71 KB/s], Samples [9] RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 Name [Tail Decryption], Start Delay [236.19 ms], Avg [26.24 ms], Procsng Time [273.83 ms], Avg [30.43 ms], Bytes [121.72 KB], Speed [444.53 KB/s], Samples [9] RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 Name [Tail Decompression], Start Delay [3.60 us], Avg [400.00 ns], Procsng Time [208.10 us], Avg [23.12 us], Bytes [121.72 KB], Speed [571.22 MB/s], Samples [9] RCId [5]
+5928  1eb4  06/30 08:51:45 1087963 Name [Tail End], Start Delay [0.00 s], Avg [0.00 s], Procsng Time [0.00 s], Avg [0.00 s], Bytes [0.00 B], Speed [0.00 B/s], Samples [0] RCId [5]
+5928  3a0   06/30 08:51:46 1087963 ::main() - Exiting...
+5928  3a0   06/30 08:51:46 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+5928  3a0   06/30 08:51:46 1087963 ~CVArchive() - Destroying CVArchive. This=0000024564282000
+5928  3a0   06/30 08:51:46 ####### SdtTailSrvPool::Rel: Resetting SrvPool as ref. count is 0.
+5672  1b60  06/30 08:51:46 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_RESTORE_END
+5928  12f4  06/30 08:51:47 ####### SdtTailSrv::MainLoop: Quit flag found set. Will get out ASAP.
+5672  1b60  06/30 08:51:47 1087963 FclRestore::OnMsgRestoreEnd() - Restore params=[60l]
+5928  3a0   06/30 08:51:47 ####### SdtTailSrv::Rel: Destroying SDT server [0], since ref count has gone to 0.
+5672  1b60  06/30 08:51:47 1087963 FclRestore::OnMsgRestoreEnd() - Restore on client [SanBGW] subclient [default] completed...
+5672  1b60  06/30 08:51:47 1087963 FclRestore::OnMsgRestoreEnd() - File Statistics: Total [8], Succeeded [8], Skipped [0] Failed [0] Need Reboot [0]
+5928  3a0   06/30 08:51:47 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [8], Time [0.038802] Sec(s), Average [0.004850] Sec/Sample
+5672  1b60  06/30 08:51:47 1087963 FclRestore::OnMsgRestoreEnd() - Byte Statistics: Total [10255], Succeeded [10255], Skipped [0] Failed [0]
+5928  3a0   06/30 08:51:47 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [4], Time [0.000882] Sec(s), Average [0.000221] Sec/Sample
+5672  1b60  06/30 08:51:47 1087963 FclRestore::OnMsgRestoreEnd() - The failed byte count does not include files that failed due to seek error
+5928  3a0   06/30 08:51:47 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [8], Time [0.090197] Sec(s), Average [0.011275] Sec/Sample
+5672  1b60  06/30 08:51:47 1087963 FclRestore::OnMsgRestoreEnd() - sending FSR_MSG_RESTORE_END to FSRestoreHead
+5928  3a0   06/30 08:51:47 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.001453] Sec(s), Average [0.000363] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 FclRestore::receiveRestoreMsgs() - Waking up after FSR_MSG_RESTORE_END has been processed
+5928  3a0   06/30 08:51:47 1087963 stat- ID [Open directory], Samples [4], Time [0.001444] Sec(s), Average [0.000361] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 FclRestore::ResumeRestoreMessageProcessor()() - Resuming restore msg processor
+5928  3a0   06/30 08:51:47 1087963 stat- ID [Open file], Samples [4], Time [0.025253] Sec(s), Average [0.006313] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 FclRestore::receiveRestoreMsgs() - Waiting for children threads to complete...
+5928  3a0   06/30 08:51:47 1087963 stat- ID [OpenObject()], Samples [8], Time [0.037062] Sec(s), Average [0.004633] Sec/Sample
+5672  1b60  06/30 08:51:47 1087963 FClRestore::processRestoreMsgs() - Exiting the thread...
+5928  3a0   06/30 08:51:47 1087963 stat- ID [FindFirstFile], Samples [12], Time [0.009593] Sec(s), Average [0.000799] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 FclRestore::receiveRestoreMsgs() - Exiting the thread...
+5928  3a0   06/30 08:51:47 1087963 stat- ID [RemoveFile], Samples [4], Time [0.000736] Sec(s), Average [0.000184] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [8], Time [0.040822] Sec(s), Average [0.005103] Sec/Sample
+5928  3a0   06/30 08:51:47 1087963 stat- ID [GetFileAttributes], Samples [8], Time [0.000677] Sec(s), Average [0.000085] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [7], Time [0.001167] Sec(s), Average [0.000167] Sec/Sample
+5928  3a0   06/30 08:51:47 1087963 stat- ID [CloseHandle], Samples [8], Time [0.087346] Sec(s), Average [0.010918] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [8], Time [0.210957] Sec(s), Average [0.026370] Sec/Sample
+5928  3a0   06/30 08:51:47 1087963 stat- ID [SetFileTime], Samples [8], Time [0.000959] Sec(s), Average [0.000120] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.002455] Sec(s), Average [0.000614] Sec/Sample
+5928  3a0   06/30 08:51:47 1087963 stat- ID [Restore Read Speed], Bytes [3659], Time [1.235174] Sec(s), Average Speed [0.002825] MB/Sec
+5672  162c  06/30 08:51:47 1087963 stat- ID [Open directory], Samples [1], Time [0.017671] Sec(s), Average [0.017671] Sec/Sample
+5928  3a0   06/30 08:51:47 1087963 stat- ID [Restore Write Speed], Bytes [3659], Time [0.141308] Sec(s), Average Speed [0.024694] MB/Sec
+5672  162c  06/30 08:51:47 1087963 stat- ID [Open file], Samples [7], Time [0.006528] Sec(s), Average [0.000933] Sec/Sample
+5928  3a0   06/30 08:51:47 1087963 stat- ID [JUNCTION_MOUNT_POINT - Processing junction and mount information], Samples [4], Time [0.000546] Sec(s), Average [0.000136] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [OpenObject()], Samples [8], Time [0.038315] Sec(s), Average [0.004789] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [FindFirstFile], Samples [9], Time [0.035062] Sec(s), Average [0.003896] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [RemoveFile], Samples [7], Time [0.001014] Sec(s), Average [0.000145] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [GetFileAttributes], Samples [8], Time [0.000700] Sec(s), Average [0.000087] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [CloseHandle], Samples [8], Time [0.157191] Sec(s), Average [0.019649] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [SetFileTime], Samples [8], Time [0.028989] Sec(s), Average [0.003624] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 stat- ID [Restore Read Speed], Bytes [11989], Time [1.487790] Sec(s), Average Speed [0.007685] MB/Sec
+5672  162c  06/30 08:51:47 1087963 stat- ID [Restore Write Speed], Bytes [11989], Time [0.271958] Sec(s), Average Speed [0.042042] MB/Sec
+5672  162c  06/30 08:51:47 1087963 stat- ID [JUNCTION_MOUNT_POINT - Processing junction and mount information], Samples [1], Time [0.022728] Sec(s), Average [0.022728] Sec/Sample
+5672  162c  06/30 08:51:47 1087963 FclRestore::finalize() - Restore successful! - sending FSR_MSG_RESTORE_END
+5672  162c  06/30 08:51:47 1087963 Using default close pipeline args for a backup, backupState is not being set
+5672  162c  06/30 08:51:47 1087963 CVArchive::ClosePipeline() - Shutting down head session
+5672  162c  06/30 08:51:47 1087963 CCVAPipelayer::ClosePipeline() - About to shut down RESTORE pipeline
+5672  162c  06/30 08:51:47 1087963 CPipelayer::ShutdownPipeline() - stat- SDT [0000024919CE1230] [duration - 11 seconds]
+5672  7e8   06/30 08:51:47 1087963 SdtNetLink::recvMsgPacket() - Received SDT_LINK_FIN packet.
+5672  162c  06/30 08:51:47 1087963 CPipelayer::ShutdownPipeline() - SDT [0000024919CE1230] Shutdown completed.
+5672  7e8   06/30 08:51:47 1087963 Closing all sockets.
+5672  162c  06/30 08:51:47 1087963 CVJobCtrlLog::unregisterProcess(): successfully removed file [C:\Program Files\Metallic\ContentStore\Base\JobControl\5.672]
+5672  7e8   06/30 08:51:47 1087963 SdtNetLink::recvMsgPacket() - The other side has closed the network connection gracefully
+5672  7e8   06/30 08:51:47 1087963 SdtBase::setLastErr: Setting last err [92][The other side has closed the network connection gracefully] RCId [5]
+5672  7e8   06/30 08:51:47 1087963 SdtTail::onIncomingData: Client [SDTPipe_sanbgw_sanbgw_1087963_1656604296_5672_7008_0000024919CE1230]. Id [1132]. Connection was terminated gracefully. RCId [5]
+5672  1e30  06/30 08:51:47 1087963 SdtTailSrv::DropClientWorker: Removing Client [SDTPipe_sanbgw_sanbgw_1087963_1656604296_5672_7008_0000024919CE1230], Id [1132] from the list. RCId [5]
+5672  1e30  06/30 08:51:47 1087963 SdtTailSrv::DropClientWorker: Size of selected list [0] RCId [5]
+5672  1e30  06/30 08:51:47 1087963 SdtTailSrv::DropClientWorker: Not draining away incoming data because the socket was closed. Graceful [1] RCId [5]
+5672  1e30  06/30 08:51:47 1087963 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [5]
+5672  1e30  06/30 08:51:47 1087963 SdtTail::logStats:Final Clnt [sanbgw], PId [5672], Cnt - BsyProcsg/Allocs [0/10]; Time - Procsg/NwRecv/Total [0/10/10] secs, Bytes recvd [130333] RCId [5]
+5672  1e30  06/30 08:51:47 1087963 SdtBase is being destroyed. RCId [5]
+5672  1e30  06/30 08:51:47 1087963 CipherCacheSingleton::RemoveMap() - Removed Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+5672  1e30  06/30 08:51:47 1087963 CipherCacheSingleton::RemoveFromKeyIdMap() - Removing archive file encryption key for keyId [4259] from the map. cipherRef [0] refCount[0]
+5672  1e30  06/30 08:51:47 1087963 CipherCacheSingleton::RemoveKeyIdMap() - Removed KeyId Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+5672  1e30  06/30 08:51:47 1087963 stat- ID [Avg FetchKeyC], Samples [1], Time [0.177283] Sec(s), Average [0.177283] Sec/Sample
+5672  1e30  06/30 08:51:47 1087963 Name [Tail Network], Start Delay [24.52 s], Avg [2.72 s], Procsng Time [10.60 s], Avg [1.18 s], Bytes [127.28 KB], Speed [12.01 KB/s], Samples [9] RCId [5]
+5672  1e30  06/30 08:51:47 1087963 Name [Tail Decryption], Start Delay [301.48 ms], Avg [33.50 ms], Procsng Time [338.67 ms], Avg [37.63 ms], Bytes [127.28 KB], Speed [375.82 KB/s], Samples [9] RCId [5]
+5672  1e30  06/30 08:51:47 1087963 Name [Tail Decompression], Start Delay [3.70 us], Avg [411.11 ns], Procsng Time [230.00 us], Avg [25.56 us], Bytes [127.28 KB], Speed [540.41 MB/s], Samples [9] RCId [5]
+5672  1e30  06/30 08:51:47 1087963 Name [Tail End], Start Delay [0.00 s], Avg [0.00 s], Procsng Time [0.00 s], Avg [0.00 s], Bytes [0.00 B], Speed [0.00 B/s], Samples [0] RCId [5]
+5672  162c  06/30 08:51:48 1087963 ::main() - Exiting...
+5672  162c  06/30 08:51:48 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+5672  162c  06/30 08:51:48 1087963 ~CVArchive() - Destroying CVArchive. This=00000249195E4670
+5672  162c  06/30 08:51:48 ####### SdtTailSrvPool::Rel: Resetting SrvPool as ref. count is 0.
+5672  7e8   06/30 08:51:49 ####### SdtTailSrv::MainLoop: Quit flag found set. Will get out ASAP.
+5672  162c  06/30 08:51:49 ####### SdtTailSrv::Rel: Destroying SDT server [0], since ref count has gone to 0.
+3864  990   06/30 08:51:49 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_RESTORE_END
+3864  990   06/30 08:51:49 1087963 FclRestore::OnMsgRestoreEnd() - Restore params=[60l]
+5672  162c  06/30 08:51:49 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [8], Time [0.040822] Sec(s), Average [0.005103] Sec/Sample
+3864  990   06/30 08:51:49 1087963 FclRestore::OnMsgRestoreEnd() - Restore on client [SanBGW] subclient [default] completed...
+5672  162c  06/30 08:51:49 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [7], Time [0.001167] Sec(s), Average [0.000167] Sec/Sample
+3864  990   06/30 08:51:49 1087963 FclRestore::OnMsgRestoreEnd() - File Statistics: Total [7], Succeeded [7], Skipped [0] Failed [0] Need Reboot [0]
+5672  162c  06/30 08:51:49 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [8], Time [0.210957] Sec(s), Average [0.026370] Sec/Sample
+3864  990   06/30 08:51:49 1087963 FclRestore::OnMsgRestoreEnd() - Byte Statistics: Total [80517], Succeeded [80517], Skipped [0] Failed [0]
+5672  162c  06/30 08:51:49 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.002455] Sec(s), Average [0.000614] Sec/Sample
+3864  990   06/30 08:51:49 1087963 FclRestore::OnMsgRestoreEnd() - The failed byte count does not include files that failed due to seek error
+5672  162c  06/30 08:51:49 1087963 stat- ID [Open directory], Samples [1], Time [0.017671] Sec(s), Average [0.017671] Sec/Sample
+3864  990   06/30 08:51:49 1087963 FclRestore::OnMsgRestoreEnd() - sending FSR_MSG_RESTORE_END to FSRestoreHead
+5672  162c  06/30 08:51:49 1087963 stat- ID [Open file], Samples [7], Time [0.006528] Sec(s), Average [0.000933] Sec/Sample
+3864  7ac   06/30 08:51:49 1087963 FclRestore::receiveRestoreMsgs() - Waking up after FSR_MSG_RESTORE_END has been processed
+5672  162c  06/30 08:51:49 1087963 stat- ID [OpenObject()], Samples [8], Time [0.038315] Sec(s), Average [0.004789] Sec/Sample
+3864  7ac   06/30 08:51:49 1087963 FclRestore::ResumeRestoreMessageProcessor()() - Resuming restore msg processor
+5672  162c  06/30 08:51:49 1087963 stat- ID [FindFirstFile], Samples [9], Time [0.035062] Sec(s), Average [0.003896] Sec/Sample
+3864  7ac   06/30 08:51:49 1087963 FclRestore::receiveRestoreMsgs() - Waiting for children threads to complete...
+3864  990   06/30 08:51:50 1087963 FClRestore::processRestoreMsgs() - Exiting the thread...
+3864  7ac   06/30 08:51:50 1087963 FclRestore::receiveRestoreMsgs() - Exiting the thread...
+3864  7ac   06/30 08:51:50 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [7], Time [0.053878] Sec(s), Average [0.007697] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [2], Time [0.000240] Sec(s), Average [0.000120] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [7], Time [0.065692] Sec(s), Average [0.009385] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.001328] Sec(s), Average [0.000332] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [Open directory], Samples [6], Time [0.050907] Sec(s), Average [0.008484] Sec/Sample
+5672  162c  06/30 08:51:50 1087963 stat- ID [RemoveFile], Samples [7], Time [0.001014] Sec(s), Average [0.000145] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [Open file], Samples [1], Time [0.000530] Sec(s), Average [0.000530] Sec/Sample
+5672  162c  06/30 08:51:50 1087963 stat- ID [GetFileAttributes], Samples [8], Time [0.000700] Sec(s), Average [0.000087] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [OpenObject()], Samples [7], Time [0.052492] Sec(s), Average [0.007499] Sec/Sample
+5672  162c  06/30 08:51:50 1087963 stat- ID [CloseHandle], Samples [8], Time [0.157191] Sec(s), Average [0.019649] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [FindFirstFile], Samples [13], Time [0.001023] Sec(s), Average [0.000079] Sec/Sample
+5672  162c  06/30 08:51:50 1087963 stat- ID [SetFileTime], Samples [8], Time [0.028989] Sec(s), Average [0.003624] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [RemoveFile], Samples [1], Time [0.000158] Sec(s), Average [0.000158] Sec/Sample
+5672  162c  06/30 08:51:50 1087963 stat- ID [Restore Read Speed], Bytes [11989], Time [1.487790] Sec(s), Average Speed [0.007685] MB/Sec
+3864  7ac   06/30 08:51:50 1087963 stat- ID [GetFileAttributes], Samples [7], Time [0.000529] Sec(s), Average [0.000076] Sec/Sample
+5672  162c  06/30 08:51:50 1087963 stat- ID [Restore Write Speed], Bytes [11989], Time [0.271958] Sec(s), Average Speed [0.042042] MB/Sec
+3864  7ac   06/30 08:51:50 1087963 stat- ID [CloseHandle], Samples [7], Time [0.062204] Sec(s), Average [0.008886] Sec/Sample
+5672  162c  06/30 08:51:50 1087963 stat- ID [JUNCTION_MOUNT_POINT - Processing junction and mount information], Samples [1], Time [0.022728] Sec(s), Average [0.022728] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [SetFileTime], Samples [7], Time [0.001238] Sec(s), Average [0.000177] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 stat- ID [Restore Read Speed], Bytes [82022], Time [1.795842] Sec(s), Average Speed [0.043557] MB/Sec
+3864  7ac   06/30 08:51:50 1087963 stat- ID [Restore Write Speed], Bytes [82022], Time [0.134319] Sec(s), Average Speed [0.582362] MB/Sec
+3864  7ac   06/30 08:51:50 1087963 stat- ID [JUNCTION_MOUNT_POINT - Processing junction and mount information], Samples [6], Time [0.001040] Sec(s), Average [0.000173] Sec/Sample
+3864  7ac   06/30 08:51:50 1087963 FclRestore::finalize() - Restore successful! - sending FSR_MSG_RESTORE_END
+3864  7ac   06/30 08:51:50 1087963 Using default close pipeline args for a backup, backupState is not being set
+3864  7ac   06/30 08:51:50 1087963 CVArchive::ClosePipeline() - Shutting down head session
+3864  7ac   06/30 08:51:50 1087963 CCVAPipelayer::ClosePipeline() - About to shut down RESTORE pipeline
+3864  d88   06/30 08:51:50 1087963 SdtNetLink::recvMsgPacket() - Received SDT_LINK_FIN packet.
+3864  d88   06/30 08:51:50 1087963 Closing all sockets.
+3864  d88   06/30 08:51:50 1087963 SdtNetLink::recvMsgPacket() - The other side has closed the network connection gracefully
+3864  d88   06/30 08:51:50 1087963 SdtBase::setLastErr: Setting last err [92][The other side has closed the network connection gracefully] RCId [5]
+3864  d88   06/30 08:51:50 1087963 SdtTail::onIncomingData: Client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_3864_2448_0000022EBB07CC00]. Id [1032]. Connection was terminated gracefully. RCId [5]
+3864  7ac   06/30 08:51:50 1087963 CPipelayer::ShutdownPipeline() - stat- SDT [0000022EBB07CC00] [duration - 14 seconds]
+3864  7ac   06/30 08:51:50 1087963 CPipelayer::ShutdownPipeline() - SDT [0000022EBB07CC00] Shutdown completed.
+3864  1c90  06/30 08:51:50 1087963 SdtTailSrv::DropClientWorker: Removing Client [SDTPipe_sanbgw_sanbgw_1087963_1656604297_3864_2448_0000022EBB07CC00], Id [1032] from the list. RCId [5]
+3864  7ac   06/30 08:51:50 1087963 CVJobCtrlLog::unregisterProcess(): successfully removed file [C:\Program Files\Metallic\ContentStore\Base\JobControl\3.864]
+3864  1c90  06/30 08:51:50 1087963 SdtTailSrv::DropClientWorker: Size of selected list [0] RCId [5]
+3864  1c90  06/30 08:51:50 1087963 SdtTailSrv::DropClientWorker: Not draining away incoming data because the socket was closed. Graceful [1] RCId [5]
+3864  1c90  06/30 08:51:50 1087963 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [5]
+3864  1c90  06/30 08:51:50 1087963 SdtTail::logStats:Final Clnt [sanbgw], PId [3864], Cnt - BsyProcsg/Allocs [0/12]; Time - Procsg/NwRecv/Total [1/12/13] secs, Bytes recvd [202413] RCId [5]
+3864  1c90  06/30 08:51:50 1087963 SdtBase is being destroyed. RCId [5]
+3864  1c90  06/30 08:51:50 1087963 CipherCacheSingleton::RemoveMap() - Removed Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+3864  1c90  06/30 08:51:50 1087963 CipherCacheSingleton::RemoveFromKeyIdMap() - Removing archive file encryption key for keyId [4259] from the map. cipherRef [0] refCount[0]
+3864  1c90  06/30 08:51:50 1087963 CipherCacheSingleton::RemoveKeyIdMap() - Removed KeyId Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+3864  1c90  06/30 08:51:50 1087963 stat- ID [Avg FetchKeyC], Samples [1], Time [0.232097] Sec(s), Average [0.232097] Sec/Sample
+3864  1c90  06/30 08:51:50 1087963 Name [Tail Network], Start Delay [35.11 s], Avg [3.19 s], Procsng Time [12.80 s], Avg [1.16 s], Bytes [197.67 KB], Speed [15.44 KB/s], Samples [11] RCId [5]
+3864  1c90  06/30 08:51:50 1087963 Name [Tail Decryption], Start Delay [92.38 ms], Avg [8.40 ms], Procsng Time [1.12 s], Avg [101.73 ms], Bytes [197.67 KB], Speed [176.64 KB/s], Samples [11] RCId [5]
+3864  1c90  06/30 08:51:50 1087963 Name [Tail Decompression], Start Delay [4.20 us], Avg [381.82 ns], Procsng Time [211.60 us], Avg [19.24 us], Bytes [197.67 KB], Speed [912.27 MB/s], Samples [11] RCId [5]
+3864  1c90  06/30 08:51:50 1087963 Name [Tail End], Start Delay [0.00 s], Avg [0.00 s], Procsng Time [0.00 s], Avg [0.00 s], Bytes [0.00 B], Speed [0.00 B/s], Samples [0] RCId [5]
+3864  7ac   06/30 08:51:51 1087963 ::main() - Exiting...
+3864  7ac   06/30 08:51:51 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+3864  7ac   06/30 08:51:51 1087963 ~CVArchive() - Destroying CVArchive. This=0000022EBAA6FFA0
+3864  7ac   06/30 08:51:51 ####### SdtTailSrvPool::Rel: Resetting SrvPool as ref. count is 0.
+3864  d88   06/30 08:51:51 ####### SdtTailSrv::MainLoop: Quit flag found set. Will get out ASAP.
+3864  7ac   06/30 08:51:51 ####### SdtTailSrv::Rel: Destroying SDT server [0], since ref count has gone to 0.
+3864  7ac   06/30 08:51:51 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [7], Time [0.053878] Sec(s), Average [0.007697] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [2], Time [0.000240] Sec(s), Average [0.000120] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [7], Time [0.065692] Sec(s), Average [0.009385] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.001328] Sec(s), Average [0.000332] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [Open directory], Samples [6], Time [0.050907] Sec(s), Average [0.008484] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [Open file], Samples [1], Time [0.000530] Sec(s), Average [0.000530] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [OpenObject()], Samples [7], Time [0.052492] Sec(s), Average [0.007499] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [FindFirstFile], Samples [13], Time [0.001023] Sec(s), Average [0.000079] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [RemoveFile], Samples [1], Time [0.000158] Sec(s), Average [0.000158] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [GetFileAttributes], Samples [7], Time [0.000529] Sec(s), Average [0.000076] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [CloseHandle], Samples [7], Time [0.062204] Sec(s), Average [0.008886] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [SetFileTime], Samples [7], Time [0.001238] Sec(s), Average [0.000177] Sec/Sample
+3864  7ac   06/30 08:51:51 1087963 stat- ID [Restore Read Speed], Bytes [82022], Time [1.795842] Sec(s), Average Speed [0.043557] MB/Sec
+3864  7ac   06/30 08:51:51 1087963 stat- ID [Restore Write Speed], Bytes [82022], Time [0.134319] Sec(s), Average Speed [0.582362] MB/Sec
+3864  7ac   06/30 08:51:51 1087963 stat- ID [JUNCTION_MOUNT_POINT - Processing junction and mount information], Samples [6], Time [0.001040] Sec(s), Average [0.000173] Sec/Sample
+7096  140c  06/30 08:52:01 1087963 FClRestore::ProcessRestoreMessage() - Processing FSR_MSG_RESTORE_END
+7096  140c  06/30 08:52:01 1087963 FclRestore::OnMsgRestoreEnd() - Restore params=[60l]
+7096  140c  06/30 08:52:01 1087963 FclRestore::OnMsgRestoreEnd() - Restore on client [SanBGW] subclient [default] completed...
+7096  140c  06/30 08:52:01 1087963 FclRestore::OnMsgRestoreEnd() - File Statistics: Total [1], Succeeded [1], Skipped [0] Failed [0] Need Reboot [0]
+7096  140c  06/30 08:52:01 1087963 FclRestore::OnMsgRestoreEnd() - Byte Statistics: Total [12845870], Succeeded [12845870], Skipped [0] Failed [0]
+7096  140c  06/30 08:52:01 1087963 FclRestore::OnMsgRestoreEnd() - The failed byte count does not include files that failed due to seek error
+7096  140c  06/30 08:52:02 1087963 FclRestore::OnMsgRestoreEnd() - sending FSR_MSG_RESTORE_END to FSRestoreHead
+7096  1a60  06/30 08:52:02 1087963 FclRestore::receiveRestoreMsgs() - Waking up after FSR_MSG_RESTORE_END has been processed
+7096  1a60  06/30 08:52:02 1087963 FclRestore::ResumeRestoreMessageProcessor()() - Resuming restore msg processor
+7096  1a60  06/30 08:52:02 1087963 FclRestore::receiveRestoreMsgs() - Waiting for children threads to complete...
+7096  140c  06/30 08:52:02 1087963 FClRestore::processRestoreMsgs() - Exiting the thread...
+7096  1a60  06/30 08:52:02 1087963 FclRestore::receiveRestoreMsgs() - Exiting the thread...
+7096  1a60  06/30 08:52:02 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [1], Time [0.001431] Sec(s), Average [0.001431] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [295], Time [0.016695] Sec(s), Average [0.000057] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [1], Time [0.225904] Sec(s), Average [0.225904] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.000528] Sec(s), Average [0.000132] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [Open file], Samples [1], Time [0.000501] Sec(s), Average [0.000501] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [OpenObject()], Samples [1], Time [0.000913] Sec(s), Average [0.000913] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [FindFirstFile], Samples [1], Time [0.000250] Sec(s), Average [0.000250] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [RemoveFile], Samples [1], Time [0.000132] Sec(s), Average [0.000132] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [GetFileAttributes], Samples [1], Time [0.000074] Sec(s), Average [0.000074] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [CloseHandle], Samples [1], Time [0.225031] Sec(s), Average [0.225031] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [SetFileTime], Samples [1], Time [0.000218] Sec(s), Average [0.000218] Sec/Sample
+7096  1a60  06/30 08:52:02 1087963 stat- ID [Restore Read Speed], Bytes [12846307], Time [6.225110] Sec(s), Average Speed [1.968028] MB/Sec
+7096  1a60  06/30 08:52:02 1087963 stat- ID [Restore Write Speed], Bytes [12846307], Time [0.259301] Sec(s), Average Speed [47.246995] MB/Sec
+7096  1a60  06/30 08:52:02 1087963 FclRestore::finalize() - Restore successful! - sending FSR_MSG_RESTORE_END
+7096  1a60  06/30 08:52:02 1087963 Using default close pipeline args for a backup, backupState is not being set
+7096  1a60  06/30 08:52:02 1087963 CVArchive::ClosePipeline() - Shutting down head session
+7096  1a60  06/30 08:52:02 1087963 CCVAPipelayer::ClosePipeline() - About to shut down RESTORE pipeline
+7096  1a60  06/30 08:52:02 1087963 CPipelayer::ShutdownPipeline() - stat- SDT [0000020AF0936FD0] [duration - 27 seconds]
+7096  1a60  06/30 08:52:02 1087963 CPipelayer::ShutdownPipeline() - SDT [0000020AF0936FD0] Shutdown completed.
+7096  1a60  06/30 08:52:02 1087963 CVJobCtrlLog::unregisterProcess(): successfully removed file [C:\Program Files\Metallic\ContentStore\Base\JobControl\7.096]
+7096  1a60  06/30 08:52:03 1087963 ::main() - Exiting...
+7096  1a60  06/30 08:52:03 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+7096  1a60  06/30 08:52:03 1087963 ~CVArchive() - Destroying CVArchive. This=0000020AF092D7F0
+7096  1a60  06/30 08:52:03 ####### SdtTailSrvPool::Rel: Resetting SrvPool as ref. count is 0.
+7096  10a0  06/30 08:52:03 ####### SdtTailSrv::MainLoop: Quit flag found set. Will get out ASAP.
+7096  10a0  06/30 08:52:03 1087963 SdtBase::setLastErr: Setting last err [98][Services on the tail side of the SDT pipe are going down.] RCId [3]
+7096  12fc  06/30 08:52:03 1087963 SdtTailSrv::DropClientWorker: Removing Client [SDTPipe_sanbgw_sanbgw_1087963_1656604295_7096_5132_0000020AF0936FD0], Id [1056] from the list. RCId [3]
+7096  12fc  06/30 08:52:03 1087963 SdtTail::onDisconnect: Sending error [98][Services on the tail side of the SDT pipe are going down.] to the head. RCId [3]
+7096  12fc  06/30 08:52:03 1087963 SdtTail::onDisconnect: Sent error code to the head RCId [3]
+7096  12fc  06/30 08:52:03 1087963 SdtTailSrv::DropClientWorker: Size of selected list [0] RCId [3]
+7096  12fc  06/30 08:52:03 1087963 SdtTailSrv::DropClientWorker: Draining away incoming data... RCId [3]
+7096  12fc  06/30 08:52:03 1087963 SdtTailSrv::DropClientWorker: Have drained away incoming data... Cnt [0] RCId [3]
+7096  12fc  06/30 08:52:03 1087963 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [3]
+7096  12fc  06/30 08:52:03 1087963 SdtTail::logStats:Final Clnt [sanbgw], PId [7096], Cnt - BsyProcsg/Allocs [115/301]; Time - Procsg/NwRecv/Total [25/3/28] secs, Bytes recvd [12944277] RCId [3]
+7096  12fc  06/30 08:52:04 1087963 SdtBase is being destroyed. RCId [3]
+7096  12fc  06/30 08:52:04 1087963 CipherCacheSingleton::RemoveMap() - Removed Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+7096  12fc  06/30 08:52:04 1087963 CipherCacheSingleton::RemoveFromKeyIdMap() - Removing archive file encryption key for keyId [4259] from the map. cipherRef [0] refCount[0]
+7096  12fc  06/30 08:52:04 1087963 CipherCacheSingleton::RemoveKeyIdMap() - Removed KeyId Map for Job [1087963] from  Encryption keys cache. Remaining maps [0]
+7096  12fc  06/30 08:52:04 1087963 stat- ID [Avg FetchKeyC], Samples [1], Time [0.267941] Sec(s), Average [0.267941] Sec/Sample
+7096  12fc  06/30 08:52:04 1087963 Name [Tail Network], Start Delay [278.94 s], Avg [929.80 ms], Procsng Time [3.47 s], Avg [11.56 ms], Bytes [12.34 MB], Speed [3.56 MB/s], Samples [300] RCId [3]
+7096  12fc  06/30 08:52:04 1087963 Name [Tail Decryption], Start Delay [36.71 s], Avg [122.35 ms], Procsng Time [13.73 s], Avg [45.76 ms], Bytes [12.34 MB], Speed [920.79 KB/s], Samples [300] RCId [3]
+7096  12fc  06/30 08:52:04 1087963 Name [Tail Decompression], Start Delay [63.20 us], Avg [210.67 ns], Procsng Time [1.42 ms], Avg [4.74 us], Bytes [12.34 MB], Speed [8.47 GB/s], Samples [300] RCId [3]
+7096  12fc  06/30 08:52:04 1087963 Name [Tail End], Start Delay [0.00 s], Avg [0.00 s], Procsng Time [0.00 s], Avg [0.00 s], Bytes [0.00 B], Speed [0.00 B/s], Samples [0] RCId [3]
+7096  12fc  06/30 08:52:04 1087963 Performing graceful connection termination
+7096  12fc  06/30 08:52:04 1087963 Closing all sockets.
+7096  1a60  06/30 08:52:04 ####### SdtTailSrv::Rel: Destroying SDT server [0], since ref count has gone to 0.
+7096  1a60  06/30 08:52:04 1087963 stat- ID [PL_FS_HDR - Processing Header], Samples [1], Time [0.001431] Sec(s), Average [0.001431] Sec/Sample
+7096  1a60  06/30 08:52:04 1087963 stat- ID [PL_FS_DATA - WriteDataBuffer], Samples [295], Time [0.016695] Sec(s), Average [0.000057] Sec/Sample
+7096  1a60  06/30 08:52:04 1087963 stat- ID [PL_FS_EOF - Processing End Of File], Samples [1], Time [0.225904] Sec(s), Average [0.225904] Sec/Sample
+7096  1a60  06/30 08:52:04 1087963 stat- ID [Job Progress Update], Samples [4], Time [0.000528] Sec(s), Average [0.000132] Sec/Sample
+7096  1a60  06/30 08:52:04 1087963 stat- ID [Open file], Samples [1], Time [0.000501] Sec(s), Average [0.000501] Sec/Sample
+7096  1a60  06/30 08:52:05 1087963 stat- ID [OpenObject()], Samples [1], Time [0.000913] Sec(s), Average [0.000913] Sec/Sample
+7096  1a60  06/30 08:52:05 1087963 stat- ID [FindFirstFile], Samples [1], Time [0.000250] Sec(s), Average [0.000250] Sec/Sample
+7096  1a60  06/30 08:52:05 1087963 stat- ID [RemoveFile], Samples [1], Time [0.000132] Sec(s), Average [0.000132] Sec/Sample
+7096  1a60  06/30 08:52:05 1087963 stat- ID [GetFileAttributes], Samples [1], Time [0.000074] Sec(s), Average [0.000074] Sec/Sample
+7096  1a60  06/30 08:52:05 1087963 stat- ID [CloseHandle], Samples [1], Time [0.225031] Sec(s), Average [0.225031] Sec/Sample
+7096  1a60  06/30 08:52:05 1087963 stat- ID [SetFileTime], Samples [1], Time [0.000218] Sec(s), Average [0.000218] Sec/Sample
+7096  1a60  06/30 08:52:05 1087963 stat- ID [Restore Read Speed], Bytes [12846307], Time [6.225110] Sec(s), Average Speed [1.968028] MB/Sec
+7096  1a60  06/30 08:52:05 1087963 stat- ID [Restore Write Speed], Bytes [12846307], Time [0.259301] Sec(s), Average Speed [47.246995] MB/Sec

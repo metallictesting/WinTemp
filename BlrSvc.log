@@ -1,0 +1,367 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : BlrSvc                                                                      *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+6816  1abc  06/30 06:44:14 ### 
+6816  1abc  06/30 06:44:14 ### 
+6816  1abc  06/30 06:44:14 ### -----------------------------------------------------
+6816  1abc  06/30 06:44:14 ### -------------------- BLR STARTED --------------------
+6816  1abc  06/30 06:44:14 ### -----------------------------------------------------
+6816  1ac4  06/30 06:44:14 ### Successfully loaded BlrSvcLib.dll
+6816  1acc  06/30 06:44:14 ### BlrPerf::init() - high_resolution_clock=1/1000000000
+6816  1acc  06/30 06:44:14 ### BlrPerf::init() - steady_clock=1/1000000000
+6816  1acc  06/30 06:44:14 ### BlrPerf::init() - system_clock=1/10000000
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nEnableJrnComp is not set. Defaulting to 1
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nEnableNetComp is not set. Defaulting to 0
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nEnableNetEnc is not set. Defaulting to 0
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nPerfLogIntervalSecs is not set. Defaulting to 60
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nPerfDiagIntervalSecs is not set. Defaulting to 600
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nPerfDiagDurationSecs is not set. Defaulting to 30
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nAuthTimeoutSecs is not set. Defaulting to 120
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nCtrlTimeoutSecs is not set. Defaulting to 600
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nConnectIntervalSecs is not set. Defaulting to 60
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nKeepAliveIntervalSecs is not set. Defaulting to 600
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nMinRPIntervalSecs is not set. Defaulting to 60
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nMaxRPIntervalSecs is not set. Defaulting to 1200
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nVmStatsPushIntervalSecs is not set. Defaulting to 30
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/sConfigDir is not set. Defaulting to C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\BLR
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/sCacheDir is not set. Defaulting to C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\BLR
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nMaxCacheDiskSizeMB is not set. Defaulting to 8192
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nMaxCacheMemorySizeMB is not set. Defaulting to 300
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nMaxQueueSizeMB is not set. Defaulting to 256
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nAllowBuiltinCerts is not set. Defaulting to 0
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nDumpSectorMD5 is not set. Defaulting to 0
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nRpStoreCacheSizeMB is not set. Defaulting to 1024
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nMaxRpStoreSizeMB is not set. Defaulting to 0
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nSSBlockSize is not set. Defaulting to 262144
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nManualDrvInstall is not set. Defaulting to 0
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nThrottleWrites is not set. Defaulting to 1
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nEnableCrosschecks is not set. Defaulting to 0
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nOptimizeCache is not set. Defaulting to 1
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nForcePeakTime is not set. Defaulting to 0
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nForceOffPeakTime is not set. Defaulting to 0
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nWinFsH2oThreadCount is not set. Defaulting to 1
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nWinFsHasherThreadCount is not set. Defaulting to 4
+6816  1acc  06/30 06:44:14 ### BlrReg() - BLR/nPairStatsIntervalSecs is not set. Defaulting to 300
+6816  1acc  06/30 06:44:14 ### BlrPerf::init() - Initializing perfomance counters.
+6816  1acc  06/30 06:44:14 ### BlrPerf::init() - Will log results every 60 secs
+6816  1acc  06/30 06:44:14 ### BlrSvc::init() - Refreshing BLR Config from CS
+6816  1acc  06/30 06:44:14 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+6816  1acc  06/30 06:44:14 ### AppMgrSessionPoolSingleton::getSessionPoolInstance() - Client or server name is empty. Cant create session instance
+6816  1acc  06/30 06:44:14 ### [ClientSessionWrapper::connectToCS] Connnecting to [AppManager network access] service on CommServer.
+6816  1acc  06/30 06:44:14 ### [ClientSessionWrapper::connectToCS] Error connecting to svc [AppManager network access] on CS. [0x80070057:{CCvNetwork::Attach_RemoteService(1770)} + {CCvNetwork::Attach_RemoteService(1739)} + {CCvNetwork::LookupRegisteredPorts(4852)} + {CCvNetwork::LookupRegisteredPorts_Common(4925)} + {CCvNetwork::DemangleHostNameToComps(4998)/W32.87.(The parameter is incorrect. (ERROR_INVALID_PARAMETER.87))-Invalid mangled host name:[**8400*8402] passed. Please use mangled host name.}]
+6816  1acc  06/30 06:44:14 ### ClientInterfaceNet::lookup() - [ClientSessionWrapper::connectToCS] Error connecting to svc [AppManager network access] on CS. [0x80070057:{CCvNetwork::Attach_RemoteService(1770)} + {CCvNetwork::Attach_RemoteService(1739)} + {CCvNetwork::LookupRegisteredPorts(4852)} + {CCvNetwork::LookupRegisteredPorts_Common(4925)} + {CCvNetwork::DemangleHostNameToComps(4998)/W32.87.(The parameter is incorrect. (ERROR_INVALID_PARAMETER.87))-Invalid mangled host name:[**8400*8402] passed. Please use mangled host name.}]
+6816  1acc  06/30 06:44:14 ### AppMgrSessionPoolSingleton::getSessionPoolInstance() - Client or server name is empty. Cant create session instance
+6816  1acc  06/30 06:44:14 ### [ClientSessionWrapper::connectToCS] Connnecting to [AppManager network access] service on CommServer.
+6816  1acc  06/30 06:44:14 ### [ClientSessionWrapper::connectToCS] Error connecting to svc [AppManager network access] on CS. [0x80070057:{CCvNetwork::Attach_RemoteService(1770)} + {CCvNetwork::Attach_RemoteService(1739)} + {CCvNetwork::LookupRegisteredPorts(4852)} + {CCvNetwork::LookupRegisteredPorts_Common(4925)} + {CCvNetwork::DemangleHostNameToComps(4998)/W32.87.(The parameter is incorrect. (ERROR_INVALID_PARAMETER.87))-Invalid mangled host name:[**8400*8402] passed. Please use mangled host name.}]
+6816  1acc  06/30 06:44:14 ### ClientInterfaceNet::lookup() - [ClientSessionWrapper::connectToCS] Error connecting to svc [AppManager network access] on CS. [0x80070057:{CCvNetwork::Attach_RemoteService(1770)} + {CCvNetwork::Attach_RemoteService(1739)} + {CCvNetwork::LookupRegisteredPorts(4852)} + {CCvNetwork::LookupRegisteredPorts_Common(4925)} + {CCvNetwork::DemangleHostNameToComps(4998)/W32.87.(The parameter is incorrect. (ERROR_INVALID_PARAMETER.87))-Invalid mangled host name:[**8400*8402] passed. Please use mangled host name.}]
+6816  1acc  06/30 06:44:14 ### BlrSvc::init() - 0xEDDD0001:{BlrSvc::loadAllPairsFromDB(88)/Int.1.0x1-Couldn't lookup client ID of sanbgw}
+6816  1acc  06/30 06:44:14 ### Initialize         57  Initializing the RpStoreManager. CacheSize [1073741824] bytes
+6816  1acc  06/30 06:44:14 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+6816  1acc  06/30 06:44:14 ### Initialize         60  Cluster data blocks will be allocated in units of [32 KB]
+6816  1acc  06/30 06:44:14 ### Initialize         65  RpStoreWriterThreads set to 1
+6816  1acc  06/30 06:44:14 ### Initialize         92  Successfully initialized the RpStoreManager.
+6816  1acc  06/30 06:44:14 ### CVMDiskInfo::GetVDDKInstallPath() - Using vStorage VDDK from [C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602] version [6.0.2 build-3566099]
+6816  1acc  06/30 06:44:14 ### CVMDiskInfo::LoadVDDKLibrary() - Successfully loaded VDDK Lib (libeay32.dll) from C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602\bin\libeay32.dll
+6816  1acc  06/30 06:44:14 ### CVMDiskInfo::LoadVDDKLibrary() - Successfully loaded VDDK Lib (ssleay32.dll) from C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602\bin\ssleay32.dll
+6816  1acc  06/30 06:44:14 ### CVMDiskInfo::LoadVDDKLibrary() - Successfully loaded VDDK Lib (libldap_r.dll) from C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602\bin\libldap_r.dll
+6816  1acc  06/30 06:44:14 ### CVMDiskInfo::LoadVDDKLibrary() - Successfully loaded VDDK Lib (libcurl.dll) from C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602\bin\libcurl.dll
+6816  1acc  06/30 06:44:14 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+6816  1acc  06/30 06:44:14 ### AppMgrSessionPoolSingleton::getSessionPoolInstance() - Client or server name is empty. Cant create session instance
+6816  1acc  06/30 06:44:14 ### [ClientSessionWrapper::connectToCS] Connnecting to [AppManager network access] service on CommServer.
+6816  1acc  06/30 06:44:14 ### [ClientSessionWrapper::connectToCS] Error connecting to svc [AppManager network access] on CS. [0x80070057:{CCvNetwork::Attach_RemoteService(1770)} + {CCvNetwork::Attach_RemoteService(1739)} + {CCvNetwork::LookupRegisteredPorts(4852)} + {CCvNetwork::LookupRegisteredPorts_Common(4925)} + {CCvNetwork::DemangleHostNameToComps(4998)/W32.87.(The parameter is incorrect. (ERROR_INVALID_PARAMETER.87))-Invalid mangled host name:[**8400*8402] passed. Please use mangled host name.}]
+6816  1acc  06/30 06:44:14 ### ClientInterfaceNet::lookup() - [ClientSessionWrapper::connectToCS] Error connecting to svc [AppManager network access] on CS. [0x80070057:{CCvNetwork::Attach_RemoteService(1770)} + {CCvNetwork::Attach_RemoteService(1739)} + {CCvNetwork::LookupRegisteredPorts(4852)} + {CCvNetwork::LookupRegisteredPorts_Common(4925)} + {CCvNetwork::DemangleHostNameToComps(4998)/W32.87.(The parameter is incorrect. (ERROR_INVALID_PARAMETER.87))-Invalid mangled host name:[**8400*8402] passed. Please use mangled host name.}]
+6816  1acc  06/30 06:44:14 ### AppMgrSessionPoolSingleton::getSessionPoolInstance() - Client or server name is empty. Cant create session instance
+6816  1acc  06/30 06:44:15 ### [ClientSessionWrapper::connectToCS] Connnecting to [AppManager network access] service on CommServer.
+6816  1acc  06/30 06:44:15 ### [ClientSessionWrapper::connectToCS] Error connecting to svc [AppManager network access] on CS. [0x80070057:{CCvNetwork::Attach_RemoteService(1770)} + {CCvNetwork::Attach_RemoteService(1739)} + {CCvNetwork::LookupRegisteredPorts(4852)} + {CCvNetwork::LookupRegisteredPorts_Common(4925)} + {CCvNetwork::DemangleHostNameToComps(4998)/W32.87.(The parameter is incorrect. (ERROR_INVALID_PARAMETER.87))-Invalid mangled host name:[**8400*8402] passed. Please use mangled host name.}]
+6816  1acc  06/30 06:44:15 ### ClientInterfaceNet::lookup() - [ClientSessionWrapper::connectToCS] Error connecting to svc [AppManager network access] on CS. [0x80070057:{CCvNetwork::Attach_RemoteService(1770)} + {CCvNetwork::Attach_RemoteService(1739)} + {CCvNetwork::LookupRegisteredPorts(4852)} + {CCvNetwork::LookupRegisteredPorts_Common(4925)} + {CCvNetwork::DemangleHostNameToComps(4998)/W32.87.(The parameter is incorrect. (ERROR_INVALID_PARAMETER.87))-Invalid mangled host name:[**8400*8402] passed. Please use mangled host name.}]
+6816  1af8  06/30 06:44:15 ### CBLRVMBootManager::_CleanUpExpiredVMs() - VM Boot Manager's cleanup thread started.
+6816  1afc  06/30 06:44:15 ### Starting boot "blr_gui_msgs_client" server
+6816  1acc  06/30 06:44:15 ### Successfully started GUI Msg Helper
+6816  1acc  06/30 06:44:15 ### BlrTailSvc::init() - Initializing
+6816  1afc  06/30 06:44:15 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/BlrSvc_IOCPThreads DWORD registry entry
+6816  1afc  06/30 06:44:15 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+6816  1acc  06/30 06:44:15 ### BlrTailSvc::createSockets() - Successfully bound IPv4 replication socket to 0.0.0.0:50781
+6816  1acc  06/30 06:44:15 ### BlrCtrlSvc::init() - Initializing
+6816  1acc  06/30 06:44:15 ### BlrCtrlSvc::createSockets() - Successfully bound IPv4 control server socket to 0.0.0.0:50785
+6816  1afc  06/30 06:44:15 ### CCvNetworkServer::SelectData() - Listening on port blr_gui_msgs_client/50782/0
+6816  1af8  06/30 06:45:15 ### Number of Boot VMs=0, client id=15
+6816  1af8  06/30 06:46:15 ### Number of Boot VMs=0, client id=15
+6816  1af8  06/30 06:47:15 ### Number of Boot VMs=0, client id=15
+6816  1af8  06/30 06:48:15 ### Number of Boot VMs=0, client id=15
+6816  1ae0  06/30 06:49:15 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [1], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6816  1ae0  06/30 06:49:15 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6816  1af8  06/30 06:49:15 ### Number of Boot VMs=0, client id=15
+6816  1af8  06/30 06:50:15 ### Number of Boot VMs=0, client id=15
+6816  1af8  06/30 06:51:15 ### Number of Boot VMs=0, client id=15
+6816  1af8  06/30 06:52:15 ### Number of Boot VMs=0, client id=15
+6816  1af8  06/30 06:53:15 ### Number of Boot VMs=0, client id=15
+6816  1ae0  06/30 06:54:15 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6816  1ae0  06/30 06:54:15 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6816  1af8  06/30 06:54:16 ### Number of Boot VMs=0, client id=15
+6816  1af8  06/30 06:55:16 ### Number of Boot VMs=0, client id=15
+6816  196c  06/30 06:55:25 ### BlrWinSvc::StopMainThread() - Signalling the main thread to stop
+6816  1acc  06/30 06:55:25 ### BlrWinSvc::MainThread() - Stopping BlrSvc
+6816  1acc  06/30 06:55:25 ### ~BlrSvc() - Cleaning up control, tail service and heads
+6816  1acc  06/30 06:55:25 ### ~BlrCtrlSvc() - Killing all control connections
+6816  1acc  06/30 06:55:25 ### ~BlrTailSvc() - Interrupting replicating connections
+6816  1acc  06/30 06:55:25 ### ~BlrTailSvc() - Killing all replicating connections
+6816  1acc  06/30 06:55:25 ### ~BlrSvc() - Stopping cleanup thread
+6816  1acc  06/30 06:55:25 ### GUI msg helper going down.
+6816  1acc  06/30 06:55:25 ### CCvNetworkServer::Quit() - Quit is received.
+6816  1b00  06/30 06:55:25 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+6816  1b04  06/30 06:55:25 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+6816  1b14  06/30 06:55:26 ### CCvNetworkServer::ListenThread() - ListenThread is exiting.
+6816  1b14  06/30 06:55:26 ### CCvNetworkServer::Quit() - Quit is received.
+6816  1b18  06/30 06:55:26 ### CCvNetworkServer::LogStatisticsThread() - Statistics thread is exiting.
+6816  1afc  06/30 06:55:26 ### CCvIOCPServer::CleanUp() - Waiting for IOCP threads to come down
+6816  1afc  06/30 06:55:26 ### CCvNetworkServer::SelectData() - Waiting for network server threads to come down
+6816  1afc  06/30 06:55:26 ### CCvNetworkServer::SelectData() - Network server threads are down
+6816  1afc  06/30 06:55:26 ### Stopping boot "blr_gui_msgs_client" server
+6816  1acc  06/30 06:55:26 ### Boot server "blr_gui_msgs_client" stopped.
+6816  1acc  06/30 06:55:26 ### [CBLRVMBootManager::_TerminateRunningBoots]: Terminating all ongoing vm boots
+6816  1af8  06/30 06:55:26 ### CBLRVMBootManager::_CleanUpExpiredVMs() - Terminating VM Boot Manager's cleanup thread.
+6816  1acc  06/30 06:55:26 ### GUI msg helper terminated.
+6816  196c  06/30 06:55:26 ### -----------------------------------------------------
+6816  196c  06/30 06:55:26 ### -------------------- BLR STOPPED --------------------
+6816  196c  06/30 06:55:26 ### -----------------------------------------------------
+6816  196c  06/30 06:55:26 ### 
+6816  196c  06/30 06:55:26 ### 
+6920  1990  06/30 06:57:38 ### 
+6920  1990  06/30 06:57:38 ### 
+6920  1990  06/30 06:57:38 ### -----------------------------------------------------
+6920  1990  06/30 06:57:38 ### -------------------- BLR STARTED --------------------
+6920  1990  06/30 06:57:38 ### -----------------------------------------------------
+6920  19e8  06/30 06:57:38 ### Successfully loaded BlrSvcLib.dll
+6920  19f0  06/30 06:57:38 ### BlrPerf::init() - high_resolution_clock=1/1000000000
+6920  19f0  06/30 06:57:38 ### BlrPerf::init() - steady_clock=1/1000000000
+6920  19f0  06/30 06:57:38 ### BlrPerf::init() - system_clock=1/10000000
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nEnableJrnComp is not set. Defaulting to 1
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nEnableNetComp is not set. Defaulting to 0
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nEnableNetEnc is not set. Defaulting to 0
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nPerfLogIntervalSecs is not set. Defaulting to 60
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nPerfDiagIntervalSecs is not set. Defaulting to 600
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nPerfDiagDurationSecs is not set. Defaulting to 30
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nAuthTimeoutSecs is not set. Defaulting to 120
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nCtrlTimeoutSecs is not set. Defaulting to 600
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nConnectIntervalSecs is not set. Defaulting to 60
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nKeepAliveIntervalSecs is not set. Defaulting to 600
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nMinRPIntervalSecs is not set. Defaulting to 60
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nMaxRPIntervalSecs is not set. Defaulting to 1200
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nVmStatsPushIntervalSecs is not set. Defaulting to 30
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/sConfigDir is not set. Defaulting to C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\BLR
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/sCacheDir is not set. Defaulting to C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\BLR
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nMaxCacheDiskSizeMB is not set. Defaulting to 8192
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nMaxCacheMemorySizeMB is not set. Defaulting to 300
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nMaxQueueSizeMB is not set. Defaulting to 256
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nAllowBuiltinCerts is not set. Defaulting to 0
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nDumpSectorMD5 is not set. Defaulting to 0
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nRpStoreCacheSizeMB is not set. Defaulting to 1024
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nMaxRpStoreSizeMB is not set. Defaulting to 0
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nSSBlockSize is not set. Defaulting to 262144
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nManualDrvInstall is not set. Defaulting to 0
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nThrottleWrites is not set. Defaulting to 1
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nEnableCrosschecks is not set. Defaulting to 0
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nOptimizeCache is not set. Defaulting to 1
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nForcePeakTime is not set. Defaulting to 0
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nForceOffPeakTime is not set. Defaulting to 0
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nWinFsH2oThreadCount is not set. Defaulting to 1
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nWinFsHasherThreadCount is not set. Defaulting to 4
+6920  19f0  06/30 06:57:38 ### BlrReg() - BLR/nPairStatsIntervalSecs is not set. Defaulting to 300
+6920  19f0  06/30 06:57:38 ### BlrPerf::init() - Initializing perfomance counters.
+6920  19f0  06/30 06:57:38 ### BlrPerf::init() - Will log results every 60 secs
+6920  19f0  06/30 06:57:38 ### BlrSvc::init() - Refreshing BLR Config from CS
+6920  19f0  06/30 06:57:39 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+6920  19f0  06/30 06:57:39 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6920  19f0  06/30 06:57:39 ### Initialize         57  Initializing the RpStoreManager. CacheSize [1073741824] bytes
+6920  19f0  06/30 06:57:39 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+6920  19f0  06/30 06:57:39 ### Initialize         60  Cluster data blocks will be allocated in units of [32 KB]
+6920  19f0  06/30 06:57:39 ### Initialize         65  RpStoreWriterThreads set to 1
+6920  19f0  06/30 06:57:39 ### Initialize         92  Successfully initialized the RpStoreManager.
+6920  19f0  06/30 06:57:39 ### CVMDiskInfo::GetVDDKInstallPath() - Using vStorage VDDK from [C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602] version [6.0.2 build-3566099]
+6920  19f0  06/30 06:57:39 ### CVMDiskInfo::LoadVDDKLibrary() - Successfully loaded VDDK Lib (libeay32.dll) from C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602\bin\libeay32.dll
+6920  19f0  06/30 06:57:39 ### CVMDiskInfo::LoadVDDKLibrary() - Successfully loaded VDDK Lib (ssleay32.dll) from C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602\bin\ssleay32.dll
+6920  19f0  06/30 06:57:39 ### CVMDiskInfo::LoadVDDKLibrary() - Successfully loaded VDDK Lib (libldap_r.dll) from C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602\bin\libldap_r.dll
+6920  19f0  06/30 06:57:39 ### CVMDiskInfo::LoadVDDKLibrary() - Successfully loaded VDDK Lib (libcurl.dll) from C:\Program Files\Metallic\ContentStore\Base\VMware\VDDK\VDDK602\bin\libcurl.dll
+6920  19f0  06/30 06:57:39 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+6920  1528  06/30 06:57:39 ### CBLRVMBootManager::_CleanUpExpiredVMs() - VM Boot Manager's cleanup thread started.
+6920  19f0  06/30 06:57:39 ### Successfully started GUI Msg Helper
+6920  19f0  06/30 06:57:39 ### BlrTailSvc::init() - Initializing
+6920  19f0  06/30 06:57:39 ### BlrTailSvc::createSockets() - Successfully bound IPv4 replication socket to 0.0.0.0:51020
+6920  19f0  06/30 06:57:39 ### BlrCtrlSvc::init() - Initializing
+6920  19f0  06/30 06:57:39 ### BlrCtrlSvc::createSockets() - Successfully bound IPv4 control server socket to 0.0.0.0:51023
+6920  e74   06/30 06:57:39 ### Starting boot "blr_gui_msgs_client" server
+6920  e74   06/30 06:57:39 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/BlrSvc_IOCPThreads DWORD registry entry
+6920  e74   06/30 06:57:39 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+6920  e74   06/30 06:57:39 ### CCvNetworkServer::SelectData() - Listening on port blr_gui_msgs_client/50782/0
+6920  1528  06/30 06:58:39 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 06:59:39 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:00:39 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:01:39 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:02:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [1], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:02:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:02:39 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:03:40 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:04:40 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:05:40 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:06:40 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:07:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:07:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:07:40 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:08:40 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:09:40 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:10:40 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:11:40 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:12:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:12:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:12:40 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:13:41 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:14:41 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:15:41 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:16:41 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:17:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:17:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:17:41 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:18:41 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:19:41 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:20:41 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:21:41 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:22:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:22:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:22:41 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:23:42 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:24:42 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:25:42 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:26:42 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:27:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:27:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:27:42 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:28:42 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:29:42 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:30:42 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:31:42 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:32:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:32:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:32:42 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:33:42 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:34:43 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:35:43 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:36:43 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:37:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:37:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:37:43 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:38:43 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:39:43 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:40:43 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:41:43 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:42:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:42:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:42:43 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:43:43 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:44:44 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:45:44 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:46:44 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:47:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:47:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:47:44 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:48:44 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:49:44 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:50:44 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:51:44 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:52:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:52:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:52:44 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:53:45 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:54:45 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:55:45 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:56:45 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 07:57:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 07:57:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 07:57:45 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:58:46 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 07:59:46 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:00:46 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:01:46 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:02:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:02:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:02:47 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:03:47 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:04:48 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:05:48 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:06:48 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:07:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:07:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:07:48 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:08:48 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:09:48 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:10:49 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:11:49 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:12:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:12:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:12:49 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:13:49 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:14:49 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:15:49 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:16:49 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:17:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:17:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:17:50 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:18:50 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:19:50 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:20:50 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:21:50 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:22:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:22:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:22:50 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:23:50 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:24:50 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:25:51 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:26:51 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:27:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:27:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:27:51 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:28:51 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:29:51 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:30:51 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:31:51 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:32:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:32:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:32:52 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:33:52 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:34:52 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:35:52 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:36:52 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:37:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:37:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:37:52 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:38:52 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:39:52 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:40:52 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:41:52 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:42:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:42:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:42:53 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:43:53 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:44:53 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:45:53 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:46:53 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:47:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:47:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:47:53 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:48:53 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:49:53 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:50:53 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:51:53 ### Number of Boot VMs=0, client id=8426
+6920  1838  06/30 08:52:39 ### TPool [WriterPool]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1838  06/30 08:52:39 ### TPool [IOCPServerPool_blr_gui_msgs_client]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6920  1528  06/30 08:52:54 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:53:54 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:54:54 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:55:54 ### Number of Boot VMs=0, client id=8426
+6920  1528  06/30 08:56:54 ### Number of Boot VMs=0, client id=8426

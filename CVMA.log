@@ -1,0 +1,335 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : CVMA                                                                        *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+6396  1990  06/30 06:44:13 ### CVMAInitialize() - Registering Subsytems
+6396  1990  06/30 06:44:13 ### CVMAInitialize() - Registering QSDKLogin
+6396  1990  06/30 06:44:13 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+6396  1990  06/30 06:44:13 --- [ThreadAlloc] createReqState:673: Maximum worker threads for request type [419430612:VolumeSizeUpdate] is [25%].
+6396  1990  06/30 06:44:13 --- [ThreadAlloc] createReqState:673: Maximum worker threads for request type [419430661:Prune] is [50%].
+6396  1990  06/30 06:44:13 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  Determined the Transport Type as IP.
+6396  1990  06/30 06:44:13 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  --------------------------------------------------
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  ----------- MEDIA AGENT SERVICE 11.0.0 STARTED ----------
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  --------------------------------------------------
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  The ThreadID for the main thread is [6544]
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  
+6396  1990  06/30 06:44:13 ---  QMANAGER [  ]  Receiver semaphore created
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  creating PersistentThreads().
+6396  1990  06/30 06:44:13 ---  SERVICE  [  ]  creating createCVMAInitThread().
+6396  19d0  06/30 06:44:13 ---  DATASERVER  [  ]  Starting Data Server Session Server.
+6396  19d0  06/30 06:44:13 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/CVMA_IOCPThreads DWORD registry entry
+6396  19d0  06/30 06:44:13 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+6396  19e4  06/30 06:44:13 ---  THREADS  [  ]  CVMA Admin thread starts: ThreadId = 6628 
+6396  19e4  06/30 06:44:13 ### EvDebug::refreshDebugLevel() - Changing Debug level from 3 to 1
+6396  19e8  06/30 06:44:13 ---  THREADS  [  ]  CVMA ScanDevicesThread starts: ThreadId = 6632 
+6396  19ec  06/30 06:44:13 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+6396  19f0  06/30 06:44:13 ---  THREADS  [  ]  CVMASnapAdminThread starts: ThreadId = 6640 
+6396  19f4  06/30 06:44:13 ---  THREADS  [  ]  Error in RegOpenKeyEx (2).
+6396  19f8  06/30 06:44:13 ---  THREADS  [  ]  CVMAInitThread starts: ThreadId = 6648 
+6396  19f8  06/30 06:44:13 ### AddFilterDriverToCSVCompatibleList() - Failed to open cluster. Host may not be part of MS Failover cluster. Err [1753]
+6396  19d0  06/30 06:44:13 ### CCvNetworkServer::SelectData() - Listening on port DataServer/50779/0
+6396  19d0  06/30 06:44:13 ---  DATASERVER  [  ]  ****  Data Server is ready to accept client messages ****
+6396  19fc  06/30 06:44:13 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/CVMA_IOCPThreads DWORD registry entry
+6396  19fc  06/30 06:44:13 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+6396  19fc  06/30 06:44:13 ### CCvNetworkServer::SelectData() - Listening on port CvMountdServer/50780/0
+6396  19f8  06/30 06:44:14 ---  THREADS  [  ]  CVMAInitThread: AntiChatter key is set in reg. Decoupled mode MA Installation. Ending Init Thread as CS connections are not allowed...
+6396  19e4  06/30 06:44:43 ### CCvNetwork::GetConnection() - Waiting until client certificates have been downloaded
+6396  19e4  06/30 06:44:48 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6396  19e4  06/30 06:44:50 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+6396  19e4  06/30 06:44:51 ### CVPITextFileOpen::reloadFile() - File [C:\Program Files\Metallic\ContentStore\IndexCache\icl_label.txt] does not exist.
+6396  19e4  06/30 06:44:51 ### ICLController::InternalReadDataFromICL() - ICL file is not opened. Error code: [5].
+6396  19e4  06/30 06:44:51 --- ::ICLPopulateAndVerifyForAnMA: Setting the index cache access path id [2594] offline due to error [8]
+6396  19e4  06/30 06:44:51 ---  WORKER   [  ]  ICLPopulateAndVerifyForAnMA failed for MA Host sanbgw. Ignore this if Physical machine does not have a MediaAgent installed.
+6396  19e4  06/30 06:44:52 ### CVMMmountPath::pullAndSaveDataServerIPAccessList() - Successfully updated registry with 3dfs access client list.
+6396  19e4  06/30 06:45:22 ### CVMAService::getMLMMsgInstance() - :cvmaservice.cpp:2368:***** NO CONNECTION TO MEDIAMANAGER SERVICE, START A NEW ONE FOR (client name: sanbgw)*****
+6396  19c8  06/30 06:49:13 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6396  19c8  06/30 06:49:13 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6396  19c8  06/30 06:49:13 ### TPool [CvMountdServer]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [102.60 us], Avg Wait Time [73.30 us]
+6396  19c8  06/30 06:49:13 ### TPool [CvMountdServer]. Ser# [1] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [134.40 us], Avg Wait Time [77.30 us]
+6396  1a48  06/30 06:51:54 ---  SERVICE  [  ]  Received CVMA_MA_ROLES_UPDATE_REQ
+6396  19c8  06/30 06:54:13 ### TPool [CVMASvcThPool]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [794.50 us], Avg Wait Time [101.80 us]
+6396  19c8  06/30 06:54:13 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6396  19c8  06/30 06:54:13 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6396  19c8  06/30 06:54:13 ### TPool [CvMountdServer]. Ser# [1] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [370.40 us], Avg Wait Time [60.20 us]
+6396  19ec  06/30 06:54:13 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+6396  1900  06/30 06:55:25 ---  SERVICE  [  ]  In CVMAExit().
+6396  1900  06/30 06:55:25 ---  SERVICE  [  ]  DONE WAITING FOR THREADS .... BUSY THREAD NOW [0]
+6396  1900  06/30 06:55:25 ### CCvNetworkServer::Quit() - Quit is received.
+6396  1a40  06/30 06:55:25 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+6396  1a44  06/30 06:55:25 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+6396  1a4c  06/30 06:55:26 ### CCvNetworkServer::ListenThread() - ListenThread is exiting.
+6396  1a4c  06/30 06:55:26 ### CCvNetworkServer::Quit() - Quit is received.
+6396  1a50  06/30 06:55:26 ### CCvNetworkServer::LogStatisticsThread() - Statistics thread is exiting.
+6396  19fc  06/30 06:55:26 ### CCvIOCPServer::CleanUp() - Waiting for IOCP threads to come down
+6396  19fc  06/30 06:55:26 ### CCvIOCPServer::CleanUp() - IOCP threads are down now
+6396  19fc  06/30 06:55:26 ### CCvNetworkServer::SelectData() - Waiting for network server threads to come down
+6396  19fc  06/30 06:55:26 ### CCvNetworkServer::SelectData() - Network server threads are down
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  Deleting the Indexing Thread Pool
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  Deleting the gp_oIndexingThreadPool
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  Deleting the Index Cache Server Indexing Thread Pool
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  Deleting the Cleanup Indexing Thread Pool
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  Deleting the Auxiliary Thread Pool
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  CVMAExit Cleaned up the sockets and WSA.
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  ==================================================
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  == - Media Agent service is STOPPING Gracefully ==
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  ==   Service Stop request received              ==
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  ==================================================
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  CVMAExit Done SendStatusToSCM.
+6396  1900  06/30 06:55:26 ---  SERVICE  [  ]  CVMAExit Before exit()
+7892  df8   06/30 06:57:37 ### CVMAInitialize() - Registering Subsytems
+7892  df8   06/30 06:57:37 ### CVMAInitialize() - Registering QSDKLogin
+7892  df8   06/30 06:57:37 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+7892  df8   06/30 06:57:37 --- [ThreadAlloc] createReqState:673: Maximum worker threads for request type [419430612:VolumeSizeUpdate] is [25%].
+7892  df8   06/30 06:57:37 --- [ThreadAlloc] createReqState:673: Maximum worker threads for request type [419430661:Prune] is [50%].
+7892  df8   06/30 06:57:37 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  Determined the Transport Type as IP.
+7892  df8   06/30 06:57:37 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  --------------------------------------------------
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  ----------- MEDIA AGENT SERVICE 11.0.0 STARTED ----------
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  --------------------------------------------------
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  The ThreadID for the main thread is [3576]
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  
+7892  df8   06/30 06:57:37 ---  QMANAGER [  ]  Receiver semaphore created
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  creating PersistentThreads().
+7892  df8   06/30 06:57:37 ---  SERVICE  [  ]  creating createCVMAInitThread().
+7892  1eb0  06/30 06:57:37 ---  DATASERVER  [  ]  Starting Data Server Session Server.
+7892  1eb0  06/30 06:57:37 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/CVMA_IOCPThreads DWORD registry entry
+7892  1024  06/30 06:57:37 ---  THREADS  [  ]  CVMA Admin thread starts: ThreadId = 4132 
+7892  1024  06/30 06:57:37 ### EvDebug::refreshDebugLevel() - Changing Debug level from 3 to 1
+7892  13f0  06/30 06:57:37 ---  THREADS  [  ]  CVMA ScanDevicesThread starts: ThreadId = 5104 
+7892  590   06/30 06:57:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  204   06/30 06:57:37 ---  THREADS  [  ]  CVMASnapAdminThread starts: ThreadId = 516 
+7892  6f8   06/30 06:57:37 ---  THREADS  [  ]  Error in RegOpenKeyEx (2).
+7892  1eb8  06/30 06:57:37 ---  THREADS  [  ]  CVMAInitThread starts: ThreadId = 7864 
+7892  1eb0  06/30 06:57:37 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+7892  1eb0  06/30 06:57:37 ### CCvNetworkServer::SelectData() - Listening on port DataServer/50779/0
+7892  1eb0  06/30 06:57:37 ---  DATASERVER  [  ]  ****  Data Server is ready to accept client messages ****
+7892  1eb8  06/30 06:57:37 ### AddFilterDriverToCSVCompatibleList() - Failed to open cluster. Host may not be part of MS Failover cluster. Err [1753]
+7892  1c10  06/30 06:57:37 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/CVMA_IOCPThreads DWORD registry entry
+7892  1c10  06/30 06:57:37 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+7892  1c10  06/30 06:57:37 ### CCvNetworkServer::SelectData() - Listening on port CvMountdServer/50780/0
+7892  1eb8  06/30 06:57:37 ---  CONNMGR  [  ]  Starting SCSI ID update..MediaAgent Host Name SanBGW
+7892  1eb8  06/30 06:57:37 --- Reg Key - MediaAgent\DoFailoverDrivePool not found, will not support dual HBA Failover DrivePool
+7892  1eb8  06/30 06:57:38 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7892  1eb8  06/30 06:57:38 --- Reading current configuration... Please wait.
+7892  1eb8  06/30 06:57:39 --- Ready
+7892  19cc  06/30 06:57:39 --- Auto Detection of Libraries/Drives Started on client [sanbgw]....
+7892  19cc  06/30 06:57:39 --- Reg Key - MediaAgent\DoSetDisableTURKey not found, will set the value to disable TRU
+7892  19cc  06/30 06:57:39 --- CVMACScsi::DetectDevices(): [\\.\Scsi0:] is available
+7892  19cc  06/30 06:57:39 --- CVMACScsi::GetScsiDeviceInfo(): Key = HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 0\Logical Unit Id 0, RegQueryValueEx get Type error: The system cannot find the file specified.
+7892  19cc  06/30 06:57:39 --- CVMACScsi::GetScsiDeviceInfo(): Key = HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 0\Logical Unit Id 0, RegQueryValueEx get DeviceName error: The system cannot find the file specified.
+7892  19cc  06/30 06:57:39 --- CVMACScsi::GetScsiDeviceInfo(): Key = HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 1\Logical Unit Id 0, RegQueryValueEx get Type error: The system cannot find the file specified.
+7892  19cc  06/30 06:57:39 --- CVMACScsi::GetScsiDeviceInfo(): Key = HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 1\Logical Unit Id 0, RegQueryValueEx get DeviceName error: The system cannot find the file specified.
+7892  19cc  06/30 06:57:39 --- CVMACScsi::DetectDevices(): [\\.\Scsi1:] is available
+7892  19cc  06/30 06:57:39 --- CVMACScsi::DetectDevices(): [\\.\Scsi2:] is available
+7892  19cc  06/30 06:57:39 --- CVMACScsi::DetectDevices(): [\\.\Scsi3:] is available
+7892  19cc  06/30 06:57:39 --- CVMACScsi::GetScsiDeviceInfo(): Key = HARDWARE\DEVICEMAP\Scsi\Scsi Port 3\Scsi Bus 0\Target Id 0\Logical Unit Id 0, RegQueryValueEx get Type error: The system cannot find the file specified.
+7892  19cc  06/30 06:57:39 --- CVMACScsi::GetScsiDeviceInfo(): Key = HARDWARE\DEVICEMAP\Scsi\Scsi Port 3\Scsi Bus 0\Target Id 0\Logical Unit Id 0, RegQueryValueEx get DeviceName error: The system cannot find the file specified.
+7892  19cc  06/30 06:57:39 --- CVMACScsi::DetectDevices(): [\\.\Scsi4:] is available
+7892  19cc  06/30 06:57:39 --- CVMACScsi::GetDeviceInfo(): device \\.\PHYSICALDRIVE0 is available
+7892  19cc  06/30 06:57:39 --- CVMACScsi::GetDeviceInfo(): device \\.\PHYSICALDRIVE1 is available
+7892  19cc  06/30 06:57:39 --- CVMACScsi::GetDeviceInfo(): device \\.\CdRom0 is available
+7892  19cc  06/30 06:57:39 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+7892  19cc  06/30 06:57:40 --- Auto detect HOST:[sanbgw] completed successfully. Libraries:[0], Drives:[0].
+7892  1eb8  06/30 06:57:40 --- Starting NDMP path update..
+7892  1eb8  06/30 06:57:40 --- AutoUpdateNdmpPath()... for NDMP host [All on this MA]
+7892  1eb8  06/30 06:57:40 --- Skip AutoUpdateNDMPPath(): No configured NDMP tape device or the configured NDMP devices have no serial number.
+7892  1eb8  06/30 06:57:40 --- Completed NDMP path update..
+7892  1eb8  06/30 06:57:40 ---  CONNMGR  [  ]  Completed SCSI ID update..
+7892  1024  06/30 06:58:08 ### CVMMmountPath::pullAndSaveDataServerIPAccessList() - Successfully updated registry with 3dfs access client list.
+7892  1024  06/30 06:58:38 ### CVMAService::getMLMMsgInstance() - :cvmaservice.cpp:2368:***** NO CONNECTION TO MEDIAMANAGER SERVICE, START A NEW ONE FOR (client name: sanbgw)*****
+7892  1eb8  06/30 06:58:41 ---  SERVICE  [  ]  Successfully Sent Resync Request to MLM for Media Agent Physical Host: sanbgw, Active VMs: .
+7892  1eb8  06/30 06:58:41 --- Resync to CVMLM succeeded
+7892  e18   06/30 06:58:41 ---  SERVICE  [  ]  Received CVMA_RESYNC_REQ
+7892  e18   06/30 06:58:41 ---  SERVICE  [  ]  New Resync Received for the MM Process ID = 61452 and TimeStamp = 1656522202, MA Attributes = 1049381, CS Version str = [11(BUILD80)].So CVMA_RESYNC_REQ is processed.
+7892  e18   06/30 06:58:41 ---  SERVICE  [  ]  :cvmaservice.cpp:2635: Going to Release Receiver Semaphore in CVMA_RESYNC_REQ
+7892  e18   06/30 06:58:42 ### CVMAService::getMLMMsgInstance() - :cvmaservice.cpp:2368:***** NO CONNECTION TO MEDIAMANAGER SERVICE, START A NEW ONE FOR (client name: sanbgw)*****
+7892  e18   06/30 06:58:42 ---  SERVICE  [  ]  CVMMClient API for markDrivesOnline from sanbgw COMPLETED
+7892  e18   06/30 06:58:42 ---  SERVICE  [  ]  CVMMClient API for markDrivesOnline from completed for all active nodes.
+7892  1a98  06/30 06:58:42 ---  THREADS  [  ]  CVMAServantThread thread starts: ThreadId = 6808 
+7892  e18   06/30 06:58:42 ---  SERVICE  [  ]  Appliance type is not set, this is a regular MA type
+7892  1f78  06/30 06:58:42 ---  SERVICE  [  ]  Received CVMA_PRUNING_CONTROL_CONFIG_REQ
+7892  1a98  06/30 06:58:42 ### cleanUpRegistryPruningInfo() - Going to clean the pruning control information from the registry.
+7892  1024  06/30 06:59:09 ---  CONNMGR  [  ]  commcell id = 2, client id =8426
+7892  106c  06/30 07:02:37 ### TPool [CVMASvcThPool]. Ser# [0] Tot [2], Pend [0], Comp [2], Max Par [1], Avg Work Time [80.33 ms], Avg Wait Time [1.25 ms]
+7892  106c  06/30 07:02:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:02:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:02:37 ### TPool [CvMountdServer]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [39.80 us], Avg Wait Time [355.30 us]
+7892  106c  06/30 07:02:37 ### TPool [CvMountdServer]. Ser# [1] Tot [2], Pend [0], Comp [2], Max Par [1], Avg Work Time [518.47 ms], Avg Wait Time [10.39 ms]
+7892  590   06/30 07:07:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 07:07:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:07:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:12:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:12:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  590   06/30 07:17:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 07:17:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:17:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  af8   06/30 07:20:33 ###  SERVICE  [  ]  @disk.inf,%disk_devdesc%;Disk drive Bus Number 0, Target Id 2, LUN 0 [\\?\SCSI#Disk&Ven_VMware&Prod_Virtual_disk#5&1ec51bf7&0&000200#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}] has been detected.
+7892  af8   06/30 07:21:29 ###  SERVICE  [  ]    [\\?\STORAGE#Volume#{0fd42b0e-f8b4-11ec-9f9b-806e6f6e6963}#0000000001000000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}] has been detected.
+7892  af8   06/30 07:21:36 ###  SERVICE  [  ]    [\\?\STORAGE#Volume#{d7144967-f873-11ec-9f9f-005056bff140}#0000000001000000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}] has been detected.
+7892  106c  06/30 07:22:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:22:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  e18   06/30 07:23:09 ---  SERVICE  [512874/0/0          ]  Received REL110_CVMA_MAGNETIC_CREATEDIR_REQ.
+7892  1a98  06/30 07:23:09 ---  WORKER   [512874/0/0          ]  Created directory [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC]
+7892  1a98  06/30 07:23:09 ### NetMessage::verifyResponseHeader() - Error Code [655362] returned - [Error decrypting password].
+7892  1a98  06/30 07:23:09 ### ClientInterfaceNet::lookup() - Error decrypting password
+7892  1a98  06/30 07:23:09 ### CDataServerAPIPerfCounter::IsEnabledPerfCounters() - Enabled dataserverapi performance counters [false].
+7892  1a98  06/30 07:23:09 ---  WORKER   [512874/0/0          ]  Drill holes test for directory [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC] result set to [Enabled] 
+7892  1a98  06/30 07:23:09 ---  WORKER   [512874/0/0          ]  Successfully created the mountpath label file on E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC
+7892  1a98  06/30 07:23:09 ---  WORKER   [512874/0/0          ]  CVMMClient API for createDirResp from  completed
+7892  590   06/30 07:27:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 07:27:37 ### TPool [CVMASvcThPool]. Ser# [0] Tot [2], Pend [0], Comp [2], Max Par [1], Avg Work Time [167.67 ms], Avg Wait Time [69.55 us]
+7892  106c  06/30 07:27:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:27:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:27:37 ### TPool [CvMountdServer]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [32.10 us], Avg Wait Time [261.30 us]
+7892  106c  06/30 07:27:37 ### TPool [CvMountdServer]. Ser# [1] Tot [3], Pend [0], Comp [3], Max Par [1], Avg Work Time [111.29 ms], Avg Wait Time [111.23 ms]
+7892  1024  06/30 07:28:11 ### getIndexCacheDiskUsageKB() - Finished processing of the path [F:\DDB]: there are no well-known sub-directories. Returning size [0] KB.
+7892  e18   06/30 07:28:42 ---  SERVICE  [  ]  Received CVMA_MA_ROLES_UPDATE_REQ
+7892  106c  06/30 07:32:37 ### TPool [CVMASvcThPool]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [312.80 us], Avg Wait Time [86.40 us]
+7892  106c  06/30 07:32:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:32:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:32:37 ### TPool [CvMountdServer]. Ser# [1] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [410.00 us], Avg Wait Time [137.00 us]
+7892  590   06/30 07:37:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 07:37:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:37:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:42:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:42:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  590   06/30 07:47:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 07:47:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:47:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:52:37 ### TPool [CVMASvcThPool]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [668.46 ms], Avg Wait Time [71.70 us]
+7892  106c  06/30 07:52:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:52:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:52:37 ### TPool [CvMountdServer]. Ser# [1] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [270.90 us], Avg Wait Time [75.70 us]
+7892  590   06/30 07:57:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 07:57:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 07:57:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  1024  06/30 07:58:14 ### getIndexCacheDiskUsageKB() - Finished processing of the path [F:\DDB]: there are no well-known sub-directories. Returning size [0] KB.
+7892  106c  06/30 08:02:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:02:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  590   06/30 08:07:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 08:07:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:07:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:12:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:12:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  590   06/30 08:17:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 08:17:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:17:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:22:37 ### TPool [CVMASvcThPool]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [114.00 ms], Avg Wait Time [64.30 us]
+7892  106c  06/30 08:22:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:22:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:22:37 ### TPool [CvMountdServer]. Ser# [1] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [163.40 us], Avg Wait Time [106.50 us]
+7892  590   06/30 08:27:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 08:27:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:27:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  1024  06/30 08:28:16 ### getIndexCacheDiskUsageKB() - Finished processing of the path [F:\DDB]: there are no well-known sub-directories. Returning size [0] KB.
+7892  106c  06/30 08:32:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:32:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  590   06/30 08:37:37 ---  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 08:37:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:37:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:42:37 ### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:42:37 ### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  e18   06/30 08:46:27 1087953  SERVICE  [543466/0/0          ]  Received CVMA_MAGNETIC_INITVOL_REQ.
+7892  1a98  06/30 08:46:27 1087953  WORKER   [543466/0/0          ]  Created directory [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC\V_48477]
+7892  1a98  06/30 08:46:27 1087953  WORKER   [543466/0/0          ]  Revoked delete permissions for path [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC\V_48477].
+7892  1a98  06/30 08:46:27 1087953  OML      [543466/0/0          ]  WRITE OML returned OML on the media
+	MagicNumber        =CVMEDIALABEL
+	LabelVersion       =11(BUILD80)
+	MMSCommCellId      =189930569
+	LabelType          =CommVault Media Label
+	Vendor             =CommVault Systems
+	MediaCreationTime  =1656598990
+	Application        =Galaxy
+	MediaName          =
+	MediaID            =189930569_BC_CV_MAGNETIC_3034
+	LabelGUID          =
+	BarCode            =CV_MAGNETIC
+	SideName           =A_3034
+	FriendlyName       =
+	CheckSum           =
+7892  1f78  06/30 08:46:28 1087953  SERVICE  [543468/0/0          ]  Received CVMA_MAGNETIC_INITVOL_REQ.
+7892  1bcc  06/30 08:46:28 1087953  WORKER   [543468/0/0          ]  Created directory [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC\V_48476]
+7892  1bcc  06/30 08:46:28 1087953  WORKER   [543468/0/0          ]  Revoked delete permissions for path [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC\V_48476].
+7892  1bcc  06/30 08:46:28 1087953  OML      [543468/0/0          ]  WRITE OML returned OML on the media
+	MagicNumber        =CVMEDIALABEL
+	LabelVersion       =11(BUILD80)
+	MMSCommCellId      =189930569
+	LabelType          =CommVault Media Label
+	Vendor             =CommVault Systems
+	MediaCreationTime  =1656598990
+	Application        =Galaxy
+	MediaName          =
+	MediaID            =189930569_BC_CV_MAGNETIC_3034
+	LabelGUID          =
+	BarCode            =CV_MAGNETIC
+	SideName           =A_3034
+	FriendlyName       =
+	CheckSum           =
+7892  e18   06/30 08:46:28 1087953  SERVICE  [543467/0/0          ]  Received CVMA_MAGNETIC_INITVOL_REQ.
+7892  1f78  06/30 08:46:28 1087953  SERVICE  [543469/0/0          ]  Received CVMA_MAGNETIC_INITVOL_REQ.
+7892  10c0  06/30 08:46:28 1087953  WORKER   [543467/0/0          ]  Created directory [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC\V_48474]
+7892  10c0  06/30 08:46:28 1087953  WORKER   [543467/0/0          ]  Revoked delete permissions for path [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC\V_48474].
+7892  10c0  06/30 08:46:28 1087953  OML      [543467/0/0          ]  WRITE OML returned OML on the media
+	MagicNumber        =CVMEDIALABEL
+	LabelVersion       =11(BUILD80)
+	MMSCommCellId      =189930569
+	LabelType          =CommVault Media Label
+	Vendor             =CommVault Systems
+	MediaCreationTime  =1656598990
+	Application        =Galaxy
+	MediaName          =
+	MediaID            =189930569_BC_CV_MAGNETIC_3034
+	LabelGUID          =
+	BarCode            =CV_MAGNETIC
+	SideName           =A_3034
+	FriendlyName       =
+	CheckSum           =
+7892  284   06/30 08:46:28 1087953  WORKER   [543469/0/0          ]  Created directory [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC\V_48475]
+7892  284   06/30 08:46:28 1087953  WORKER   [543469/0/0          ]  Revoked delete permissions for path [E:\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC\V_48475].
+7892  284   06/30 08:46:28 1087953  OML      [543469/0/0          ]  WRITE OML returned OML on the media
+	MagicNumber        =CVMEDIALABEL
+	LabelVersion       =11(BUILD80)
+	MMSCommCellId      =189930569
+	LabelType          =CommVault Media Label
+	Vendor             =CommVault Systems
+	MediaCreationTime  =1656598990
+	Application        =Galaxy
+	MediaName          =
+	MediaID            =189930569_BC_CV_MAGNETIC_3034
+	LabelGUID          =
+	BarCode            =CV_MAGNETIC
+	SideName           =A_3034
+	FriendlyName       =
+	CheckSum           =
+7892  1a98  06/30 08:46:28 1087953  WORKER   [543466/0/0          ]  CVMMClient API for initVolResp from  completed
+7892  1bcc  06/30 08:46:28 1087953  WORKER   [543468/0/0          ]  CVMMClient API for initVolResp from  completed
+7892  10c0  06/30 08:46:28 1087953  WORKER   [543467/0/0          ]  CVMMClient API for initVolResp from  completed
+7892  284   06/30 08:46:28 1087953  WORKER   [543469/0/0          ]  CVMMClient API for initVolResp from  completed
+7892  590   06/30 08:47:37 -------  THREADS  [  ]  CVMACleanupDevicesThread thread sleeping for 600 seconds 
+7892  106c  06/30 08:47:37 ####### TPool [CVMASvcThPool]. Ser# [0] Tot [4], Pend [0], Comp [4], Max Par [4], Avg Work Time [199.94 ms], Avg Wait Time [16.31 ms]
+7892  106c  06/30 08:47:37 ####### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:47:37 ####### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:47:37 ####### TPool [CvMountdServer]. Ser# [1] Tot [4], Pend [0], Comp [4], Max Par [1], Avg Work Time [349.58 us], Avg Wait Time [69.45 us]
+7892  106c  06/30 08:52:37 ####### TPool [CVMASvcThPool]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [95.91 ms], Avg Wait Time [40.40 us]
+7892  106c  06/30 08:52:37 ####### TPool [IOCPServerPool_DataServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:52:37 ####### TPool [IOCPServerPool_CvMountdServer]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7892  106c  06/30 08:52:37 ####### TPool [CvMountdServer]. Ser# [1] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [68.00 us], Avg Wait Time [37.80 us]

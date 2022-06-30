@@ -1,0 +1,1458 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : GitBackupCtrl                                                               *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+3880  145c  06/30 08:46:20 1087953 runController(134) - =======================
+3880  145c  06/30 08:46:20 1087953 runController(135) - STARTING Controller
+3880  145c  06/30 08:46:20 1087953 runController(142) - 0:[CVDistributor.exe] 1:[-j] 2:[1087953] 3:[-backup] 4:[-a] 5:[2:23682] 6:[-t] 7:[1] 8:[-at] 9:[134] 10:[-i] 11:[2] 12:[-d] 13:[SanBGW*sanbgw*8400] 14:[-io] 15:[1] 16:[-r] 17:[0] 18:[-jt] 19:[1087953:4:1:0:0:32808] 20:[-idxma] 21:[SanBGW*sanbgw*8400] 22:[-pkg] 23:[Git] 24:[-startTime] 25:[1656603954] 26:[-lf] 27:[0] 28:[-li] 29:[0] 30:[-ls] 31:[0] 32:[-attrEx] 33:[0] 34:[-controller] 35:[-phase] 36:[backup] 37:[-numstreams] 38:[4] 39:[-cn] 40:[sanbgw] 41:[cvshost:SanBGW*sanbgw*8400] 42:[cvsport:51562:0] 43:[cvsmyplatform:2] 44:[cvsremoteplatform:4] 45:[-vm] 46:[Instance001] 
+3880  145c  06/30 08:46:20 1087953 runController(143) - -----------------------
+3880  145c  06/30 08:46:20 1087953 CVRemoteAgentClient::ConnectToServer() - Attaching back to server
+3880  145c  06/30 08:46:20 1087953 Cvcl::init() - CVCL: Running in FIPS Mode
+3880  145c  06/30 08:46:20 1087953 CVRemoteAgentClient::ConnectToServer() - Attached to server
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::parseArguments(65) - +++ 
+3880  145c  06/30 08:46:21 1087953 isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+3880  145c  06/30 08:46:21 1087953 GetSubclientFolderByAppType() - Building generic JobResults directory, AppTypeId=134
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::parseArguments(87) - UseIncrementalImageMode=0
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::parseArguments(123) - Reference time = 0
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::parseArguments(146) - numWorkers is not set in argument, using the default value= 2
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::parseArguments(160) - numstreams is found in argument, value = 4
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::parseArguments(165) - earlyStubBackup=0
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::parseArguments(169) - ScanError=0
+3880  145c  06/30 08:46:21 1087953 GetSubclientFolderByAppType() - Building generic JobResults directory, AppTypeId=134
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::readResgistryParams(234) - +++ 
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::readResgistryParams(234) - --- 0:00.013265 
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSClientConfig::parseArguments(65) - --- 0:00.454995 
+3880  145c  06/30 08:46:21 1087953 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+3880  145c  06/30 08:46:21 1087953 MultiNodeBackupOps::MultiNodeBackupOpsControllerClientConfig::parseArguments(141) - Setting up backup job results directory [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087953]
+3880  145c  06/30 08:46:21 1087953 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087953'
+3880  145c  06/30 08:46:21 1087953 Init() - Initializing job control [token=No Token,cn=sanbgw], serverName [cms01039c1us02.cvmscloud.commvault.com], ControlFlag [7], Job Id [1087953]
+3880  145c  06/30 08:46:21 1087953 CVJobCtrlLog::registerProcess(): successfully created file [C:\Program Files\Metallic\ContentStore\Base\JobControl\3.880]
+3880  145c  06/30 08:46:21 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSBackupController::UpdateSubclientdirState(367) - Local subclient directory state : 2
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(107) - +++ 
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(108) - --------
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(110) - prepared stream request 1 for DATA
+3880  145c  06/30 08:46:21 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(107) - --- 0:00.034247 
+3880  145c  06/30 08:46:21 1087953 DistributedIDA::CController::requestStreamID(908) - registered worker with request 1 (0000028F70660F40)
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(107) - +++ 
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(108) - --------
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(110) - prepared stream request 2 for DATA
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(107) - --- 0:00.054696 
+3880  145c  06/30 08:46:22 1087953 DistributedIDA::CController::requestStreamID(908) - registered worker with request 2 (0000028F708A0C00)
+3880  1d58  06/30 08:46:22 1087953 MultiNodeBackupOpsWorker::Initialize(102) - +++ 
+3880  1d58  06/30 08:46:22 1087953 MultiNodeBackupOpsWorker::SetupPipeline(125) - +++ 
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(737) - m_numOfStream = [1]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(738) - m_options = [0x1]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(739) - m_jobToken = [1087953:4:1:0:0:32808]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(740) - m_jobID = [1087953]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(741) - m_appID = [23682]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(742) - m_commCellID = [2]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(743) - m_proxyClientID = [8426]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(744) - m_clientID = [8445]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(745) - m_proxyClientName = [sanbgw]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(746) - m_clientName = [GitHubUsr_1]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(747) - m_appType = [134]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::printJobInfo(748) - m_opType = [4]
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::startJob(327) - INFO: user already have a job with ID [1087953], Trying to attach to the same job
+3880  1d58  06/30 08:46:22 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  1d58  06/30 08:46:22 1087953 JM Client  CVBkpJobClient::init(): Initializing job object with token [1087953:4:1:0:0:32808].
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::startJob(342) - INFO:connected to existing job with ID [1087953]
+3880  1d58  06/30 08:46:22 1087953 Init() - Initializing job control [token=1087953:4:1:0:0:32808,cn=GitHubUsr_1] in single threaded mode, serverName [cms01039c1us02.cvmscloud.commvault.com], ControlFlag [7], Job Id [1087953]
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(107) - +++ 
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::startJob(460) - INFO: CVJobCtrlClient initialized.
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(108) - --------
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(110) - prepared stream request 3 for DATA
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::startJob(467) - INFO: Checking number of streams already allocated.
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(107) - --- 0:00.033623 
+3880  145c  06/30 08:46:22 1087953 DistributedIDA::CController::requestStreamID(908) - registered worker with request 3 (0000028F7079EB80)
+3880  1c38  06/30 08:46:22 1087953 MultiNodeBackupOpsWorker::Initialize(102) - +++ 
+3880  1c38  06/30 08:46:22 1087953 MultiNodeBackupOpsWorker::SetupPipeline(125) - +++ 
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::startJob(487) - INFO: [1] streams are requested. [4] streams are already allocated
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::startJob(488) - INFO: ObjectOps will make use of all [4] streams
+3880  1d58  06/30 08:46:22 1087953 OBJECTOPSAPI::BackupController::startJob(519) - startJob: [4] streams allocated. Allocation of [0] pending streams will be attempted.
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(107) - +++ 
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(108) - --------
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(110) - prepared stream request 4 for DATA
+3880  145c  06/30 08:46:22 1087953 CVDC_FileSystem::CFSBackupController::getStreamRequest(107) - --- 0:00.053662 
+3880  145c  06/30 08:46:22 1087953 DistributedIDA::CController::requestStreamID(908) - registered worker with request 4 (0000028F7079E7C0)
+3880  cf0   06/30 08:46:22 1087953 MultiNodeBackupOpsWorker::Initialize(102) - +++ 
+3880  cf0   06/30 08:46:22 1087953 MultiNodeBackupOpsWorker::SetupPipeline(125) - +++ 
+3880  cf0   06/30 08:46:23 1087953 Using threaded performance counters
+3880  1d58  06/30 08:46:23 1087953 Using threaded performance counters
+3880  1d58  06/30 08:46:23 1087953 Performance COUNTER ANALYSIS will be turned ON
+3880  1d58  06/30 08:46:23 1087953 Performance COUNTER ANALYSIS will be printed every 1800 seconds
+3880  1d58  06/30 08:46:23 1087953 Performance COUNTERS WOULD NOT BE RESET FOR EVERY FILE
+3880  1c38  06/30 08:46:23 1087953 Using threaded performance counters
+3880  1c38  06/30 08:46:23 1087953 Performance COUNTER ANALYSIS will be turned ON
+3880  1c38  06/30 08:46:23 1087953 Performance COUNTER ANALYSIS will be printed every 1800 seconds
+3880  1c38  06/30 08:46:23 1087953 Performance COUNTERS WOULD NOT BE RESET FOR EVERY FILE
+3880  1c38  06/30 08:46:23 1087953 OBJECTOPSAPI::CStreamHandler::registerPerfCounters(1432) - Registering Performance counters for Stream Handler with rcID 2177328
+3880  cf0   06/30 08:46:23 1087953 Performance COUNTER ANALYSIS will be turned ON
+3880  cf0   06/30 08:46:23 1087953 Performance COUNTER ANALYSIS will be printed every 1800 seconds
+3880  cf0   06/30 08:46:23 1087953 Performance COUNTERS WOULD NOT BE RESET FOR EVERY FILE
+3880  cf0   06/30 08:46:23 1087953 OBJECTOPSAPI::CStreamHandler::registerPerfCounters(1432) - Registering Performance counters for Stream Handler with rcID 2177327
+3880  cf0   06/30 08:46:23 1087953 CVArchive::Construct() - Constructing CVArchive Object. This=0000028F708F3980
+3880  1d58  06/30 08:46:23 1087953 OBJECTOPSAPI::CStreamHandler::registerPerfCounters(1432) - Registering Performance counters for Stream Handler with rcID 2177329
+3880  1d58  06/30 08:46:23 1087953 CVArchive::Construct() - Constructing CVArchive Object. This=0000028F7091C2D0
+3880  1c38  06/30 08:46:23 1087953 CVArchive::Construct() - Constructing CVArchive Object. This=0000028F708F1180
+3880  cf0   06/30 08:46:23 1087953 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+3880  cf0   06/30 08:46:23 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  1d58  06/30 08:46:23 1087953 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+3880  1c38  06/30 08:46:23 1087953 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+3880  15b0  06/30 08:46:23 1087953 MultiNodeBackupOpsWorker::Initialize(102) - +++ 
+3880  15b0  06/30 08:46:23 1087953 MultiNodeBackupOpsWorker::SetupPipeline(125) - +++ 
+3880  1c38  06/30 08:46:23 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  1d58  06/30 08:46:23 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  15b0  06/30 08:46:23 1087953 Using threaded performance counters
+3880  15b0  06/30 08:46:23 1087953 Performance COUNTER ANALYSIS will be turned ON
+3880  15b0  06/30 08:46:23 1087953 Performance COUNTER ANALYSIS will be printed every 1800 seconds
+3880  15b0  06/30 08:46:23 1087953 Performance COUNTERS WOULD NOT BE RESET FOR EVERY FILE
+3880  15b0  06/30 08:46:23 1087953 OBJECTOPSAPI::CStreamHandler::registerPerfCounters(1432) - Registering Performance counters for Stream Handler with rcID 2177326
+3880  15b0  06/30 08:46:23 1087953 CVArchive::Construct() - Constructing CVArchive Object. This=0000028F70944B80
+3880  15b0  06/30 08:46:23 1087953 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+3880  15b0  06/30 08:46:23 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  cf0   06/30 08:46:23 1087953 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+3880  cf0   06/30 08:46:23 1087953 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Bkp] pipe
+3880  cf0   06/30 08:46:23 1087953 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+3880  cf0   06/30 08:46:23 1087953 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+3880  cf0   06/30 08:46:23 1087953 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[0] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[2177327] CloudLaptopClnt[0] 
+3880  cf0   06/30 08:46:23 1087953 Configuring Compression for DataType 1
+3880  cf0   06/30 08:46:23 1087953 Block level SI is set. Going to set minimum single instanceable size to block size
+3880  cf0   06/30 08:46:23 1087953 Min SI Data Size [128 KB], SI Block Size [128 KB]
+3880  1d58  06/30 08:46:23 1087953 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+3880  cf0   06/30 08:46:23 1087953  VCA is supported for appType = 134
+3880  1d58  06/30 08:46:23 1087953 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Bkp] pipe
+3880  1d58  06/30 08:46:23 1087953 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+3880  1d58  06/30 08:46:23 1087953 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+3880  1d58  06/30 08:46:23 1087953 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[0] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[2177329] CloudLaptopClnt[0] 
+3880  1c38  06/30 08:46:23 1087953 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+3880  cf0   06/30 08:46:23 1087953 CVArchive::ConfigureBlockAlignment() - Application id [23682] resolved to client name [GitHubUsr_1]
+3880  1d58  06/30 08:46:23 1087953 Configuring Compression for DataType 1
+3880  1d58  06/30 08:46:23 1087953 Block level SI is set. Going to set minimum single instanceable size to block size
+3880  1d58  06/30 08:46:24 1087953 Min SI Data Size [128 KB], SI Block Size [128 KB]
+3880  1d58  06/30 08:46:24 1087953  VCA is supported for appType = 134
+3880  1c38  06/30 08:46:24 1087953 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Bkp] pipe
+3880  1c38  06/30 08:46:24 1087953 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+3880  1c38  06/30 08:46:24 1087953 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+3880  1c38  06/30 08:46:24 1087953 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[0] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[2177328] CloudLaptopClnt[0] 
+3880  1c38  06/30 08:46:24 1087953 Configuring Compression for DataType 1
+3880  1c38  06/30 08:46:24 1087953 Block level SI is set. Going to set minimum single instanceable size to block size
+3880  1c38  06/30 08:46:24 1087953 Min SI Data Size [128 KB], SI Block Size [128 KB]
+3880  1c38  06/30 08:46:24 1087953  VCA is supported for appType = 134
+3880  15b0  06/30 08:46:24 1087953 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+3880  cf0   06/30 08:46:24 1087953 CVArchive::ConfigureBlockAlignment() - Block alignment is not enabled for this client
+3880  cf0   06/30 08:46:24 1087953 Configuring Encryption for DataType 1
+3880  1d58  06/30 08:46:24 1087953 CVArchive::ConfigureBlockAlignment() - Application id [23682] resolved to client name [GitHubUsr_1]
+3880  15b0  06/30 08:46:24 1087953 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Bkp] pipe
+3880  15b0  06/30 08:46:24 1087953 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+3880  15b0  06/30 08:46:24 1087953 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+3880  1d58  06/30 08:46:24 1087953 CVArchive::ConfigureBlockAlignment() - Block alignment is not enabled for this client
+3880  1d58  06/30 08:46:24 1087953 Configuring Encryption for DataType 1
+3880  cf0   06/30 08:46:24 1087953 Current pipeline module configuration: compression [0][CV_COMPRESS_SOURCE], signature [3][CV_CLIENTSIDE_DEDUP] and encryption [1][CV_ENCRYPT_SOURCE]
+3880  15b0  06/30 08:46:24 1087953 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[0] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[2177326] CloudLaptopClnt[0] 
+3880  15b0  06/30 08:46:24 1087953 Configuring Compression for DataType 1
+3880  15b0  06/30 08:46:24 1087953 Block level SI is set. Going to set minimum single instanceable size to block size
+3880  15b0  06/30 08:46:24 1087953 Min SI Data Size [128 KB], SI Block Size [128 KB]
+3880  15b0  06/30 08:46:24 1087953  VCA is supported for appType = 134
+3880  1d58  06/30 08:46:24 1087953 Current pipeline module configuration: compression [0][CV_COMPRESS_SOURCE], signature [3][CV_CLIENTSIDE_DEDUP] and encryption [1][CV_ENCRYPT_SOURCE]
+3880  cf0   06/30 08:46:24 1087953 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+3880  cf0   06/30 08:46:24 1087953 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [true], Block Size [128], File Level [false], Min Signature Size [128]
+3880  cf0   06/30 08:46:24 1087953 CCVAPipelayer::StartPipeline() - Forcing single tag buffers to true
+3880  cf0   06/30 08:46:24 1087953 Ignoring call to enable/disable multi-tag buffers. parameter [false].
+3880  cf0   06/30 08:46:24 1087953 CPipelayer::InitiatePipeline Initiating SDT connection [0000028F7090CD90] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+3880  cf0   06/30 08:46:24 1087953 CPipelayer::InitiatePipeline compressionType [CV_COMPRESS], compressWhere [CV_COMPRESS_SOURCE]
+3880  cf0   06/30 08:46:24 1087953 CPipelayer::InitiatePipeline encryptionType [CV_ENCRYPT], encryptionWhere [CV_ENCRYPT_SOURCE]
+3880  cf0   06/30 08:46:24 1087953 CPipelayer::InitiatePipeline signatureType [CV_SIGNATURE_SHA_512], signatureWhere [CV_CLIENTSIDE_DEDUP]
+3880  cf0   06/30 08:46:24 1087953 CPipelayer::InitiatePipeline Lan-Free - 1
+3880  1d58  06/30 08:46:24 1087953 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+3880  1d58  06/30 08:46:24 1087953 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [true], Block Size [128], File Level [false], Min Signature Size [128]
+3880  1d58  06/30 08:46:24 1087953 CCVAPipelayer::StartPipeline() - Forcing single tag buffers to true
+3880  1d58  06/30 08:46:24 1087953 Ignoring call to enable/disable multi-tag buffers. parameter [false].
+3880  1d58  06/30 08:46:24 1087953 CPipelayer::InitiatePipeline Initiating SDT connection [0000028F7091DF10] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+3880  1d58  06/30 08:46:24 1087953 CPipelayer::InitiatePipeline compressionType [CV_COMPRESS], compressWhere [CV_COMPRESS_SOURCE]
+3880  1d58  06/30 08:46:24 1087953 CPipelayer::InitiatePipeline encryptionType [CV_ENCRYPT], encryptionWhere [CV_ENCRYPT_SOURCE]
+3880  1d58  06/30 08:46:24 1087953 CPipelayer::InitiatePipeline signatureType [CV_SIGNATURE_SHA_512], signatureWhere [CV_CLIENTSIDE_DEDUP]
+3880  1d58  06/30 08:46:24 1087953 CPipelayer::InitiatePipeline Lan-Free - 1
+3880  1d58  06/30 08:46:24 1087953 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+3880  1c38  06/30 08:46:24 1087953 CVArchive::ConfigureBlockAlignment() - Application id [23682] resolved to client name [GitHubUsr_1]
+3880  1c38  06/30 08:46:24 1087953 CVArchive::ConfigureBlockAlignment() - Block alignment is not enabled for this client
+3880  1c38  06/30 08:46:24 1087953 Configuring Encryption for DataType 1
+3880  1d58  06/30 08:46:24 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3880  15b0  06/30 08:46:24 1087953 CVArchive::ConfigureBlockAlignment() - Application id [23682] resolved to client name [GitHubUsr_1]
+3880  cf0   06/30 08:46:24 1087953 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+3880  1c38  06/30 08:46:24 1087953 Current pipeline module configuration: compression [0][CV_COMPRESS_SOURCE], signature [3][CV_CLIENTSIDE_DEDUP] and encryption [1][CV_ENCRYPT_SOURCE]
+3880  1d58  06/30 08:46:24 1087953 CPipelayer::InitiatePipeline SDT is using socket 1168 for connection 1/2
+3880  1d58  06/30 08:46:24 1087953 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087953_1656603984_3880_7512_0000028F7091DF10]
+3880  cf0   06/30 08:46:24 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3880  cf0   06/30 08:46:24 1087953 CPipelayer::InitiatePipeline SDT is using socket 1176 for connection 1/2
+3880  cf0   06/30 08:46:24 1087953 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087953_1656603984_3880_3312_0000028F7090CD90]
+3880  1d58  06/30 08:46:24 1087953 SdtNetLink() - WAN Padding is OFF
+3880  1d58  06/30 08:46:25 ####### Single Threaded Head [false]
+3880  1d58  06/30 08:46:25 1087953 SdtBase::cfgComp() - LZO init retVal [0]. Spill buf size [2048] bytes
+3880  1c38  06/30 08:46:25 1087953 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+3880  1c38  06/30 08:46:25 1087953 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [true], Block Size [128], File Level [false], Min Signature Size [128]
+3880  15b0  06/30 08:46:25 1087953 CVArchive::ConfigureBlockAlignment() - Block alignment is not enabled for this client
+3880  15b0  06/30 08:46:25 1087953 Configuring Encryption for DataType 1
+3880  cf0   06/30 08:46:25 1087953 SdtNetLink() - WAN Padding is OFF
+3880  cf0   06/30 08:46:25 ####### Single Threaded Head [false]
+3880  15b0  06/30 08:46:25 1087953 Current pipeline module configuration: compression [0][CV_COMPRESS_SOURCE], signature [3][CV_CLIENTSIDE_DEDUP] and encryption [1][CV_ENCRYPT_SOURCE]
+3880  15b0  06/30 08:46:25 1087953 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+3880  cf0   06/30 08:46:25 1087953 SdtNetLink::setSocket() - Switching socket 1176 to non-blocking mode.
+3880  1c38  06/30 08:46:25 1087953 CCVAPipelayer::StartPipeline() - Forcing single tag buffers to true
+3880  15b0  06/30 08:46:25 1087953 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [true], Block Size [128], File Level [false], Min Signature Size [128]
+3880  15b0  06/30 08:46:25 1087953 CCVAPipelayer::StartPipeline() - Forcing single tag buffers to true
+3880  15b0  06/30 08:46:25 1087953 Ignoring call to enable/disable multi-tag buffers. parameter [false].
+3880  15b0  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline Initiating SDT connection [0000028F70960590] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+3880  15b0  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline compressionType [CV_COMPRESS], compressWhere [CV_COMPRESS_SOURCE]
+3880  15b0  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline encryptionType [CV_ENCRYPT], encryptionWhere [CV_ENCRYPT_SOURCE]
+3880  15b0  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline signatureType [CV_SIGNATURE_SHA_512], signatureWhere [CV_CLIENTSIDE_DEDUP]
+3880  15b0  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline Lan-Free - 1
+3880  15b0  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+3880  1d58  06/30 08:46:25 1087953 SdtNetLink::setSocket() - Switching socket 1168 to non-blocking mode.
+3880  1c38  06/30 08:46:25 1087953 Ignoring call to enable/disable multi-tag buffers. parameter [false].
+3880  1c38  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline Initiating SDT connection [0000028F7092D450] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+3880  1c38  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline compressionType [CV_COMPRESS], compressWhere [CV_COMPRESS_SOURCE]
+3880  1c38  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline encryptionType [CV_ENCRYPT], encryptionWhere [CV_ENCRYPT_SOURCE]
+3880  1c38  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline signatureType [CV_SIGNATURE_SHA_512], signatureWhere [CV_CLIENTSIDE_DEDUP]
+3880  1c38  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline Lan-Free - 1
+3880  1c38  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+3880  15b0  06/30 08:46:25 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3880  15b0  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline SDT is using socket 1180 for connection 1/2
+3880  15b0  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087953_1656603985_3880_5552_0000028F70960590]
+3880  cf0   06/30 08:46:25 1087953 SdtNetLink::authenticate() - Connection authenticated successfully
+3880  1c38  06/30 08:46:25 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3880  1c38  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline SDT is using socket 1196 for connection 1/2
+3880  1c38  06/30 08:46:25 1087953 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087953_1656603985_3880_7224_0000028F7092D450]
+3880  cf0   06/30 08:46:25 ####### Object hash type set to 0
+3880  cf0   06/30 08:46:25 ####### SdtBase::InitWrkPool: Initializing SDT head thread pool
+3880  cf0   06/30 08:46:25 ####### Max head thread count set to 16. CPU # = 2
+3880  cf0   06/30 08:46:25 ####### Threads per connection set to 8
+3880  cf0   06/30 08:46:25 ####### Initial max. threads set to 16
+3880  1d58  06/30 08:46:25 1087953 SdtNetLink::authenticate() - Connection authenticated successfully
+3880  cf0   06/30 08:46:25 1087953 Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+3880  1c38  06/30 08:46:25 1087953 SdtNetLink() - WAN Padding is OFF
+3880  1c38  06/30 08:46:25 ####### Single Threaded Head [false]
+3880  cf0   06/30 08:46:25 ####### SdtBase::InitWrkPool: Successfully initialized Head SDT thread pool
+3880  15b0  06/30 08:46:25 1087953 SdtNetLink() - WAN Padding is OFF
+3880  15b0  06/30 08:46:25 ####### Single Threaded Head [false]
+3880  15b0  06/30 08:46:25 1087953 SdtNetLink::setSocket() - Switching socket 1180 to non-blocking mode.
+3880  1d58  06/30 08:46:25 1087953 MODULE_SEQUENCE Adding compression at index [1] RCId [2177329]
+3880  1d58  06/30 08:46:25 1087953 SDT buffers: Total=90, Sig. module=18 RCId [2177329]
+3880  1d58  06/30 08:46:25 1087953 MODULE_SEQUENCE Adding signature at index [2] RCId [2177329]
+3880  1d58  06/30 08:46:25 ####### Set the signature type to [4] [SHA512]
+3880  1d58  06/30 08:46:25 1087953 Adding encryption at index [3] RCId [2177329]
+3880  1d58  06/30 08:46:25 1087953 MODULE_SEQUENCE Adding encryption at index [3] RCId [2177329]
+3880  1d58  06/30 08:46:25 1087953 CipherCacheSingleton::Initialize() - MaxAFMap Sz [2048] MaxAFMap Timeout [3600] MaxKeyMap Sz [1024] CritKeyMap Sz [2048] MaxKeyMap Timeout [3600]Low WtrMrk [4194304] High WtrMrk [8388608] Debug[N] MultiAF [Y]
+3880  cf0   06/30 08:46:25 1087953 MODULE_SEQUENCE Adding compression at index [1] RCId [2177327]
+3880  1c38  06/30 08:46:25 1087953 SdtNetLink::setSocket() - Switching socket 1196 to non-blocking mode.
+3880  15b0  06/30 08:46:25 1087953 SdtNetLink::authenticate() - Connection authenticated successfully
+3880  1d58  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Total Bufs=72, allocators=1
+3880  1d58  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [72]
+3880  1d58  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  1d58  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [18]
+3880  1d58  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  1d58  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  1d58  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  cf0   06/30 08:46:25 1087953 SDT buffers: Total=90, Sig. module=18 RCId [2177327]
+3880  cf0   06/30 08:46:25 1087953 MODULE_SEQUENCE Adding signature at index [2] RCId [2177327]
+3880  15b0  06/30 08:46:25 1087953 MODULE_SEQUENCE Adding compression at index [1] RCId [2177326]
+3880  1d58  06/30 08:46:25 1087953 Switching socket 1168 (1/2) to non-blking mode. RCId [2177329]
+3880  1d58  06/30 08:46:25 1087953 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+3880  cf0   06/30 08:46:25 ####### Set the signature type to [4] [SHA512]
+3880  15b0  06/30 08:46:25 1087953 SDT buffers: Total=90, Sig. module=18 RCId [2177326]
+3880  15b0  06/30 08:46:25 1087953 MODULE_SEQUENCE Adding signature at index [2] RCId [2177326]
+3880  1d58  06/30 08:46:25 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3880  15b0  06/30 08:46:25 ####### Set the signature type to [4] [SHA512]
+3880  15b0  06/30 08:46:25 1087953 Adding encryption at index [3] RCId [2177326]
+3880  15b0  06/30 08:46:25 1087953 MODULE_SEQUENCE Adding encryption at index [3] RCId [2177326]
+3880  1d58  06/30 08:46:25 1087953 CPipelayer::FattenSdt SDT is using socket 1224 for connection 2/2
+3880  15b0  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Total Bufs=72, allocators=1
+3880  15b0  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [72]
+3880  15b0  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  15b0  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [18]
+3880  15b0  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  15b0  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  15b0  06/30 08:46:25 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  15b0  06/30 08:46:25 1087953 Switching socket 1180 (1/2) to non-blking mode. RCId [2177326]
+3880  15b0  06/30 08:46:26 1087953 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+3880  1c38  06/30 08:46:26 1087953 SdtNetLink::authenticate() - Connection authenticated successfully
+3880  15b0  06/30 08:46:26 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3880  15b0  06/30 08:46:26 1087953 CPipelayer::FattenSdt SDT is using socket 1232 for connection 2/2
+3880  1d58  06/30 08:46:26 1087953 Switching socket 1224 (2/2) to non-blking mode. RCId [2177329]
+3880  cf0   06/30 08:46:26 1087953 Adding encryption at index [3] RCId [2177327]
+3880  cf0   06/30 08:46:26 1087953 MODULE_SEQUENCE Adding encryption at index [3] RCId [2177327]
+3880  cf0   06/30 08:46:26 1087953 SdtBase::cfgProcs() - Total Bufs=72, allocators=1
+3880  cf0   06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [72]
+3880  cf0   06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  cf0   06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [18]
+3880  cf0   06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  cf0   06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  cf0   06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  cf0   06/30 08:46:26 1087953 Switching socket 1176 (1/2) to non-blking mode. RCId [2177327]
+3880  cf0   06/30 08:46:26 1087953 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+3880  1c38  06/30 08:46:26 1087953 MODULE_SEQUENCE Adding compression at index [1] RCId [2177328]
+3880  1c38  06/30 08:46:26 1087953 SDT buffers: Total=90, Sig. module=18 RCId [2177328]
+3880  1c38  06/30 08:46:26 1087953 MODULE_SEQUENCE Adding signature at index [2] RCId [2177328]
+3880  1c38  06/30 08:46:26 ####### Set the signature type to [4] [SHA512]
+3880  1c38  06/30 08:46:26 1087953 Adding encryption at index [3] RCId [2177328]
+3880  1c38  06/30 08:46:26 1087953 MODULE_SEQUENCE Adding encryption at index [3] RCId [2177328]
+3880  1c38  06/30 08:46:26 1087953 SdtBase::cfgProcs() - Total Bufs=72, allocators=1
+3880  1c38  06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [72]
+3880  1c38  06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  1c38  06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [18]
+3880  1c38  06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  1c38  06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  1c38  06/30 08:46:26 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+3880  1c38  06/30 08:46:26 1087953 Switching socket 1196 (1/2) to non-blking mode. RCId [2177328]
+3880  1c38  06/30 08:46:26 1087953 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+3880  cf0   06/30 08:46:26 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3880  cf0   06/30 08:46:26 1087953 CPipelayer::FattenSdt SDT is using socket 1248 for connection 2/2
+3880  1c38  06/30 08:46:26 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+3880  1c38  06/30 08:46:26 1087953 CPipelayer::FattenSdt SDT is using socket 1260 for connection 2/2
+3880  1d58  06/30 08:46:26 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1168, Ret=-1, Err=47
+3880  1d58  06/30 08:46:26 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1224, Ret=-1, Err=47
+3880  cf0   06/30 08:46:26 1087953 Switching socket 1248 (2/2) to non-blking mode. RCId [2177327]
+3880  1d58  06/30 08:46:26 1087953 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 2177329] [Starttime - 1656603986] [Starttime UTC - 1656632786]
+3880  cf0   06/30 08:46:26 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1176, Ret=-1, Err=47
+3880  cf0   06/30 08:46:26 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1248, Ret=-1, Err=47
+3880  cf0   06/30 08:46:26 1087953 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 2177327] [Starttime - 1656603986] [Starttime UTC - 1656632786]
+3880  1d58  06/30 08:46:26 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 158 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:46:26 1087953 Switching socket 1260 (2/2) to non-blking mode. RCId [2177328]
+3880  cf0   06/30 08:46:26 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 158 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:46:26 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1196, Ret=-1, Err=47
+3880  1c38  06/30 08:46:26 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1260, Ret=-1, Err=47
+3880  1c38  06/30 08:46:26 1087953 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 2177328] [Starttime - 1656603986] [Starttime UTC - 1656632786]
+3880  14a0  06/30 08:46:26 1087953 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtHead. [Using slice-by-8] RCId [2177327]
+3880  1c38  06/30 08:46:26 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 158 to MediaAgent, Waiting for Response...
+3880  14a0  06/30 08:46:26 ####### SdtHead::onProcDataCompleted: SDT Head Timeout is set to [-1] secs
+3880  14a0  06/30 08:46:26 ####### SdtBase::procBuffer: SDT Head Check CRC after network send is set to [0]
+3880  1ed8  06/30 08:46:26 1087953 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtHead. [Using slice-by-8] RCId [2177328]
+3880  c0c   06/30 08:46:26 1087953 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtHead. [Using slice-by-8] RCId [2177329]
+3880  15b0  06/30 08:46:26 1087953 Switching socket 1232 (2/2) to non-blking mode. RCId [2177326]
+3880  15b0  06/30 08:46:26 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1180, Ret=-1, Err=47
+3880  15b0  06/30 08:46:26 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1232, Ret=-1, Err=47
+3880  15b0  06/30 08:46:26 1087953 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 2177326] [Starttime - 1656603986] [Starttime UTC - 1656632786]
+3880  15b0  06/30 08:46:26 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 158 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:46:26 1087953 [PIPELAYER  ] Tail response = Get PL_SET_NETWORK_CRC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 158 EventError = 0
+3880  cf0   06/30 08:46:26 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 136 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:46:26 1087953 [PIPELAYER  ] Tail response = Get PL_SET_NETWORK_CRC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 158 EventError = 0
+3880  1568  06/30 08:46:26 1087953 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtHead. [Using slice-by-8] RCId [2177326]
+3880  1c38  06/30 08:46:26 1087953 [PIPELAYER  ] Tail response = Get PL_SET_NETWORK_CRC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 158 EventError = 0
+3880  1c38  06/30 08:46:26 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 136 to MediaAgent, Waiting for Response...
+3880  1ed8  06/30 08:46:26 1087953 Will dedup data >= [131072] bytes. Scaling factor [2]. Min data size [8192], Block Mode [true], Use Uncomp [false], Follow Primary [false]
+3880  1d58  06/30 08:46:26 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 136 to MediaAgent, Waiting for Response...
+3880  c0c   06/30 08:46:26 1087953 Will dedup data >= [131072] bytes. Scaling factor [2]. Min data size [8192], Block Mode [true], Use Uncomp [false], Follow Primary [false]
+3880  15b0  06/30 08:46:26 1087953 [PIPELAYER  ] Tail response = Get PL_SET_NETWORK_CRC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 158 EventError = 0
+3880  15b0  06/30 08:46:26 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 136 to MediaAgent, Waiting for Response...
+3880  14a0  06/30 08:46:26 1087953 Will dedup data >= [131072] bytes. Scaling factor [2]. Min data size [8192], Block Mode [true], Use Uncomp [false], Follow Primary [false]
+3880  1568  06/30 08:46:26 1087953 Will dedup data >= [131072] bytes. Scaling factor [2]. Min data size [8192], Block Mode [true], Use Uncomp [false], Follow Primary [false]
+3880  cf0   06/30 08:46:28 1087953 [PIPELAYER  ] Tail response = dsBackup initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 136 EventError = 0
+3880  1d58  06/30 08:46:28 1087953 [PIPELAYER  ] Tail response = dsBackup initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 136 EventError = 0
+3880  15b0  06/30 08:46:28 1087953 [PIPELAYER  ] Tail response = dsBackup initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 136 EventError = 0
+3880  15b0  06/30 08:46:28 1087953 CCVAPipelayer::InitializeBackupPipeline() - Enabling Client-Side-Deduplication SignatureWhere:3
+3880  15b0  06/30 08:46:28 1087953 CCVAPipelayer::InitializeBackupPipeline() - Sent Command PL_INIT_SIGNATURE to MediaAgent [Client name - sanbgw] [SIDBStoreId - 1400314] [isClientSideDedupEnabled - yes] [CacheDBSize - 0 MB] [Cache-buffer-size - 4096 KB][Compress-enabled - Yes] [latencyOptimizeEnabled - No]
+3880  1d58  06/30 08:46:28 1087953 CCVAPipelayer::InitializeBackupPipeline() - Enabling Client-Side-Deduplication SignatureWhere:3
+3880  1d58  06/30 08:46:28 1087953 CCVAPipelayer::InitializeBackupPipeline() - Sent Command PL_INIT_SIGNATURE to MediaAgent [Client name - sanbgw] [SIDBStoreId - 1400314] [isClientSideDedupEnabled - yes] [CacheDBSize - 0 MB] [Cache-buffer-size - 4096 KB][Compress-enabled - Yes] [latencyOptimizeEnabled - No]
+3880  1d58  06/30 08:46:28 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 319 to MediaAgent, Waiting for Response...
+3880  15b0  06/30 08:46:28 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 319 to MediaAgent, Waiting for Response...
+3880  14a0  06/30 08:46:28 1087953 SdtSignature::ComputeAndAddSignature : Getting PL_INIT_SIGNATURE Message[Ver-1][ComputerName - sanbgw][SIDBStoreId - 1400314][isClientSideDedupEnabled - yes] [CacheDBSize - 0 MB] [Cache-buffer-size - 4096 KB] [EnabledOptimzedForLatency - No]
+3880  1c38  06/30 08:46:28 1087953 [PIPELAYER  ] Tail response = dsBackup initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 136 EventError = 0
+3880  1c38  06/30 08:46:28 1087953 CCVAPipelayer::InitializeBackupPipeline() - Enabling Client-Side-Deduplication SignatureWhere:3
+3880  1c38  06/30 08:46:28 1087953 CCVAPipelayer::InitializeBackupPipeline() - Sent Command PL_INIT_SIGNATURE to MediaAgent [Client name - sanbgw] [SIDBStoreId - 1400314] [isClientSideDedupEnabled - yes] [CacheDBSize - 0 MB] [Cache-buffer-size - 4096 KB][Compress-enabled - Yes] [latencyOptimizeEnabled - No]
+3880  1c38  06/30 08:46:28 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 319 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:46:28 1087953 CCVAPipelayer::InitializeBackupPipeline() - Enabling Client-Side-Deduplication SignatureWhere:3
+3880  cf0   06/30 08:46:28 1087953 CCVAPipelayer::InitializeBackupPipeline() - Sent Command PL_INIT_SIGNATURE to MediaAgent [Client name - sanbgw] [SIDBStoreId - 1400314] [isClientSideDedupEnabled - yes] [CacheDBSize - 0 MB] [Cache-buffer-size - 4096 KB][Compress-enabled - Yes] [latencyOptimizeEnabled - No]
+3880  cf0   06/30 08:46:28 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 319 to MediaAgent, Waiting for Response...
+3880  14a0  06/30 08:46:28 1087953 InitializeDedupCache: Performance counter update interval seconds. setting to 1800 seconds
+3880  c0c   06/30 08:46:28 1087953 SdtSignature::ComputeAndAddSignature : Getting PL_INIT_SIGNATURE Message[Ver-1][ComputerName - sanbgw][SIDBStoreId - 1400314][isClientSideDedupEnabled - yes] [CacheDBSize - 0 MB] [Cache-buffer-size - 4096 KB] [EnabledOptimzedForLatency - No]
+3880  14a0  06/30 08:46:28 1087953 CSignatureQuery::Initialize() - Initializing CSignatureQuery... 
+3880  c0c   06/30 08:46:28 1087953 InitializeDedupCache: Performance counter update interval seconds. setting to 1800 seconds
+3880  c0c   06/30 08:46:29 1087953 CSignatureQuery::Initialize() - Initializing CSignatureQuery... 
+3880  1568  06/30 08:46:29 1087953 SdtSignature::ComputeAndAddSignature : Getting PL_INIT_SIGNATURE Message[Ver-1][ComputerName - sanbgw][SIDBStoreId - 1400314][isClientSideDedupEnabled - yes] [CacheDBSize - 0 MB] [Cache-buffer-size - 4096 KB] [EnabledOptimzedForLatency - No]
+3880  1ed8  06/30 08:46:29 1087953 SdtSignature::ComputeAndAddSignature : Getting PL_INIT_SIGNATURE Message[Ver-1][ComputerName - sanbgw][SIDBStoreId - 1400314][isClientSideDedupEnabled - yes] [CacheDBSize - 0 MB] [Cache-buffer-size - 4096 KB] [EnabledOptimzedForLatency - No]
+3880  1568  06/30 08:46:29 1087953 InitializeDedupCache: Performance counter update interval seconds. setting to 1800 seconds
+3880  1ed8  06/30 08:46:29 1087953 InitializeDedupCache: Performance counter update interval seconds. setting to 1800 seconds
+3880  1ed8  06/30 08:46:29 1087953 CSignatureQuery::Initialize() - Initializing CSignatureQuery... 
+3880  1568  06/30 08:46:29 1087953 CSignatureQuery::Initialize() - Initializing CSignatureQuery... 
+3880  14a0  06/30 08:46:29 ------- CVMMIdxSIDBStoreInfo::getSIDBSubStoreList() - Received SIDBSubStores [2] for SIDBStoreId [1400314]. 
+3880  14a0  06/30 08:46:29 1087953 [2] Sub stores with [2] groups configured for engine [1400314]
+3880  14a0  06/30 08:46:29 1087953 SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 0-1753862-0 => 0-1753862-0 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+3880  c0c   06/30 08:46:29 ------- CVMMIdxSIDBStoreInfo::getSIDBSubStoreList() - Received SIDBSubStores [2] for SIDBStoreId [1400314]. 
+3880  14a0  06/30 08:46:29 1087953 SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 1-1753863-1 => 1-1753863-1 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+3880  c0c   06/30 08:46:29 1087953 [2] Sub stores with [2] groups configured for engine [1400314]
+3880  14a0  06/30 08:46:29 1087953 CSignatureQuery::GetInvalidSubstoresID() - Inactive Substores list count - 0
+3880  c0c   06/30 08:46:29 1087953 SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 0-1753862-0 => 0-1753862-0 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+3880  c0c   06/30 08:46:29 1087953 SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 1-1753863-1 => 1-1753863-1 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+3880  14a0  06/30 08:46:29 1087953 SIDB-Store(1400314)(SanBGW_DiskLibrary_Files_1400314) version -1 (Copy-ID - 8988) [LAN-Free lookup - Yes]
+3880  1ed8  06/30 08:46:29 ------- CVMMIdxSIDBStoreInfo::getSIDBSubStoreList() - Received SIDBSubStores [2] for SIDBStoreId [1400314]. 
+3880  1ed8  06/30 08:46:29 1087953 [2] Sub stores with [2] groups configured for engine [1400314]
+3880  1ed8  06/30 08:46:29 1087953 SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 0-1753862-0 => 0-1753862-0 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+3880  1ed8  06/30 08:46:29 1087953 SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 1-1753863-1 => 1-1753863-1 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+3880  1ed8  06/30 08:46:29 1087953 CSignatureQuery::GetInvalidSubstoresID() - Inactive Substores list count - 0
+3880  1ed8  06/30 08:46:29 1087953 SIDB-Store(1400314)(SanBGW_DiskLibrary_Files_1400314) version -1 (Copy-ID - 8988) [LAN-Free lookup - Yes]
+3880  1ed8  06/30 08:46:29 1087953 Computing Client host name [Client-host - SanBGW ][ Client PhysicalMachine - sanbgw ]
+3880  c0c   06/30 08:46:29 1087953 CSignatureQuery::GetInvalidSubstoresID() - Inactive Substores list count - 0
+3880  c0c   06/30 08:46:29 1087953 SIDB-Store(1400314)(SanBGW_DiskLibrary_Files_1400314) version -1 (Copy-ID - 8988) [LAN-Free lookup - Yes]
+3880  14a0  06/30 08:46:29 1087953 Computing Client host name [Client-host - SanBGW ][ Client PhysicalMachine - sanbgw ]
+3880  1ed8  06/30 08:46:29 1087953 Invalid block Cache Valid (retention) Days - -1 [Setting to 90 days] 
+3880  1ed8  06/30 08:46:29 1087953 CSignatureQuery::Initialize() - [Cache-DB lookup - No] [SIDB lookup - Yes] [Signature/Batch - 1]
+3880  1ed8  06/30 08:46:29 1087953 CSignatureQuery::Initialize() - Initializing CSignatureQuery completed. 
+3880  1ed8  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [APPID - 23682][CopyId - 8988] [JobID - 1087953][CacheDBEnabled - No][SIDBEnabled - Yes] 
+3880  1ed8  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [MaxCacheDBSize - 0 MB][RCId - 2177327][Client Computer Name - sanbgw] 
+3880  1ed8  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [SIDB-ID - 1400314][SignatureType - 4]
+3880  1ed8  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [DedupCache sig-data caching size 9043968 (64 x 141312)]
+3880  1568  06/30 08:46:29 ------- CVMMIdxSIDBStoreInfo::getSIDBSubStoreList() - Received SIDBSubStores [2] for SIDBStoreId [1400314]. 
+3880  1568  06/30 08:46:29 1087953 [2] Sub stores with [2] groups configured for engine [1400314]
+3880  1568  06/30 08:46:29 1087953 SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 0-1753862-0 => 0-1753862-0 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+3880  cf0   06/30 08:46:29 1087953 [PIPELAYER  ] Tail response = signature initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 319 EventError = 0
+3880  cf0   06/30 08:46:29 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  cf0   06/30 08:46:29 1087953 JM Client  CVBkpJobClient::init(): Initializing job object with token [1087953:4:1:0:0:32808].
+3880  1568  06/30 08:46:29 1087953 SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 1-1753863-1 => 1-1753863-1 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+3880  1568  06/30 08:46:29 1087953 CSignatureQuery::GetInvalidSubstoresID() - Inactive Substores list count - 0
+3880  1568  06/30 08:46:29 1087953 SIDB-Store(1400314)(SanBGW_DiskLibrary_Files_1400314) version -1 (Copy-ID - 8988) [LAN-Free lookup - Yes]
+3880  1568  06/30 08:46:29 1087953 Computing Client host name [Client-host - SanBGW ][ Client PhysicalMachine - sanbgw ]
+3880  1568  06/30 08:46:29 1087953 Invalid block Cache Valid (retention) Days - -1 [Setting to 90 days] 
+3880  1568  06/30 08:46:29 1087953 CSignatureQuery::Initialize() - [Cache-DB lookup - No] [SIDB lookup - Yes] [Signature/Batch - 1]
+3880  1568  06/30 08:46:29 1087953 CSignatureQuery::Initialize() - Initializing CSignatureQuery completed. 
+3880  1568  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [APPID - 23682][CopyId - 8988] [JobID - 1087953][CacheDBEnabled - No][SIDBEnabled - Yes] 
+3880  1568  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [MaxCacheDBSize - 0 MB][RCId - 2177328][Client Computer Name - sanbgw] 
+3880  1568  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [SIDB-ID - 1400314][SignatureType - 4]
+3880  1568  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [DedupCache sig-data caching size 9043968 (64 x 141312)]
+3880  14a0  06/30 08:46:29 1087953 Invalid block Cache Valid (retention) Days - -1 [Setting to 90 days] 
+3880  14a0  06/30 08:46:29 1087953 CSignatureQuery::Initialize() - [Cache-DB lookup - No] [SIDB lookup - Yes] [Signature/Batch - 1]
+3880  14a0  06/30 08:46:29 1087953 CSignatureQuery::Initialize() - Initializing CSignatureQuery completed. 
+3880  1c38  06/30 08:46:29 1087953 [PIPELAYER  ] Tail response = signature initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 319 EventError = 0
+3880  cf0   06/30 08:46:29 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+3880  c0c   06/30 08:46:29 1087953 Computing Client host name [Client-host - SanBGW ][ Client PhysicalMachine - sanbgw ]
+3880  14a0  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [APPID - 23682][CopyId - 8988] [JobID - 1087953][CacheDBEnabled - No][SIDBEnabled - Yes] 
+3880  1c38  06/30 08:46:29 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  1c38  06/30 08:46:29 1087953 JM Client  CVBkpJobClient::init(): Initializing job object with token [1087953:4:1:0:0:32808].
+3880  1c38  06/30 08:46:29 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+3880  c0c   06/30 08:46:29 1087953 Invalid block Cache Valid (retention) Days - -1 [Setting to 90 days] 
+3880  c0c   06/30 08:46:29 1087953 CSignatureQuery::Initialize() - [Cache-DB lookup - No] [SIDB lookup - Yes] [Signature/Batch - 1]
+3880  c0c   06/30 08:46:29 1087953 CSignatureQuery::Initialize() - Initializing CSignatureQuery completed. 
+3880  c0c   06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [APPID - 23682][CopyId - 8988] [JobID - 1087953][CacheDBEnabled - No][SIDBEnabled - Yes] 
+3880  c0c   06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [MaxCacheDBSize - 0 MB][RCId - 2177329][Client Computer Name - sanbgw] 
+3880  c0c   06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [SIDB-ID - 1400314][SignatureType - 4]
+3880  c0c   06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [DedupCache sig-data caching size 9043968 (64 x 141312)]
+3880  14a0  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [MaxCacheDBSize - 0 MB][RCId - 2177326][Client Computer Name - sanbgw] 
+3880  1d58  06/30 08:46:29 1087953 [PIPELAYER  ] Tail response = signature initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 319 EventError = 0
+3880  14a0  06/30 08:46:29 1087953 InitializeDedupCache:CacheProps: [SIDB-ID - 1400314][SignatureType - 4]
+3880  1d58  06/30 08:46:29 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  1d58  06/30 08:46:29 1087953 JM Client  CVBkpJobClient::init(): Initializing job object with token [1087953:4:1:0:0:32808].
+3880  1d58  06/30 08:46:30 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+3880  cf0   06/30 08:46:30 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525935 )
+3880  cf0   06/30 08:46:30 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:46:30 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525936 )
+3880  1c38  06/30 08:46:30 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+3880  1568  06/30 08:46:30 1087953 SdtEncDec::processSetEncProps: [0000028F7097BAB0] AfIds [1525935 ]
+3880  1568  06/30 08:46:30 1087953 CArchFileKeysCache::Init() - CipherCacheSingleton object pointer [0000028F708E8710] Using KeyId [F]
+3880  14a0  06/30 08:46:30 1087953 InitializeDedupCache:CacheProps: [DedupCache sig-data caching size 9043968 (64 x 141312)]
+3880  c0c   06/30 08:46:30 1087953 SdtEncDec::processSetEncProps: [0000028F709A0A80] AfIds [1525936 ]
+3880  c0c   06/30 08:46:30 1087953 CArchFileKeysCache::Init() - CipherCacheSingleton object pointer [0000028F708E8710] Using KeyId [F]
+3880  1d58  06/30 08:46:30 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525937 )
+3880  1d58  06/30 08:46:30 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+3880  15b0  06/30 08:46:30 1087953 [PIPELAYER  ] Tail response = signature initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 319 EventError = 0
+3880  15b0  06/30 08:46:30 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+3880  15b0  06/30 08:46:30 1087953 JM Client  CVBkpJobClient::init(): Initializing job object with token [1087953:4:1:0:0:32808].
+3880  12cc  06/30 08:46:30 1087953 SdtEncDec::processSetEncProps: [0000028F7096FAD0] AfIds [1525937 ]
+3880  12cc  06/30 08:46:30 1087953 CArchFileKeysCache::Init() - CipherCacheSingleton object pointer [0000028F708E8710] Using KeyId [F]
+3880  1568  06/30 08:46:30 1087953 CArchFileKeysCache::Init() - ArchFileKeys inited with CopyId [8988] CcId [2] sizeof(AFileInfo) [232]
+3880  15b0  06/30 08:46:30 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+3880  c0c   06/30 08:46:30 1087953 CArchFileKeysCache::Init() - ArchFileKeys inited with CopyId [8988] CcId [2] sizeof(AFileInfo) [232]
+3880  12cc  06/30 08:46:30 1087953 CArchFileKeysCache::Init() - ArchFileKeys inited with CopyId [8988] CcId [2] sizeof(AFileInfo) [232]
+3880  cf0   06/30 08:46:30 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+3880  1c38  06/30 08:46:30 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+3880  1c38  06/30 08:46:30 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525936 afilenum = 1525936
+3880  1c38  06/30 08:46:30 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:46:30 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+3880  1d58  06/30 08:46:30 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525937 afilenum = 1525937
+3880  1d58  06/30 08:46:30 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:46:30 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525935 afilenum = 1525935
+3880  15b0  06/30 08:46:30 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525938 )
+3880  15b0  06/30 08:46:30 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:46:30 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+3880  14a0  06/30 08:46:30 1087953 SdtEncDec::processSetEncProps: [0000028F70987A90] AfIds [1525938 ]
+3880  14a0  06/30 08:46:30 1087953 CArchFileKeysCache::Init() - CipherCacheSingleton object pointer [0000028F708E8710] Using KeyId [F]
+3880  14a0  06/30 08:46:30 1087953 CArchFileKeysCache::Init() - ArchFileKeys inited with CopyId [8988] CcId [2] sizeof(AFileInfo) [232]
+3880  15b0  06/30 08:46:30 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+3880  15b0  06/30 08:46:30 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525938 afilenum = 1525938
+3880  15b0  06/30 08:46:30 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:46:32 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+3880  1d58  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::SetupPipeline(125) - --- 0:09.969745 
+3880  1d58  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::Initialize(108) - Success
+3880  1d58  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::Initialize(102) - --- 0:10.004909 
+3880  1d58  06/30 08:46:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStartStream(234) - Success
+3880  1d58  06/30 08:46:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStartStream(237) - Stream started.
+3880  1d58  06/30 08:46:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:46:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.009744 
+3880  cf0   06/30 08:46:32 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+3880  cf0   06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::SetupPipeline(125) - --- 0:09.485129 
+3880  cf0   06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::Initialize(108) - Success
+3880  cf0   06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::Initialize(102) - --- 0:09.525009 
+3880  cf0   06/30 08:46:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStartStream(234) - Success
+3880  cf0   06/30 08:46:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStartStream(237) - Stream started.
+3880  cf0   06/30 08:46:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:46:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.012401 
+3880  1d58  06/30 08:46:32 1087953 CVDumpAndSweep::DumpAndSweepBackupController::DownloadTask(293) - Number of Collect File [8], Collect Start Num [4]
+3880  15b0  06/30 08:46:32 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+3880  15b0  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::SetupPipeline(125) - --- 0:09.209905 
+3880  15b0  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::Initialize(108) - Success
+3880  15b0  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::Initialize(102) - --- 0:09.369133 
+3880  15b0  06/30 08:46:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStartStream(234) - Success
+3880  15b0  06/30 08:46:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStartStream(237) - Stream started.
+3880  15b0  06/30 08:46:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  15b0  06/30 08:46:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.007866 
+3880  1d58  06/30 08:46:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 1|0
+3880  1c38  06/30 08:46:32 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+3880  1c38  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::SetupPipeline(125) - --- 0:09.961693 
+3880  1c38  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::Initialize(108) - Success
+3880  1c38  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::Initialize(102) - --- 0:10.003391 
+3880  1c38  06/30 08:46:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStartStream(234) - Success
+3880  1c38  06/30 08:46:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStartStream(237) - Stream started.
+3880  1c38  06/30 08:46:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:46:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.009281 
+3880  1d58  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1d58  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(349) - Setting the backupOut file name to []
+3880  1d58  06/30 08:46:32 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.120467 
+3880  1d58  06/30 08:46:32 1087953 CWinGitCmdUtils::SetPermissions(315) - Completed
+3880  cf0   06/30 08:46:42 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:46:42 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.008407 
+3880  15b0  06/30 08:46:42 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  15b0  06/30 08:46:42 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.008276 
+3880  1c38  06/30 08:46:42 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:46:42 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.013153 
+3880  1d58  06/30 08:46:44 1087953 CWinGitCmdUtils::ExecuteScript(168) - Completed
+3880  1d58  06/30 08:46:44 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::GenerateCollectFiles(121) - NumCollect file  : [8], collectFileStartNum [4] 
+3880  1d58  06/30 08:46:44 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::GenerateCollectFiles(132) - Collect file  : [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot4.cvf]
+3880  1d58  06/30 08:46:44 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::splitCollectFile(192) - Requesting to create 8 collect files
+3880  1d58  06/30 08:46:44 1087953 CUnixSplitCollectFiles::Run(82) - Will split each collect into 7 parts. Last Collect File number is 4
+3880  1d58  06/30 08:46:44 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::splitCollectFile(214) - Created 2 collect files
+3880  1d58  06/30 08:46:44 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:46:44 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.014165 
+3880  1d58  06/30 08:46:44 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 4|-1
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 4|-1
+3880  1d58  06/30 08:46:44 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot4.cvf
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[0] To[4]
+3880  1d58  06/30 08:46:44 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 4
+3880  1d58  06/30 08:46:44 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:46:44 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 4 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(349) - Setting the backupOut file name to [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087953\BackupOut_7512]
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.078041 
+3880  1d58  06/30 08:46:44 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot4.cvf.
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.013953 
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.012015 
+3880  1d58  06/30 08:46:44 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.076051 
+3880  1d58  06/30 08:46:44 1087953 StaticUtils::calculateSimOSId() - OS = [x64 Server], SIM OS ID = [210]
+3880  1ed8  06/30 08:46:44 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525937, copyId 8988 CCId [2]
+3880  1ed8  06/30 08:46:45 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for archFileId [1525937], copyId [8988] ccId [2] flags [0]
+3880  c0c   06/30 08:46:45 1087953 CSignatureQuery::ConnectSIDB() - Connecting to SIDB Engine [1400314]. Copy Id [8987] Job-Id [1087953] Rc-Id[2177329] on client [] on host []
+3880  c0c   06/30 08:46:45 1087953 Connect: Connecting to Engine [1400314], Group [0], Client [sanbgw], Host [SanBGW*sanbgw*8400], Recovery Mode [false]
+3880  1d58  06/30 08:46:45 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.492517 
+3880  1d58  06/30 08:46:45 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  c0c   06/30 08:46:45 1087953 Connect: Connecting to Engine [1400314], Group [1], Client [sanbgw], Host [SanBGW*sanbgw*8400], Recovery Mode [false]
+3880  1d58  06/30 08:46:45 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.011833 
+3880  1d58  06/30 08:46:45 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 6
+3880  1d58  06/30 08:46:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:46:52 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:46:52 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.014024 
+3880  cf0   06/30 08:46:52 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 5|-1
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 5|-1
+3880  cf0   06/30 08:46:52 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot5.cvf
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[0] To[5]
+3880  cf0   06/30 08:46:52 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 5
+3880  cf0   06/30 08:46:52 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  15b0  06/30 08:46:52 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  15b0  06/30 08:46:52 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.075429 
+3880  cf0   06/30 08:46:52 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 5 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(349) - Setting the backupOut file name to [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087953\BackupOut_3312]
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.107563 
+3880  cf0   06/30 08:46:52 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot5.cvf.
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1c38  06/30 08:46:52 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:46:52 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.076795 
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.013100 
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.013757 
+3880  cf0   06/30 08:46:52 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.105134 
+3880  1920  06/30 08:46:53 1087953 CSignatureQuery::ConnectSIDB() - Connecting to SIDB Engine [1400314]. Copy Id [8987] Job-Id [1087953] Rc-Id[2177327] on client [] on host []
+3880  1920  06/30 08:46:53 1087953 Connect: Connecting to Engine [1400314], Group [0], Client [sanbgw], Host [SanBGW*sanbgw*8400], Recovery Mode [false]
+3880  1920  06/30 08:46:53 1087953 Connect: Connecting to Engine [1400314], Group [1], Client [sanbgw], Host [SanBGW*sanbgw*8400], Recovery Mode [false]
+3880  15b0  06/30 08:47:02 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  15b0  06/30 08:47:02 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.013555 
+3880  1c38  06/30 08:47:02 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:02 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.012632 
+3880  cf0   06/30 08:47:03 1087953 [PIPELAYER  ] Waiting for pipeline buf. SndIdx [1/2], RCId [2177327]
+3880  cf0   06/30 08:47:03 ####### logBufStat: SDT Buf Log Lvl [0]
+3880  15b0  06/30 08:47:12 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  15b0  06/30 08:47:12 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.013877 
+3880  1c38  06/30 08:47:13 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:13 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.018830 
+3880  1920  06/30 08:47:17 1087953 Connected to Engine [1400314], Group [0], Socket [0x00000000000005B4], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:51598/0(SIDB_sanbgw_1400314_0) SIDB2.exe(7132:4f0)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51600], Peer IP [127.0.0.1], Peer Port [51598]
+3880  c0c   06/30 08:47:17 1087953 Connected to Engine [1400314], Group [0], Socket [0x0000000000000594], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:51598/0(SIDB_sanbgw_1400314_0) SIDB2.exe(7132:18ec)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51599], Peer IP [127.0.0.1], Peer Port [51598]
+3880  1920  06/30 08:47:17 1087953 Disabling nagle on ddb connection.
+3880  c0c   06/30 08:47:17 1087953 Disabling nagle on ddb connection.
+3880  1920  06/30 08:47:17 1087953 Socket buffer size [65536]
+3880  c0c   06/30 08:47:17 1087953 Socket buffer size [65536]
+3880  1920  06/30 08:47:17 1087953 Connected to Engine [1400314], Group [1], Socket [0x00000000000005A4], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:51597/0(SIDB_sanbgw_1400314_1) SIDB2.exe(7056:910)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51606], Peer IP [127.0.0.1], Peer Port [51597]
+3880  c0c   06/30 08:47:17 1087953 Connected to Engine [1400314], Group [1], Socket [0x0000000000000550], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:51597/0(SIDB_sanbgw_1400314_1) SIDB2.exe(7056:1510)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51605], Peer IP [127.0.0.1], Peer Port [51597]
+3880  c0c   06/30 08:47:17 1087953 Disabling nagle on ddb connection.
+3880  1920  06/30 08:47:17 1087953 Disabling nagle on ddb connection.
+3880  c0c   06/30 08:47:17 1087953 Socket buffer size [65536]
+3880  1920  06/30 08:47:17 1087953 Socket buffer size [65536]
+3880  c0c   06/30 08:47:17 1087953 CSignatureQuery::ConnectSIDB() - SIDB Engine connected. 
+3880  1920  06/30 08:47:17 1087953 CSignatureQuery::ConnectSIDB() - SIDB Engine connected. 
+3880  1d58  06/30 08:47:18 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 6 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:18 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot4.cvf
+3880  1d58  06/30 08:47:18 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:47:18 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.012092 
+3880  ffc   06/30 08:47:20 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525935, copyId 8988 CCId [2]
+3880  ffc   06/30 08:47:20 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for archFileId [1525935], copyId [8988] ccId [2] flags [0]
+3880  cf0   06/30 08:47:20 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:27.720855 
+3880  cf0   06/30 08:47:20 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  cf0   06/30 08:47:20 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.017203 
+3880  cf0   06/30 08:47:20 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 6
+3880  cf0   06/30 08:47:20 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:20 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 6 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:20 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot5.cvf
+3880  cf0   06/30 08:47:20 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:20 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.008152 
+3880  cf0   06/30 08:47:20 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:20 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.008421 
+3880  cf0   06/30 08:47:20 1087953 CVDumpAndSweep::DumpAndSweepBackupController::DownloadTask(293) - Number of Collect File [8], Collect Start Num [13]
+3880  cf0   06/30 08:47:20 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 2|0
+3880  cf0   06/30 08:47:20 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  cf0   06/30 08:47:20 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[5] To[0]
+3880  cf0   06/30 08:47:20 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 0
+3880  cf0   06/30 08:47:20 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:20 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 0 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:20 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.054467 
+3880  cf0   06/30 08:47:21 1087953 CWinGitCmdUtils::SetPermissions(315) - Completed
+3880  15b0  06/30 08:47:22 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  15b0  06/30 08:47:22 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.017197 
+3880  1c38  06/30 08:47:23 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:23 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.010219 
+3880  cf0   06/30 08:47:27 1087953 CWinGitCmdUtils::ExecuteScript(168) - Completed
+3880  cf0   06/30 08:47:27 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::GenerateCollectFiles(121) - NumCollect file  : [8], collectFileStartNum [13] 
+3880  cf0   06/30 08:47:27 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::GenerateCollectFiles(132) - Collect file  : [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot13.cvf]
+3880  cf0   06/30 08:47:27 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::splitCollectFile(192) - Requesting to create 8 collect files
+3880  cf0   06/30 08:47:27 1087953 CUnixSplitCollectFiles::Run(82) - Will split each collect into 7 parts. Last Collect File number is 13
+3880  cf0   06/30 08:47:28 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::splitCollectFile(214) - Created 8 collect files
+3880  cf0   06/30 08:47:28 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:28 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.014126 
+3880  1d58  06/30 08:47:28 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:47:28 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.014547 
+3880  cf0   06/30 08:47:28 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 13|-1
+3880  cf0   06/30 08:47:28 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 13|-1
+3880  cf0   06/30 08:47:28 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot13.cvf
+3880  cf0   06/30 08:47:28 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  cf0   06/30 08:47:28 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[0] To[13]
+3880  cf0   06/30 08:47:28 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 13
+3880  1d58  06/30 08:47:28 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 14|-1
+3880  1d58  06/30 08:47:28 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 14|-1
+3880  cf0   06/30 08:47:28 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:28 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 13 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:28 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.091573 
+3880  cf0   06/30 08:47:28 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525935] in BACKUP
+3880  cf0   06/30 08:47:28 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:28 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot14.cvf
+3880  1d58  06/30 08:47:28 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1d58  06/30 08:47:28 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[4] To[14]
+3880  1d58  06/30 08:47:28 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 14
+3880  1d58  06/30 08:47:28 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:28 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 14 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:28 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.039877 
+3880  1d58  06/30 08:47:28 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525937] in BACKUP
+3880  1d58  06/30 08:47:28 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:30 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+3880  cf0   06/30 08:47:30 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+3880  cf0   06/30 08:47:30 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525946 )
+3880  cf0   06/30 08:47:31 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:31 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+3880  1ed8  06/30 08:47:31 1087953 SdtEncDec::processSetEncProps: [0000028F7097BAB0] AfIds [1525946 ]
+3880  1d58  06/30 08:47:31 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+3880  cf0   06/30 08:47:31 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+3880  cf0   06/30 08:47:31 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525946 afilenum = 1525946
+3880  cf0   06/30 08:47:31 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:31 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525947 )
+3880  1d58  06/30 08:47:31 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+3880  f88   06/30 08:47:31 1087953 SdtEncDec::processSetEncProps: [0000028F7096FAD0] AfIds [1525947 ]
+3880  1d58  06/30 08:47:31 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+3880  1d58  06/30 08:47:31 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525947 afilenum = 1525947
+3880  1d58  06/30 08:47:31 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:31 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+3880  cf0   06/30 08:47:31 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  cf0   06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  cf0   06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot13.cvf.
+3880  cf0   06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  cf0   06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.008282 
+3880  cf0   06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  cf0   06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.007664 
+3880  1d58  06/30 08:47:31 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+3880  cf0   06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.052642 
+3880  1d58  06/30 08:47:31 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1d58  06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1568  06/30 08:47:31 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525946, copyId 8988 CCId [2]
+3880  1d58  06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot14.cvf.
+3880  1d58  06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1d58  06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.006592 
+3880  1d58  06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1d58  06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.006194 
+3880  1d58  06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.089739 
+3880  798   06/30 08:47:31 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525947, copyId 8988 CCId [2]
+3880  1568  06/30 08:47:31 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for archFileId [1525946], copyId [8988] ccId [2] flags [0]
+3880  1d58  06/30 08:47:31 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.165002 
+3880  1d58  06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  cf0   06/30 08:47:31 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.269927 
+3880  cf0   06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  cf0   06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.008057 
+3880  798   06/30 08:47:31 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for archFileId [1525947], copyId [8988] ccId [2] flags [0]
+3880  1d58  06/30 08:47:31 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.006134 
+3880  1d58  06/30 08:47:31 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 21
+3880  1d58  06/30 08:47:31 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:31 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 21 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:31 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot14.cvf
+3880  1d58  06/30 08:47:31 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:32 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 21
+3880  1d58  06/30 08:47:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.268828 
+3880  cf0   06/30 08:47:32 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:32 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 15|-1
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 15|-1
+3880  cf0   06/30 08:47:32 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 21 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:32 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot15.cvf
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  cf0   06/30 08:47:32 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot13.cvf
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[14] To[15]
+3880  1d58  06/30 08:47:32 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 15
+3880  1d58  06/30 08:47:32 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.095171 
+3880  1d58  06/30 08:47:32 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 15 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:32 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 16|-1
+3880  cf0   06/30 08:47:32 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 16|-1
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.190111 
+3880  1d58  06/30 08:47:32 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot15.cvf.
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  cf0   06/30 08:47:32 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot16.cvf
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.007449 
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.007212 
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.049215 
+3880  cf0   06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  cf0   06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[13] To[16]
+3880  cf0   06/30 08:47:32 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 16
+3880  cf0   06/30 08:47:32 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:32 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.065968 
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1d58  06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.022522 
+3880  1d58  06/30 08:47:32 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 21
+3880  1d58  06/30 08:47:32 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:32 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 16 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.139887 
+3880  1d58  06/30 08:47:32 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 21 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:32 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot15.cvf
+3880  cf0   06/30 08:47:32 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  cf0   06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1d58  06/30 08:47:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot16.cvf.
+3880  cf0   06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1d58  06/30 08:47:32 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.323025 
+3880  cf0   06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.006383 
+3880  cf0   06/30 08:47:32 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  cf0   06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.022048 
+3880  cf0   06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.457194 
+3880  1d58  06/30 08:47:33 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 17|-1
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 17|-1
+3880  1d58  06/30 08:47:33 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot17.cvf
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[15] To[17]
+3880  1d58  06/30 08:47:33 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 17
+3880  cf0   06/30 08:47:33 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.525348 
+3880  cf0   06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1d58  06/30 08:47:33 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:33 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 17 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.084876 
+3880  1d58  06/30 08:47:33 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot17.cvf.
+3880  1c38  06/30 08:47:33 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:33 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.139296 
+3880  cf0   06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.027551 
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  15b0  06/30 08:47:33 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:33 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 18|-1
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 18|-1
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.076854 
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.005836 
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.203061 
+3880  15b0  06/30 08:47:33 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.280203 
+3880  cf0   06/30 08:47:33 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 21
+3880  cf0   06/30 08:47:33 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:33 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.229860 
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1d58  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.008843 
+3880  1d58  06/30 08:47:33 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 21
+3880  1c38  06/30 08:47:33 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot18.cvf
+3880  15b0  06/30 08:47:33 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 19|-1
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 19|-1
+3880  15b0  06/30 08:47:33 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot19.cvf
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[0] To[19]
+3880  15b0  06/30 08:47:33 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 19
+3880  15b0  06/30 08:47:33 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  15b0  06/30 08:47:33 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 19 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(349) - Setting the backupOut file name to [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087953\BackupOut_5552]
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  cf0   06/30 08:47:33 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 21 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:33 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot16.cvf
+3880  cf0   06/30 08:47:33 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:47:33 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[0] To[18]
+3880  1c38  06/30 08:47:33 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 18
+3880  1c38  06/30 08:47:33 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:33 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 18 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(349) - Setting the backupOut file name to [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087953\BackupOut_7224]
+3880  cf0   06/30 08:47:33 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.063429 
+3880  1d58  06/30 08:47:33 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 21 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:33 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot17.cvf
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.192079 
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.058093 
+3880  1d58  06/30 08:47:33 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:47:33 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.025155 
+3880  15b0  06/30 08:47:33 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot19.cvf.
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1c38  06/30 08:47:33 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot18.cvf.
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.008558 
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.006773 
+3880  1c38  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.046078 
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.006901 
+3880  cf0   06/30 08:47:33 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 20|-1
+3880  cf0   06/30 08:47:33 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 20|-1
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.032684 
+3880  15b0  06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.161119 
+3880  cf0   06/30 08:47:33 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot20.cvf
+3880  cf0   06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  cf0   06/30 08:47:33 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[16] To[20]
+3880  cf0   06/30 08:47:33 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 20
+3880  cf0   06/30 08:47:33 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:33 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 20 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.045696 
+3880  cf0   06/30 08:47:34 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot20.cvf.
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.008192 
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.005612 
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.041983 
+3880  1ffc  06/30 08:47:34 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525938, copyId 8988 CCId [2]
+3880  1c38  06/30 08:47:34 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.166004 
+3880  1c38  06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1ed8  06/30 08:47:34 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525936, copyId 8988 CCId [2]
+3880  cf0   06/30 08:47:34 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.055008 
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  cf0   06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.005332 
+3880  15b0  06/30 08:47:34 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.220765 
+3880  15b0  06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  cf0   06/30 08:47:34 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 21
+3880  1c38  06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.005426 
+3880  1c38  06/30 08:47:34 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 21
+3880  1c38  06/30 08:47:34 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  15b0  06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.007202 
+3880  15b0  06/30 08:47:34 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 21
+3880  cf0   06/30 08:47:34 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:34 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 21 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:34 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot20.cvf
+3880  cf0   06/30 08:47:34 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:34 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.007219 
+3880  1ed8  06/30 08:47:34 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for archFileId [1525936], copyId [8988] ccId [2] flags [0]
+3880  15b0  06/30 08:47:34 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1ffc  06/30 08:47:34 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for archFileId [1525938], copyId [8988] ccId [2] flags [0]
+3880  1c38  06/30 08:47:34 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 21 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  15b0  06/30 08:47:34 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 21 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:34 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot18.cvf
+3880  15b0  06/30 08:47:34 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot19.cvf
+3880  1c38  06/30 08:47:34 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:34 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.088754 
+3880  15b0  06/30 08:47:34 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  15b0  06/30 08:47:34 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.102256 
+3880  1c38  06/30 08:47:34 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:34 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.010406 
+3880  15b0  06/30 08:47:34 1087953 DistributedIDA::CController::streamLoop(722) - no more tasks for worker 4
+3880  15b0  06/30 08:47:34 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStopStream(256) - Worker for stream id [2] found
+3880  15b0  06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::Finalize(456) - +++ 
+3880  15b0  06/30 08:47:34 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525938] in BACKUP
+3880  15b0  06/30 08:47:34 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:34 1087953 CVDumpAndSweep::DumpAndSweepBackupController::DownloadTask(293) - Number of Collect File [8], Collect Start Num [22]
+3880  1c38  06/30 08:47:34 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 3|0
+3880  1c38  06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1c38  06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[18] To[0]
+3880  1c38  06/30 08:47:34 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 0
+3880  1c38  06/30 08:47:34 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:34 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 0 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:34 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.069624 
+3880  1c38  06/30 08:47:35 1087953 CWinGitCmdUtils::SetPermissions(315) - Completed
+3880  15b0  06/30 08:47:35 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+3880  15b0  06/30 08:47:35 1087953 CVArchive::ClosePipeline() - Resetting allocated stream
+3880  15b0  06/30 08:47:35 1087953 CCVAPipelayer::ClosePipeline() - About to destroy Data Mover
+3880  15b0  06/30 08:47:35 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 133 to MediaAgent, Waiting for Response...
+3880  15b0  06/30 08:47:36 1087953 [PIPELAYER  ] Tail response = DataMover destroyed Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 133 EventError = 0
+3880  15b0  06/30 08:47:36 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 2 to MediaAgent, Waiting for Response...
+3880  1e08  06/30 08:47:36 1087953 CSignatureQuery::Uninitialize() - Uninitializing CSignatureQuery... (0)
+3880  1e08  06/30 08:47:36 1087953 stat- SigQuery [SIDB-Lookup - 0.00] [CLDB-Query - 0.00] [CLDB-Insert - 0.00] [AVG SIDB lookup - 0.000000]
+3880  1e08  06/30 08:47:36 1087953 stat- SigQuery [Signatures processed - 0] [New signatures encounterd - 0 ] [(0)AVG-sig/Query - 0.00] [Found in cache - 0 ] [Found in DDB - 0 ] [Found in Sealed-DDB - 0 ] [Skipped- 0 ]
+3880  1e08  06/30 08:47:36 1087953 stat- SigQuery [Size-Application - 0 (0.00 GB)] [Size-processed - 0 (0.00 GB) ] [Size-Discarded - 0 (0.00 GB)] [Size-New Data- 0 (0.00 GB)] [Dropped Percentage - -nan(ind)]
+3880  1e08  06/30 08:47:36 1087953 CSignatureQuery::Uninitialize() - Uninitializing CSignatureQuery completed. 
+3880  1e08  06/30 08:47:36 1087953 ..==== DedupCache statistics ====..
+3880  1e08  06/30 08:47:36 1087953 Stat- Dedupe. duration        - [30,June,22 08:46:28  ~  30,June,22 08:47:36] 00:01:08 (68)
+3880  1e08  06/30 08:47:36 1087953 Stat- [src-dedupe Signature count - 0] [target-dedupe signature count - 0]
+3880  1e08  06/30 08:47:36 1087953 Stat- [Data-processed - 5708 (0.00 GB) ] [Total Data Sent on Network - 5800 (0.00 GB) ] [NonDeduplicatable Data  - 5708 (0.00 GB) ] [Reduced - 0.00 percent] 
+3880  1e08  06/30 08:47:36 1087953 Stat- [Total DedupCache time 0.00 ] [Cache time 0.00] [Sig Lookup time 0.00] [Buf alloc time 0.00+0.00, Count 21+0] [Send time 0.00]
+3880  1e08  06/30 08:47:36 1087953 CDeDupCache::Uninitialize():==== DedupCache Completed ==== 
+3880  15b0  06/30 08:47:37 1087953 [PIPELAYER  ] Tail response = Tail Generated STOP_PL and ready to Terminate Status = 0 dwCode = 0 MsgType = 4 MsgSubType = 2 EventError = 0
+3880  15b0  06/30 08:47:37 1087953 CPipelayer::ShutdownPipeline() - stat- SDT [0000028F70960590] [duration - 72 seconds]
+3880  15b0  06/30 08:47:37 1087953 CPipelayer::ShutdownPipeline() - SDT [0000028F70960590] Shutdown completed.
+3880  15b0  06/30 08:47:37 1087953 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [2177326]
+3880  15b0  06/30 08:47:37 1087953 SdtBase is being destroyed. RCId [2177326]
+3880  15b0  06/30 08:47:37 1087953 Signature processing speed: Type [SHA512], [628.965119] GB/Hr, Bytes [1951], Time [0.000010] Sec(s)
+3880  15b0  06/30 08:47:37 1087953 stat- ID [Avg FetchKeyC], Samples [1], Time [0.144174] Sec(s), Average [0.144174] Sec/Sample
+3880  1c38  06/30 08:47:41 1087953 CWinGitCmdUtils::ExecuteScript(168) - Completed
+3880  1c38  06/30 08:47:41 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::GenerateCollectFiles(121) - NumCollect file  : [8], collectFileStartNum [22] 
+3880  1c38  06/30 08:47:41 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::GenerateCollectFiles(132) - Collect file  : [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot22.cvf]
+3880  1c38  06/30 08:47:41 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::splitCollectFile(192) - Requesting to create 8 collect files
+3880  1c38  06/30 08:47:41 1087953 CUnixSplitCollectFiles::Run(82) - Will split each collect into 7 parts. Last Collect File number is 22
+3880  1c38  06/30 08:47:41 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::splitCollectFile(214) - Created 8 collect files
+3880  1c38  06/30 08:47:41 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:41 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.012555 
+3880  1c38  06/30 08:47:42 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 22|-1
+3880  1c38  06/30 08:47:42 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 22|-1
+3880  1c38  06/30 08:47:42 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot22.cvf
+3880  1c38  06/30 08:47:42 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1c38  06/30 08:47:42 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[0] To[22]
+3880  1c38  06/30 08:47:42 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 22
+3880  1c38  06/30 08:47:42 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:42 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 22 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:42 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.085100 
+3880  1c38  06/30 08:47:42 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525936] in BACKUP
+3880  1c38  06/30 08:47:42 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:43 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+3880  1c38  06/30 08:47:43 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+3880  1c38  06/30 08:47:43 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525948 )
+3880  1c38  06/30 08:47:43 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+3880  1ffc  06/30 08:47:43 1087953 SdtEncDec::processSetEncProps: [0000028F709A0A80] AfIds [1525948 ]
+3880  1c38  06/30 08:47:43 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+3880  1c38  06/30 08:47:43 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525948 afilenum = 1525948
+3880  1c38  06/30 08:47:43 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:43 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+3880  1c38  06/30 08:47:43 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1c38  06/30 08:47:43 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1c38  06/30 08:47:43 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot22.cvf.
+3880  1c38  06/30 08:47:43 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1d58  06/30 08:47:43 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:47:43 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.027827 
+3880  1c38  06/30 08:47:43 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.014548 
+3880  1c38  06/30 08:47:43 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1c38  06/30 08:47:43 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.023168 
+3880  1d58  06/30 08:47:43 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 23|-1
+3880  1d58  06/30 08:47:43 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 23|-1
+3880  1d58  06/30 08:47:43 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot23.cvf
+3880  1d58  06/30 08:47:43 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1d58  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[17] To[23]
+3880  1d58  06/30 08:47:44 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 23
+3880  1d58  06/30 08:47:44 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:44 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 23 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.070642 
+3880  1d58  06/30 08:47:44 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525947] in BACKUP
+3880  1d58  06/30 08:47:44 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.163520 
+3880  ffc   06/30 08:47:44 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525948, copyId 8988 CCId [2]
+3880  1c38  06/30 08:47:44 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.362026 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.017067 
+3880  1c38  06/30 08:47:44 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 30
+3880  1c38  06/30 08:47:44 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  ffc   06/30 08:47:44 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for archFileId [1525948], copyId [8988] ccId [2] flags [0]
+3880  1c38  06/30 08:47:44 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 30 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:44 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot22.cvf
+3880  1c38  06/30 08:47:44 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:44 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.009062 
+3880  cf0   06/30 08:47:44 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:44 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.007518 
+3880  1c38  06/30 08:47:44 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 24|-1
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 24|-1
+3880  1c38  06/30 08:47:44 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot24.cvf
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[22] To[24]
+3880  1c38  06/30 08:47:44 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 24
+3880  1c38  06/30 08:47:44 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:44 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 25|-1
+3880  1c38  06/30 08:47:44 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 24 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.079033 
+3880  1c38  06/30 08:47:44 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot24.cvf.
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  cf0   06/30 08:47:44 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 25|-1
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.011638 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.014639 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.088888 
+3880  cf0   06/30 08:47:44 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot25.cvf
+3880  1c38  06/30 08:47:44 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.123469 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  cf0   06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1c38  06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.018964 
+3880  1c38  06/30 08:47:44 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 30
+3880  1c38  06/30 08:47:44 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:44 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 30 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:44 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot24.cvf
+3880  1c38  06/30 08:47:44 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:44 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[20] To[25]
+3880  1c38  06/30 08:47:44 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.039646 
+3880  cf0   06/30 08:47:44 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 25
+3880  1d58  06/30 08:47:44 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+3880  1d58  06/30 08:47:44 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+3880  cf0   06/30 08:47:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:45 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 25 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.414124 
+3880  1c38  06/30 08:47:45 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 26|-1
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 26|-1
+3880  cf0   06/30 08:47:45 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525946] in BACKUP
+3880  1d58  06/30 08:47:45 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525949 )
+3880  1d58  06/30 08:47:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:45 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot26.cvf
+3880  16cc  06/30 08:47:45 1087953 SdtEncDec::processSetEncProps: [0000028F7096FAD0] AfIds [1525949 ]
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1d58  06/30 08:47:45 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+3880  1d58  06/30 08:47:45 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525949 afilenum = 1525949
+3880  1d58  06/30 08:47:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[24] To[26]
+3880  1c38  06/30 08:47:45 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 26
+3880  1c38  06/30 08:47:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:45 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 26 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.065992 
+3880  1c38  06/30 08:47:45 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot26.cvf.
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1d58  06/30 08:47:45 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.009801 
+3880  1d58  06/30 08:47:45 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot23.cvf.
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.018271 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.011196 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.125545 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.106508 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.224137 
+3880  1d58  06/30 08:47:45 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.171529 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.009104 
+3880  1d58  06/30 08:47:45 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 30
+3880  1d58  06/30 08:47:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:45 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.259259 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.008349 
+3880  1c38  06/30 08:47:45 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 30
+3880  1c38  06/30 08:47:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:45 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 30 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:45 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot26.cvf
+3880  1d58  06/30 08:47:45 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 30 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:45 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot23.cvf
+3880  1c38  06/30 08:47:45 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:45 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.042614 
+3880  1d58  06/30 08:47:45 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:47:45 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.025074 
+3880  1c38  06/30 08:47:45 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 27|-1
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 27|-1
+3880  1c38  06/30 08:47:45 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot27.cvf
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[26] To[27]
+3880  1c38  06/30 08:47:45 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 27
+3880  1d58  06/30 08:47:45 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 28|-1
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 28|-1
+3880  1d58  06/30 08:47:45 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot28.cvf
+3880  1c38  06/30 08:47:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:45 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 27 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[23] To[28]
+3880  1d58  06/30 08:47:45 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 28
+3880  1d58  06/30 08:47:45 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.055490 
+3880  1d58  06/30 08:47:45 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 28 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.054799 
+3880  1c38  06/30 08:47:45 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot27.cvf.
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1d58  06/30 08:47:45 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot28.cvf.
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.007446 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.007068 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.011553 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.088781 
+3880  1c38  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.190250 
+3880  1d58  06/30 08:47:45 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.149824 
+3880  1c38  06/30 08:47:46 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.224756 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.012931 
+3880  1c38  06/30 08:47:46 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 30
+3880  1c38  06/30 08:47:46 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:46 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 30 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:46 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot27.cvf
+3880  1d58  06/30 08:47:46 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.222760 
+3880  1d58  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1d58  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.018667 
+3880  1d58  06/30 08:47:46 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 30
+3880  1d58  06/30 08:47:46 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  16cc  06/30 08:47:46 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525949, copyId 8988 CCId [2]
+3880  1c38  06/30 08:47:46 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:46 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.115279 
+3880  cf0   06/30 08:47:46 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+3880  cf0   06/30 08:47:46 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+3880  1c38  06/30 08:47:46 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(353) -  Recived task payload : 29|-1
+3880  16cc  06/30 08:47:46 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for archFileId [1525949], copyId [8988] ccId [2] flags [0]
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::GetBackupTaskInfo(414) -  Recived task payload : 29|-1
+3880  1d58  06/30 08:47:46 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 30 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1d58  06/30 08:47:46 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot28.cvf
+3880  1c38  06/30 08:47:46 1087953 CVDumpAndSweep::DumpAndSweepBackupController::CollectFileTask(384) - Backup started for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot29.cvf
+3880  1d58  06/30 08:47:46 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:47:46 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.013792 
+3880  cf0   06/30 08:47:46 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525950 )
+3880  cf0   06/30 08:47:46 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - +++ 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(332) - Changing the collect file ID From[27] To[29]
+3880  ffc   06/30 08:47:46 1087953 SdtEncDec::processSetEncProps: [0000028F7097BAB0] AfIds [1525950 ]
+3880  1c38  06/30 08:47:46 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 29
+3880  cf0   06/30 08:47:46 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+3880  1c38  06/30 08:47:46 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:46 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525950 afilenum = 1525950
+3880  1c38  06/30 08:47:46 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 29 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:46 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::UpdateBackupParameter(320) - --- 0:00.097167 
+3880  1c38  06/30 08:47:46 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot29.cvf.
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.010078 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.011445 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.058089 
+3880  1c38  06/30 08:47:46 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.095958 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  1c38  06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.006539 
+3880  1c38  06/30 08:47:46 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 30
+3880  1c38  06/30 08:47:46 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:46 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 30 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  1c38  06/30 08:47:46 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot29.cvf
+3880  1c38  06/30 08:47:46 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:46 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+3880  cf0   06/30 08:47:46 1087953 CVGit::GitBackupWorker::DoBackup(98) - +++ 
+3880  cf0   06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - +++ 
+3880  cf0   06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(386) - Processing collect file C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot25.cvf.
+3880  cf0   06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - +++ 
+3880  1c38  06/30 08:47:46 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.007349 
+3880  cf0   06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::GetCollectFileReader(197) - --- 0:00.006302 
+3880  cf0   06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - +++ 
+3880  cf0   06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForNewBackup(406) - --- 0:00.011958 
+3880  cf0   06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::PrepareForBackup(359) - --- 0:00.056908 
+3880  cf0   06/30 08:47:46 1087953 CVGit::GitBackupWorker::DoBackup(98) - --- 0:00.075431 
+3880  cf0   06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - +++ 
+3880  894   06/30 08:47:46 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Retrieving encryption keys for archFileId 1525950, copyId 8988 CCId [2]
+3880  cf0   06/30 08:47:46 1087953 MultiNodeBackupOpsWorker::FinalizeCollectBackup(444) - --- 0:00.009008 
+3880  cf0   06/30 08:47:46 1087953 CCVAPipelayer::SetRestartContext() - Setting restart context to 30
+3880  cf0   06/30 08:47:46 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 291 to MediaAgent, Waiting for Response...
+3880  894   06/30 08:47:46 1087953 CArchFileKeysCache::FetchKeys(SetEncryptArgs_t)() - Successfully got 256-bit AES encryption key for archFileId [1525950], copyId [8988] ccId [2] flags [0]
+3880  cf0   06/30 08:47:46 1087953 [PIPELAYER  ] Tail response = Current Restart Context has been set to 30 Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 291 EventError = 0
+3880  cf0   06/30 08:47:46 1087953 CVGit::GitBackupController::DoCollectFileTask(209) - Backup completed for the collect file : C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2\23682\CollectTot25.cvf
+3880  cf0   06/30 08:47:46 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:46 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.044107 
+3880  cf0   06/30 08:47:47 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  cf0   06/30 08:47:47 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.010880 
+3880  cf0   06/30 08:47:47 1087953 DistributedIDA::CController::streamLoop(722) - no more tasks for worker 3
+3880  cf0   06/30 08:47:47 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStopStream(256) - Worker for stream id [3] found
+3880  cf0   06/30 08:47:47 1087953 MultiNodeBackupOpsWorker::Finalize(456) - +++ 
+3880  cf0   06/30 08:47:47 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525950] in BACKUP
+3880  cf0   06/30 08:47:47 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:48 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+3880  cf0   06/30 08:47:48 1087953 CVArchive::ClosePipeline() - Resetting allocated stream
+3880  cf0   06/30 08:47:48 1087953 CCVAPipelayer::ClosePipeline() - About to destroy Data Mover
+3880  cf0   06/30 08:47:48 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 133 to MediaAgent, Waiting for Response...
+3880  cf0   06/30 08:47:50 1087953 [PIPELAYER  ] Tail response = DataMover destroyed Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 133 EventError = 0
+3880  cf0   06/30 08:47:50 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 2 to MediaAgent, Waiting for Response...
+3880  798   06/30 08:47:50 1087953 CSignatureQuery::Uninitialize() - Uninitializing CSignatureQuery... (97)
+3880  798   06/30 08:47:50 1087953 stat- ID [Grp [00] Avg CL-QueryInsert], Samples [56], Time [1.554279] Sec(s), Average [0.027755] Sec/Sample
+3880  798   06/30 08:47:50 1087953 stat- ID [Grp [01] Avg CL-QueryInsert], Samples [41], Time [0.926624] Sec(s), Average [0.022601] Sec/Sample
+3880  798   06/30 08:47:51 1087953 stat- SigQuery [SIDB-Lookup - 27.04] [CLDB-Query - 0.00] [CLDB-Insert - 0.00] [AVG SIDB lookup - 0.278791]
+3880  798   06/30 08:47:51 1087953 stat- SigQuery [Signatures processed - 97] [New signatures encounterd - 97 ] [(97)AVG-sig/Query - 1.00] [Found in cache - 0 ] [Found in DDB - 0 ] [Found in Sealed-DDB - 0 ] [Skipped- 0 ]
+3880  798   06/30 08:47:51 1087953 stat- SigQuery [Size-Application - 12845531 (0.01 GB)] [Size-processed - 12844138 (0.01 GB) ] [Size-Discarded - 0 (0.00 GB)] [Size-New Data- 12844138 (0.01 GB)] [Dropped Percentage - 0.00]
+3880  798   06/30 08:47:51 1087953 CSignatureQuery::Uninitialize() - Uninitializing CSignatureQuery completed. 
+3880  798   06/30 08:47:51 1087953 ..==== DedupCache statistics ====..
+3880  798   06/30 08:47:51 1087953 Stat- Dedupe. duration        - [30,June,22 08:46:29  ~  30,June,22 08:47:51] 00:01:22 (82)
+3880  798   06/30 08:47:51 1087953 Stat- [src-dedupe Signature count - 97] [target-dedupe signature count - 0]
+3880  798   06/30 08:47:51 1087953 Stat- [Data-processed - 12928664 (0.01 GB) ] [Total Data Sent on Network - 12945360 (0.01 GB) ] [NonDeduplicatable Data  - 84526 (0.00 GB) ] [Reduced - 0.00 percent] 
+3880  798   06/30 08:47:51 1087953 Stat- [Total DedupCache time 27.68 ] [Cache time -0.02] [Sig Lookup time 27.04] [Buf alloc time 0.13+0.52, Count 176+290] [Send time 0.01]
+3880  798   06/30 08:47:51 1087953 CDeDupCache::Uninitialize():==== DedupCache Completed ==== 
+3880  cf0   06/30 08:47:51 1087953 [PIPELAYER  ] Tail response = Tail Generated STOP_PL and ready to Terminate Status = 0 dwCode = 0 MsgType = 4 MsgSubType = 2 EventError = 0
+3880  cf0   06/30 08:47:51 1087953 CPipelayer::ShutdownPipeline() - stat- SDT [0000028F7090CD90] [duration - 87 seconds]
+3880  cf0   06/30 08:47:51 1087953 CPipelayer::ShutdownPipeline() - SDT [0000028F7090CD90] Shutdown completed.
+3880  cf0   06/30 08:47:51 1087953 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 SdtBase is being destroyed. RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 Signature processing speed: Type [SHA512], [1001.000782] GB/Hr, Bytes [12852774], Time [0.043049] Sec(s)
+3880  cf0   06/30 08:47:51 1087953 stat- ID [Avg FetchKeyC], Samples [3], Time [0.301094] Sec(s), Average [0.100365] Sec/Sample
+3880  cf0   06/30 08:47:51 1087953 Name [Head], Start Delay [3063.47 s], Avg [5.96 s], Procsng Time [10.98 ms], Avg [21.37 us], Bytes [12.40 MB], Speed [1.10 GB/s], Samples [514] RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 Name [Head Compression], Start Delay [540.98 ms], Avg [1.05 ms], Procsng Time [12.45 ms], Avg [24.23 us], Bytes [12.40 MB], Speed [995.89 MB/s], Samples [514] RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 Name [Head Signature], Start Delay [1994.15 s], Avg [3.88 s], Procsng Time [28.79 s], Avg [56.00 ms], Bytes [12.39 MB], Speed [440.87 KB/s], Samples [514] RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 Name [Head Encryption], Start Delay [2.28 s], Avg [4.64 ms], Procsng Time [4.24 s], Avg [8.62 ms], Bytes [12.42 MB], Speed [2.93 MB/s], Samples [492] RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 Name [Head CRC32], Start Delay [100.90 us], Avg [205.08 ns], Procsng Time [97.96 ms], Avg [199.12 us], Bytes [12.42 MB], Speed [126.81 MB/s], Samples [492] RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 Name [Head Network], Start Delay [6.39 s], Avg [12.99 ms], Procsng Time [307.73 ms], Avg [625.48 us], Bytes [12.42 MB], Speed [40.37 MB/s], Samples [492] RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 Performing graceful connection termination RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 Closing all sockets. RCId [2177327]
+3880  cf0   06/30 08:47:51 1087953 ~CVArchive() - Destroying CVArchive. This=0000028F708F3980
+3880  cf0   06/30 08:47:51 1087953 MultiNodeBackupOpsWorker::Finalize(456) - --- 0:04.364460 
+3880  cf0   06/30 08:47:51 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStopStream(265) - Stream ended.
+3880  cf0   06/30 08:47:51 1087953 DistributedIDA::CController::streamLoop(839) - finishing worker thread 3
+3880  1d58  06/30 08:47:56 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1d58  06/30 08:47:56 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.013780 
+3880  1d58  06/30 08:47:56 1087953 DistributedIDA::CController::streamLoop(722) - no more tasks for worker 1
+3880  1d58  06/30 08:47:56 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStopStream(256) - Worker for stream id [5] found
+3880  1d58  06/30 08:47:56 1087953 MultiNodeBackupOpsWorker::Finalize(456) - +++ 
+3880  1d58  06/30 08:47:56 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525949] in BACKUP
+3880  1d58  06/30 08:47:56 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:56 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - +++ 
+3880  1c38  06/30 08:47:56 1087953 CVDC_FileSystem::CFSBackupController::getTaskRequest(118) - --- 0:00.015107 
+3880  1c38  06/30 08:47:56 1087953 DistributedIDA::CController::streamLoop(722) - no more tasks for worker 2
+3880  1c38  06/30 08:47:56 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStopStream(256) - Worker for stream id [4] found
+3880  1c38  06/30 08:47:56 1087953 MultiNodeBackupOpsWorker::Finalize(456) - +++ 
+3880  1c38  06/30 08:47:56 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525948] in BACKUP
+3880  1c38  06/30 08:47:56 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+3880  1d58  06/30 08:47:57 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+3880  1d58  06/30 08:47:57 1087953 CVArchive::ClosePipeline() - Resetting allocated stream
+3880  1d58  06/30 08:47:57 1087953 CCVAPipelayer::ClosePipeline() - About to destroy Data Mover
+3880  1d58  06/30 08:47:57 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 133 to MediaAgent, Waiting for Response...
+3880  1c38  06/30 08:47:57 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+3880  1c38  06/30 08:47:57 1087953 CVArchive::ClosePipeline() - Resetting allocated stream
+3880  1c38  06/30 08:47:57 1087953 CCVAPipelayer::ClosePipeline() - About to destroy Data Mover
+3880  1c38  06/30 08:47:57 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 133 to MediaAgent, Waiting for Response...
+3880  15b0  06/30 08:47:58 1087953 Name [Head], Start Delay [1160.84 s], Avg [34.14 s], Procsng Time [895.30 us], Avg [26.33 us], Bytes [66.94 KB], Speed [73.02 MB/s], Samples [34] RCId [2177326]
+3880  15b0  06/30 08:47:58 1087953 Name [Head Compression], Start Delay [35.50 ms], Avg [1.04 ms], Procsng Time [1.38 ms], Avg [40.69 us], Bytes [66.94 KB], Speed [47.25 MB/s], Samples [34] RCId [2177326]
+3880  15b0  06/30 08:47:58 1087953 Name [Head Signature], Start Delay [4.61 ms], Avg [135.47 us], Procsng Time [1.79 s], Avg [52.77 ms], Bytes [65.13 KB], Speed [36.30 KB/s], Samples [34] RCId [2177326]
+3880  15b0  06/30 08:47:58 1087953 Name [Head Encryption], Start Delay [1.78 s], Avg [55.66 ms], Procsng Time [942.44 ms], Avg [29.45 ms], Bytes [65.05 KB], Speed [69.02 KB/s], Samples [32] RCId [2177326]
+3880  15b0  06/30 08:47:58 1087953 Name [Head CRC32], Start Delay [5.90 us], Avg [184.37 ns], Procsng Time [73.75 ms], Avg [2.30 ms], Bytes [64.99 KB], Speed [881.32 KB/s], Samples [32] RCId [2177326]
+3880  15b0  06/30 08:47:58 1087953 Name [Head Network], Start Delay [5.27 s], Avg [164.55 ms], Procsng Time [1.33 ms], Avg [41.43 us], Bytes [64.99 KB], Speed [47.87 MB/s], Samples [32] RCId [2177326]
+3880  15b0  06/30 08:47:58 1087953 Performing graceful connection termination RCId [2177326]
+3880  15b0  06/30 08:47:58 1087953 Closing all sockets. RCId [2177326]
+3880  15b0  06/30 08:47:58 1087953 ~CVArchive() - Destroying CVArchive. This=0000028F70944B80
+3880  15b0  06/30 08:47:58 1087953 MultiNodeBackupOpsWorker::Finalize(456) - --- 0:23.773012 
+3880  15b0  06/30 08:47:58 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStopStream(265) - Stream ended.
+3880  15b0  06/30 08:47:58 1087953 DistributedIDA::CController::streamLoop(839) - finishing worker thread 4
+3880  1c38  06/30 08:48:07 1087953 [PIPELAYER  ] Tail response = DataMover destroyed Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 133 EventError = 0
+3880  1c38  06/30 08:48:07 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 2 to MediaAgent, Waiting for Response...
+3880  1e08  06/30 08:48:07 1087953 CSignatureQuery::Uninitialize() - Uninitializing CSignatureQuery... (0)
+3880  1d58  06/30 08:48:07 1087953 [PIPELAYER  ] Tail response = DataMover destroyed Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 133 EventError = 0
+3880  1e08  06/30 08:48:07 1087953 stat- SigQuery [SIDB-Lookup - 0.00] [CLDB-Query - 0.00] [CLDB-Insert - 0.00] [AVG SIDB lookup - 0.000000]
+3880  1d58  06/30 08:48:07 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 2 to MediaAgent, Waiting for Response...
+3880  1ed8  06/30 08:48:07 1087953 CSignatureQuery::Uninitialize() - Uninitializing CSignatureQuery... (1)
+3880  1ed8  06/30 08:48:07 1087953 stat- ID [Grp [00] Avg CL-QueryInsert], Samples [1], Time [0.100001] Sec(s), Average [0.100001] Sec/Sample
+3880  1e08  06/30 08:48:07 1087953 stat- SigQuery [Signatures processed - 0] [New signatures encounterd - 0 ] [(0)AVG-sig/Query - 0.00] [Found in cache - 0 ] [Found in DDB - 0 ] [Found in Sealed-DDB - 0 ] [Skipped- 0 ]
+3880  1e08  06/30 08:48:07 1087953 stat- SigQuery [Size-Application - 0 (0.00 GB)] [Size-processed - 0 (0.00 GB) ] [Size-Discarded - 0 (0.00 GB)] [Size-New Data- 0 (0.00 GB)] [Dropped Percentage - -nan(ind)]
+3880  1ed8  06/30 08:48:07 1087953 stat- SigQuery [SIDB-Lookup - 32.31] [CLDB-Query - 0.00] [CLDB-Insert - 0.00] [AVG SIDB lookup - 32.311808]
+3880  1ed8  06/30 08:48:07 1087953 stat- SigQuery [Signatures processed - 1] [New signatures encounterd - 1 ] [(1)AVG-sig/Query - 1.00] [Found in cache - 0 ] [Found in DDB - 0 ] [Found in Sealed-DDB - 0 ] [Skipped- 0 ]
+3880  1ed8  06/30 08:48:07 1087953 stat- SigQuery [Size-Application - 79080 (0.00 GB)] [Size-processed - 79080 (0.00 GB) ] [Size-Discarded - 0 (0.00 GB)] [Size-New Data- 79080 (0.00 GB)] [Dropped Percentage - 0.00]
+3880  1ed8  06/30 08:48:07 1087953 CSignatureQuery::Uninitialize() - Uninitializing CSignatureQuery completed. 
+3880  1e08  06/30 08:48:07 1087953 CSignatureQuery::Uninitialize() - Uninitializing CSignatureQuery completed. 
+3880  1ed8  06/30 08:48:07 1087953 ..==== DedupCache statistics ====..
+3880  1ed8  06/30 08:48:07 1087953 Stat- Dedupe. duration        - [30,June,22 08:46:28  ~  30,June,22 08:48:07] 00:01:39 (99)
+3880  1ed8  06/30 08:48:08 1087953 Stat- [src-dedupe Signature count - 1] [target-dedupe signature count - 0]
+3880  1ed8  06/30 08:48:08 1087953 Stat- [Data-processed - 142976 (0.00 GB) ] [Total Data Sent on Network - 144064 (0.00 GB) ] [NonDeduplicatable Data  - 63896 (0.00 GB) ] [Reduced - 0.00 percent] 
+3880  1ed8  06/30 08:48:08 1087953 Stat- [Total DedupCache time 32.66 ] [Cache time 0.00] [Sig Lookup time 32.31] [Buf alloc time 0.33+0.00, Count 205+3] [Send time 0.01]
+3880  1ed8  06/30 08:48:08 1087953 CDeDupCache::Uninitialize():==== DedupCache Completed ==== 
+3880  1e08  06/30 08:48:08 1087953 ..==== DedupCache statistics ====..
+3880  1e08  06/30 08:48:08 1087953 Stat- Dedupe. duration        - [30,June,22 08:46:29  ~  30,June,22 08:48:07] 00:01:38 (98)
+3880  1e08  06/30 08:48:08 1087953 Stat- [src-dedupe Signature count - 0] [target-dedupe signature count - 0]
+3880  1e08  06/30 08:48:08 1087953 Stat- [Data-processed - 50552 (0.00 GB) ] [Total Data Sent on Network - 51464 (0.00 GB) ] [NonDeduplicatable Data  - 50552 (0.00 GB) ] [Reduced - 0.00 percent] 
+3880  1e08  06/30 08:48:08 1087953 Stat- [Total DedupCache time 0.08 ] [Cache time 0.00] [Sig Lookup time 0.00] [Buf alloc time 0.08+0.00, Count 201+0] [Send time 0.00]
+3880  1e08  06/30 08:48:08 1087953 CDeDupCache::Uninitialize():==== DedupCache Completed ==== 
+3880  1d58  06/30 08:48:08 1087953 [PIPELAYER  ] Tail response = Tail Generated STOP_PL and ready to Terminate Status = 0 dwCode = 0 MsgType = 4 MsgSubType = 2 EventError = 0
+3880  1d58  06/30 08:48:08 1087953 CPipelayer::ShutdownPipeline() - stat- SDT [0000028F7091DF10] [duration - 104 seconds]
+3880  1d58  06/30 08:48:08 1087953 CPipelayer::ShutdownPipeline() - SDT [0000028F7091DF10] Shutdown completed.
+3880  1d58  06/30 08:48:08 1087953 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [2177329]
+3880  1d58  06/30 08:48:08 1087953 SdtBase is being destroyed. RCId [2177329]
+3880  1d58  06/30 08:48:08 1087953 Signature processing speed: Type [SHA512], [502.880749] GB/Hr, Bytes [105263], Time [0.000702] Sec(s)
+3880  1d58  06/30 08:48:08 1087953 stat- ID [Avg FetchKeyC], Samples [3], Time [0.426196] Sec(s), Average [0.142065] Sec/Sample
+3880  1d58  06/30 08:48:08 1087953 Name [Head], Start Delay [1924.44 s], Avg [7.37 s], Procsng Time [4.51 ms], Avg [17.30 us], Bytes [229.04 KB], Speed [49.54 MB/s], Samples [261] RCId [2177329]
+3880  1d58  06/30 08:48:08 1087953 Name [Head Compression], Start Delay [74.37 ms], Avg [284.96 us], Procsng Time [8.93 ms], Avg [34.21 us], Bytes [229.04 KB], Speed [25.05 MB/s], Samples [261] RCId [2177329]
+3880  1d58  06/30 08:48:08 1087953 Name [Head Signature], Start Delay [863.41 s], Avg [3.31 s], Procsng Time [34.10 s], Avg [130.66 ms], Bytes [211.09 KB], Speed [6.19 KB/s], Samples [261] RCId [2177329]
+3880  1c38  06/30 08:48:08 1087953 [PIPELAYER  ] Tail response = Tail Generated STOP_PL and ready to Terminate Status = 0 dwCode = 0 MsgType = 4 MsgSubType = 2 EventError = 0
+3880  1d58  06/30 08:48:08 1087953 Name [Head Encryption], Start Delay [33.70 s], Avg [143.38 ms], Procsng Time [1.97 s], Avg [8.38 ms], Bytes [210.41 KB], Speed [106.85 KB/s], Samples [235] RCId [2177329]
+3880  1c38  06/30 08:48:08 1087953 CPipelayer::ShutdownPipeline() - stat- SDT [0000028F7092D450] [duration - 103 seconds]
+3880  1d58  06/30 08:48:08 1087953 Name [Head CRC32], Start Delay [48.00 us], Avg [204.26 ns], Procsng Time [171.80 ms], Avg [731.07 us], Bytes [209.88 KB], Speed [1.19 MB/s], Samples [235] RCId [2177329]
+3880  1c38  06/30 08:48:08 1087953 CPipelayer::ShutdownPipeline() - SDT [0000028F7092D450] Shutdown completed.
+3880  1d58  06/30 08:48:08 1087953 Name [Head Network], Start Delay [5.16 s], Avg [21.98 ms], Procsng Time [6.42 ms], Avg [27.34 us], Bytes [209.88 KB], Speed [31.90 MB/s], Samples [235] RCId [2177329]
+3880  1c38  06/30 08:48:08 1087953 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [2177328]
+3880  1c38  06/30 08:48:08 1087953 SdtBase is being destroyed. RCId [2177328]
+3880  1c38  06/30 08:48:08 1087953 Signature processing speed: Type [SHA512], [451.916604] GB/Hr, Bytes [14719], Time [0.000109] Sec(s)
+3880  1d58  06/30 08:48:08 1087953 Performing graceful connection termination RCId [2177329]
+3880  1c38  06/30 08:48:08 1087953 CipherCacheSingleton::RemoveMap() - Removed Map for Job [1087953] from  Encryption keys cache. Remaining maps [0]
+3880  1d58  06/30 08:48:08 1087953 Closing all sockets. RCId [2177329]
+3880  1c38  06/30 08:48:08 1087953 stat- ID [Avg FetchKeyC], Samples [2], Time [0.199041] Sec(s), Average [0.099520] Sec/Sample
+3880  1d58  06/30 08:48:08 1087953 ~CVArchive() - Destroying CVArchive. This=0000028F7091C2D0
+3880  1c38  06/30 08:48:08 1087953 Name [Head], Start Delay [6518.97 s], Avg [25.77 s], Procsng Time [3.07 ms], Avg [12.15 us], Bytes [128.10 KB], Speed [40.70 MB/s], Samples [253] RCId [2177328]
+3880  1c38  06/30 08:48:08 1087953 Name [Head Compression], Start Delay [59.39 ms], Avg [234.75 us], Procsng Time [4.63 ms], Avg [18.29 us], Bytes [128.10 KB], Speed [27.03 MB/s], Samples [253] RCId [2177328]
+3880  1c38  06/30 08:48:08 1087953 Name [Head Signature], Start Delay [4.91 s], Avg [19.43 ms], Procsng Time [1.49 s], Avg [5.88 ms], Bytes [120.09 KB], Speed [80.74 KB/s], Samples [253] RCId [2177328]
+3880  1d58  06/30 08:48:08 1087953 MultiNodeBackupOpsWorker::Finalize(456) - --- 0:12.231685 
+3880  1d58  06/30 08:48:08 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStopStream(265) - Stream ended.
+3880  1d58  06/30 08:48:08 1087953 DistributedIDA::CController::streamLoop(839) - finishing worker thread 1
+3880  1c38  06/30 08:48:08 1087953 Name [Head Encryption], Start Delay [1.39 s], Avg [6.14 ms], Procsng Time [1.79 s], Avg [7.91 ms], Bytes [119.03 KB], Speed [66.62 KB/s], Samples [226] RCId [2177328]
+3880  1c38  06/30 08:48:08 1087953 Name [Head CRC32], Start Delay [36.20 us], Avg [160.18 ns], Procsng Time [59.24 ms], Avg [262.12 us], Bytes [118.51 KB], Speed [1.95 MB/s], Samples [226] RCId [2177328]
+3880  1c38  06/30 08:48:08 1087953 Name [Head Network], Start Delay [4.63 s], Avg [20.49 ms], Procsng Time [7.90 ms], Avg [34.95 us], Bytes [118.51 KB], Speed [14.65 MB/s], Samples [226] RCId [2177328]
+3880  1c38  06/30 08:48:08 1087953 Performing graceful connection termination RCId [2177328]
+3880  1c38  06/30 08:48:08 1087953 Closing all sockets. RCId [2177328]
+3880  1c38  06/30 08:48:08 1087953 ~CVArchive() - Destroying CVArchive. This=0000028F708F1180
+3880  1c38  06/30 08:48:08 ####### SdtTailSrvPool::Rel: Resetting SrvPool as ref. count is 0.
+3880  1c38  06/30 08:48:08 1087953 MultiNodeBackupOpsWorker::Finalize(456) - --- 0:12.066924 
+3880  1c38  06/30 08:48:08 1087953 MultiNodeBackupOps::MultiNodeBackupOpsController::OnStopStream(265) - Stream ended.
+3880  1c38  06/30 08:48:08 1087953 DistributedIDA::CController::streamLoop(839) - finishing worker thread 2
+3880  145c  06/30 08:48:10 1087953 DistributedIDA::CController::OnIdle(463) - IDA::Controller tell no more work. Finishing.
+3880  145c  06/30 08:48:10 1087953 DistributedIDA::CController::OnAgentStopped(274) - OnAgentStopped will stop all tasks and streams
+3880  145c  06/30 08:48:11 1087953 runController(159) - ---------------------
+3880  145c  06/30 08:48:11 1087953 runController(160) - ENDING Controller
+3880  145c  06/30 08:48:11 1087953 runController(161) - =====================
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Artifacts download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Boards download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Pipelines download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Test Plans download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(79) - Repository download: 0:11.152793, 1 samples, 0:11.152793 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(80) - Creation of collect file : 0:00.148925, 1 samples, 0:00.148925 average, 6/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(81) - Splitting of collect file: 0:00.082102, 1 samples, 0:00.082102 average, 12/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(82) - Repository cleanup: 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(83) - Repository pull request: 0:00.265896, 1 samples, 0:00.265896 average, 3/second
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Create Reader: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Fill Header: Samples = 40, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Send Opt.Header: Samples = 40, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Fill Metadata: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Send Metadata: Samples = 86, Time = 0.32 Sec(s), Average = 0.0037 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Read: Samples = 54, Time = 0.00 Sec(s), Average = 0.0001 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Read: Bytes = 124262, Time = 0.00 Sec(s), Average Speed = 105.9807 G/h
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Is hole: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Close: Samples = 40, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - ATime: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - stat: Samples = 40, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Send Header: Samples = 40, Time = 0.01 Sec(s), Average = 0.0002 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Write Buffer: Samples = 193, Time = 0.02 Sec(s), Average = 0.0001 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Write Speed: Samples = 193, Time = 0.02 Sec(s), Average = 0.0001 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Allocate Buffer: Samples = 193, Time = 0.31 Sec(s), Average = 0.0016 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - File Open: Samples = 40, Time = 0.05 Sec(s), Average = 0.0013 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Artifacts download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Boards download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Pipelines download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Test Plans download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(79) - Repository download: 0:05.974629, 1 samples, 0:05.974629 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(80) - Creation of collect file : 0:00.336886, 1 samples, 0:00.336886 average, 2/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(81) - Splitting of collect file: 0:00.282197, 1 samples, 0:00.282197 average, 3/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(82) - Repository cleanup: 0:00.094393, 1 samples, 0:00.094393 average, 10/second
+3880  145c  06/30 08:48:11 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(83) - Repository pull request: 0:00.197497, 1 samples, 0:00.197497 average, 5/second
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Create Reader: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Fill Header: Samples = 38, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Send Opt.Header: Samples = 38, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Fill Metadata: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Send Metadata: Samples = 87, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Read: Samples = 54, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Read: Bytes = 23560, Time = 0.00 Sec(s), Average Speed = 52.8156 G/h
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Is hole: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Close: Samples = 38, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - ATime: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - stat: Samples = 38, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Send Header: Samples = 38, Time = 0.00 Sec(s), Average = 0.0001 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Write Buffer: Samples = 190, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Write Speed: Samples = 190, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - Allocate Buffer: Samples = 190, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 StreamHandler() - File Open: Samples = 38, Time = 0.08 Sec(s), Average = 0.0021 Sec/Sample
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Artifacts download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Boards download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:11 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Pipelines download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Test Plans download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(79) - Repository download: 0:06.579284, 1 samples, 0:06.579284 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(80) - Creation of collect file : 0:00.243457, 1 samples, 0:00.243457 average, 4/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(81) - Splitting of collect file: 0:00.165857, 1 samples, 0:00.165857 average, 6/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(82) - Repository cleanup: 0:00.094976, 2 samples, 0:00.047488 average, 21/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(83) - Repository pull request: 0:00.217384, 1 samples, 0:00.217384 average, 4/second
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Create Reader: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Fill Header: Samples = 32, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Send Opt.Header: Samples = 32, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Fill Metadata: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Send Metadata: Samples = 76, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Read: Samples = 93, Time = 0.01 Sec(s), Average = 0.0001 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Read: Bytes = 12861608, Time = 0.01 Sec(s), Average Speed = 4798.6269 G/h
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Is hole: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Close: Samples = 32, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - ATime: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - stat: Samples = 32, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Send Header: Samples = 32, Time = 0.00 Sec(s), Average = 0.0001 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Write Buffer: Samples = 211, Time = 27.70 Sec(s), Average = 0.1313 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Write Speed: Samples = 211, Time = 27.70 Sec(s), Average = 0.1313 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Allocate Buffer: Samples = 211, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - File Open: Samples = 32, Time = 0.09 Sec(s), Average = 0.0028 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Artifacts download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Boards download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Pipelines download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVGit::GitBackupWorker::~GitBackupWorker(70) - Test Plans download : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(79) - Repository download: 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(80) - Creation of collect file : 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(81) - Splitting of collect file: 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(82) - Repository cleanup: 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 CVDumpAndSweep::DumpAndSweepBackupWorker::~DumpAndSweepBackupWorker(83) - Repository pull request: 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+3880  145c  06/30 08:48:12 1087953 OBJECTOPSAPI::BackupController::stopJob(620) - INFO: all streams are closed.
+3880  145c  06/30 08:48:12 1087953 OBJECTOPSAPI::BackupController::stopJob(646) - INFO: Stop job complete.
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Create Reader: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Fill Header: Samples = 4, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Send Opt.Header: Samples = 4, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Fill Metadata: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Send Metadata: Samples = 9, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Read: Samples = 4, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Read: Bytes = 3890, Time = 0.00 Sec(s), Average Speed = 178.4164 G/h
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Is hole: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Close: Samples = 4, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - ATime: Samples = 0, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - stat: Samples = 4, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Send Header: Samples = 4, Time = 0.00 Sec(s), Average = 0.0001 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Write Buffer: Samples = 19, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Write Speed: Samples = 19, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - Allocate Buffer: Samples = 19, Time = 0.00 Sec(s), Average = 0.0000 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 StreamHandler() - File Open: Samples = 4, Time = 0.02 Sec(s), Average = 0.0040 Sec/Sample
+3880  145c  06/30 08:48:12 1087953 CVJobCtrlLog::unregisterProcess(): successfully removed file [C:\Program Files\Metallic\ContentStore\Base\JobControl\3.880]
+3880  145c  06/30 08:48:12 1087953 main(160) - ---------------------
+3880  145c  06/30 08:48:12 1087953 main(161) - ENDING DistributedIDA
+3880  145c  06/30 08:48:12 1087953 main(162) - =====================

@@ -1,0 +1,53 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : RemoteFileCacheServer                                                       *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+5652  1af8  06/30 06:58:40 ### main() - Initialized On Demand Server with service name [CVODS_remotefilecacheserver_sanbgw_1]
+5652  1af8  06/30 06:58:40 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5652  1af8  06/30 06:58:40 ### main() - Loading library at registry Library\sLNRemoteFileCacheServer
+5652  1af8  06/30 06:58:40 ### main() - Calling entry point function GetOnDemandSvcLibInstance at registry Library\sLPODS
+5652  1af8  06/30 06:58:40 ### CvRemoteFileCacheServer::Initialize() - Initialized Remote File Cache Server at location [C:\Program Files\Metallic\ContentStore\IndexCache\RemoteFileCache] 
+5652  1af8  06/30 06:58:41 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+5652  1af8  06/30 06:58:41 ### main() - Initialization successful.Created guid [74F87ACA-0FC0-4F28-937E-960F0D611F48]
+5652  1af8  06/30 06:58:41 ### main() - *************Starting On Demand Server CVODS_remotefilecacheserver_sanbgw_1*************
+5652  1af8  06/30 06:58:41 ### CVWaitableTimer::SetTimer() -  Inactivity Timer created successfully
+5652  1af8  06/30 06:58:41 ### main() - On Demand Service Inactivity timeout set to [28800] secs
+5652  1da4  06/30 06:58:41 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/RemoteFileCacheServer_IOCPThreads DWORD registry entry
+5652  1da4  06/30 06:58:41 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+5652  1da4  06/30 06:58:41 ### CCvNetworkServer::SelectData() - Listening on port CVODS_remotefilecacheserver_sanbgw_1/51061/0
+5652  1da4  06/30 06:58:41 ### OnDemandSvcCallbackXML() - On Demand Service CVODS_remotefilecacheserver_sanbgw_1 launched and CvNetworkServer is ready
+5652  298   06/30 06:58:41 ### HandleIncomingReq() - Failed to acquire session from handle [2], err [0x80070306:{CCvNetworkServer::AcquireSession(615)/W32.774.(One or more errors occurred while processing the request. (ERROR_ERRORS_ENCOUNTERED.774))-Node for handle 2 not found}]
+5652  1690  06/30 07:03:41 ### TPool [CvRemoteFileCacheServerSvcInterface]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [1], Avg Work Time [10.68 ms], Avg Wait Time [550.50 us]
+5652  1690  06/30 07:03:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:03:41 ### TPool [CVODS_remotefilecacheserver_sanbgw_1]. Ser# [0] Tot [2], Pend [0], Comp [2], Max Par [1], Avg Work Time [25.50 us], Avg Wait Time [149.75 us]
+5652  1690  06/30 07:03:41 ### TPool [CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [4], Pend [0], Comp [4], Max Par [1], Avg Work Time [278.85 us], Avg Wait Time [105.60 us]
+5652  1690  06/30 07:08:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1ad8  06/30 07:08:41 ### CvRemoteFileCacheServerSvcInterface::StartIdleTimer() - No active threads or active jobs are present in the RFCServer. Creating a Job complete event [CVODS_remotefilecacheserver_sanbgw_11656597520]
+5652  1bbc  06/30 07:08:41 ### ::ChkJobCompleteEvent() - Received Jobs Complete Event from Library. Starting Inactivity timer for On Demand Service [CVODS_remotefilecacheserver_sanbgw_1]
+5652  1690  06/30 07:13:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:18:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:23:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:28:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:33:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:38:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:43:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:48:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:53:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 07:58:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:03:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:08:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:13:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:18:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:23:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:28:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:33:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:38:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:43:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:48:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5652  1690  06/30 08:53:41 ### TPool [IOCPServerPool_CVODS_remotefilecacheserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]

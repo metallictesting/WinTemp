@@ -1,0 +1,22 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : CVThrottMgrIn                                                               *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+4584  c68   06/30 06:44:11 ### Initialize():SHM IPC-Key(size=59828264)[KEY=Global\Instance001_CV_THROTTLE_MUTEX_IN]
+4584  c68   06/30 06:44:11 ### Initialize():Initialized  for Instance001.[Global\Instance001_CV_THROTTLE_SHMEM_IN][00007FFBFFA74AB0][00000213BA7B0000] [new - Yes] [Refcount - 1] [Data-Size - 59828264][V3]
+4584  c68   06/30 06:44:11 ### CVDInitialize(): Succeeded...
+3500  1e14  06/30 06:54:29 ### Initialize():SHM IPC-Key(size=59828264)[KEY=Global\Instance001_CV_THROTTLE_MUTEX_IN]
+3500  1e14  06/30 06:54:29 ### Initialize():Initialized  for Instance001.[Global\Instance001_CV_THROTTLE_SHMEM_IN][0000000021D7EF10][00000000288C0000] [new - No] [Refcount - 2] [Data-Size - 59828264][V3]
+3700  bfc   06/30 06:56:24 ### Initialize():SHM IPC-Key(size=59828264)[KEY=Global\Instance001_CV_THROTTLE_MUTEX_IN]
+3700  bfc   06/30 06:56:24 ### Initialize():Initialized  for Instance001.[Global\Instance001_CV_THROTTLE_SHMEM_IN][0000000021FD6180][0000000029080000] [new - Yes] [Refcount - 1] [Data-Size - 59828264][V3]
+4464  230   06/30 06:57:36 ### Initialize():SHM IPC-Key(size=59828264)[KEY=Global\Instance001_CV_THROTTLE_MUTEX_IN]
+4464  230   06/30 06:57:36 ### Initialize():Initialized  for Instance001.[Global\Instance001_CV_THROTTLE_SHMEM_IN][00007FFBFFC04AB0][00000195F39D0000] [new - Yes] [Refcount - 1] [Data-Size - 59828264][V3]
+4464  230   06/30 06:57:36 ### CVDInitialize(): Succeeded...
+6320  183c  06/30 06:58:19 ### Initialize():SHM IPC-Key(size=59828264)[KEY=Global\Instance001_CV_THROTTLE_MUTEX_IN]
+6320  183c  06/30 06:58:19 ### Initialize():Initialized  for Instance001.[Global\Instance001_CV_THROTTLE_SHMEM_IN][000000001E4545E0][0000000029070000] [new - No] [Refcount - 2] [Data-Size - 59828264][V3]

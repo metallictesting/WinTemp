@@ -1,0 +1,30 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : IdxLabelUtil                                                                *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+6900  dd4   06/30 07:23:16 ### IdxLabelUtil::main() - Started with parameters: [-op getcacheid -dst F:\DDB -cn sanbgw -vm Instance001]
+6900  dd4   06/30 07:23:16 ### IdxLabelUtil::main() - Performing operation: [GETCACHEID].
+6900  dd4   06/30 07:23:16 ### IdxLabelUtil::ProcessGetICLInfoRequest() - Processing ICL Info Request: [GETCACHEID].
+6900  dd4   06/30 07:23:16 ### CVPITextFileOpen::reloadFile() - File [F:\DDB\icl_label.txt] does not exist.
+6900  dd4   06/30 07:23:16 ### ICLController::InternalReadDataFromICL() - ICL file is not opened. Error code: [5].
+6900  dd4   06/30 07:23:16 ### IdxLabelUtil::ProcessGetICLInfoRequest() - ICL data can't be read for access path: [F:\DDB]. ICLController returned code: [587203126].
+6900  dd4   06/30 07:23:16 ### IdxLabelUtil::main() - Exiting process with return code: [587203126].
+5752  1a78  06/30 07:23:16 ### IdxLabelUtil::main() - Started with parameters: [-op overwriteicl -ict 2 -srcapid 2595 -apathid 2595 -cn sanbgw -vm Instance001]
+5752  1a78  06/30 07:23:16 ### IdxLabelUtil::main() - Performing operation: [OVERWRITEICL].
+5752  1a78  06/30 07:23:16 ### IdxLabelUtil::ProcessICLRequest() - Processing the ICL Request: [OVERWRITEICL].
+5752  1a78  06/30 07:23:16 ### IdxLabelUtil::getDestDataFromDB() - Using pathname+login data in DB for destination.
+5752  1a78  06/30 07:23:17 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5752  1a78  06/30 07:23:17 ### CheckAndCreateParentDirectory() - CheckCompressState - SUCCEEDED
+5752  1a78  06/30 07:23:17 ### IdxLabelUtil::ProcessICLRequest() - CheckAndCreateParentDirectory - SUCCEEDED
+5752  1a78  06/30 07:23:17 ### ICLController::WriteNewICL() - New ICL file was written successfully. Pool=[2595], Cache=[2595], Timestamp=[1656598997].
+5752  1a78  06/30 07:23:17 ### IdxLabelUtil::ProcessSetRegRequest() - Processing Set Registry Request...
+5752  1a78  06/30 07:23:17 ### IdxLabelUtil::ProcessSetRegRequest() - Non-regular index cache. Exiting.
+5752  1a78  06/30 07:23:18 ### IdxLabelUtil::notifyCVMAForCatalogServerChanges() - Exiting function with return code: [0].
+5752  1a78  06/30 07:23:18 ### IdxLabelUtil::ProcessICLRequest() - Exiting function with return code: [0].
+5752  1a78  06/30 07:23:18 ### IdxLabelUtil::main() - Exiting process with return code: [0].

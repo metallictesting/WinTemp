@@ -1,0 +1,190 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : LogManager                                                                  *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+1888  1b74  06/30 06:58:38 ### main() - Initialized On Demand Server with service name [CVODS_logmanager_sanbgw_1]
+1888  1b74  06/30 06:58:39 ### Cvcl::init() - CVCL: Running in FIPS Mode
+1888  1b74  06/30 06:58:39 ### main() - Loading library at registry Library\sLNLogManager
+1888  1b74  06/30 06:58:39 ### main() - Calling entry point function GetOnDemandSvcLibInstance at registry Library\sLPODS
+1888  1b74  06/30 06:58:39 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+1888  1b74  06/30 06:58:39 ### Idx DB path [C:\Program Files\Metallic\ContentStore\IndexCache\CvIdxDB]
+1888  1b74  06/30 06:58:39 ### main() - Initialization successful.Created guid [2195EB7D-0815-4887-A2BD-4B2FE6430471]
+1888  1b74  06/30 06:58:39 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+1888  1b74  06/30 06:58:39 ### main() - *************Starting On Demand Server CVODS_logmanager_sanbgw_1*************
+1888  1b74  06/30 06:58:39 ### CVWaitableTimer::SetTimer() -  Inactivity Timer created successfully
+1888  1b74  06/30 06:58:40 ### main() - On Demand Service Inactivity timeout set to [1200] secs
+1888  1f18  06/30 06:58:40 ### CVDTerminationHandler::_WaitForCVDTermination() - Waiting for CVD Termination
+1888  3cc   06/30 06:58:40 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/LogManager_IOCPThreads DWORD registry entry
+1888  3cc   06/30 06:58:40 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+1888  3cc   06/30 06:58:40 ### CCvNetworkServer::SelectData() - Listening on port CVODS_logmanager_sanbgw_1/51053/0
+1888  3cc   06/30 06:58:40 ### OnDemandSvcCallbackXML() - On Demand Service CVODS_logmanager_sanbgw_1 launched and CvNetworkServer is ready
+1888  1a1c  06/30 06:58:40 ### Received IndexCache Cleanup request. Starting new thread.
+1888  19e8  06/30 07:03:39 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [1], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:03:39 ### TPool [LogManagerSvcInterface_ConfigLoader]. Ser# [0] Tot [2], Pend [0], Comp [2], Max Par [1], Avg Work Time [191.23 ms], Avg Wait Time [59.65 us]
+1888  19e8  06/30 07:03:39 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:03:39 ### TPool [CVODS_logmanager_sanbgw_1]. Ser# [0] Tot [2], Pend [0], Comp [2], Max Par [1], Avg Work Time [41.65 us], Avg Wait Time [320.85 us]
+1888  19e8  06/30 07:03:39 ### TPool [CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [4], Pend [0], Comp [4], Max Par [1], Avg Work Time [22.39 ms], Avg Wait Time [203.80 us]
+1888  19e8  06/30 07:08:39 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:08:39 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:13:39 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:13:39 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e0  06/30 07:18:39 ### I2::LogManagerSvcInterface::StartIdleTimer() - LogManager is idle. Creating a Job complete event [CVODS_logmanager_sanbgw_11656597519]
+1888  ea4   06/30 07:18:39 ### ::ChkJobCompleteEvent() - Received Jobs Complete Event from Library. Starting Inactivity timer for On Demand Service [CVODS_logmanager_sanbgw_1]
+1888  19e8  06/30 07:18:40 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:18:40 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:23:40 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:23:40 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:28:40 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:28:40 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:33:40 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:33:40 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+1888  ea4   06/30 07:38:39 ### ::TimerAPCProc
+1888  19e0  06/30 07:38:39 ### Service Shut down detected, exiting
+1888  ea4   06/30 07:38:40 ### ShutDownServer() - ..............Shutting down service [CVODS_logmanager_sanbgw_1]..............
+1888  ea4   06/30 07:38:40 ### CCvNetworkServer::Quit() - Quit is received.
+1888  19b0  06/30 07:38:40 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+1888  1a18  06/30 07:38:40 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+1888  19e8  06/30 07:38:40 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [0], Comp [1], Max Par [0], Avg Work Time [2400.06 s], Avg Wait Time [0.00 s]
+1888  19e8  06/30 07:38:40 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [0], Comp [2], Max Par [0], Avg Work Time [2400.02 s], Avg Wait Time [0.00 s]
+1888  1034  06/30 07:38:40 ### CCvNetworkServer::LogStatisticsThread() - Statistics thread is exiting.
+1888  19cc  06/30 07:38:40 ### CCvNetworkServer::ListenThread() - ListenThread is exiting.
+1888  19cc  06/30 07:38:40 ### CCvNetworkServer::Quit() - Quit is received.
+1888  3cc   06/30 07:38:40 ### CCvIOCPServer::CleanUp() - Waiting for IOCP threads to come down
+1888  3cc   06/30 07:38:40 ### CCvIOCPServer::CleanUp() - IOCP threads are down now
+1888  3cc   06/30 07:38:40 ### CCvNetworkServer::SelectData() - Waiting for network server threads to come down
+1888  3cc   06/30 07:38:41 ### CCvNetworkServer::SelectData() - Network server threads are down
+1888  ea4   06/30 07:38:41 ### ::ChkJobCompleteEvent() - Received Jobs Complete Event from Library. Starting Inactivity timer for On Demand Service [CVODS_logmanager_sanbgw_1]
+1888  1b74  06/30 07:38:41 ### ::WaitForEndEvent() - *************On Demand Server [CVODS_logmanager_sanbgw_1] is shutting down*************
+7068  1eec  06/30 07:57:35 ### main() - Initialized On Demand Server with service name [CVODS_logmanager_sanbgw_2]
+7068  1eec  06/30 07:57:35 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7068  1eec  06/30 07:57:35 ### main() - Loading library at registry Library\sLNLogManager
+7068  1eec  06/30 07:57:35 ### main() - Calling entry point function GetOnDemandSvcLibInstance at registry Library\sLPODS
+7068  1eec  06/30 07:57:35 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+7068  1eec  06/30 07:57:35 ### Idx DB path [C:\Program Files\Metallic\ContentStore\IndexCache\CvIdxDB]
+7068  1eec  06/30 07:57:35 ### main() - Initialization successful.Created guid [F56A83E6-0C93-4971-B752-4FC057505FE8]
+7068  1eec  06/30 07:57:35 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+7068  1eec  06/30 07:57:36 ### main() - *************Starting On Demand Server CVODS_logmanager_sanbgw_2*************
+7068  1eec  06/30 07:57:36 ### CVWaitableTimer::SetTimer() -  Inactivity Timer created successfully
+7068  1eec  06/30 07:57:36 ### main() - On Demand Service Inactivity timeout set to [1200] secs
+7068  1a84  06/30 07:57:36 ### CVDTerminationHandler::_WaitForCVDTermination() - Waiting for CVD Termination
+7068  1538  06/30 07:57:36 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/LogManager_IOCPThreads DWORD registry entry
+7068  1538  06/30 07:57:36 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+7068  1538  06/30 07:57:36 ### CCvNetworkServer::SelectData() - Listening on port CVODS_logmanager_sanbgw_2/51180/0
+7068  1538  06/30 07:57:36 ### OnDemandSvcCallbackXML() - On Demand Service CVODS_logmanager_sanbgw_2 launched and CvNetworkServer is ready
+7068  1b8c  06/30 07:57:36 ### Starting Index DB Stat Collect
+7068  1b8c  06/30 07:57:36 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+7068  1b8c  06/30 07:57:36 ### Initializing metrics collector for load balance
+7068  1b8c  06/30 07:57:36 ### Starting metrics collector for client [sanbgw].
+7068  1b8c  06/30 07:57:36 ### Start calculating metrics for load balance
+7068  1b8c  06/30 07:57:36 ### Loading disk usage history data for client [sanbgw]
+7068  1b8c  06/30 07:57:36 ### Openning IndexCacheStats report [IndexCacheStats_15102524249119095211.csv] from [C:\Program Files\Metallic\ContentStore\Log Files\ResourceMonitor].
+7068  1b8c  06/30 07:57:36 ### Finished loading history for disk [C:], there is [1] entries.
+7068  1b8c  06/30 07:57:36 ### No enough history found [1/28] for disk [C:]. Using running data as reference.
+7068  1b8c  06/30 07:57:36 ### Calculating Capacity with totalSpace = [101783]
+7068  1b8c  06/30 07:57:36 ### Calculating Load History with totalSpace = [101783]
+7068  1b8c  06/30 07:57:36 ### Calculating load history using data.
+7068  1b8c  06/30 07:57:36 ### Calculating Current Load with totalSpace = [101783] and freeSpace = [85344]
+7068  1b8c  06/30 07:57:36 ### Forecasting Load
+7068  1b8c  06/30 07:57:36 ### Insuficient number of history data to run prediction, using input data as reference.
+7068  1b8c  06/30 07:57:36 ### Calculating Load Averages
+7068  1b8c  06/30 07:57:36 ### Calculating Load Trend
+7068  1b8c  06/30 07:57:36 ### Calculating Predicted Capacity
+7068  1b8c  06/30 07:57:36 ### Classifying Index Server
+7068  1b8c  06/30 07:57:36 ### Check if alert is needed
+7068  1b8c  06/30 07:57:36 ### Alert not required as this media agent is in [LIGHT] state
+7068  1b8c  06/30 07:57:36 ### End Metrics Calculation. Summary:
+7068  1b8c  06/30 07:57:36 ### DiskName: [C:], DiskSizeMB: [101783], FreeDiskMB: [85344], Capacity: [0.048534], Current Load: [0.161510], History Load Avg: [0.161515], Predicted Load Avg: [0.161521], Load Trend: [0.000003], Predicted Capacity: [0.040695], Class: [0].
+7068  1b8c  06/30 07:57:36 ### Sending metrics to CS.
+7068  1b8c  06/30 07:57:36 ### Metrics sent to CS.
+7068  16dc  06/30 07:57:36 ### Send web report URL with anomaly alert is [ENABLED] in commcell [2]
+7068  16dc  06/30 07:57:36 ### Minimum number of entries required to run anomaly detection set to [100]
+7068  16dc  06/30 07:57:36 ### Starting Index DB Anomaly Check
+7068  16dc  06/30 07:57:36 ### Anomaly check request processed successfully!
+7068  1a34  06/30 08:02:35 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [1], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:02:35 ### TPool [LogManagerSvcInterface_ConfigLoader]. Ser# [0] Tot [3], Pend [0], Comp [3], Max Par [2], Avg Work Time [321.19 ms], Avg Wait Time [518.03 us]
+7068  1a34  06/30 08:02:36 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_2]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:02:36 ### TPool [CVODS_logmanager_sanbgw_2]. Ser# [0] Tot [2], Pend [0], Comp [2], Max Par [1], Avg Work Time [129.30 us], Avg Wait Time [98.15 us]
+7068  1a34  06/30 08:02:36 ### TPool [CVODS_logmanager_sanbgw_2]. Ser# [1] Tot [4], Pend [0], Comp [4], Max Par [1], Avg Work Time [68.20 us], Avg Wait Time [38.03 us]
+7068  1a34  06/30 08:07:36 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:07:36 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_2]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:12:36 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:12:36 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_2]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1af0  06/30 08:17:35 ### I2::LogManagerSvcInterface::StartIdleTimer() - LogManager is idle. Creating a Job complete event [CVODS_logmanager_sanbgw_21656601055]
+7068  9e4   06/30 08:17:35 ### ::ChkJobCompleteEvent() - Received Jobs Complete Event from Library. Starting Inactivity timer for On Demand Service [CVODS_logmanager_sanbgw_2]
+7068  1a34  06/30 08:17:36 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:17:36 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_2]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:22:36 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:22:40 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_2]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:27:40 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:27:40 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_2]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:32:40 ### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  1a34  06/30 08:32:40 ### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_2]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7068  9e4   06/30 08:37:35 ### ::TimerAPCProc
+7068  1af0  06/30 08:37:36 ### Service Shut down detected, exiting
+7068  9e4   06/30 08:37:36 ### ShutDownServer() - ..............Shutting down service [CVODS_logmanager_sanbgw_2]..............
+7068  9e4   06/30 08:37:36 ### CCvNetworkServer::Quit() - Quit is received.
+7068  193c  06/30 08:37:36 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+7068  1220  06/30 08:37:36 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+7068  1d24  06/30 08:37:36 ### CCvNetworkServer::ListenThread() - ListenThread is exiting.
+7068  1d24  06/30 08:37:36 ### CCvNetworkServer::Quit() - Quit is received.
+7068  1698  06/30 08:37:36 ### CCvNetworkServer::LogStatisticsThread() - Statistics thread is exiting.
+7068  1538  06/30 08:37:36 ### CCvIOCPServer::CleanUp() - Waiting for IOCP threads to come down
+7068  1538  06/30 08:37:36 ### CCvIOCPServer::CleanUp() - IOCP threads are down now
+7068  1538  06/30 08:37:36 ### CCvNetworkServer::SelectData() - Waiting for network server threads to come down
+7068  1538  06/30 08:37:36 ### CCvNetworkServer::SelectData() - Network server threads are down
+7068  9e4   06/30 08:37:36 ### ::ChkJobCompleteEvent() - Received Jobs Complete Event from Library. Starting Inactivity timer for On Demand Service [CVODS_logmanager_sanbgw_2]
+7068  1eec  06/30 08:37:36 ### ::WaitForEndEvent() - *************On Demand Server [CVODS_logmanager_sanbgw_2] is shutting down*************
+7716  14b0  06/30 08:46:30 ### main() - Initialized On Demand Server with service name [CVODS_logmanager_sanbgw_1]
+7716  14b0  06/30 08:46:31 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7716  14b0  06/30 08:46:31 ### main() - Loading library at registry Library\sLNLogManager
+7716  14b0  06/30 08:46:31 ### main() - Calling entry point function GetOnDemandSvcLibInstance at registry Library\sLPODS
+7716  14b0  06/30 08:46:31 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+7716  14b0  06/30 08:46:31 ### Idx DB path [C:\Program Files\Metallic\ContentStore\IndexCache\CvIdxDB]
+7716  14b0  06/30 08:46:31 ### main() - Initialization successful.Created guid [B402CAFF-B581-48AB-B891-48C277FA6516]
+7716  14b0  06/30 08:46:31 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+7716  14b0  06/30 08:46:31 ### main() - *************Starting On Demand Server CVODS_logmanager_sanbgw_1*************
+7716  14b0  06/30 08:46:31 ### CVWaitableTimer::SetTimer() -  Inactivity Timer created successfully
+7716  14b0  06/30 08:46:31 ### main() - On Demand Service Inactivity timeout set to [1200] secs
+7716  76c   06/30 08:46:31 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/LogManager_IOCPThreads DWORD registry entry
+7716  1d34  06/30 08:46:31 ### CVDTerminationHandler::_WaitForCVDTermination() - Waiting for CVD Termination
+7716  76c   06/30 08:46:31 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+7716  76c   06/30 08:46:31 ### CCvNetworkServer::SelectData() - Listening on port CVODS_logmanager_sanbgw_1/51053/0
+7716  76c   06/30 08:46:31 ### OnDemandSvcCallbackXML() - On Demand Service CVODS_logmanager_sanbgw_1 launched and CvNetworkServer is ready
+7716  18e8  06/30 08:46:31 ### Action logs stash is not enabled.
+7716  18e8  06/30 08:46:31 1087953 Initializing Backup Stream, Stream Name [2ab02978f5fe4b5669b42812ca5f64ba], AppType [200125], clientName [sanbgw], stream Handle [3204465262942088128] 
+7716  c30   06/30 08:46:32 ####### Action logs stash is not enabled.
+7716  c30   06/30 08:46:32 1087953 Initializing Backup Stream, Stream Name [4c4ecc9439c06b2dcbe1132acfb1e650], AppType [200125], clientName [sanbgw], stream Handle [2473994365544737182] 
+7716  11c8  06/30 08:46:32 ####### Action logs stash is not enabled.
+7716  11c8  06/30 08:46:32 1087953 Initializing Backup Stream, Stream Name [931461df6f19832ae60325d64bd39532], AppType [200125], clientName [sanbgw], stream Handle [577676001120227605] 
+7716  d20   06/30 08:46:32 ####### Action logs stash is not enabled.
+7716  d20   06/30 08:46:32 1087953 Initializing Backup Stream, Stream Name [8863dea571c181974fd95700e9d1bb1b], AppType [200125], clientName [sanbgw], stream Handle [2507652605053199814] 
+7716  18e8  06/30 08:47:30 ####### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+7716  152c  06/30 08:47:31 ####### CVOnDemandSvcClient::SubmitTask() - On Demand service CVODS_logmanager_sanbgw_1 launched at host SanBGW*sanbgw*8400. Unique ID is B402CAFF-B581-48AB-B891-48C277FA6516
+7716  152c  06/30 08:47:31 ####### Got ODS Guid [B402CAFF-B581-48AB-B891-48C277FA6516] from server [LogManager] Host [SanBGW*sanbgw*8400]
+7716  11c8  06/30 08:47:37 1087953 Ending Backup Stream, Stream Name [931461df6f19832ae60325d64bd39532]
+7716  d20   06/30 08:47:38 ####### CVOnDemandSvcClient::SubmitTask() - On Demand service CVODS_indexserver_sanbgw_1 launched at host SanBGW*sanbgw*8400*8402. Unique ID is 47A5EE02-E7CB-4D86-863B-49F2EA5FADC9
+7716  d20   06/30 08:47:38 ####### new ODS port {51644} for GUID {47A5EE02-E7CB-4D86-863B-49F2EA5FADC9}
+7716  c30   06/30 08:47:51 1087953 Ending Backup Stream, Stream Name [2ab02978f5fe4b5669b42812ca5f64ba]
+7716  11c8  06/30 08:48:08 1087953 Ending Backup Stream, Stream Name [4c4ecc9439c06b2dcbe1132acfb1e650]
+7716  d20   06/30 08:48:08 1087953 Ending Backup Stream, Stream Name [8863dea571c181974fd95700e9d1bb1b]
+7716  8f8   06/30 08:48:14 1087953 SdtBase::SetNwCrcProps: Enabled n/w crc on SdtHead. [Using slice-by-8] RCId [2177329]
+7716  8f8   06/30 08:48:14 ####### SdtHead::onProcDataCompleted: SDT Head Timeout is set to [-1] secs
+7716  8f8   06/30 08:48:14 ####### SdtBase::procBuffer: SDT Head Check CRC after network send is set to [0]
+7716  1b24  06/30 08:50:17 ####### Creating new live logs folder for DB [8FCBE752-BECB-467C-BCBB-1811B4FA0F84]
+7716  1360  06/30 08:51:31 ####### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [1], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7716  1360  06/30 08:51:31 ####### TPool [LogManager_UploadHandler]. Ser# [1] Tot [16], Pend [0], Comp [16], Max Par [3], Avg Work Time [716.29 ms], Avg Wait Time [2.25 ms]
+7716  1360  06/30 08:51:31 ####### TPool [LogManagerSvcInterface_ConfigLoader]. Ser# [0] Tot [18], Pend [0], Comp [18], Max Par [2], Avg Work Time [1.48 s], Avg Wait Time [729.52 us]
+7716  1360  06/30 08:51:31 ####### TPool [LogManagerSvcInterface_ConfigLoader]. Ser# [1] Tot [23], Pend [0], Comp [23], Max Par [4], Avg Work Time [112.50 ms], Avg Wait Time [25.83 ms]
+7716  1360  06/30 08:51:31 ####### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7716  1360  06/30 08:51:31 ####### TPool [CVODS_logmanager_sanbgw_1]. Ser# [0] Tot [8], Pend [0], Comp [8], Max Par [2], Avg Work Time [21.93 us], Avg Wait Time [5.44 ms]
+7716  1360  06/30 08:51:31 ####### TPool [CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [59], Pend [0], Comp [59], Max Par [2], Avg Work Time [10.17 ms], Avg Wait Time [634.23 us]
+7716  1360  06/30 08:51:31 ####### TPool [SdtHeadThPool]. Tot [88], Pend [0], Comp [88], Max Par [1], Avg Work Time [376.12 us], Avg Wait Time [373.65 us]
+7716  1360  06/30 08:56:31 ####### TPool [LogManager_UploadHandler]. Ser# [0] Tot [1], Pend [1], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7716  1360  06/30 08:56:31 ####### TPool [IOCPServerPool_CVODS_logmanager_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7716  1360  06/30 08:56:31 ####### TPool [SdtHeadThPool]. Tot [0], Pend [0], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]

@@ -1,0 +1,317 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : DLP                                                                         *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+4584  1528  06/30 06:44:10 ### Opened Lock vol shared buffer. Opened [0], InstanceId [1]
+4584  1528  06/30 06:44:10 ### CVDLPLockVolWorker::Init, Initialized CVDLP driver
+4584  1528  06/30 06:44:10 ### GetDLPEnabledInstInfo: SubKeys found [2], Instance count on the machine [1]. DlpEnabledCount [MP:0, DR:0], MPInfo [0]
+4584  1528  06/30 06:44:10 ### DLP (MP [0], DR Bkp [0], PlatType 6); LogLvl (Dlp [80010040], LV [1]); Log query freq. [5] secs. Refresh Interval [1380] Mins, (v1.6.1), 
+4584  1528  06/30 06:44:10 ### ProtectDRBkp_OnStart: Not Cancelling 'Protect DR backup' timer as it could be DDB or Index only MA. DrBkpDlp [0], PlatType [6]
+4584  cdc   06/30 06:44:11 ### OpenCVDLPService: Warning: DLP is not enabled for this instance.
+4584  18dc  06/30 06:44:12 ### GetDLPEnabledInstInfo: SubKeys found [2], Instance count on the machine [1]. DlpEnabledCount [MP:0, DR:0], MPInfo [0]
+6396  19f8  06/30 06:44:13 ### Opened Lock vol shared buffer. Opened [1], InstanceId [1]
+6396  19f8  06/30 06:44:13 ### CVDLPLockVolWorker::Init, Initialized CVDLP driver
+6396  19f8  06/30 06:44:13 ### GetDLPEnabledInstInfo: SubKeys found [2], Instance count on the machine [1]. DlpEnabledCount [MP:0, DR:0], MPInfo [0]
+6396  19f8  06/30 06:44:13 ### DLP (MP [0], DR Bkp [0], PlatType 6); LogLvl (Dlp [80010040], LV [1]); Log query freq. [5] secs. Refresh Interval [1380] Mins, (v1.6.1), 
+6396  19f8  06/30 06:44:13 ### OpenCVDLPService: Warning: DLP is not enabled for this instance.
+4584  193c  06/30 06:45:14 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:0, DR:0], MPInfo [0]
+4464  185c  06/30 06:57:35 ### Opened Lock vol shared buffer. Opened [0], InstanceId [1]
+4464  185c  06/30 06:57:35 ### CVDLPLockVolWorker::Init, Initialized CVDLP driver
+4464  185c  06/30 06:57:35 ### GetDLPEnabledInstInfo: SubKeys found [2], Instance count on the machine [1]. DlpEnabledCount [MP:0, DR:0], MPInfo [0]
+4464  185c  06/30 06:57:35 ### DLP (MP [0], DR Bkp [0], PlatType 6); LogLvl (Dlp [80010040], LV [1]); Log query freq. [5] secs. Refresh Interval [1380] Mins, (v1.6.1), 
+4464  185c  06/30 06:57:35 ### ProtectDRBkp_OnStart: Not Cancelling 'Protect DR backup' timer as it could be DDB or Index only MA. DrBkpDlp [0], PlatType [6]
+4464  1b74  06/30 06:57:36 ### GetDLPEnabledInstInfo: SubKeys found [2], Instance count on the machine [1]. DlpEnabledCount [MP:0, DR:0], MPInfo [0]
+4464  1b90  06/30 06:57:36 ### OpenCVDLPService: Warning: DLP is not enabled for this instance.
+7892  1eb8  06/30 06:57:37 ### Opened Lock vol shared buffer. Opened [1], InstanceId [1]
+7892  1eb8  06/30 06:57:37 ### CVDLPLockVolWorker::Init, Initialized CVDLP driver
+7892  1eb8  06/30 06:57:37 ### GetDLPEnabledInstInfo: SubKeys found [2], Instance count on the machine [1]. DlpEnabledCount [MP:0, DR:0], MPInfo [0]
+7892  1eb8  06/30 06:57:37 ### DLP (MP [0], DR Bkp [0], PlatType 6); LogLvl (Dlp [80010040], LV [1]); Log query freq. [5] secs. Refresh Interval [1380] Mins, (v1.6.1), 
+7892  1eb8  06/30 06:57:37 ### OpenCVDLPService: Warning: DLP is not enabled for this instance.
+7892  1a98  06/30 07:23:09 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:0, DR:0], MPInfo [0]
+7892  1a98  06/30 07:23:09 ### DLP (MP [0], DR Bkp [0], PlatType 6); LogLvl (Dlp [80010040], LV [1]); Log query freq. [5] secs. Refresh Interval [1380] Mins, (v1.6.1), 
+7892  1a98  06/30 07:23:09 ### OpenCVDLPService: Warning: DLP is not enabled for this instance.
+4464  14b8  06/30 07:23:27 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:1, DR:0], MPInfo [0]
+4464  14b8  06/30 07:23:27 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:1, DR:0], MPInfo [0]
+4464  14b8  06/30 07:23:27 ### DLP (MP [1], DR Bkp [0], PlatType 6); LogLvl (Dlp [80010040], LV [1]); Log query freq. [5] secs. Refresh Interval [1380] Mins, (v1.6.1), 
+4464  14b8  06/30 07:23:27 ### StartDlpDrv Filter load CVDLP returned hr=0x0, Err=0
+4464  14b8  06/30 07:23:27 ### StartDlpDrv: Opened control port. Err=0
+4464  14b8  06/30 07:23:27 ### StartDlpDrv: Opened logging port. Err=0
+4464  14b8  06/30 07:23:27 ### StartDlpDrv: Opened notification port. Err=0
+4464  14b8  06/30 07:23:27 ### StartMonitorThread: Starting logging monitor thread.
+4464  14b8  06/30 07:23:28 ### StartMonitorThread: Started logging monitor thread. Flg [0x3a]
+4464  14b8  06/30 07:23:28 ### StartMonitorThread: Started notification monitor thread. Flg [0x3a]
+4464  1470  06/30 07:23:28 ### GlobalLogging_Init(102) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881579Z] --- GlobalLogging=[0xFFFFA402CBF11D78], status=[0x00000000]
+4464  14b8  06/30 07:23:28 ### GetDDBPathsToProtect: Fetching SIDB Store list for MA [sanbgw]. ForceRefresh [0], PrevDDBCount [-1]
+4464  1470  06/30 07:23:28 ### GlobalCommunication_Init(35) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881628Z] +++ GlobalCommunication=[0xFFFFA402CBF11DE8]
+4464  1470  06/30 07:23:28 ### GlobalCommunication_Init(83) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881641Z] --- GlobalCommunication=[0xFFFFA402CBF11DE8], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### GlobalEncryption_Init(55) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881658Z] +++ GlobalEncryption=[0xFFFFA402CBF11E48]
+4464  1470  06/30 07:23:28 ### GlobalEncryption_Init(119) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881685Z] --- GlobalEncryption=[0xFFFFA402CBF11E48], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### GlobalShredding_Init(35) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881702Z] +++ GlobalShredding=[0xFFFFA402CBF11F30]
+4464  1470  06/30 07:23:28 ### GlobalShredding_Init(78) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881717Z] --- GlobalShredding=[0xFFFFA402CBF11F30], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### VolumeMapper_Init(32) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881736Z] +++ VolumeMapper=[0xFFFFA402CBF11F48]
+4464  1470  06/30 07:23:28 ### VolumeMapper_Init(45) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881749Z] --- VolumeMapper=[0xFFFFA402CBF11F48]
+4464  1470  06/30 07:23:28 ### GlobalContext_Init(131) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.881763Z] --- GlobalContext=[0xFFFFA402CBF11D50], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.883752Z] +++ InstanceContext=[0xFFFF86873E33C560]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.883771Z] --- InstanceContext=[0xFFFF86873E33C560], status=[0x00000000]
+4464  14b8  06/30 07:23:28 ### SerializeDDBPaths: Serializing SIDB Store list for MA [sanbgw]. Count [0/0]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.883914Z] +++ InstanceContext=[0xFFFF86873E33D2E0]
+4464  14b8  06/30 07:23:28 ### SerializeDDBPaths: Serialized SIDB Store list for MA [sanbgw]. Store Count [0], KeyLen [11]
+4464  14b8  06/30 07:23:28 ### GetDDBPathsToProtect: Got SIDB Store list for MA [sanbgw]. Store Count [0], Uniq Path [0]. RefreshDelta [13] Mins
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.883931Z] --- InstanceContext=[0xFFFF86873E33D2E0], status=[0x00000000]
+4464  14b8  06/30 07:23:28 ### GetMPInfoByInst: Instance [1] has [1/1] MPs.
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.884238Z] +++ InstanceContext=[0xFFFF86873E33E720]
+4464  14b8  06/30 07:23:28 ### GetIdxPathInfoByInst: Instance [1] has [3] Index Paths.
+4464  14b8  06/30 07:23:28 ### GetDDBPathInfoByInst: Instance [1] has [0] DDB Paths.
+4464  14b8  06/30 07:23:28 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:1, DR:0], MPInfo [1]
+4464  14b8  06/30 07:23:28 ### CfgPathsToProtect: DLP started blocking MP [1] + DDB [0] + Idx [3] + DR [0] => [4/4] paths. Inst Count [1]
+4464  14b8  06/30 07:23:28 ### CfgPathsToProtect: DLP started protecting MP [1] + DDB [0] + Idx [3] + DR [0] => [10/10] paths. Inst Count [1]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.884257Z] --- InstanceContext=[0xFFFF86873E33E720], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.884467Z] +++ InstanceContext=[0xFFFF86873E33E8A0]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.884486Z] --- InstanceContext=[0xFFFF86873E33E8A0], status=[0x00000000]
+4464  14b8  06/30 07:23:28 ### CfgCVDLPService: Configured folder policy. Reconfigured = [1], CfgFlg = [0x3a]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.884867Z] +++ InstanceContext=[0xFFFF86873E340760]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.884885Z] --- InstanceContext=[0xFFFF86873E340760], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.885051Z] +++ InstanceContext=[0xFFFF86873E340E20]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.885069Z] --- InstanceContext=[0xFFFF86873E340E20], status=[0x00000000]
+4464  14b8  06/30 07:23:28 ### CfgAllowedProcesses: System proc configured. ImageCount [20]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.885324Z] +++ InstanceContext=[0xFFFF86873E33FAA0]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.885341Z] --- InstanceContext=[0xFFFF86873E33FAA0], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.885545Z] +++ InstanceContext=[0xFFFF86873E33FC20]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.885568Z] --- InstanceContext=[0xFFFF86873E33FC20], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.885845Z] +++ InstanceContext=[0xFFFF86873E340EE0]
+4464  14b8  06/30 07:23:28 ### CfgAllowedProcesses: DLP successfully set ProcessImagePolicy. Elems [21]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.885862Z] --- InstanceContext=[0xFFFF86873E340EE0], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886032Z] +++ InstanceContext=[0xFFFF86873E33FCE0]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886050Z] --- InstanceContext=[0xFFFF86873E33FCE0], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886324Z] +++ InstanceContext=[0xFFFF86873E342860]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886341Z] --- InstanceContext=[0xFFFF86873E342860], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(111) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886543Z] +++ InstanceContext=[0xFFFF86873E341EA0]
+4464  1470  06/30 07:23:28 ### InstanceContext_Init(137) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886561Z] --- InstanceContext=[0xFFFF86873E341EA0], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### Registry_Init(113) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886634Z] +++ Registry=[0xFFFF86873F3D7C60]
+4464  1470  06/30 07:23:28 ### Registry_Init(124) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886647Z] --- Registry=[0xFFFF86873F3D7C60], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### Registry_Cleanup(139) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886713Z] +++ Registry=[0xFFFF86873F3D7C60]
+4464  1470  06/30 07:23:28 ### Registry_Cleanup(149) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886726Z] --- Registry=[0xFFFF86873F3D7C60]
+4464  1470  06/30 07:23:28 ### DriverEntry(396) [TID=FFFFA402C6F85040, 2022/06/30 14:23:27.886738Z] ---
+4464  1470  06/30 07:23:28 ### Registry_Init(113) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938741Z] +++ Registry=[0xFFFF86873F3D7B10]
+4464  1470  06/30 07:23:28 ### Registry_Init(124) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938750Z] --- Registry=[0xFFFF86873F3D7B10], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### Registry_Init(113) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938777Z] +++ Registry=[0xFFFF86873F3D7D80]
+4464  1470  06/30 07:23:28 ### Registry_Init(124) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938786Z] --- Registry=[0xFFFF86873F3D7D80], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### Registry_Cleanup(139) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938801Z] +++ Registry=[0xFFFF86873F3D7D80]
+4464  1470  06/30 07:23:28 ### Registry_Cleanup(149) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938809Z] --- Registry=[0xFFFF86873F3D7D80]
+4464  1470  06/30 07:23:28 ### Registry_Init(113) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938828Z] +++ Registry=[0xFFFF868739FEE9D0]
+4464  1470  06/30 07:23:28 ### Registry_Init(124) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938837Z] --- Registry=[0xFFFF868739FEE9D0], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### Registry_Cleanup(139) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938852Z] +++ Registry=[0xFFFF868739FEE9D0]
+4464  1470  06/30 07:23:28 ### Registry_Cleanup(149) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938861Z] --- Registry=[0xFFFF868739FEE9D0]
+4464  1470  06/30 07:23:28 ### Registry_Init(113) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938878Z] +++ Registry=[0xFFFF86873D191D50]
+4464  1470  06/30 07:23:28 ### Registry_Init(124) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938886Z] --- Registry=[0xFFFF86873D191D50], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### Registry_Cleanup(139) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938901Z] +++ Registry=[0xFFFF86873D191D50]
+4464  1470  06/30 07:23:28 ### Registry_Cleanup(149) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938909Z] --- Registry=[0xFFFF86873D191D50]
+4464  1470  06/30 07:23:28 ### Registry_Init(113) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938925Z] +++ Registry=[0xFFFF86873D1923E0]
+4464  1470  06/30 07:23:28 ### Registry_Init(124) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938933Z] --- Registry=[0xFFFF86873D1923E0], status=[0x00000000]
+4464  1470  06/30 07:23:28 ### Registry_Cleanup(139) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938947Z] +++ Registry=[0xFFFF86873D1923E0]
+4464  1470  06/30 07:23:29 ### Registry_Cleanup(149) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938955Z] --- Registry=[0xFFFF86873D1923E0]
+4464  1470  06/30 07:23:29 ### Registry_Cleanup(139) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938970Z] +++ Registry=[0xFFFF86873F3D7B10]
+4464  1470  06/30 07:23:29 ### Registry_Cleanup(149) [TID=FFFFA402CD3282C0, 2022/06/30 14:23:27.938978Z] --- Registry=[0xFFFF86873F3D7B10]
+4464  1470  06/30 07:23:34 ### FilterSet_New(65) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482183Z] +++
+4464  1470  06/30 07:23:34 ### FilterSet_New(93) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482197Z] --- FilterSet=[0xFFFF868739FEE9D0], status=[0x00000000]
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482314Z] |== UNC    Exception, Term=<P:ci,A>\UNC\*\PIPE\**
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482325Z] |-- Volume{1054d610-eef4-4124-b55b-31fb06804016}
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482335Z] |--|-- Program Files
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482346Z] |--|--|-- Metallic
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482356Z] |--|--|--|-- ContentStore
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482367Z] |--|--|--|--|-- IndexCache
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482379Z] |==|==|==|==|==|== CvIdxDB    Filter
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482392Z] |==|==|==|==|==|== CvIdxReports    Filter
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482406Z] |==|==|==|==|==|== CV_Index    Filter
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482418Z] |-- Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482427Z] |--|-- DiskLibrary
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482436Z] |--|--|-- U6N145_06.30.2022_14.23
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482447Z] |==|==|==|== CV_MAGNETIC    Filter
+4464  1470  06/30 07:23:34 ### Registry_Init(113) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482459Z] +++ Registry=[0xFFFF86873F3D8A40]
+4464  1470  06/30 07:23:34 ### Registry_Init(124) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482467Z] --- Registry=[0xFFFF86873F3D8A40], status=[0x00000000]
+4464  1470  06/30 07:23:34 ### Registry_CreateParametersKey(291) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482671Z] Registry key [\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\BlockOpenFolderPolicy\0] opened
+4464  1470  06/30 07:23:34 ### Registry_SetValue(453) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482713Z] Writing registry, Key=[\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\BlockOpenFolderPolicy\0], Value=[Buffer], ulType=[3]
+4464  1470  06/30 07:23:34 ### Registry_Cleanup(139) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482723Z] +++ Registry=[0xFFFF86873F3D8A40]
+4464  1470  06/30 07:23:34 ### Registry_Cleanup(149) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.482771Z] --- Registry=[0xFFFF86873F3D8A40]
+4464  1470  06/30 07:23:34 ### FilterSet_New(65) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544383Z] +++
+4464  1470  06/30 07:23:34 ### FilterSet_New(93) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544394Z] --- FilterSet=[0xFFFF86873E387B80], status=[0x00000000]
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544591Z] |-- Volume{1054d610-eef4-4124-b55b-31fb06804016}
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544605Z] |==|== Program Files    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544619Z] |==|==|== Metallic    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544635Z] |==|==|==|== ContentStore    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544656Z] |==|==|==|==|== IndexCache    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore\IndexCache
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544672Z] |==|==|==|==|==|== CvIdxDB    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore\IndexCache\CvIdxDB
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544687Z] |==|==|==|==|==|== CvIdxReports    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore\IndexCache\CvIdxReports
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544702Z] |==|==|==|==|==|== CV_Index    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore\IndexCache\CV_Index
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544714Z] |-- Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544727Z] |==|== DiskLibrary    Filter, Term=<M:ci,A>\Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}\DiskLibrary
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544744Z] |==|==|== U6N145_06.30.2022_14.23    Filter, Term=<M:ci,A>\Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}\DiskLibrary\U6N145_06.30.2022_14.23
+4464  1470  06/30 07:23:34 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544759Z] |==|==|==|== CV_MAGNETIC    Filter, Term=<M:ci,A>\Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC
+4464  1470  06/30 07:23:34 ### Registry_Init(113) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544770Z] +++ Registry=[0xFFFF86873E388390]
+4464  1470  06/30 07:23:34 ### Registry_Init(124) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544778Z] --- Registry=[0xFFFF86873E388390], status=[0x00000000]
+4464  1470  06/30 07:23:34 ### Registry_CreateParametersKey(291) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.544956Z] Registry key [\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\ProtectVolumePolicy\0] opened
+4464  1470  06/30 07:23:34 ### Registry_SetValue(453) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.545002Z] Writing registry, Key=[\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\ProtectVolumePolicy\0], Value=[Buffer], ulType=[3]
+4464  1470  06/30 07:23:34 ### Registry_Cleanup(139) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.545011Z] +++ Registry=[0xFFFF86873E388390]
+4464  1470  06/30 07:23:34 ### Registry_Cleanup(149) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.545022Z] --- Registry=[0xFFFF86873E388390]
+4464  1470  06/30 07:23:39 ### FilterSet_New(65) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730041Z] +++
+4464  1470  06/30 07:23:39 ### FilterSet_New(93) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730051Z] --- FilterSet=[0xFFFF86873E389FB0], status=[0x00000000]
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730358Z] |-- Volume{00000000-0000-0000-0000-000000000000}
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730368Z] |==|== System    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730378Z] |-- Volume{1054d610-eef4-4124-b55b-31fb06804016}
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730386Z] |--|-- Program Files
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730397Z] |--|--|-- Metallic
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730406Z] |--|--|--|-- ContentStore
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730416Z] |--|--|--|--|-- Base
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730427Z] |==|==|==|==|==|== 3dnfsd.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730440Z] |==|==|==|==|==|== ArchiveIndex.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730451Z] |==|==|==|==|==|== auxcopy.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730463Z] |==|==|==|==|==|== CatalogMigration.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730475Z] |==|==|==|==|==|== clrestore.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730485Z] |==|==|==|==|==|== CreateIndex.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730497Z] |==|==|==|==|==|== createmountpathlabel.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730510Z] |==|==|==|==|==|== cvd.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730523Z] |==|==|==|==|==|== cvdiskeraser.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730535Z] |==|==|==|==|==|== cvdiskperf.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730546Z] |==|==|==|==|==|== CVDistributor.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730558Z] |==|==|==|==|==|== cvmountd.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730569Z] |==|==|==|==|==|== cvods.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730582Z] |==|==|==|==|==|== FsIndexedRestore.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730592Z] |==|==|==|==|==|== IdxCLI.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730603Z] |==|==|==|==|==|== IdxGUI.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730615Z] |==|==|==|==|==|== IndexCacheView.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730626Z] |==|==|==|==|==|== IndexingService.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730636Z] |==|==|==|==|==|== IndexRestore.exe    Filter
+4464  1470  06/30 07:23:39 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730648Z] |==|==|==|==|==|== UpdateIndex.exe    Filter
+4464  1470  06/30 07:23:39 ### Registry_Init(113) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730661Z] +++ Registry=[0xFFFF86873E38ACD0]
+4464  1470  06/30 07:23:39 ### Registry_Init(124) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730669Z] --- Registry=[0xFFFF86873E38ACD0], status=[0x00000000]
+4464  1470  06/30 07:23:39 ### Registry_CreateParametersKey(291) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730851Z] Registry key [\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\BlockOpenProcessImagePolicy\3] opened
+4464  1470  06/30 07:23:39 ### Registry_SetValue(453) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730960Z] Writing registry, Key=[\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\BlockOpenProcessImagePolicy\3], Value=[Buffer], ulType=[3]
+4464  1470  06/30 07:23:39 ### Registry_Cleanup(139) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730975Z] +++ Registry=[0xFFFF86873E38ACD0]
+4464  1470  06/30 07:23:39 ### Registry_Cleanup(149) [TID=FFFFA402CC352080, 2022/06/30 14:23:28.730988Z] --- Registry=[0xFFFF86873E38ACD0]
+7892  1a98  06/30 07:47:44 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:1, DR:0], MPInfo [0]
+7892  1a98  06/30 07:47:44 ### DLP (MP [1], DR Bkp [0], PlatType 6); LogLvl (Dlp [80010040], LV [1]); Log query freq. [5] secs. Refresh Interval [1380] Mins, (v1.6.1), 
+7892  1a98  06/30 07:47:44 ### StartDlpDrv: Opened control port. Err=0
+7892  1a98  06/30 07:47:44 ### StartDlpDrv: Opened logging port. Err=0
+7892  1a98  06/30 07:47:44 ### StartDlpDrv: Opened notification port. Err=0
+7892  1a98  06/30 07:47:44 ### StartMonitorThread: Not starting logging monitor thread. Flg [0x4]
+7892  1a98  06/30 07:47:44 ### GetDDBPathsToProtect: Fetching SIDB Store list for MA [sanbgw]. ForceRefresh [0], PrevDDBCount [-1]
+7892  1a98  06/30 07:47:45 ### SerializeDDBPaths: Serializing SIDB Store list for MA [sanbgw]. Count [0/0]
+7892  1a98  06/30 07:47:45 ### SerializeDDBPaths: Serialized SIDB Store list for MA [sanbgw]. Store Count [0], KeyLen [11]
+7892  1a98  06/30 07:47:45 ### GetDDBPathsToProtect: Got SIDB Store list for MA [sanbgw]. Store Count [0], Uniq Path [0]. RefreshDelta [20] Mins
+7892  1a98  06/30 07:47:45 ### GetMPInfoByInst: Instance [1] has [1/1] MPs.
+7892  1a98  06/30 07:47:45 ### GetIdxPathInfoByInst: Instance [1] has [3] Index Paths.
+7892  1a98  06/30 07:47:45 ### GetDDBPathInfoByInst: Instance [1] has [0] DDB Paths.
+7892  1a98  06/30 07:47:45 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:1, DR:0], MPInfo [1]
+7892  1a98  06/30 07:47:45 ### CfgPathsToProtect: DLP started blocking MP [1] + DDB [0] + Idx [3] + DR [0] => [4/4] paths. Inst Count [1]
+7892  1a98  06/30 07:47:45 ### CfgPathsToProtect: DLP started protecting MP [1] + DDB [0] + Idx [3] + DR [0] => [10/10] paths. Inst Count [1]
+7892  1a98  06/30 07:47:45 ### CfgCVDLPService: Configured folder policy. Reconfigured = [1], CfgFlg = [0x4]
+7892  1a98  06/30 07:47:45 ### CfgAllowedProcesses: System proc configured. ImageCount [20]
+7892  1a98  06/30 07:47:45 ### CfgAllowedProcesses: DLP successfully set ProcessImagePolicy. Elems [21]
+4464  1470  06/30 07:47:50 ### FilterSet_New(65) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.293715Z] +++
+4464  1470  06/30 07:47:50 ### FilterSet_New(93) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.293734Z] --- FilterSet=[0xFFFF86873E38D4C0], status=[0x00000000]
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.293926Z] |== UNC    Exception, Term=<P:ci,A>\UNC\*\PIPE\**
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.293946Z] |-- Volume{1054d610-eef4-4124-b55b-31fb06804016}
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.293961Z] |--|-- Program Files
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.293978Z] |--|--|-- Metallic
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.293996Z] |--|--|--|-- ContentStore
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294014Z] |--|--|--|--|-- IndexCache
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294034Z] |==|==|==|==|==|== CvIdxDB    Filter
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294055Z] |==|==|==|==|==|== CvIdxReports    Filter
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294075Z] |==|==|==|==|==|== CV_Index    Filter
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294097Z] |-- Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294113Z] |--|-- DiskLibrary
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294130Z] |--|--|-- U6N145_06.30.2022_14.23
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetBlockOpen(769) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294148Z] |==|==|==|== CV_MAGNETIC    Filter
+4464  1470  06/30 07:47:50 ### FilterSet_Delete(111) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294180Z] +++ FilterSet=[0xFFFF868739FEE9D0]
+4464  1470  06/30 07:47:50 ### FilterSet_Delete(118) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294216Z] ---
+4464  1470  06/30 07:47:50 ### Registry_Init(113) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294230Z] +++ Registry=[0xFFFF86873E38DC70]
+4464  1470  06/30 07:47:50 ### Registry_Init(124) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294244Z] --- Registry=[0xFFFF86873E38DC70], status=[0x00000000]
+4464  1470  06/30 07:47:50 ### Registry_CreateParametersKey(291) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294371Z] Registry key [\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\BlockOpenFolderPolicy\0] opened
+4464  1470  06/30 07:47:50 ### Registry_SetValue(453) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294431Z] Writing registry, Key=[\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\BlockOpenFolderPolicy\0], Value=[Buffer], ulType=[3]
+4464  1470  06/30 07:47:50 ### Registry_Cleanup(139) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294456Z] +++ Registry=[0xFFFF86873E38DC70]
+4464  1470  06/30 07:47:50 ### Registry_Cleanup(149) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.294482Z] --- Registry=[0xFFFF86873E38DC70]
+4464  1470  06/30 07:47:50 ### FilterSet_New(65) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.326510Z] +++
+4464  1470  06/30 07:47:50 ### FilterSet_New(93) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.326534Z] --- FilterSet=[0xFFFF86873E38E4B0], status=[0x00000000]
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.326824Z] |-- Volume{1054d610-eef4-4124-b55b-31fb06804016}
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.326850Z] |==|== Program Files    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.326876Z] |==|==|== Metallic    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.326903Z] |==|==|==|== ContentStore    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.326934Z] |==|==|==|==|== IndexCache    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore\IndexCache
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.326962Z] |==|==|==|==|==|== CvIdxDB    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore\IndexCache\CvIdxDB
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.326988Z] |==|==|==|==|==|== CvIdxReports    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore\IndexCache\CvIdxReports
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327015Z] |==|==|==|==|==|== CV_Index    Filter, Term=<M:ci,A>\Volume{1054d610-eef4-4124-b55b-31fb06804016}\Program Files\Metallic\ContentStore\IndexCache\CV_Index
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327035Z] |-- Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327058Z] |==|== DiskLibrary    Filter, Term=<M:ci,A>\Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}\DiskLibrary
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327085Z] |==|==|== U6N145_06.30.2022_14.23    Filter, Term=<M:ci,A>\Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}\DiskLibrary\U6N145_06.30.2022_14.23
+4464  1470  06/30 07:47:50 ### GlobalEncryption_SetProtectVolume(848) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327110Z] |==|==|==|== CV_MAGNETIC    Filter, Term=<M:ci,A>\Volume{211262ab-7e45-4deb-ab13-4bb80a2d1ef2}\DiskLibrary\U6N145_06.30.2022_14.23\CV_MAGNETIC
+4464  1470  06/30 07:47:50 ### FilterSet_Delete(111) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327128Z] +++ FilterSet=[0xFFFF86873E387B80]
+4464  1470  06/30 07:47:50 ### FilterSet_Delete(118) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327181Z] ---
+4464  1470  06/30 07:47:50 ### Registry_Init(113) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327195Z] +++ Registry=[0xFFFF86873E387D60]
+4464  1470  06/30 07:47:50 ### Registry_Init(124) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327209Z] --- Registry=[0xFFFF86873E387D60], status=[0x00000000]
+4464  1470  06/30 07:47:50 ### Registry_CreateParametersKey(291) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327336Z] Registry key [\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\ProtectVolumePolicy\0] opened
+4464  1470  06/30 07:47:50 ### Registry_SetValue(453) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327419Z] Writing registry, Key=[\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\ProtectVolumePolicy\0], Value=[Buffer], ulType=[3]
+4464  1470  06/30 07:47:50 ### Registry_Cleanup(139) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327436Z] +++ Registry=[0xFFFF86873E387D60]
+4464  1470  06/30 07:47:50 ### Registry_Cleanup(149) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.327456Z] --- Registry=[0xFFFF86873E387D60]
+4464  1470  06/30 07:47:55 ### FilterSet_New(65) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.397254Z] +++
+4464  1470  06/30 07:47:55 ### FilterSet_New(93) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.397281Z] --- FilterSet=[0xFFFF86873E389650], status=[0x00000000]
+4464  1470  06/30 07:47:55 ### FilterSet_Delete(111) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.397883Z] +++ FilterSet=[0xFFFF86873E389FB0]
+4464  1470  06/30 07:47:55 ### FilterSet_Delete(118) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.397941Z] ---
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.397961Z] |-- Volume{00000000-0000-0000-0000-000000000000}
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.397980Z] |==|== System    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.397999Z] |-- Volume{1054d610-eef4-4124-b55b-31fb06804016}
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398014Z] |--|-- Program Files
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398029Z] |--|--|-- Metallic
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398047Z] |--|--|--|-- ContentStore
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398063Z] |--|--|--|--|-- Base
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398085Z] |==|==|==|==|==|== 3dnfsd.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398107Z] |==|==|==|==|==|== ArchiveIndex.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398126Z] |==|==|==|==|==|== auxcopy.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398146Z] |==|==|==|==|==|== CatalogMigration.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398166Z] |==|==|==|==|==|== clrestore.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398186Z] |==|==|==|==|==|== CreateIndex.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398207Z] |==|==|==|==|==|== createmountpathlabel.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398225Z] |==|==|==|==|==|== cvd.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398245Z] |==|==|==|==|==|== cvdiskeraser.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398264Z] |==|==|==|==|==|== cvdiskperf.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398282Z] |==|==|==|==|==|== CVDistributor.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398302Z] |==|==|==|==|==|== cvmountd.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398320Z] |==|==|==|==|==|== cvods.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398341Z] |==|==|==|==|==|== FsIndexedRestore.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398359Z] |==|==|==|==|==|== IdxCLI.exe    Filter
+4464  1470  06/30 07:47:55 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398376Z] |==|==|==|==|==|== IdxGUI.exe    Filter
+4464  1470  06/30 07:47:56 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398484Z] |==|==|==|==|==|== IndexCacheView.exe    Filter
+4464  1470  06/30 07:47:56 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398504Z] |==|==|==|==|==|== IndexingService.exe    Filter
+4464  1470  06/30 07:47:56 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398523Z] |==|==|==|==|==|== IndexRestore.exe    Filter
+4464  1470  06/30 07:47:56 ### GlobalEncryption_UpdateProcessImagePolicy(351) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398579Z] |==|==|==|==|==|== UpdateIndex.exe    Filter
+4464  1470  06/30 07:47:56 ### Registry_Init(113) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398603Z] +++ Registry=[0xFFFF86873E389D10]
+4464  1470  06/30 07:47:56 ### Registry_Init(124) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398617Z] --- Registry=[0xFFFF86873E389D10], status=[0x00000000]
+4464  1470  06/30 07:47:56 ### Registry_CreateParametersKey(291) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398758Z] Registry key [\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\BlockOpenProcessImagePolicy\3] opened
+4464  1470  06/30 07:47:56 ### Registry_SetValue(453) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398836Z] Writing registry, Key=[\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\CVDLP\Parameters\BlockOpenProcessImagePolicy\3], Value=[Buffer], ulType=[3]
+4464  1470  06/30 07:47:56 ### Registry_Cleanup(139) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398861Z] +++ Registry=[0xFFFF86873E389D10]
+4464  1470  06/30 07:47:56 ### Registry_Cleanup(149) [TID=FFFFA402CD0CF080, 2022/06/30 14:47:45.398884Z] --- Registry=[0xFFFF86873E389D10]
+4464  186c  06/30 07:57:36 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:1, DR:0], MPInfo [0]
+4464  186c  06/30 07:57:36 ### DLP (MP [1], DR Bkp [0], PlatType 6); LogLvl (Dlp [80010040], LV [1]); Log query freq. [5] secs. Refresh Interval [1380] Mins, (v1.6.1), 
+4464  186c  06/30 07:57:36 ### GetMPInfoByInst: Instance [1] has [1/1] MPs.
+4464  186c  06/30 07:57:36 ### GetIdxPathInfoByInst: Instance [1] has [3] Index Paths.
+4464  186c  06/30 07:57:36 ### GetDDBPathInfoByInst: Instance [1] has [0] DDB Paths.
+4464  186c  06/30 07:57:36 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:1, DR:0], MPInfo [1]
+4464  186c  06/30 07:57:36 ### CfgPathsToProtect: No new path to configure with CVDLP. MP [1] + DDB [0] + Idx [3] + DR [0] => [4], Inst Count [1]
+4464  186c  06/30 07:57:36 ### CfgCVDLPService: Configured folder policy. Reconfigured = [0], CfgFlg = [0x8]
+7892  1a98  06/30 08:18:51 ### GetMPInfoByInst: Instance [1] has [1/1] MPs.
+7892  1a98  06/30 08:18:51 ### GetIdxPathInfoByInst: Instance [1] has [3] Index Paths.
+7892  1a98  06/30 08:18:51 ### GetDDBPathInfoByInst: Instance [1] has [0] DDB Paths.
+7892  1a98  06/30 08:18:51 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:1, DR:0], MPInfo [1]
+7892  1a98  06/30 08:18:51 ### CfgPathsToProtect: No new path to configure with CVDLP. MP [1] + DDB [0] + Idx [3] + DR [0] => [4], Inst Count [1]
+7892  1a98  06/30 08:18:51 ### CfgCVDLPService: Configured folder policy. Reconfigured = [0], CfgFlg = [0x4]
+7892  1a98  06/30 08:49:50 ### GetMPInfoByInst: Instance [1] has [1/1] MPs.
+7892  1a98  06/30 08:49:50 ### GetIdxPathInfoByInst: Instance [1] has [3] Index Paths.
+7892  1a98  06/30 08:49:50 ### GetDDBPathInfoByInst: Instance [1] has [0] DDB Paths.
+7892  1a98  06/30 08:49:50 ### GetDLPEnabledInstInfo: SubKeys found [1], Instance count on the machine [1]. DlpEnabledCount [MP:1, DR:0], MPInfo [1]
+7892  1a98  06/30 08:49:50 ### CfgPathsToProtect: No new path to configure with CVDLP. MP [1] + DDB [0] + Idx [3] + DR [0] => [4], Inst Count [1]
+7892  1a98  06/30 08:49:50 ### CfgCVDLPService: Configured folder policy. Reconfigured = [0], CfgFlg = [0x4]

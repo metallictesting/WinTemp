@@ -1,0 +1,167 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : archiveIndex                                                                *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+7716  18e8  06/30 08:48:12 1087953 Begin Archival of Remote Loose Files (if available) and Action Logs, Argv [-j 1087953 -a 2:23682 -apptype 134 -t 1  -jt 1087953:6:1:0:0:32808  -dDupAi  -seb ]
+7716  18e8  06/30 08:48:12 ####### CBackupBase::ParseArgs(243) - +++ 
+7716  18e8  06/30 08:48:12 ####### CBackupBase::ParseArgs(249) - DedupeForArchiveIndex=1
+7716  18e8  06/30 08:48:12 ####### CBackupBase::ParseArgs(253) - UseIncrementalImageMode=0
+7716  18e8  06/30 08:48:12 ####### CBackupBase::ParseArgs(257) - EndUserErase=0
+7716  18e8  06/30 08:48:12 ####### CBackupBase::ParseArgs(261) - earlyStubBackup=0
+7716  18e8  06/30 08:48:12 ####### CBackupBase::ParseArgs(268) - Adhoc backup=[False]
+7716  18e8  06/30 08:48:12 ####### CBackupBase::ParseArgs(271) - IgnoreEarlyStubBackup=0
+7716  18e8  06/30 08:48:12 ####### ::parse_plfs_bkargs() - args parsed: backupType=1, commCellId=2, appId=23682, jobId=1087953, backupReftime=0
+7716  18e8  06/30 08:48:12 ####### CBackupBase::ParseArgs(283) - earlyStubBackup=0 after parsing command line arguments.
+7716  18e8  06/30 08:48:12 ####### CBackupBase::ParseArgs(243) - --- 0:00.063417 
+7716  18e8  06/30 08:48:12 ####### I2::Archiver::DoArchive() - [1087953] got commserver name [cms01039c1us02.cvmscloud.commvault.com] from CommVault Registry
+7716  18e8  06/30 08:48:12 ####### I2::Archiver::DoArchive() - [1087953] going to initialize with jobmgr
+7716  18e8  06/30 08:48:12 ####### JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+7716  18e8  06/30 08:48:12 1087953 JM Client  CVBkpJobClient::init(): Initializing job object with token [1087953:6:1:0:0:32808].
+7716  18e8  06/30 08:48:12 ####### I2::Archiver::DoArchive() - [1087953] going to initialize with jobmgr control
+7716  18e8  06/30 08:48:12 ####### Init() - Initializing job control [token=1087953:6:1:0:0:32808,cn=sanbgw] in single threaded mode, serverName [cms01039c1us02.cvmscloud.commvault.com], ControlFlag [1], Job Id [1087953]
+7716  18e8  06/30 08:48:12 1087953 Remote File Cache Loose File Back up Enabled: [false]
+7716  18e8  06/30 08:48:12 ####### CBackupBase::Initialize2(2013) - +++ 
+7716  18e8  06/30 08:48:12 ####### CBackupBase::Initialize2(2107) - Flag failAfter=0 (0=don't fail!)
+7716  18e8  06/30 08:48:12 ####### CBackupBase::Initialize2(2148) - Getting new CVArchive
+7716  18e8  06/30 08:48:12 ####### CVArchive::Construct() - Constructing CVArchive Object. This=000001FE19199790
+7716  18e8  06/30 08:48:13 1087953 CVArchive::Construct() - Enable CVArchive Big Buffer [true] [perf-update interval 600 seconds]
+7716  18e8  06/30 08:48:13 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+7716  18e8  06/30 08:48:13 1087953 Enable Dedup for Index data [false]
+7716  18e8  06/30 08:48:13 1087953 CBackupBase::Initialize2(2186) - Going to setup pipeline through CVArchive
+7716  18e8  06/30 08:48:13 1087953 CVArchive::LookupPipelineInfo() - Incoming SIDBStoreId: 1400314
+7716  18e8  06/30 08:48:13 1087953 CVArchive::getPipelineMode() - Using default pipeline mode [SDT] for [Bkp] pipe
+7716  18e8  06/30 08:48:13 1087953 CVArchive::LookupPipelineInfo() - New block alignment enabled for this client
+7716  18e8  06/30 08:48:13 1087953 CVArchive::LookupPipelineInfo() - Use LZO compression scheme
+7716  18e8  06/30 08:48:13 1087953 CVSingleInstTarget[1] singleInstLvl[2] sigWhere[3] sigScheme[4] singleInstMinObjSizeKB[50] compressWhere[0] encType[2] rsaKeys[0] Flag[1303] rsrcConsumerId[2177329] CloudLaptopClnt[0] 
+7716  18e8  06/30 08:48:13 1087953 Configuring Compression for DataType 2
+7716  18e8  06/30 08:48:13 1087953  VCA is supported for appType = 134
+7716  18e8  06/30 08:48:13 1087953 CVArchive::ConfigureBlockAlignment() - Deduplication is not enabled. Disabling block alignment.
+7716  18e8  06/30 08:48:13 1087953 Encryption is disabled for DataType 2
+7716  18e8  06/30 08:48:13 1087953 Current pipeline module configuration: compression [0][CV_COMPRESS_SOURCE], signature [0][CV_SIGNATURE_NOWHERE] and encryption [0][CV_ENCRYPT_NOWHERE]
+7716  18e8  06/30 08:48:13 1087953 N/w agents configured before/after firewall check = [2/2]. Firewalled = 0
+7716  18e8  06/30 08:48:13 1087953 CVArchive::StartPipeline() - StartPipeline SI configuration -[srcClientName - sanbgw] Block Level [false], Block Size [128], File Level [false], Min Signature Size [0]
+7716  18e8  06/30 08:48:13 1087953 CCVAPipelayer::StartPipeline() - Forcing single tag buffers to true
+7716  18e8  06/30 08:48:13 1087953 Ignoring call to enable/disable multi-tag buffers. parameter [false].
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::InitiatePipeline Initiating SDT connection [000001FE191A9E80] from SanBGW:8400(sanbgw) to SanBGW:8400(sanbgw)
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::InitiatePipeline compressionType [CV_COMPRESS], compressWhere [CV_COMPRESS_SOURCE]
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::InitiatePipeline encryptionType [CV_NO_ENCRYPT], encryptionWhere [CV_ENCRYPT_NOWHERE]
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::InitiatePipeline signatureType [CV_NO_SIGNATURE], signatureWhere [CV_SIGNATURE_NOWHERE]
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::InitiatePipeline Lan-Free - 1
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::InitiatePipeline Num Buffers [90], Buffer size [65536]
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::InitiatePipeline SDT is using socket 1364 for connection 1/2
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::InitiatePipeline SDT Pipeline ID is [SDTPipe_sanbgw_sanbgw_1087953_1656604093_7716_6376_000001FE191A9E80]
+7716  18e8  06/30 08:48:13 1087953 SdtNetLink() - WAN Padding is OFF
+7716  18e8  06/30 08:48:13 ####### Single Threaded Head [false]
+7716  18e8  06/30 08:48:13 1087953 SdtBase::cfgComp() - LZO init retVal [0]. Spill buf size [2048] bytes
+7716  18e8  06/30 08:48:13 1087953 SdtNetLink::setSocket() - Switching socket 1364 to non-blocking mode.
+7716  18e8  06/30 08:48:13 1087953 SdtNetLink::authenticate() - Connection authenticated successfully
+7716  18e8  06/30 08:48:13 ####### Object hash type set to 0
+7716  18e8  06/30 08:48:13 ####### SdtBase::InitWrkPool: Initializing SDT head thread pool
+7716  18e8  06/30 08:48:13 ####### Max head thread count set to 16. CPU # = 2
+7716  18e8  06/30 08:48:13 ####### Threads per connection set to 8
+7716  18e8  06/30 08:48:13 ####### Initial max. threads set to 16
+7716  18e8  06/30 08:48:13 ####### SdtBase::InitWrkPool: Successfully initialized Head SDT thread pool
+7716  18e8  06/30 08:48:13 1087953 MODULE_SEQUENCE Adding compression at index [1] RCId [2177329]
+7716  18e8  06/30 08:48:13 1087953 SdtBase::cfgProcs() - Total Bufs=90, allocators=1
+7716  18e8  06/30 08:48:13 1087953 SdtBase::cfgProcs() - Free Bufs [90]
+7716  18e8  06/30 08:48:13 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+7716  18e8  06/30 08:48:13 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+7716  18e8  06/30 08:48:13 1087953 SdtBase::cfgProcs() - Free Bufs [0]
+7716  18e8  06/30 08:48:13 1087953 Switching socket 1364 (1/2) to non-blking mode. RCId [2177329]
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::FattenSdt Fattening SDT pipe by 1 more connection(s).
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::connectToDest Connected pipeline to (sanbgw)SanBGW:8400/8400, ConType 0 (Unknown), Proxy []
+7716  18e8  06/30 08:48:13 1087953 CPipelayer::FattenSdt SDT is using socket 1376 for connection 2/2
+7716  18e8  06/30 08:48:13 1087953 Switching socket 1376 (2/2) to non-blking mode. RCId [2177329]
+7716  18e8  06/30 08:48:14 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1364, Ret=-1, Err=47
+7716  18e8  06/30 08:48:14 1087953 SdtNetLink::enableTcpKA() - Failed to enable tcp KA. sd=1376, Ret=-1, Err=47
+7716  18e8  06/30 08:48:14 1087953 InitializePerfCounters() - Initializing Perf counters message[Pipeline-ID - 2177329] [Starttime - 1656604094] [Starttime UTC - 1656632894]
+7716  18e8  06/30 08:48:14 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 158 to MediaAgent, Waiting for Response...
+7716  18e8  06/30 08:48:14 1087953 [PIPELAYER  ] Tail response = Get PL_SET_NETWORK_CRC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 158 EventError = 0
+7716  18e8  06/30 08:48:14 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 136 to MediaAgent, Waiting for Response...
+7716  18e8  06/30 08:48:15 1087953 [PIPELAYER  ] Tail response = dsBackup initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 136 EventError = 0
+7716  18e8  06/30 08:48:15 1087953 CCVAPipelayer::InitializeBackupPipeline() - Disabling Client-Side-Deduplication SignatureWhere:0
+7716  18e8  06/30 08:48:15 1087953 CCVAPipelayer::InitializeBackupPipeline() - Sent Command PL_INIT_SIGNATURE to MediaAgent [Client name - sanbgw] [SIDBStoreId - 1400314] [isClientSideDedupEnabled - No] [CacheDBSize - 0 MB] [Cache-buffer-size - 4096 KB][Compress-enabled - Yes] [latencyOptimizeEnabled - No]
+7716  18e8  06/30 08:48:15 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 319 to MediaAgent, Waiting for Response...
+7716  18e8  06/30 08:48:15 1087953 [PIPELAYER  ] Tail response = signature initialization success Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 319 EventError = 0
+7716  18e8  06/30 08:48:15 1087953 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+7716  18e8  06/30 08:48:15 1087953 JM Client  CVBkpJobClient::init(): Initializing job object with token [1087953:6:1:0:0:32808].
+7716  18e8  06/30 08:48:15 1087953 CBackupBase::Initialize2(2198) - Pipeline setup completed
+7716  18e8  06/30 08:48:15 1087953 CBackupBase::Initialize2(2206) - Disabling CVArchive's file signature as this is not a turbo job or not a FS job
+7716  18e8  06/30 08:48:15 1087953 Ignoring call to enable/disable multi-tag buffers. parameter [true].
+7716  18e8  06/30 08:48:15 1087953 Multiple Tag Headers per Pipeline Buffer is Supported
+7716  18e8  06/30 08:48:15 1087953 CBackupBase::CreateNewArchiveFile(2370) - Creating archive file with parameters: IsValid=0, AppId=23682, AppTypeId=0, ArchiveFileName=IdxLogs_V1, BackupLevel=1, ArchiveFileFLags=0x0, DataType=2 inputCTime=0
+7716  18e8  06/30 08:48:15 1087953 CVArchive::AllocateArchiveFileId() - Sending allocate afileId request with copy = 8988 ReUseArchiveFile [no]***
+7716  18e8  06/30 08:48:15 1087953 CCVAPipelayer::SetEncryptProps() - Archfile(1525951 )
+7716  18e8  06/30 08:48:15 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 156 to MediaAgent, Waiting for Response...
+7716  18e8  06/30 08:48:15 1087953 [PIPELAYER  ] Tail response = Get PL_SET_ENC_PROPS Message Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 156 EventError = 0
+7716  18e8  06/30 08:48:15 1087953 CVArchive::CreateArchiveFile() - Archive file name 1525951 afilenum = 1525951
+7716  18e8  06/30 08:48:15 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 131 to MediaAgent, Waiting for Response...
+7716  18e8  06/30 08:48:15 1087953 [PIPELAYER  ] Tail response = Archive File creation succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 131 EventError = 0
+7716  18e8  06/30 08:48:15 1087953 CBackupBase::CreateNewArchiveFile(2383) - New archive file created. FileNumber=1525951, GroupNumber=5930, CreateTime=1656604095 (6/30/2022 3:48:15 PMZ)
+7716  18e8  06/30 08:48:15 1087953 CBackupBase::Initialize2(2013) - --- 0:03.010225 
+7716  18e8  06/30 08:48:15 1087953 CFileBackup::Init(290) - +++ 
+7716  18e8  06/30 08:48:15 1087953 CFileBackup::Init(290) - --- 0:00.015315 
+7716  18e8  06/30 08:48:15 1087953 CFileBackupFSW2K::Init() - The Windows Dedupe content will backed up as OPTIMIZED_FOR_RESTORE
+7716  18e8  06/30 08:48:15 1087953 CFileBackupFSW2K::initialize(305) - +++ 
+7716  18e8  06/30 08:48:16 1087953 CFileBackup::initialize(560) - +++ 
+7716  18e8  06/30 08:48:16 1087953 StaticUtils::calculateSimOSId() - OS = [x64 Server], SIM OS ID = [210]
+7716  18e8  06/30 08:48:16 1087953 CFileBackup::initialize(834) - ACL collection for client 0 is not enabled
+7716  18e8  06/30 08:48:16 1087953 CFileBackup::initialize(835) - Catalog Additional file attribute for client 0 is not enabled
+7716  18e8  06/30 08:48:16 1087953 CFileBackup::GetPerfCounterLoggingInterval(13797) - Using default performance counters logging interval [30 Minutes]
+7716  18e8  06/30 08:48:16 1087953 CFileBackup::initialize(560) - --- 0:00.298643 
+7716  18e8  06/30 08:48:16 1087953 CFileBackupFSW2K::initialize(328) - Will Not Backup RSS Data
+7716  18e8  06/30 08:48:16 1087953 CFileBackupFSW2K::initialize(305) - --- 0:00.526384 
+7716  18e8  06/30 08:48:16 1087953 Generating collect file
+7716  18e8  06/30 08:48:16 1087953 Total number of Chunk Committed Objects read by Archive Index = [114]
+7716  18e8  06/30 08:48:16 1087953 All valid Archive files have been accounted for, continuing with backup
+7716  18e8  06/30 08:48:16 1087953 CBackupBase::DoBackup(2637) - +++ 
+7716  18e8  06/30 08:48:16 1087953 CBackupBase::CountLines(5556) - FileName=C:\Program Files\Metallic\ContentStore\IndexCache\CvIdxLogs\2\8FCBE752-BECB-467C-BCBB-1811B4FA0F84\J1087953\collect_file.txt, Lines=16
+7716  18e8  06/30 08:48:16 1087953 CBackupBase::DoBackup(2726) - CollectFile=C:\Program Files\Metallic\ContentStore\IndexCache\CvIdxLogs\2\8FCBE752-BECB-467C-BCBB-1811B4FA0F84\J1087953\collect_file.txt, NumberOfFilesItems=16
+7716  18e8  06/30 08:48:16 1087953 CBackupBase::DoBackup(2637) - --- 0:00.089331 
+7716  18e8  06/30 08:48:16 1087953 Set IndexingRestart info to '<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Indexing_IndexingBackupRestartInformation currentMaClientName="sanbgw" indexType="2" isRunningJob="1" resetTotalObjectsBackedup="0" status="0"/>'
+7716  18e8  06/30 08:48:16 1087953 Closing archive file 
+7716  18e8  06/30 08:48:16 1087953 CCVAPipelayer::CloseArchiveFile() - Closing archive file[afilenum=1525951] in BACKUP
+7716  18e8  06/30 08:48:16 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 132 to MediaAgent, Waiting for Response...
+7716  18e8  06/30 08:48:17 1087953 [PIPELAYER  ] Tail response = Close archive file succeeded Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 132 EventError = 0
+7716  18e8  06/30 08:48:17 1087953 Closing pipeline.
+7716  18e8  06/30 08:48:17 1087953  Sending PL_LAST to tail.
+7716  18e8  06/30 08:48:17 1087953  backupState(1=good) = 1, closePlArgs.backupState = 1
+7716  18e8  06/30 08:48:17 1087953 CVArchive::ClosePipeline() - Resetting allocated stream
+7716  18e8  06/30 08:48:17 1087953 CCVAPipelayer::ClosePipeline() - About to destroy Data Mover
+7716  18e8  06/30 08:48:17 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 133 to MediaAgent, Waiting for Response...
+7716  18e8  06/30 08:48:22 1087953 [PIPELAYER  ] Tail response = DataMover destroyed Status = 0 dwCode = 0 MsgType = 16 MsgSubType = 133 EventError = 0
+7716  18e8  06/30 08:48:22 1087953 CCVAPipelayer::SendCommandToDSBackup() - Sent Command 2 to MediaAgent, Waiting for Response...
+7716  18e8  06/30 08:48:22 1087953 [PIPELAYER  ] Tail response = Tail Generated STOP_PL and ready to Terminate Status = 0 dwCode = 0 MsgType = 4 MsgSubType = 2 EventError = 0
+7716  18e8  06/30 08:48:22 1087953 CPipelayer::ShutdownPipeline() - stat- SDT [000001FE191A9E80] [duration - 9 seconds]
+7716  18e8  06/30 08:48:22 1087953 CPipelayer::ShutdownPipeline() - SDT [000001FE191A9E80] Shutdown completed.
+7716  18e8  06/30 08:48:22 1087953 SdtBase::relRef: Going to delete SdtBase as ref count is down to 0. RCId [2177329]
+7716  18e8  06/30 08:48:22 1087953 SdtBase is being destroyed. RCId [2177329]
+7716  18e8  06/30 08:48:22 1087953 Name [Head], Start Delay [19.30 s], Avg [219.37 ms], Procsng Time [3.63 ms], Avg [41.26 us], Bytes [63.11 KB], Speed [16.97 MB/s], Samples [88] RCId [2177329]
+7716  18e8  06/30 08:48:22 1087953 Name [Head Compression], Start Delay [33.00 ms], Avg [374.97 us], Procsng Time [879.80 us], Avg [10.00 us], Bytes [63.11 KB], Speed [70.06 MB/s], Samples [88] RCId [2177329]
+7716  18e8  06/30 08:48:22 1087953 Name [Head CRC32], Start Delay [11.50 us], Avg [130.68 ns], Procsng Time [8.59 ms], Avg [97.61 us], Bytes [42.45 KB], Speed [4.83 MB/s], Samples [88] RCId [2177329]
+7716  18e8  06/30 08:48:22 1087953 Name [Head Network], Start Delay [166.60 us], Avg [1.89 us], Procsng Time [23.17 ms], Avg [263.28 us], Bytes [42.45 KB], Speed [1.79 MB/s], Samples [88] RCId [2177329]
+7716  18e8  06/30 08:48:22 1087953 Performing graceful connection termination RCId [2177329]
+7716  18e8  06/30 08:48:22 1087953 Closing all sockets. RCId [2177329]
+7716  18e8  06/30 08:48:22 1087953  back from closePipeline
+7716  18e8  06/30 08:48:22 1087953 ~CVArchive() - Destroying CVArchive. This=000001FE19199790
+7716  18e8  06/30 08:48:23 ####### SdtTailSrvPool::Rel: Resetting SrvPool as ref. count is 0.
+7716  18e8  06/30 08:48:23 1087953 Updated Reference time Successfully
+7716  18e8  06/30 08:48:23 1087953 BKP CALLED COMPLETE (PHASE Status::SUCCESS), 1087953. Token [1087953:6:1:0:0:32808]
+7716  18e8  06/30 08:48:23 1087953 Successfully Notified JM of Phase completion
+7716  18e8  06/30 08:48:23 1087953 Time taken to Archive the logs [10.942654] ms
+7716  18e8  06/30 08:48:23 1087953  Sending job commit file to [SanBGW*sanbgw*8400]
+7716  18e8  06/30 08:48:23 1087953 stat- ID [Hard Link Processing], Samples [16], Time [0.000238] Sec(s), Average [0.000015] Sec/Sample
+7716  18e8  06/30 08:48:23 1087953 stat- ID [FindFirstFile Open], Samples [16], Time [0.001014] Sec(s), Average [0.000063] Sec/Sample
+7716  18e8  06/30 08:48:23 1087953 stat- ID [Low Level File Open], Samples [16], Time [0.002178] Sec(s), Average [0.000136] Sec/Sample
+7716  18e8  06/30 08:48:23 1087953 stat- ID [FSDM load library], Samples [17], Time [0.000012] Sec(s), Average [0.000001] Sec/Sample
+7716  18e8  06/30 08:48:23 1087953 stat- ID [File Open time], Samples [17], Time [0.027867] Sec(s), Average [0.001639] Sec/Sample
+7716  18e8  06/30 08:48:23 1087953 stat- ID [Pipeline Write time], Bytes [65432], Time [0.001988] Sec(s), Average Speed [31.384005] MB/Sec
+7716  18e8  06/30 08:48:23 1087953 stat- ID [Disk Read time], Bytes [46872], Time [0.021144] Sec(s), Average Speed [2.114084] MB/Sec
+7716  18e8  06/30 08:48:23 1087953 stat- ID [Pipeline Allocation time], Bytes [6081792], Time [0.002805] Sec(s), Average Speed [2067.901037] MB/Sec

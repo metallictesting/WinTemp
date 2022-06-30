@@ -1,0 +1,21 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : DynCacheInstaller                                                           *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+5416  f24   06/30 06:43:58 ### ========== Started Installation v-2 ==========
+5416  f24   06/30 06:43:58 ### Instance001
+5416  f24   06/30 06:43:58 ### Install: Service executable copied in To Syatem32, successfully
+5416  f24   06/30 06:43:58 ### RegisterService:  succeeded
+5416  f24   06/30 06:43:58 ### Install: Service registered successfully
+5416  f24   06/30 06:43:58 ### GetRegInt: Reg Read Failed CVInstance[2]
+5416  f24   06/30 06:43:58 ### SetReg (CVInstance) this is first instance (seting 1)
+5416  f24   06/30 06:43:59 ### (start-services) [INFO]Service start pending...
+5416  f24   06/30 06:43:59 ### (start-services)[INFO]Service started successfully
+5416  f24   06/30 06:43:59 ### Install: Service Started successfully
+5416  f24   06/30 06:43:59 ### ========== DynCache operation Succeeded ==========

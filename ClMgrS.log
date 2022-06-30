@@ -1,0 +1,221 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : ClMgrS                                                                      *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+6704  1a70  06/30 06:44:14 ### 
+6704  1a70  06/30 06:44:14 ### 
+6704  1a70  06/30 06:44:14 ### ----------------------------------------------------
+6704  1a70  06/30 06:44:14 ### ------------------ ClMgrS STARTED ------------------
+6704  1a70  06/30 06:44:14 ### ----------------------------------------------------
+6704  1a70  06/30 06:44:14 ### ClMgrS Started Successfully
+6704  1a84  06/30 06:44:14 ### Initialize Recall service
+6704  1a84  06/30 06:44:14 ### CFSDMConfigCache::GetRefreshTimeoutSeconds(475) - Refresh Config Timeout [30000000] seconds / [500000] minutes 
+6704  1a84  06/30 06:44:14 ### CFSDMConfigCache::GetRefreshTimeoutSeconds(488) - Recall failure event interval [1800] seconds / [30] minutes.
+6704  1a84  06/30 06:44:14 ### Recall service Initialized successfully
+6704  1aac  06/30 06:44:14 ### CRecallServiceImpl::Start(396) - Anti chatter flag is ON, sleeping for 3 seconds...
+6704  1aac  06/30 06:44:27 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+6704  1aac  06/30 06:44:27 ### CCvNetwork::GetConnection() - Waiting until client certificates have been downloaded
+6704  1aac  06/30 06:44:48 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6704  1aac  06/30 06:44:48 ### CRecallServiceImpl::Start(423) - Creating Recall Interfaces...
+6704  1aac  06/30 06:44:49 ### CVVMDetect::DetectHypervisor() - Local Hypervisor type: [VMware VM]
+6704  1aac  06/30 06:44:49 ### CRecallServiceInterface_CVCBT::IsRequiredOnCurrentSetup() - Hyper-V role is not enabled on local host
+6704  1aac  06/30 06:44:49 ### CRecallInterfaceFactory_Win::CreateInterfaces(97) - HyperV Change Block Tracking interface is not needed on this setup
+6704  1aac  06/30 06:44:49 ### CRecallInterfaceFactory_Win::CreateInterfaces(104) - Socket interface is not required on this setup
+6704  1aac  06/30 06:44:49 ### ::IsSharePointInstalled() - SP Package is not installed 
+6704  1aac  06/30 06:44:49 ### CRecallInterfaceFactory_Win::CreateInterfaces(115) - Sharepoint interface is not needed on this setup
+6704  1aac  06/30 06:44:49 ### CRecallInterfaceFactory_Win::CreateInterfaces(122) - Recovery point interface is not needed on this setup
+6704  1aac  06/30 06:44:49 ### CRecallServiceInterface_Driver::IsRequiredOnCurrentSetup(1625) - HSM Driver service Not installed. Will operate in driverless mode
+6704  1aac  06/30 06:44:49 ### CRecallInterfaceFactory_Win::CreateFPolicyInterface(63) - FS Recall Driver Interface is not needed on this setup
+6704  1aac  06/30 06:44:49 ### CRecallInterfaceFactory_Win::CreateFPolicyInterface(65) - FS Recall Driver Interface is not found, disabling Cluster failover handler
+6704  1aac  06/30 06:44:51 ### CRecallServiceInterface_Fpolicy::CRecallServiceInterface_Fpolicy(61) - Preparing FPolicy Recall interface
+6704  1aac  06/30 06:44:51 ### GetFSDMAuditConfigFileName(318) - [Pipeline Cache] DMR is running in context of Process Name: ClMgrS.exe, PID: 6704
+6704  1aac  06/30 06:44:51 ### FSDMFpolicyAuditCache::FSDMFpolicyAuditCache(367) - [Pipeline Cache] Pipeline Refresh Config file:C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\clmgrs_FSDMAuditConfig.cvf
+6704  1aac  06/30 06:44:51 ### FSDMFpolicyManager::FSDMFpolicyManager(167) - FSDMFpolicyManager detected CMode ON
+6704  1aac  06/30 06:44:51 ### FSDMFpolicyManager::Initialize(355) - EnableFPolicyAuditing is 0
+6704  1aac  06/30 06:44:51 ### FSDMFpolicyManager::Initialize(365) - EnableOnlyFPolicyAuditing is 0
+6704  1aac  06/30 06:44:51 ### FSDMFpolicyManager::MonitorShares(405) - Audit Cache empty. Nothing to monitor
+6704  1aac  06/30 06:44:51 ### CRecallServiceImpl::Start(436) - Total [2] interfaces created
+6704  1aac  06/30 06:44:51 ### SetAfileOpenInterval(1214) - Given timeout for idle afile is too low. Setting to [30s]
+6704  1aac  06/30 06:44:51 ### CRecallServiceImpl::Start(458) - Starting DMRService...
+6704  1aac  06/30 06:44:51 ### StartDMRService(672) - Starting DMR service, gbStop = 0
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(308) - Job updates interval is set to 10
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(314) - Send each file status is set to 0
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(320) - Send each user recall status is set to 1
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(326) - Updates interval is set to 900
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(332) - nDMRMaxRecallsFileSize is set to 10485760
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(342) - Number of restore threads set to 2
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(364) - Use of web db for recalls is [disabled].
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(395) - Initialize pipeline on startup is [disabled].
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(404) - Job idle timeout = 604800 seconds
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(440) - We will use multi MA to arbitrate pipeline threads.
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(509) - DMRMaxDynamicRestoreThreads = 4
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(532) - Serialize Tape Recalls: Yes
+6704  1aac  06/30 06:44:51 ### LoadCommCellMappingRegistrySettings(222) - No CommCell mapping in registry
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(553) - Recall jobs are scheduled using vesrion1=false
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(562) - Simulate Buffer handling failures during recalls: No [Buf No=0]
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(569) - Number of processors supported:5
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(577) - Use SDT Pipleline: Yes
+6704  1aac  06/30 06:44:51 ### LoadRegistrySettings(588) - Should do lookup by Afile: False
+6704  1aac  06/30 06:44:51 ### DMRProcessorPool::Initialize(85) - =========== DMRS (11.0.0 BUILD80) Started ===========
+6704  1aac  06/30 06:44:51 ### GetPipelineConfigFileName(98) - [Pipeline Cache] DMR is running in context of Process Name: ClMgrS.exe, PID: 6704
+6704  1aac  06/30 06:44:51 ### DMRProcessorPool::InitializeForRecallPipelineOnStartup(390) - pipeline will be setup during recall request. Initialize on start is not configured
+6704  1aac  06/30 06:44:51 ### CRecallServiceImpl::Start(460) - DMRService started...
+6704  1aac  06/30 06:44:51 ### CRecallServiceInterface_Network::Start(112) - Starting Network Server recall interface...
+6704  1aac  06/30 06:44:51 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+6704  b4c   06/30 06:44:51 ### FSDMFpolicyManager::RpcThread(2081) - Starting RPC listening thread
+6704  1dc8  06/30 06:44:51 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/ClMgrS_IOCPThreads DWORD registry entry
+6704  1dc8  06/30 06:44:51 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+6704  1dc8  06/30 06:44:51 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+6704  1dc8  06/30 06:44:51 ### CCvNetworkServer::SelectData() - Listening on port RecallService/50836/0
+6704  1644  06/30 06:44:51 ### CFileRecallRequestManager::FileRecallerObjectDeletionThread(1204) - +++ 
+6704  1aac  06/30 06:44:51 ### CRecallServiceInterface_Network::Start(142) - FileExtent recall is enabled for Network recall interface
+6704  1aac  06/30 06:44:51 ### CRecallServiceInterface_Network::Start(164) - Webserver is not installed on this machine.
+6704  1aac  06/30 06:44:51 ### CRecallServiceInterface_Network::Start(202) - Network Server recall interface started
+6704  1e50  06/30 06:44:52 ### FSDMFpolicyManager::ControlThread(2178) - FSDMFpolicyManager requested to change state to 1 from 2
+6704  1e50  06/30 06:44:52 ### FSDMFpolicyManager::ControlThread(2216) - ControlRequest failed to be set. Error:-2147024894. Some filers may not have been registered for recalls.
+6704  1aac  06/30 06:44:52 ### Failed to get start Fpolicy interface. Error : 0x8007065B:{FSDMFpolicyManager::Start(641)/FSDMFpolicyManager failed to process Start Control Request} + {FSDMFpolicyManager::SendControlCommand(621)/W32.1627.(Function failed during execution. (ERROR_FUNCTION_FAILED.1627))-Failed to set Control Event}
+6704  1aac  06/30 06:44:52 ### CRecallServiceImpl::Start(477) - [2] Interfaces started...
+6704  1ddc  06/30 06:49:51 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6704  1ddc  06/30 06:54:51 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+6704  1a78  06/30 06:55:25 ### ClMgrS Stopping
+6704  89c   06/30 06:55:25 ### Stopping Recall service
+6704  89c   06/30 06:55:25 ### CRecallServiceImpl::Stop(507) - Stopping [2] interfaces
+6704  89c   06/30 06:55:25 ### CRecallServiceInterface_WinNetwork::SetPluginRecallsKey(760) - Recall plugin is disabled
+6704  89c   06/30 06:55:25 ### CRecallServiceInterface_Network::Stop(219) - Stopping Network Server recall interface...
+6704  89c   06/30 06:55:25 ### CCvNetworkServer::Quit() - Quit is received.
+6704  1dd8  06/30 06:55:25 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+6704  1dcc  06/30 06:55:25 ### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+6704  1de0  06/30 06:55:26 ### CCvNetworkServer::ListenThread() - ListenThread is exiting.
+6704  1de0  06/30 06:55:26 ### CCvNetworkServer::Quit() - Quit is received.
+6704  1dc0  06/30 06:55:26 ### CCvNetworkServer::LogStatisticsThread() - Statistics thread is exiting.
+6704  1dc8  06/30 06:55:26 ### CCvIOCPServer::CleanUp() - Waiting for IOCP threads to come down
+6704  1dc8  06/30 06:55:26 ### CCvIOCPServer::CleanUp() - IOCP threads are down now
+6704  1dc8  06/30 06:55:26 ### CCvNetworkServer::SelectData() - Waiting for network server threads to come down
+6704  1dc8  06/30 06:55:26 ### CCvNetworkServer::SelectData() - Network server threads are down
+6704  89c   06/30 06:55:26 ### CRecallServiceInterface_Network::Stop(223) - Network Server recall interface stopped
+6704  89c   06/30 06:55:26 ### CFSDMAPI::StopAllThreads(1196) - Stopping Config refresh thread
+6704  89c   06/30 06:55:26 ### CFSDMThread::StopThread(241) - Stopping thread 1aa8
+6704  89c   06/30 06:55:26 ### CFSDMThread::StopThread(245) - Thread stopped
+6704  89c   06/30 06:55:26 ### CFSDMAPI::StopAllThreads(1198) - Config refresh thread stopped
+6704  89c   06/30 06:55:26 ### CFSDMAPI::StopAllThreads(1201) - Stopping recall response receiver threads
+6704  89c   06/30 06:55:26 ### CFSDMAPI::StopAllThreads(1203) - Recall response receiver threads stopped
+6704  89c   06/30 06:55:26 ### CRecallServiceInterface_Fpolicy::Stop(99) - Recieved Serice Stop...
+6704  1e50  06/30 06:55:26 ### FSDMFpolicyManager::ControlThread(2178) - FSDMFpolicyManager requested to change state to 3 from 1
+6704  1e50  06/30 06:55:26 ### disconnectCModeConnections for cmode
+6704  1e50  06/30 06:55:26 ### disconnectCModeConnections(479): -Error-: stopFPDMForCMode failed as fdpm is not initialized
+6704  89c   06/30 06:55:26 ### CRecallServiceImpl::Stop(515) - All Interfaces stopped
+6704  89c   06/30 06:55:26 ### CRecallServiceImpl::Stop(517) - Stopping DMRService
+6704  89c   06/30 06:55:26 ### StopDMRService(736) - DMR service stopping, gbStop = 1
+6704  89c   06/30 06:55:26 ### DMRProcessorPool::Terminate(95) - =========== DMRS Stopping ===========
+6704  89c   06/30 06:55:26 ### DMRProcessorPool::Terminate(111) - =========== DMRS Stopped ===========
+6704  89c   06/30 06:55:26 ### CRecallServiceImpl::Stop(519) - DMRService Stopped
+6704  89c   06/30 06:55:26 ### Recall service Stopped successfully
+6704  1a78  06/30 06:55:26 ### ----------------------------------------------------
+6704  1a78  06/30 06:55:26 ### ------------------ ClMgrS STOPPED ------------------
+6704  1a78  06/30 06:55:26 ### ----------------------------------------------------
+6704  1a78  06/30 06:55:26 ### 
+6704  1a78  06/30 06:55:26 ### 
+6704  1a34  06/30 06:55:27 ### CAlertableEventThread::Stop(212) - Thread no longer exists but did not terminate normally, ThreadId=7352, Handle=0x0000000000000464, ExitCode=0
+6704  1a34  06/30 06:55:27 ### DMRAFileInfoPersistentCache::AFileInfoDatabase::~AFileInfoDatabase(971) - +++ 
+6704  1a34  06/30 06:55:27 ### DMRAFileInfoPersistentCache::AFileInfoDatabase::~AFileInfoDatabase(971) - --- 0:00.000097 
+7360  e2c   06/30 06:57:38 ### 
+7360  e2c   06/30 06:57:38 ### 
+7360  e2c   06/30 06:57:38 ### ----------------------------------------------------
+7360  e2c   06/30 06:57:38 ### ------------------ ClMgrS STARTED ------------------
+7360  e2c   06/30 06:57:38 ### ----------------------------------------------------
+7360  e2c   06/30 06:57:38 ### ClMgrS Started Successfully
+7360  1f68  06/30 06:57:38 ### Initialize Recall service
+7360  1f68  06/30 06:57:38 ### CFSDMAPIPrivate::EnumerateAllVolumesAndInfo(1810) - Failed to get FSInfo for volume=[D:\], error=[0x80070015:{QIWIN_GetFSInfo(262)/W32.21.(The device is not ready. (ERROR_NOT_READY.21))-GetVolumeInformationW failed, Volume=[D:\]}]
+7360  1f68  06/30 06:57:38 ### CFSDMConfigCache::GetRefreshTimeoutSeconds(475) - Refresh Config Timeout [30000000] seconds / [500000] minutes 
+7360  1f68  06/30 06:57:38 ### CFSDMConfigCache::GetRefreshTimeoutSeconds(488) - Recall failure event interval [1800] seconds / [30] minutes.
+7360  1f68  06/30 06:57:38 ### Recall service Initialized successfully
+7360  191c  06/30 06:57:38 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+7360  191c  06/30 06:57:38 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7360  191c  06/30 06:57:38 ### CRecallServiceImpl::Start(423) - Creating Recall Interfaces...
+7360  191c  06/30 06:57:39 ### CVVMDetect::DetectHypervisor() - Local Hypervisor type: [VMware VM]
+7360  191c  06/30 06:57:39 ### CRecallServiceInterface_CVCBT::IsRequiredOnCurrentSetup() - Hyper-V role is not enabled on local host
+7360  191c  06/30 06:57:39 ### CRecallInterfaceFactory_Win::CreateInterfaces(97) - HyperV Change Block Tracking interface is not needed on this setup
+7360  191c  06/30 06:57:39 ### CRecallInterfaceFactory_Win::CreateInterfaces(104) - Socket interface is not required on this setup
+7360  191c  06/30 06:57:39 ### ::IsSharePointInstalled() - SP Package is not installed 
+7360  191c  06/30 06:57:39 ### CRecallInterfaceFactory_Win::CreateInterfaces(115) - Sharepoint interface is not needed on this setup
+7360  191c  06/30 06:57:39 ### CRecallInterfaceFactory_Win::CreateInterfaces(122) - Recovery point interface is not needed on this setup
+7360  191c  06/30 06:57:39 ### CRecallServiceInterface_Driver::IsRequiredOnCurrentSetup(1625) - HSM Driver service Not installed. Will operate in driverless mode
+7360  191c  06/30 06:57:39 ### CRecallInterfaceFactory_Win::CreateFPolicyInterface(63) - FS Recall Driver Interface is not needed on this setup
+7360  191c  06/30 06:57:39 ### CRecallInterfaceFactory_Win::CreateFPolicyInterface(65) - FS Recall Driver Interface is not found, disabling Cluster failover handler
+7360  191c  06/30 06:57:41 ### CRecallServiceInterface_Fpolicy::CRecallServiceInterface_Fpolicy(61) - Preparing FPolicy Recall interface
+7360  191c  06/30 06:57:41 ### GetFSDMAuditConfigFileName(318) - [Pipeline Cache] DMR is running in context of Process Name: ClMgrS.exe, PID: 7360
+7360  191c  06/30 06:57:41 ### FSDMFpolicyAuditCache::FSDMFpolicyAuditCache(367) - [Pipeline Cache] Pipeline Refresh Config file:C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\clmgrs_FSDMAuditConfig.cvf
+7360  191c  06/30 06:57:41 ### FSDMFpolicyManager::FSDMFpolicyManager(167) - FSDMFpolicyManager detected CMode ON
+7360  191c  06/30 06:57:41 ### FSDMFpolicyManager::Initialize(355) - EnableFPolicyAuditing is 0
+7360  191c  06/30 06:57:41 ### FSDMFpolicyManager::Initialize(365) - EnableOnlyFPolicyAuditing is 0
+7360  191c  06/30 06:57:41 ### FSDMFpolicyManager::MonitorShares(405) - Audit Cache empty. Nothing to monitor
+7360  191c  06/30 06:57:41 ### CRecallServiceImpl::Start(436) - Total [2] interfaces created
+7360  191c  06/30 06:57:41 ### SetAfileOpenInterval(1214) - Given timeout for idle afile is too low. Setting to [30s]
+7360  191c  06/30 06:57:41 ### CRecallServiceImpl::Start(458) - Starting DMRService...
+7360  191c  06/30 06:57:41 ### StartDMRService(672) - Starting DMR service, gbStop = 0
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(308) - Job updates interval is set to 10
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(314) - Send each file status is set to 0
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(320) - Send each user recall status is set to 1
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(326) - Updates interval is set to 900
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(332) - nDMRMaxRecallsFileSize is set to 10485760
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(342) - Number of restore threads set to 2
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(364) - Use of web db for recalls is [disabled].
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(395) - Initialize pipeline on startup is [disabled].
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(404) - Job idle timeout = 604800 seconds
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(440) - We will use multi MA to arbitrate pipeline threads.
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(509) - DMRMaxDynamicRestoreThreads = 4
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(532) - Serialize Tape Recalls: Yes
+7360  191c  06/30 06:57:41 ### LoadCommCellMappingRegistrySettings(222) - No CommCell mapping in registry
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(553) - Recall jobs are scheduled using vesrion1=false
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(562) - Simulate Buffer handling failures during recalls: No [Buf No=0]
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(569) - Number of processors supported:5
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(577) - Use SDT Pipleline: Yes
+7360  191c  06/30 06:57:41 ### LoadRegistrySettings(588) - Should do lookup by Afile: False
+7360  191c  06/30 06:57:41 ### DMRProcessorPool::Initialize(85) - =========== DMRS (11.0.0 BUILD80) Started ===========
+7360  191c  06/30 06:57:41 ### GetPipelineConfigFileName(98) - [Pipeline Cache] DMR is running in context of Process Name: ClMgrS.exe, PID: 7360
+7360  191c  06/30 06:57:41 ### DMRProcessorPool::InitializeForRecallPipelineOnStartup(390) - pipeline will be setup during recall request. Initialize on start is not configured
+7360  191c  06/30 06:57:41 ### CRecallServiceImpl::Start(460) - DMRService started...
+7360  191c  06/30 06:57:41 ### CRecallServiceInterface_Network::Start(112) - Starting Network Server recall interface...
+7360  191c  06/30 06:57:41 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+7360  196c  06/30 06:57:41 ### FSDMFpolicyManager::RpcThread(2081) - Starting RPC listening thread
+7360  1a08  06/30 06:57:41 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/ClMgrS_IOCPThreads DWORD registry entry
+7360  1a08  06/30 06:57:41 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+7360  1a08  06/30 06:57:41 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+7360  1a08  06/30 06:57:41 ### CCvNetworkServer::SelectData() - Listening on port RecallService/50836/0
+7360  1de0  06/30 06:57:41 ### CFileRecallRequestManager::FileRecallerObjectDeletionThread(1204) - +++ 
+7360  191c  06/30 06:57:41 ### CRecallServiceInterface_Network::Start(142) - FileExtent recall is enabled for Network recall interface
+7360  191c  06/30 06:57:41 ### CRecallServiceInterface_Network::Start(164) - Webserver is not installed on this machine.
+7360  191c  06/30 06:57:41 ### CRecallServiceInterface_Network::Start(202) - Network Server recall interface started
+7360  18c   06/30 06:57:41 ### FSDMFpolicyManager::ControlThread(2178) - FSDMFpolicyManager requested to change state to 1 from 2
+7360  18c   06/30 06:57:41 ### FSDMFpolicyManager::ControlThread(2216) - ControlRequest failed to be set. Error:-2147024894. Some filers may not have been registered for recalls.
+7360  191c  06/30 06:57:41 ### Failed to get start Fpolicy interface. Error : 0x8007065B:{FSDMFpolicyManager::Start(641)/FSDMFpolicyManager failed to process Start Control Request} + {FSDMFpolicyManager::SendControlCommand(621)/W32.1627.(Function failed during execution. (ERROR_FUNCTION_FAILED.1627))-Failed to set Control Event}
+7360  191c  06/30 06:57:41 ### CRecallServiceImpl::Start(477) - [2] Interfaces started...
+7360  1a10  06/30 07:02:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:07:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:12:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:17:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:22:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:27:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:32:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:37:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:42:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:47:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:52:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 07:57:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:02:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:07:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:12:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:17:41 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:22:42 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:27:42 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:32:42 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:37:42 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:42:42 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:47:42 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+7360  1a10  06/30 08:52:42 ### TPool [IOCPServerPool_RecallService]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [0], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]

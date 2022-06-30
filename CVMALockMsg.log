@@ -1,0 +1,476 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : CVMALockMsg                                                                 *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+6396  19fc  06/30 06:44:13 ### CVMAService::lockNICRequests() - Thread Id = 19fc:cvmaservice.cpp:3283: BEFORE NICREQLOCK (last locking thread=0)
+6396  19fc  06/30 06:44:13 ### CVMAService::lockNICRequests() - Thread Id = 19fc:cvmaservice.cpp:3283: AFTER NICREQLOCK
+6396  19e4  06/30 06:44:51 ### EvDebug::refreshDebugLevel() - Changing Debug level from 3 to 1
+6396  19e4  06/30 06:44:51 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1576: BEFORE LOCKMSGINST (last locking thread=0)
+6396  19e4  06/30 06:44:51 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1576: AFTER LOCKMSGINST
+6396  19e4  06/30 06:44:51 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1586: UNLOCKMSGINST
+6396  19e4  06/30 06:45:22 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:45:22 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:45:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:46:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:46:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:46:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:47:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:47:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:47:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:48:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:48:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:48:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:49:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:49:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:49:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:50:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:50:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:50:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:51:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:51:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:51:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:52:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:52:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:52:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:53:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:53:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:53:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:54:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:54:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:54:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  19e4  06/30 06:55:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  19e4  06/30 06:55:23 ### CVMAService::lockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+6396  19e4  06/30 06:55:23 ### CVMAService::unlockMsgInst() - Thread Id = 19e4:cvmathreads.cpp:1815: UNLOCKMSGINST
+6396  1900  06/30 06:55:25 ### CVMAService::lockMsgInst() - Thread Id = 1900:cvmaservice.cpp:3099: BEFORE LOCKMSGINST (last locking thread=19e4)
+6396  1900  06/30 06:55:25 ### CVMAService::lockMsgInst() - Thread Id = 1900:cvmaservice.cpp:3099: AFTER LOCKMSGINST
+6396  1900  06/30 06:55:25 ### CVMAService::unlockMsgInst() - Thread Id = 1900:cvmaservice.cpp:3117: UNLOCKMSGINST
+6396  19fc  06/30 06:55:26 ### CVMAService::unockNICRequests() - Thread Id = 19fc:cvmaservice.cpp:3291:  GUI UNLOCKMSGINST
+7892  1c10  06/30 06:57:37 ### CVMAService::lockNICRequests() - Thread Id = 1c10:cvmaservice.cpp:3283: BEFORE NICREQLOCK (last locking thread=0)
+7892  1c10  06/30 06:57:37 ### CVMAService::lockNICRequests() - Thread Id = 1c10:cvmaservice.cpp:3283: AFTER NICREQLOCK
+7892  1eb8  06/30 06:57:41 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: BEFORE LOCKRESYNC lastLockedThread[0]
+7892  1eb8  06/30 06:57:41 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: AFTER LOCKRESYNC
+7892  1eb8  06/30 06:57:41 ### CVMAService::unlockResync() - Thread Id = 1eb8:cvmathreads.cpp:443: UNLOCKRESYNC
+7892  1eb8  06/30 06:57:51 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: BEFORE LOCKRESYNC lastLockedThread[1eb8]
+7892  1eb8  06/30 06:57:51 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: AFTER LOCKRESYNC
+7892  1eb8  06/30 06:57:51 ### CVMAService::unlockResync() - Thread Id = 1eb8:cvmathreads.cpp:443: UNLOCKRESYNC
+7892  1eb8  06/30 06:58:01 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: BEFORE LOCKRESYNC lastLockedThread[1eb8]
+7892  1eb8  06/30 06:58:01 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: AFTER LOCKRESYNC
+7892  1eb8  06/30 06:58:01 ### CVMAService::unlockResync() - Thread Id = 1eb8:cvmathreads.cpp:443: UNLOCKRESYNC
+7892  1024  06/30 06:58:08 ### EvDebug::refreshDebugLevel() - Changing Debug level from 3 to 1
+7892  1024  06/30 06:58:08 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1576: BEFORE LOCKMSGINST (last locking thread=0)
+7892  1024  06/30 06:58:08 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1576: AFTER LOCKMSGINST
+7892  1024  06/30 06:58:08 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1586: UNLOCKMSGINST
+7892  1eb8  06/30 06:58:11 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: BEFORE LOCKRESYNC lastLockedThread[1eb8]
+7892  1eb8  06/30 06:58:11 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: AFTER LOCKRESYNC
+7892  1eb8  06/30 06:58:11 ### CVMAService::unlockResync() - Thread Id = 1eb8:cvmathreads.cpp:443: UNLOCKRESYNC
+7892  1eb8  06/30 06:58:21 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: BEFORE LOCKRESYNC lastLockedThread[1eb8]
+7892  1eb8  06/30 06:58:21 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: AFTER LOCKRESYNC
+7892  1eb8  06/30 06:58:21 ### CVMAService::unlockResync() - Thread Id = 1eb8:cvmathreads.cpp:443: UNLOCKRESYNC
+7892  1eb8  06/30 06:58:31 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: BEFORE LOCKRESYNC lastLockedThread[1eb8]
+7892  1eb8  06/30 06:58:31 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: AFTER LOCKRESYNC
+7892  1eb8  06/30 06:58:31 ### CVMAService::unlockResync() - Thread Id = 1eb8:cvmathreads.cpp:443: UNLOCKRESYNC
+7892  1024  06/30 06:58:38 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 06:58:38 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 06:58:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1eb8  06/30 06:58:41 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: BEFORE LOCKRESYNC lastLockedThread[1eb8]
+7892  1eb8  06/30 06:58:41 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmathreads.cpp:424: AFTER LOCKRESYNC
+7892  1eb8  06/30 06:58:41 ### CVMAService::unlockResync() - Thread Id = 1eb8:cvmathreads.cpp:443: UNLOCKRESYNC
+7892  1eb8  06/30 06:58:41 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmaservice.cpp:1704: BEFORE LOCKRESYNC lastLockedThread[1eb8]
+7892  1eb8  06/30 06:58:41 ### CVMAService::lockResync() - Thread Id = 1eb8:cvmaservice.cpp:1704: AFTER LOCKRESYNC
+7892  1eb8  06/30 06:58:41 ### CVMAService::unlockResync() - Thread Id = 1eb8:cvmaservice.cpp:1719: UNLOCKRESYNC
+7892  1eb8  06/30 06:58:41 ### CVMAService::lockMsgInst() - Thread Id = 1eb8:cvmathreads.cpp:530: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1eb8  06/30 06:58:41 ### CVMAService::lockMsgInst() - Thread Id = 1eb8:cvmathreads.cpp:530: AFTER LOCKMSGINST
+7892  1eb8  06/30 06:58:41 ### CVMAService::unlockMsgInst() - Thread Id = 1eb8:cvmathreads.cpp:541: UNLOCKMSGINST
+7892  e18   06/30 06:58:41 ### CVMAService::lockResync() - Thread Id = e18:cvmaservice.cpp:2549: BEFORE LOCKRESYNC lastLockedThread[1eb8]
+7892  e18   06/30 06:58:41 ### CVMAService::lockResync() - Thread Id = e18:cvmaservice.cpp:2549: AFTER LOCKRESYNC
+7892  e18   06/30 06:58:41 ### CVMAService::unlockResync() - Thread Id = e18:cvmaservice.cpp:2620: UNLOCKRESYNC
+7892  e18   06/30 06:58:41 ### CVMAService::lockMsgInst() - Thread Id = e18:cvmaservice.cpp:1430: BEFORE LOCKMSGINST (last locking thread=1eb8)
+7892  e18   06/30 06:58:41 ### CVMAService::lockMsgInst() - Thread Id = e18:cvmaservice.cpp:1430: AFTER LOCKMSGINST
+7892  e18   06/30 06:58:41 ### CVMAService::unlockMsgInst() - Thread Id = e18:cvmaservice.cpp:1438: UNLOCKMSGINST
+7892  e18   06/30 06:58:41 ### CVMAService::lockMsgInst() - Thread Id = e18:cvmaservice.cpp:2748: BEFORE LOCKMSGINST (last locking thread=e18)
+7892  e18   06/30 06:58:42 ### CVMAService::lockMsgInst() - Thread Id = e18:cvmaservice.cpp:2748: AFTER LOCKMSGINST
+7892  e18   06/30 06:58:42 ### CVMAService::unlockMsgInst() - Thread Id = e18:cvmaservice.cpp:2773: UNLOCKMSGINST
+7892  1024  06/30 06:59:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=e18)
+7892  1024  06/30 06:59:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 06:59:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:00:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:00:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:00:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:01:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:01:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:01:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:02:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:02:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:02:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:03:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:03:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:03:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:04:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:04:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:04:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:05:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:05:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:05:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:06:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:06:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:06:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:07:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:07:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:07:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:08:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:08:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:08:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:09:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:09:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:09:39 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:10:39 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:10:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:10:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:11:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:11:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:11:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:12:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:12:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:12:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:13:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:13:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:13:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:14:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:14:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:14:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:15:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:15:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:15:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:16:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:16:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:16:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:17:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:17:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:17:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:18:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:18:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:18:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:19:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:19:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:19:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:20:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:20:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:20:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:21:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:21:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:21:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:22:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:22:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:22:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1a98  06/30 07:23:09 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:6048: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1a98  06/30 07:23:09 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:6048: AFTER LOCKMSGINST
+7892  1a98  06/30 07:23:09 ### CVMAService::unlockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:6087: UNLOCKMSGINST
+7892  1024  06/30 07:23:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1a98)
+7892  1024  06/30 07:23:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:23:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:24:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:24:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:24:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:25:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:25:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:25:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:26:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:26:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:26:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:27:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:27:40 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:27:40 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:28:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:28:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:28:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:29:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:29:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:29:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:30:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:30:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:30:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:31:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:31:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:31:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:32:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:32:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:32:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:33:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:33:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:33:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:34:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:34:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:34:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:35:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:35:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:35:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:36:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:36:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:36:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:37:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:37:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:37:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:38:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:38:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:38:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:39:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:39:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:39:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:40:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:40:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:40:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:41:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:41:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:41:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:42:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:42:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:42:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:43:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:43:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:43:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:44:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:44:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:44:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:45:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:45:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:45:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:46:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:46:42 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:46:42 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:47:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:47:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:47:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1a98  06/30 07:47:45 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:7427: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1a98  06/30 07:47:45 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:7427: AFTER LOCKMSGINST
+7892  1a98  06/30 07:47:45 ### CVMAService::unlockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:7442: UNLOCKMSGINST
+7892  1024  06/30 07:48:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1a98)
+7892  1024  06/30 07:48:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:48:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:49:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:49:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:49:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:50:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:50:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:50:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:51:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:51:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:51:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:52:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:52:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:52:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:53:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:53:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:53:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:54:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:54:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:54:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:55:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:55:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:55:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:56:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:56:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:56:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:57:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:57:43 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:57:43 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:58:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:58:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:58:44 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 07:59:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 07:59:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 07:59:44 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:00:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:00:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:00:44 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:01:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:01:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:01:44 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:02:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:02:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:02:44 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:03:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:03:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:03:44 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:04:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:04:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:04:44 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:05:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:05:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:05:44 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:06:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:06:44 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:06:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:07:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:07:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:07:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:08:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:08:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:08:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:09:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:09:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:09:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:10:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:10:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:10:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:11:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:11:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:11:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:12:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:12:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:12:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:13:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:13:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:13:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:14:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:14:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:14:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:15:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:15:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:15:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:16:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:16:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:16:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:17:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:17:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:17:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:18:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:18:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:18:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1a98  06/30 08:18:51 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:7427: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1a98  06/30 08:18:51 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:7427: AFTER LOCKMSGINST
+7892  1a98  06/30 08:18:51 ### CVMAService::unlockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:7442: UNLOCKMSGINST
+7892  1024  06/30 08:19:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1a98)
+7892  1024  06/30 08:19:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:19:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:20:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:20:45 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:20:45 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:21:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:21:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:21:46 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:22:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:22:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:22:46 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:23:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:23:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:23:46 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:24:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:24:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:24:46 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:25:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:25:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:25:46 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:26:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:26:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:26:46 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:27:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:27:46 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:27:46 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:28:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:28:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:28:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:29:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:29:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:29:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:30:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:30:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:30:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:31:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:31:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:31:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:32:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:32:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:32:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:33:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:33:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:33:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:34:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:34:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:34:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:35:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:35:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:35:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:36:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:36:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:36:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:37:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:37:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:37:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:38:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:38:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:38:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:39:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:39:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:39:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:40:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:40:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:40:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:41:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:41:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:41:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:42:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:42:47 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:42:47 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:43:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:43:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:43:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:44:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:44:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:44:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:45:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:45:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:45:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1a98  06/30 08:46:28 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:6124: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1a98  06/30 08:46:28 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:6124: AFTER LOCKMSGINST
+7892  1bcc  06/30 08:46:28 ### CVMAService::lockMsgInst() - Thread Id = 1bcc:cvmamagneticworker.cpp:6124: BEFORE LOCKMSGINST (last locking thread=1a98)
+7892  10c0  06/30 08:46:28 ### CVMAService::lockMsgInst() - Thread Id = 10c0:cvmamagneticworker.cpp:6124: BEFORE LOCKMSGINST (last locking thread=1a98)
+7892  284   06/30 08:46:28 ### CVMAService::lockMsgInst() - Thread Id = 284:cvmamagneticworker.cpp:6124: BEFORE LOCKMSGINST (last locking thread=1a98)
+7892  1a98  06/30 08:46:28 ### CVMAService::unlockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:6147: UNLOCKMSGINST
+7892  1bcc  06/30 08:46:28 ### CVMAService::lockMsgInst() - Thread Id = 1bcc:cvmamagneticworker.cpp:6124: AFTER LOCKMSGINST
+7892  1bcc  06/30 08:46:28 ### CVMAService::unlockMsgInst() - Thread Id = 1bcc:cvmamagneticworker.cpp:6147: UNLOCKMSGINST
+7892  10c0  06/30 08:46:28 ### CVMAService::lockMsgInst() - Thread Id = 10c0:cvmamagneticworker.cpp:6124: AFTER LOCKMSGINST
+7892  10c0  06/30 08:46:28 ### CVMAService::unlockMsgInst() - Thread Id = 10c0:cvmamagneticworker.cpp:6147: UNLOCKMSGINST
+7892  284   06/30 08:46:28 ### CVMAService::lockMsgInst() - Thread Id = 284:cvmamagneticworker.cpp:6124: AFTER LOCKMSGINST
+7892  284   06/30 08:46:28 ### CVMAService::unlockMsgInst() - Thread Id = 284:cvmamagneticworker.cpp:6147: UNLOCKMSGINST
+7892  1024  06/30 08:46:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=284)
+7892  1024  06/30 08:46:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:46:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:47:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:47:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:47:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:48:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:48:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:48:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:49:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:49:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:49:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1a98  06/30 08:49:50 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:7427: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1a98  06/30 08:49:50 ### CVMAService::lockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:7427: AFTER LOCKMSGINST
+7892  1a98  06/30 08:49:50 ### CVMAService::unlockMsgInst() - Thread Id = 1a98:cvmamagneticworker.cpp:7442: UNLOCKMSGINST
+7892  1024  06/30 08:50:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1a98)
+7892  1024  06/30 08:50:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:50:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:51:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:51:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:51:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:52:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:52:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:52:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:53:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:53:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:53:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:54:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:54:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:54:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:55:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:55:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:55:48 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST
+7892  1024  06/30 08:56:48 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: BEFORE LOCKMSGINST (last locking thread=1024)
+7892  1024  06/30 08:56:49 ### CVMAService::lockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1795: AFTER LOCKMSGINST
+7892  1024  06/30 08:56:49 ### CVMAService::unlockMsgInst() - Thread Id = 1024:cvmathreads.cpp:1815: UNLOCKMSGINST

@@ -1,0 +1,183 @@
+﻿*****************************************************************************************
+  Machine        	: SANBGW
+  Module         	: GxAdmin.log
+  Commserver     	: cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com
+  Product Version	: 11.0.0(BUILD80)
+  OS Version     	: Microsoft Windows NT 6.2.9200.0
+  Date           	: 6/30/2022
+*****************************************************************************************
+3500  1     06/30 06:54:21 ###  ManagedLogger::SetCLRThreadPoolMaxThreads - CLR ThreadPool's maxWorkerThreads = [32767], maxIOThreads = [1000], PID [3500], ProcessName = [GxAdmin].
+3500  1     06/30 06:54:21 ###  ManagedLogger::SetCLRThreadPoolMaxThreads - Setting CLR ThreadPool's maxWorkerThreads = [1000], maxIOThreads = [1000] PID = [3500], ProcessName = [GxAdmin].
+3500  1     06/30 06:54:21 ### ### LocalResourceManager.InitializeResourceReader - Could not find matching embedded resource for culture en-US, falling back to default resource
+3500  1     06/30 06:54:22 ### ### MainWindowViewModel.InitGxMainWindow() - Instance name returned as Instance001
+3500  1     06/30 06:54:22 ### ### MainWindowViewModel.InitGxMainWindow() - ---------------------------------------------------------------------------------------------
+3500  1     06/30 06:54:22 ### ### MainWindowViewModel.InitGxMainWindow() - Initializing GxAdmin MainWindow
+3500  1     06/30 06:54:22 ### ### MainWindowViewModel.InitGxMainWindow() - GxAdmin launched from instance Instance001
+3500  1     06/30 06:54:22 ### ### MainWindowViewModel.InitGxMainWindow() - GxAdmin Multi instance mode is set to : Disabled
+3500  1     06/30 06:54:22 ### ### GxClientInfo.GetSimpanaInfo() - Getting Data for instance: Instance001
+3500  1     06/30 06:54:22 ### ### GxClientInfo.GetSimpanaInfo() - Successfully read data for instance: Instance001
+3500  1     06/30 06:54:23 ### ### MainWindowViewModel.InitGxMainWindow() - Successfully initialized GxAdminV2 MainWindow
+3500  6     06/30 06:54:29 ### ### PluginTabViewModel.PluginTabViewModel() - Initializing Plugin tab for instance Instance001
+3500  4     06/30 06:54:29 ### ### ProcessTabViewModel1.ProcessTabViewModel1() - Initializing Processes tab for instance Instance001
+3500  8     06/30 06:54:29 ### ### GeneralTabViewModel.GeneralTabViewModel() - Initializing general tab for instance: Instance001
+3500  4     06/30 06:54:29 ### ### GxProcCtrl.GetActiveSimpanaProcessList() - Getting active simpana processes for instance: Instance001
+3500  6     06/30 06:54:29 ### ### GxPluginCtrl.ShouldRegisterForOS() - ShouldRegisterForOS returns : True
+3500  6     06/30 06:54:29 ### ### GxPluginCtrl.IsVpnRouterSelected() - Error opening registry SOFTWARE\CommVault Systems\Galaxy\Instance001\Local
+3500  6     06/30 06:54:29 ### ### PluginTabViewModel.PluginTabViewModel() - Supported: False, BrowseRestoreSupported: False
+3500  6     06/30 06:54:29 ### ### PluginTabViewModel.PluginTabViewModel() - IsPluginEnabled : False, IsPluginAdminDisabled : False, IsDlpEnabled : False
+3500  6     06/30 06:54:29 ### ### PluginTabViewModel.PluginTabViewModel() - Successfully initialized Plugin tab for instance Instance001
+3500  6     06/30 06:54:29 ### ### ServiceTabViewModel.ServiceTabViewModel() - Initializing services tab for instance: Instance001
+3500  8     06/30 06:54:29 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Error accessing registry to determine whether client is a SQL AlwaysOn High Availability node
+3500  8     06/30 06:54:29 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Exception Message [Object reference not set to an instance of an object.]
+3500  8     06/30 06:54:29 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Exception Source [GxAdminManagedDll]
+3500  8     06/30 06:54:29 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Exception StackTrace [   at GxAdminBackendDll.GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode(String instancename)]
+3500  8     06/30 06:54:29 ### ### GeneralTabViewModel.GeneralTabViewModel() - Successfully initialized general tab for instance: Instance001
+3500  8     06/30 06:54:29 ### ### LoggingTabViewModel.LoggingTabViewModel() - Initializing logging tab for instance: Instance001
+3500  8     06/30 06:54:29 ### ### GxModConfigs.GetSimpanaModulesLogList() - Found 32 configurable simpana logs in the Log Files folder for Instance Instance001
+3500  8     06/30 06:54:29 ### ### LoggingTabViewModel.LoggingTabViewModel() - Upload logs enable flag is False
+3500  8     06/30 06:54:29 ### ### LoggingTabViewModel.LoggingTabViewModel() - Successfully initialized logging tab for instance: Instance001
+3500  8     06/30 06:54:29 ### ### RegisterMeViewModel.RegisterMeViewModel() - Successfully initialized register me tab for instance Instance001
+3500  8     06/30 06:54:29 ### ### StreamsViewModel.StreamsViewModel() - Initializing streams tab for instance: Instance001, Streams orientation : 1
+3500  6     06/30 06:54:29 ### ### GxClientInfo.IsIISInstalled() - Error reading registry key 
+3500  6     06/30 06:54:29 ### ### GxClientInfo.IsIISInstalled() - Exception Message [Object reference not set to an instance of an object.]
+3500  6     06/30 06:54:29 ### ### GxClientInfo.IsIISInstalled() - Exception Source [GxAdminManagedDll]
+3500  6     06/30 06:54:29 ### ### GxClientInfo.IsIISInstalled() - Exception StackTrace [   at GxAdminBackendDll.GxClientInfo.IsIISInstalled()]
+3500  8     06/30 06:54:29 ### ### StreamsViewModel.StreamsViewModel() - Successfully initialized streams tab for instance: Instance001
+3500  8     06/30 06:54:29 ### ### StreamsViewModel.StreamsViewModel() - Initializing streams tab for instance: Instance001, Streams orientation : 2
+3500  8     06/30 06:54:29 ### ### StreamsViewModel.StreamsViewModel() - Successfully initialized streams tab for instance: Instance001
+3500  8     06/30 06:54:29 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Initializing Troubleshooting tab for instance Instance001
+3500  8     06/30 06:54:29 ### ### GxClientInfo.GetDumpCount() - Error opening registry SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps
+3500  8     06/30 06:54:29 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Dump count read from app default : 3
+3500  8     06/30 06:54:29 ### ### GxClientInfo.GetDumpFolder() - Error opening registry SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps
+3500  8     06/30 06:54:29 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Dump folder read from app default : C:\Program Files\Metallic\ContentStore\Log Files
+3500  8     06/30 06:54:29 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Successfully initialized Troubleshootig tab for instance Instance001
+3500  8     06/30 06:54:29 ### ### FailoverTabViewModel.FailoverTabViewModel - Failover package is not installed, skipping configuration
+3500  4     06/30 06:54:30 ### ### GxProcCtrl.GetActiveSimpanaProcessList() - Found 7 active simpana processes for instance: Instance001
+3500  6     06/30 06:54:34 ### ### ServiceTabViewModel.ServiceTabViewModel() - Successfully initialized services tab for instance: Instance001
+3500  1     06/30 06:54:34 ### ### ServiceTabViewModel.ChangeServiceStartMode() - Service start mode : Automatic , current user SANBGW\Administrator
+3500  1     06/30 06:54:40 ### ### GxModConfigs.GetSimpanaModulesLogList() - Found 32 configurable simpana logs in the Log Files folder for Instance Instance001
+3500  4     06/30 06:54:43 ### ### ProcessTabViewModel1.ProcessTabViewModel1() - Time taken to enumerate processes : 13.7470584 seconds
+3500  4     06/30 06:54:43 ### ### ProcessTabViewModel1.ProcessTabViewModel1() - Successfully initialized Processes tab for instance Instance001
+3500  1     06/30 06:54:53 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0077317 seconds
+3500  1     06/30 06:55:09 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0092825 seconds
+3500  1     06/30 06:55:14 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0190782 seconds
+3700  1     06/30 06:56:22 ###  ManagedLogger::SetCLRThreadPoolMaxThreads - Setting CLR ThreadPool's maxWorkerThreads = [1000], maxIOThreads = [1000] PID = [3700], ProcessName = [GxAdmin].
+3700  1     06/30 06:56:22 ### ### LocalResourceManager.InitializeResourceReader - Could not find matching embedded resource for culture en-US, falling back to default resource
+3700  1     06/30 06:56:22 ### ### MainWindowViewModel.InitGxMainWindow() - Instance name returned as Instance001
+3700  1     06/30 06:56:22 ### ### MainWindowViewModel.InitGxMainWindow() - ---------------------------------------------------------------------------------------------
+3700  1     06/30 06:56:22 ### ### MainWindowViewModel.InitGxMainWindow() - Initializing GxAdmin MainWindow
+3700  1     06/30 06:56:22 ### ### MainWindowViewModel.InitGxMainWindow() - GxAdmin launched from instance Instance001
+3700  1     06/30 06:56:22 ### ### MainWindowViewModel.InitGxMainWindow() - GxAdmin Multi instance mode is set to : Disabled
+3700  1     06/30 06:56:22 ### ### GxClientInfo.GetSimpanaInfo() - Getting Data for instance: Instance001
+3700  1     06/30 06:56:22 ### ### GxClientInfo.GetSimpanaInfo() - Successfully read data for instance: Instance001
+3700  1     06/30 06:56:23 ### ### MainWindowViewModel.InitGxMainWindow() - Successfully initialized GxAdminV2 MainWindow
+3700  4     06/30 06:56:23 ### ### PluginTabViewModel.PluginTabViewModel() - Initializing Plugin tab for instance Instance001
+3700  6     06/30 06:56:23 ### ### GeneralTabViewModel.GeneralTabViewModel() - Initializing general tab for instance: Instance001
+3700  6     06/30 06:56:23 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Error accessing registry to determine whether client is a SQL AlwaysOn High Availability node
+3700  6     06/30 06:56:23 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Exception Message [Object reference not set to an instance of an object.]
+3700  4     06/30 06:56:23 ### ### GxPluginCtrl.ShouldRegisterForOS() - ShouldRegisterForOS returns : True
+3700  6     06/30 06:56:23 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Exception Source [GxAdminManagedDll]
+3700  6     06/30 06:56:23 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Exception StackTrace [   at GxAdminBackendDll.GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode(String instancename)]
+3700  6     06/30 06:56:23 ### ### GeneralTabViewModel.GeneralTabViewModel() - Successfully initialized general tab for instance: Instance001
+3700  4     06/30 06:56:23 ### ### GxPluginCtrl.IsVpnRouterSelected() - Error opening registry SOFTWARE\CommVault Systems\Galaxy\Instance001\Local
+3700  4     06/30 06:56:23 ### ### PluginTabViewModel.PluginTabViewModel() - Supported: False, BrowseRestoreSupported: False
+3700  4     06/30 06:56:23 ### ### PluginTabViewModel.PluginTabViewModel() - IsPluginEnabled : False, IsPluginAdminDisabled : False, IsDlpEnabled : False
+3700  4     06/30 06:56:23 ### ### PluginTabViewModel.PluginTabViewModel() - Successfully initialized Plugin tab for instance Instance001
+3700  6     06/30 06:56:23 ### ### ProcessTabViewModel1.ProcessTabViewModel1() - Initializing Processes tab for instance Instance001
+3700  6     06/30 06:56:23 ### ### GxProcCtrl.GetActiveSimpanaProcessList() - Getting active simpana processes for instance: Instance001
+3700  4     06/30 06:56:23 ### ### ServiceTabViewModel.ServiceTabViewModel() - Initializing services tab for instance: Instance001
+3700  4     06/30 06:56:23 ### ### GxClientInfo.IsIISInstalled() - Error reading registry key 
+3700  4     06/30 06:56:23 ### ### GxClientInfo.IsIISInstalled() - Exception Message [Object reference not set to an instance of an object.]
+3700  4     06/30 06:56:23 ### ### GxClientInfo.IsIISInstalled() - Exception Source [GxAdminManagedDll]
+3700  4     06/30 06:56:23 ### ### GxClientInfo.IsIISInstalled() - Exception StackTrace [   at GxAdminBackendDll.GxClientInfo.IsIISInstalled()]
+3700  6     06/30 06:56:23 ### ### GxProcCtrl.GetActiveSimpanaProcessList() - Found 4 active simpana processes for instance: Instance001
+3700  9     06/30 06:56:23 ### ### LoggingTabViewModel.LoggingTabViewModel() - Initializing logging tab for instance: Instance001
+3700  9     06/30 06:56:23 ### ### GxModConfigs.GetSimpanaModulesLogList() - Found 33 configurable simpana logs in the Log Files folder for Instance Instance001
+3700  9     06/30 06:56:23 ### ### LoggingTabViewModel.LoggingTabViewModel() - Upload logs enable flag is False
+3700  9     06/30 06:56:23 ### ### LoggingTabViewModel.LoggingTabViewModel() - Successfully initialized logging tab for instance: Instance001
+3700  9     06/30 06:56:23 ### ### RegisterMeViewModel.RegisterMeViewModel() - Successfully initialized register me tab for instance Instance001
+3700  9     06/30 06:56:23 ### ### StreamsViewModel.StreamsViewModel() - Initializing streams tab for instance: Instance001, Streams orientation : 1
+3700  9     06/30 06:56:24 ### ### StreamsViewModel.StreamsViewModel() - Successfully initialized streams tab for instance: Instance001
+3700  9     06/30 06:56:24 ### ### StreamsViewModel.StreamsViewModel() - Initializing streams tab for instance: Instance001, Streams orientation : 2
+3700  9     06/30 06:56:24 ### ### StreamsViewModel.StreamsViewModel() - Successfully initialized streams tab for instance: Instance001
+3700  9     06/30 06:56:24 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Initializing Troubleshooting tab for instance Instance001
+3700  9     06/30 06:56:24 ### ### GxClientInfo.GetDumpCount() - Error opening registry SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps
+3700  9     06/30 06:56:24 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Dump count read from app default : 3
+3700  9     06/30 06:56:24 ### ### GxClientInfo.GetDumpFolder() - Error opening registry SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps
+3700  9     06/30 06:56:24 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Dump folder read from app default : C:\Program Files\Metallic\ContentStore\Log Files
+3700  9     06/30 06:56:24 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Successfully initialized Troubleshootig tab for instance Instance001
+3700  9     06/30 06:56:24 ### ### FailoverTabViewModel.FailoverTabViewModel - Failover package is not installed, skipping configuration
+3700  4     06/30 06:56:24 ### ### ServiceTabViewModel.ServiceTabViewModel() - Successfully initialized services tab for instance: Instance001
+3700  1     06/30 06:56:25 ### ### GxModConfigs.GetSimpanaModulesLogList() - Found 33 configurable simpana logs in the Log Files folder for Instance Instance001
+3700  6     06/30 06:56:26 ### ### ProcessTabViewModel1.ProcessTabViewModel1() - Time taken to enumerate processes : 2.7899986 seconds
+3700  6     06/30 06:56:26 ### ### ProcessTabViewModel1.ProcessTabViewModel1() - Successfully initialized Processes tab for instance Instance001
+3700  1     06/30 06:56:37 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0117434 seconds
+3700  1     06/30 06:56:42 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0079733 seconds
+3700  1     06/30 06:56:47 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0081071 seconds
+6320  1     06/30 06:58:18 ###  ManagedLogger::SetCLRThreadPoolMaxThreads - CLR ThreadPool's maxWorkerThreads = [32767], maxIOThreads = [1000], PID [6320], ProcessName = [GxAdmin].
+6320  1     06/30 06:58:18 ###  ManagedLogger::SetCLRThreadPoolMaxThreads - Setting CLR ThreadPool's maxWorkerThreads = [1000], maxIOThreads = [1000] PID = [6320], ProcessName = [GxAdmin].
+6320  1     06/30 06:58:18 ### ### LocalResourceManager.InitializeResourceReader - Could not find matching embedded resource for culture en-US, falling back to default resource
+6320  1     06/30 06:58:18 ### ### MainWindowViewModel.InitGxMainWindow() - Instance name returned as Instance001
+6320  1     06/30 06:58:18 ### ### MainWindowViewModel.InitGxMainWindow() - ---------------------------------------------------------------------------------------------
+6320  1     06/30 06:58:18 ### ### MainWindowViewModel.InitGxMainWindow() - Initializing GxAdmin MainWindow
+6320  1     06/30 06:58:18 ### ### MainWindowViewModel.InitGxMainWindow() - GxAdmin launched from instance Instance001
+6320  1     06/30 06:58:18 ### ### MainWindowViewModel.InitGxMainWindow() - GxAdmin Multi instance mode is set to : Disabled
+6320  1     06/30 06:58:18 ### ### GxClientInfo.GetSimpanaInfo() - Getting Data for instance: Instance001
+6320  1     06/30 06:58:18 ### ### GxClientInfo.GetSimpanaInfo() - Successfully read data for instance: Instance001
+6320  1     06/30 06:58:18 ### ### MainWindowViewModel.InitGxMainWindow() - Successfully initialized GxAdminV2 MainWindow
+6320  4     06/30 06:58:18 ### ### GeneralTabViewModel.GeneralTabViewModel() - Initializing general tab for instance: Instance001
+6320  7     06/30 06:58:18 ### ### PluginTabViewModel.PluginTabViewModel() - Initializing Plugin tab for instance Instance001
+6320  4     06/30 06:58:18 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Error accessing registry to determine whether client is a SQL AlwaysOn High Availability node
+6320  4     06/30 06:58:18 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Exception Message [Object reference not set to an instance of an object.]
+6320  4     06/30 06:58:18 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Exception Source [GxAdminManagedDll]
+6320  4     06/30 06:58:18 ### ### GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode() - Exception StackTrace [   at GxAdminBackendDll.GxClientInfo.IsSQLAlwaysOnHighAvailabilityCSNode(String instancename)]
+6320  4     06/30 06:58:18 ### ### GeneralTabViewModel.GeneralTabViewModel() - Successfully initialized general tab for instance: Instance001
+6320  7     06/30 06:58:18 ### ### GxPluginCtrl.ShouldRegisterForOS() - ShouldRegisterForOS returns : True
+6320  4     06/30 06:58:18 ### ### ProcessTabViewModel1.ProcessTabViewModel1() - Initializing Processes tab for instance Instance001
+6320  4     06/30 06:58:18 ### ### GxProcCtrl.GetActiveSimpanaProcessList() - Getting active simpana processes for instance: Instance001
+6320  7     06/30 06:58:18 ### ### GxPluginCtrl.IsVpnRouterSelected() - Error opening registry SOFTWARE\CommVault Systems\Galaxy\Instance001\Local
+6320  7     06/30 06:58:18 ### ### PluginTabViewModel.PluginTabViewModel() - Supported: False, BrowseRestoreSupported: False
+6320  7     06/30 06:58:18 ### ### PluginTabViewModel.PluginTabViewModel() - IsPluginEnabled : False, IsPluginAdminDisabled : False, IsDlpEnabled : False
+6320  7     06/30 06:58:18 ### ### PluginTabViewModel.PluginTabViewModel() - Successfully initialized Plugin tab for instance Instance001
+6320  7     06/30 06:58:18 ### ### ServiceTabViewModel.ServiceTabViewModel() - Initializing services tab for instance: Instance001
+6320  9     06/30 06:58:18 ### ### LoggingTabViewModel.LoggingTabViewModel() - Initializing logging tab for instance: Instance001
+6320  9     06/30 06:58:18 ### ### GxModConfigs.GetSimpanaModulesLogList() - Found 33 configurable simpana logs in the Log Files folder for Instance Instance001
+6320  7     06/30 06:58:18 ### ### GxClientInfo.IsIISInstalled() - Error reading registry key 
+6320  7     06/30 06:58:18 ### ### GxClientInfo.IsIISInstalled() - Exception Message [Object reference not set to an instance of an object.]
+6320  7     06/30 06:58:18 ### ### GxClientInfo.IsIISInstalled() - Exception Source [GxAdminManagedDll]
+6320  7     06/30 06:58:18 ### ### GxClientInfo.IsIISInstalled() - Exception StackTrace [   at GxAdminBackendDll.GxClientInfo.IsIISInstalled()]
+6320  9     06/30 06:58:18 ### ### LoggingTabViewModel.LoggingTabViewModel() - Upload logs enable flag is False
+6320  9     06/30 06:58:18 ### ### LoggingTabViewModel.LoggingTabViewModel() - Successfully initialized logging tab for instance: Instance001
+6320  9     06/30 06:58:18 ### ### RegisterMeViewModel.RegisterMeViewModel() - Successfully initialized register me tab for instance Instance001
+6320  9     06/30 06:58:18 ### ### StreamsViewModel.StreamsViewModel() - Initializing streams tab for instance: Instance001, Streams orientation : 1
+6320  4     06/30 06:58:19 ### ### GxProcCtrl.GetActiveSimpanaProcessList() - Found 8 active simpana processes for instance: Instance001
+6320  9     06/30 06:58:19 ### ### StreamsViewModel.StreamsViewModel() - Successfully initialized streams tab for instance: Instance001
+6320  9     06/30 06:58:19 ### ### StreamsViewModel.StreamsViewModel() - Initializing streams tab for instance: Instance001, Streams orientation : 2
+6320  9     06/30 06:58:19 ### ### StreamsViewModel.StreamsViewModel() - Successfully initialized streams tab for instance: Instance001
+6320  9     06/30 06:58:19 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Initializing Troubleshooting tab for instance Instance001
+6320  9     06/30 06:58:19 ### ### GxClientInfo.GetDumpCount() - Error opening registry SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps
+6320  9     06/30 06:58:19 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Dump count read from app default : 3
+6320  9     06/30 06:58:19 ### ### GxClientInfo.GetDumpFolder() - Error opening registry SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps
+6320  9     06/30 06:58:19 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Dump folder read from app default : C:\Program Files\Metallic\ContentStore\Log Files
+6320  9     06/30 06:58:19 ### ### TroubleShootingTabViewModel.TroubleShootingTabViewModel() - Successfully initialized Troubleshootig tab for instance Instance001
+6320  9     06/30 06:58:19 ### ### FailoverTabViewModel.FailoverTabViewModel - Failover package is not installed, skipping configuration
+6320  7     06/30 06:58:19 ### ### ServiceTabViewModel.ServiceTabViewModel() - Successfully initialized services tab for instance: Instance001
+6320  1     06/30 06:58:19 ### ### ServiceTabViewModel.ChangeServiceStartMode() - Service start mode : Automatic , current user SANBGW\Administrator
+6320  4     06/30 06:58:21 ### ### ProcessTabViewModel1.ProcessTabViewModel1() - Time taken to enumerate processes : 2.8780221 seconds
+6320  4     06/30 06:58:21 ### ### ProcessTabViewModel1.ProcessTabViewModel1() - Successfully initialized Processes tab for instance Instance001
+6320  1     06/30 06:58:37 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0089531 seconds
+6320  1     06/30 06:58:42 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0145559 seconds
+6320  1     06/30 06:58:43 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0089598 seconds
+6320  1     06/30 07:23:16 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0132403 seconds
+6320  1     06/30 07:57:40 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0292655 seconds
+6320  1     06/30 08:20:14 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0084552 seconds
+6320  1     06/30 08:31:46 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0209308 seconds
+6320  1     06/30 08:46:20 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0182389 seconds
+6320  1     06/30 08:46:35 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0199032 seconds
+6320  1     06/30 08:46:50 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0334023 seconds
+6320  1     06/30 08:47:36 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0301667 seconds
+6320  1     06/30 08:50:53 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0129465 seconds
+6320  1     06/30 08:51:18 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0087366 seconds
+6320  1     06/30 08:51:28 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0136571 seconds
+6320  1     06/30 08:51:33 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0297366 seconds
+6320  1     06/30 08:53:34 ### ### ProcessObject.ProcessObject - Time taken to update entries : 0.0089884 seconds

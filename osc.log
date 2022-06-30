@@ -1,0 +1,26 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : osc                                                                         *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+4584  184c  06/30 06:44:11 ### CCvNetwork::waitOnAntiChatterFlag() - Waiting for Session/nChatterFlag to clear...
+4584  184c  06/30 06:44:24 ### CCvNetwork::GetConnection() - Waiting until client certificates have been downloaded
+4584  184c  06/30 06:44:50 ### OscThread::initGlobal() - Found locally installed client "sanbgw", client ID 8426
+4584  184c  06/30 06:44:51 ### OscThread::initGlobal() - This is not a personal workstation install. Not sending "Client Online" messages.
+4584  184c  06/30 06:44:51 ### OscThread::refreshConfig() - Refreshing Automatic Schedules...
+4584  184c  06/30 06:44:53 ### OscAgentDistributedApps::getRelevantSubclients() - Local physical clientId [8426] clientName [sanbgw]
+4584  184c  06/30 06:44:53 ### OscAgentSweep::getRelevantSubclients() - Invoked for appType 37
+4584  184c  06/30 06:44:53 ### OscAgentSweep::getRelevantSubclients() - Invoked for appType 62
+4584  184c  06/30 06:44:53 ### OscAgentSweep::getRelevantSubclients() - Invoked for appType 103
+4584  184c  06/30 06:44:53 ### OscThread::refreshActivityControl(5252): -Debug-: Refreshing activity control...
+4584  184c  06/30 06:44:53 ### OscThread::refreshActivityControl(5273): -Debug-: 'Enable Backup' activity control is enabled for all the subclients.
+4464  1ecc  06/30 06:57:37 ### OscThread::initGlobal() - Found locally installed client "sanbgw", client ID 8426
+4464  1ecc  06/30 06:57:37 ### OscThread::initGlobal() - This is not a personal workstation install. Not sending "Client Online" messages.
+4464  1ecc  06/30 06:57:38 ### OscThread::loadConfig() - Loading Automatic Schedule Config from C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\osc_config.xml
+4464  1ecc  06/30 06:57:38 ### OscThread::refreshActivityControl(5252): -Debug-: Refreshing activity control...
+4464  1ecc  06/30 06:57:38 ### OscThread::refreshActivityControl(5273): -Debug-: 'Enable Backup' activity control is enabled for all the subclients.

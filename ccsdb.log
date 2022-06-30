@@ -1,0 +1,66 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : ccsdb                                                                       *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+4584  17e4  06/30 06:49:10 ### EvDebug::refreshDebugLevel() - Changing Debug level from 1 to 0
+4584  17e4  06/30 06:49:10 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4584  17e4  06/30 06:49:10 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4584  17e4  06/30 06:49:10 ### ::CCSDbReloadCheckThread() - Disabling CCS Database.
+4584  17e4  06/30 06:49:10 ### CCS_Registry::setDatabaseStatus() - CCSDb Status Changed ONLINE [false]
+4584  17e4  06/30 06:49:11 ### ::CCSDbReloadCheckThread() - CCSDb Manually Disabled vis DisableCCSDbMode Registry Key.
+4584  1558  06/30 06:54:10 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4584  1558  06/30 06:54:10 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  b04   06/30 07:02:35 ### EvDebug::refreshDebugLevel() - Changing Debug level from 1 to 0
+4464  b04   06/30 07:02:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  b04   06/30 07:02:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  b04   06/30 07:02:35 ### ::CCSDbReloadCheckThread() - CCSDb Manually Disabled vis DisableCCSDbMode Registry Key.
+4464  1b04  06/30 07:07:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1b04  06/30 07:07:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1b50  06/30 07:12:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1b50  06/30 07:12:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1c80  06/30 07:17:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1c80  06/30 07:17:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1660  06/30 07:22:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1660  06/30 07:22:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1dd8  06/30 07:27:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1dd8  06/30 07:27:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  8f8   06/30 07:32:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  8f8   06/30 07:32:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1b44  06/30 07:37:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1b44  06/30 07:37:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  78c   06/30 07:42:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  78c   06/30 07:42:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  f84   06/30 07:47:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  f84   06/30 07:47:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1c0c  06/30 07:52:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1c0c  06/30 07:52:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1b80  06/30 07:57:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1b80  06/30 07:57:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  11bc  06/30 08:02:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  11bc  06/30 08:02:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  16d4  06/30 08:07:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  16d4  06/30 08:07:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1658  06/30 08:12:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1658  06/30 08:12:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  152c  06/30 08:17:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  152c  06/30 08:17:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1b10  06/30 08:22:39 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1b10  06/30 08:22:40 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  3d0   06/30 08:27:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  3d0   06/30 08:27:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  f94   06/30 08:32:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  f94   06/30 08:32:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1e78  06/30 08:37:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1e78  06/30 08:37:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1be8  06/30 08:42:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1be8  06/30 08:42:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  b3c   06/30 08:47:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  b3c   06/30 08:47:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]
+4464  1aa8  06/30 08:52:35 ### CCS_SupportedPackages::isCCSDbOperationAllowed() - isCCSDbAllowed [0] fsCore [0] sqlCore [0] invCfg [0]
+4464  1aa8  06/30 08:52:35 ### ::CCSDbReloadCheckThread() - Configuration has been changed and not supported by CCSDb and it is being disabled. cfgState[0] disabled[1]

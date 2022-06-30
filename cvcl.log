@@ -1,0 +1,45 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : cvcl                                                                        *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+3740  12cc  06/30 06:43:43 ### Cvcl::init() - CVCL: Running in FIPS Mode
+3744  268   06/30 06:43:49 ### Cvcl::init() - CVCL: Running in FIPS Mode
+1840  1750  06/30 06:43:54 ### Cvcl::init() - CVCL: Running in FIPS Mode
+4584  c68   06/30 06:44:11 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6252  1870  06/30 06:44:15 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6704  1aac  06/30 06:44:48 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6396  19e4  06/30 06:44:48 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5728  f94   06/30 06:57:28 ### Cvcl::init() - CVCL: Running in FIPS Mode
+4464  7e8   06/30 06:57:36 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6684  1a18  06/30 06:57:36 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7892  1eb8  06/30 06:57:38 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7360  191c  06/30 06:57:38 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6920  19f0  06/30 06:57:39 ### Cvcl::init() - CVCL: Running in FIPS Mode
+1888  1b74  06/30 06:58:39 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5652  1af8  06/30 06:58:40 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7212  2dc   06/30 06:58:41 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5752  1a78  06/30 07:23:17 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7068  1eec  06/30 07:57:35 ### Cvcl::init() - CVCL: Running in FIPS Mode
+4448  1608  06/30 08:20:14 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6884  1104  06/30 08:31:46 ### Cvcl::init() - CVCL: Running in FIPS Mode
+4712  63c   06/30 08:46:17 ### Cvcl::init() - CVCL: Running in FIPS Mode
+3880  145c  06/30 08:46:20 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7716  14b0  06/30 08:46:31 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7056  ef8   06/30 08:46:46 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7132  1994  06/30 08:46:46 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5356  1394  06/30 08:47:32 ### Cvcl::init() - CVCL: Running in FIPS Mode
+1304  1f48  06/30 08:51:16 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7224  6d0   06/30 08:51:25 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7096  1a60  06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5672  162c  06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7144  1d68  06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5928  3a0   06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+3864  7ac   06/30 08:51:30 ### Cvcl::init() - CVCL: Running in FIPS Mode
+3796  fa4   06/30 08:51:39 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6828  1320  06/30 08:54:19 ### Cvcl::init() - CVCL: Running in FIPS Mode

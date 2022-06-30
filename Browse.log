@@ -1,0 +1,56 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : Browse                                                                      *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+5356  75c   06/30 08:50:17 ### Received Browse Request From Client [wes01039c1us02] Process [dotnet.exe] PID[14444] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1656604215-1868]
+5356  75c   06/30 08:50:17 ### Query evaluation [l_parent:"/"] returned [3] results
+5356  75c   06/30 08:50:17 ### Data query returned [1] results
+5356  75c   06/30 08:50:17 ### Aggregate query Id [1] result is [1]
+5356  75c   06/30 08:50:17 ### Finished Browse Request From Client [wes01039c1us02] Process [dotnet.exe] PID[14444] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1656604215-1868] Time taken [0.189977] sec
+5356  1f6c  06/30 08:50:23 ### Received Browse Request From Client [wes01039c1us02] Process [dotnet.exe] PID[14444] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1656604222-1869]
+5356  1f6c  06/30 08:50:23 ### Query evaluation [l_parent:"/rrskumar4"] returned [3] results
+5356  1f6c  06/30 08:50:23 ### Data query returned [3] results
+5356  1f6c  06/30 08:50:23 ### Aggregate query Id [1] result is [3]
+5356  1f6c  06/30 08:50:23 ### Finished Browse Request From Client [wes01039c1us02] Process [dotnet.exe] PID[14444] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1656604222-1869] Time taken [0.103895] sec
+5356  125c  06/30 08:51:21 1087963 Received Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[1304] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963]
+5356  125c  06/30 08:51:21 1087963 Filter by jobId [1087953] ccNumber [189930569]
+5356  125c  06/30 08:51:21 1087963 Query evaluation [mountpoint:true] returned [0] results
+5356  125c  06/30 08:51:21 1087963 Time taken to gather all versions for restore is [0.000000], Number of qualified versions [32/32]
+5356  125c  06/30 08:51:21 1087963 Creating Restore Vector [C:\Program Files\Metallic\ContentStore\IndexCache\CvIdxDB\Temp\1087963_restore\RstResult]
+5356  125c  06/30 08:51:22 1087963 Time taken to create restore result cache is [0.202160], Items Added [32]
+5356  125c  06/30 08:51:22 1087963 Finished Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[1304] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963] Time taken [0.466289] sec
+5356  1ce0  06/30 08:51:23 ####### Received Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[1304] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963Git]
+5356  1ce0  06/30 08:51:23 ####### Filter by jobId [1087953] ccNumber [189930569]
+5356  1ce0  06/30 08:51:23 ####### Query evaluation [path:"/rrskumar4/PowerCLI-Example-Scripts"] returned [1] results
+5356  1ce0  06/30 08:51:23 ####### Aggregate query Id [countQuery] result is [1]
+5356  1ce0  06/30 08:51:23 ####### Finished Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[1304] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963Git] Time taken [0.092625] sec
+5356  1f08  06/30 08:51:28 1087963 Received Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525937_1003]
+5356  1f08  06/30 08:51:28 1087963 Filter by jobId [1087953] ccNumber [189930569]
+5356  75c   06/30 08:51:28 1087963 Received Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525935_1001]
+5356  75c   06/30 08:51:28 1087963 Filter by jobId [1087953] ccNumber [189930569]
+5356  75c   06/30 08:51:28 1087963 Items sent from RestoreVector: 1, first Afile was 1525935
+5356  1f08  06/30 08:51:28 1087963 Seeked to 1 for Afile 1525937,2
+5356  75c   06/30 08:51:28 1087963 Finished Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525935_1001] Time taken [0.064209] sec
+5356  1f08  06/30 08:51:28 1087963 Items sent from RestoreVector: 8, first Afile was 1525937
+5356  1f08  06/30 08:51:28 1087963 Finished Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525937_1003] Time taken [0.194176] sec
+5356  1f6c  06/30 08:51:28 1087963 Received Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525937_1004]
+5356  1f6c  06/30 08:51:28 1087963 Filter by jobId [1087953] ccNumber [189930569]
+5356  1f6c  06/30 08:51:28 1087963 Seeked to 1 for Afile 1525937,2
+5356  1f6c  06/30 08:51:28 1087963 Items sent from RestoreVector: 8, first Afile was 1525937
+5356  1f6c  06/30 08:51:28 1087963 Finished Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525937_1004] Time taken [0.067252] sec
+5356  75c   06/30 08:51:28 1087963 Received Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525937_1002]
+5356  75c   06/30 08:51:28 1087963 Filter by jobId [1087953] ccNumber [189930569]
+5356  75c   06/30 08:51:28 1087963 Seeked to 1 for Afile 1525937,2
+5356  75c   06/30 08:51:28 1087963 Items sent from RestoreVector: 8, first Afile was 1525937
+5356  75c   06/30 08:51:28 1087963 Finished Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525937_1002] Time taken [0.076373] sec
+5356  1ce0  06/30 08:51:28 1087963 Received Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525937_1005]
+5356  1ce0  06/30 08:51:28 1087963 Filter by jobId [1087953] ccNumber [189930569]
+5356  1ce0  06/30 08:51:28 1087963 Seeked to 1 for Afile 1525937,2
+5356  1ce0  06/30 08:51:28 1087963 Items sent from RestoreVector: 7, first Afile was 1525937
+5356  1ce0  06/30 08:51:29 1087963 Finished Browse Request From Client [sanbgw] Process [CVDistributor.exe] PID[7224] Index [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] Session [1087963_2_1525937_1005] Time taken [0.048181] sec

@@ -1,0 +1,67 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : CvPerfLogAnalyze                                                            *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+6316  15f4  06/30 08:50:40 ### main() - CvPerfLogAnalyze called with following arguments:
+6316  15f4  06/30 08:50:40 ### main() - C:\Program Files\Metallic\ContentStore\Base\CvPerfLogAnalyze
+6316  15f4  06/30 08:50:40 ### main() - -jobid
+6316  15f4  06/30 08:50:40 ### main() - 1087953
+6316  15f4  06/30 08:50:40 ### main() - -vm
+6316  15f4  06/30 08:50:40 ### main() - Instance001
+6316  15f4  06/30 08:50:40 ### main() - -opdir
+6316  15f4  06/30 08:50:40 ### main() - C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\Support_4464_7584_1656604183
+6316  15f4  06/30 08:50:40 ### main() - Streams with duration less than 600 seconds will not be analyzed.
+6316  15f4  06/30 08:50:40 ### main() - 
+ ----------------------------------------------------------------------------------------------------
+ Job-ID: 1087953
+ Job Duration: [30,June,22 08:46:26  ~  30,June,22 08:47:57] 00h:01m:31s (91 seconds)
+ Total Data Transfer: 13198046 [0.01 GB] [11.06 GBPH]
+ Total Data Write: 14340211 [0.01 GB] [12.02 GBPH]
+ Stream Count: 4
+ 
+ 
+ Remediation(s): 
+ --------------
+ 
+ Stream 1:
+ Source: sanbgw
+ Destination: sanbgw:SanBGW
+ 
+ The tool could not find any remediations for this job stream. Please contact support for further assistance.
+ Streams with duration less than 600 seconds will not be analyzed.
+6316  15f4  06/30 08:50:40 ### main() - Check files PerfAnalysis_1087953.log at directory:C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\Support_4464_7584_1656604183\PerfAnalysisLogs
+6528  944   06/30 08:53:21 ### main() - CvPerfLogAnalyze called with following arguments:
+6528  944   06/30 08:53:21 ### main() - C:\Program Files\Metallic\ContentStore\Base\CvPerfLogAnalyze
+6528  944   06/30 08:53:21 ### main() - -jobid
+6528  944   06/30 08:53:21 ### main() - 1087963
+6528  944   06/30 08:53:21 ### main() - -vm
+6528  944   06/30 08:53:21 ### main() - Instance001
+6528  944   06/30 08:53:21 ### main() - -opdir
+6528  944   06/30 08:53:21 ### main() - C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\Support_4464_7584_1656604351
+6528  944   06/30 08:53:21 ### main() - Streams with duration less than 600 seconds will not be analyzed.
+6528  944   06/30 08:53:21 ### main() - 
+ ----------------------------------------------------------------------------------------------------
+ Job-ID: 1087963
+ Job Duration: [30,June,22 08:51:36  ~  30,June,22 08:51:44] 00h:00m:08s (8 seconds)
+ Total Data Read: 12997448 [0.01 GB] [8.72 GBPH]
+ Total Data Transfer: 13014977 [0.01 GB] [5.45 GBPH]
+ Stream Count: 5
+ 
+ 
+ Remediation(s): 
+ --------------
+ 
+ Stream 1:
+ IDA: Media Agent
+ Source: 
+ Destination: sanbgw:SanBGW
+ 
+ The tool could not find any remediations for this job stream. Please contact support for further assistance.
+ Streams with duration less than 600 seconds will not be analyzed.
+6528  944   06/30 08:53:21 ### main() - Check files PerfAnalysis_1087963.log at directory:C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\Support_4464_7584_1656604351\PerfAnalysisLogs

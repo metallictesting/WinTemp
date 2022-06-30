@@ -1,0 +1,42 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : SimCallWrapper                                                              *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+3564  175c  06/30 06:43:18 ### Start to get gateway info
+3564  175c  06/30 06:43:20 ### Failed to get gateway info by URL [https://dlogin.metallic.io] AuthCode [2D7FC9C49]
+3564  175c  06/30 06:43:20 ### XML Response :<?xml version="1.0" encoding="UTF-8" standalone="no" ?><CVInstallManager_ClientSetup><SimError ErrorCode="1" ErrorString="No company is found by the given authcode [2D7FC9C49]"/></CVInstallManager_ClientSetup>
+4436  be4   06/30 06:43:26 ### Start to get gateway info
+4436  be4   06/30 06:43:28 ### Failed to get gateway info by URL [https://dlogin.metallic.io] AuthCode [2D7FC9C49]
+4436  be4   06/30 06:43:28 ### XML Response :<?xml version="1.0" encoding="UTF-8" standalone="no" ?><CVInstallManager_ClientSetup><SimError ErrorCode="1" ErrorString="No company is found by the given authcode [2D7FC9C49]"/></CVInstallManager_ClientSetup>
+5308  1120  06/30 06:43:44 ### Start to get gateway info
+5308  1120  06/30 06:43:44 ### The input user password is already encrypted
+3744  268   06/30 06:43:48 ### Start to process client setup request
+3744  268   06/30 06:43:48 ### Start to read input file [C:\Program Files\Metallic\ContentStore\Log Files\SIMRequest.xml]
+3744  268   06/30 06:43:48 ### Failed to reload FW related registry and config files: Can't connect to localhost:-1/-1: Invalid port numbers
+3744  268   06/30 06:43:48 ### Install StandAlone Mode is set.
+3744  268   06/30 06:43:53 ### XML Response :<?xml version="1.0" encoding="UTF-8" standalone="no" ?><CVInstallManager_ClientSetup CommServeHostName="cms01039c1us02.cvmscloud.commvault.com" Focus="Instance001" requestFlags="8192"><CommServeInfo LicenseType="0"><oemInfo ExpressOEM="0" OEMId="119" OEMName="Metallic"/><Version GalaxyBuildNumber="BUILD80" UpdateStatus="0"><GalaxyRelease ReleaseID="16" ReleaseString="11.0.0" _type_="58"/></Version><CommserveHostInfo GUID="********" _type_="3" clientName="cms01039c1us02" hostName="cms01039c1us02.cvmscloud.commvault.com"/></CommServeInfo><ClientAuthentication AuthenticationEnabled="1" DomainConfigured="1" PrincipalName="" ProviderID="2002" SSOEnabled="0"><userAccountToLogin domainName="MetallicDemos" password="********" userName="sranga"/></ClientAuthentication><clientComposition activateClient="1" packageDeliveryOption="0"><clientInfo><client cvdPort="0" evmgrcPort="0"><clientEntity GUID="********" _type_="3" clientId="0" clientName="dummy_client_name" hostName="dummy_host_name"/></client></clientInfo><components><commonInfo HighestCommServeSPLevel="2801" RequestedbyReleaseLicAtClientLevel="0" globalFilters="2" storageOrSubclientPolicy="1" useExistingStoragePolicy="0"><storagePolicyToUse _type_="17"/><availableContentIndexingClusters _type_="73" contentIndexingClusterId="1427" contentIndexingClusterName="SRC_O365_Australia_East"/><availableContentIndexingClusters _type_="73" contentIndexingClusterId="1446" contentIndexingClusterName="SRC_O365_East_US2"/><availableContentIndexingClusters2 clusterType="Solr 1.0" searchPortNumber="27000"><contentIndexingCluster _type_="73" contentIndexingClusterId="1446" contentIndexingClusterName="SRC_O365_East_US2"/></availableContentIndexingClusters2><availableWebServers webSitePortNumber="8000081"><dm2WebServer _type_="3" clientId="11" clientName="wes01039c1us02" hostName="wes01039c1us02.cvmscloud.commvault.com"/></availableWebServers><availableWebServers webSitePortNumber="8000081"><dm2WebServer _type_="3" clientId="393" clientName="wes02039c1us02" hostName="wes02039c1us02.cvmscloud.commvault.com"/></availableWebServers></commonInfo></components><clientError ErrorCode="0"/></clientComposition><commonInfoForClients/><SimError ErrorCode="0"/></CVInstallManager_ClientSetup>
+3744  268   06/30 06:43:53 ### Completed
+1840  1750  06/30 06:43:54 ### Start to process client setup request
+1840  1750  06/30 06:43:54 ### Start to read input file [C:\Program Files\Metallic\ContentStore\Log Files\SIMRequest.xml]
+1840  1750  06/30 06:43:54 ### Failed to reload FW related registry and config files: Can't connect to localhost:-1/-1: Invalid port numbers
+1840  1750  06/30 06:43:54 ### Install StandAlone Mode is set.
+1840  1750  06/30 06:43:57 ### XML Response :<?xml version="1.0" encoding="UTF-8" standalone="no" ?><CVInstallManager_ClientSetup Focus="Instance001"><User _type_="13" userId="29456"/><CommServeInfo><CommserveHostInfo GUID="********" _type_="3" clientName="cms01039c1us02" hostName="cms01039c1us02.cvmscloud.commvault.com"/></CommServeInfo><ClientAuthentication AuthenticationEnabled="1" DomainConfigured="1" PrincipalName="" ProviderID="2002" SSOEnabled="0"><userAccountToLogin domainName="MetallicDemos" password="********" userName="sranga"/></ClientAuthentication><clientComposition activateClient="1" packageDeliveryOption="0"><clientInfo><client cvdPort="0" evmgrcPort="0"><clientEntity GUID="********" _type_="3" clientId="0" clientName="sanbgw" hostName="SanBGW"/></client></clientInfo><clientError ErrorCode="0"/></clientComposition><SimError ErrorCode="0"/></CVInstallManager_ClientSetup>
+1840  1750  06/30 06:43:57 ### Completed
+6252  1870  06/30 06:44:12 ### Start to process client setup request
+6252  1870  06/30 06:44:12 ### Start to read input file [C:\Program Files\Metallic\ContentStore\Base\PreImageModeFile.xml]
+6252  1870  06/30 06:44:12 ### Reloaded FW related registry and config files
+6252  1870  06/30 06:44:14 ### Process ID [6252] is set in registry for the client registration process
+6252  1870  06/30 06:44:14 ### Install StandAlone Mode is skipped/not applicable.
+6252  1870  06/30 06:44:14 ### Send request with ID [af31a268-b5bb-ebab-2bc0-a1cb2cb043fe] via appMgrSvc
+6252  1870  06/30 06:44:22 ### XML Response :<?xml version="1.0" encoding="UTF-8" standalone="no" ?><CVInstallManager_ClientSetup Focus="Instance001"><User _type_="13" userId="29456"/><CommServeInfo><CommserveHostInfo GUID="********" _type_="3" clientName="cms01039c1us02" hostName="cms01039c1us02.cvmscloud.commvault.com"/></CommServeInfo><ClientAuthentication AuthenticationEnabled="1" DomainConfigured="1" PrincipalName="" ProviderID="2002" SSOEnabled="0"><userAccountToLogin domainName="MetallicDemos" password="********" userName="sranga"/></ClientAuthentication><clientComposition activateClient="1" packageDeliveryOption="0"><clientInfo><client clientPassword="********" cvdPort="8400" evmgrcPort="0"><clientEntity GUID="********" _type_="3" clientId="8426" clientName="sanbgw" hostName="SanBGW"/></client></clientInfo><clientError ErrorCode="0"/></clientComposition><SimError ErrorCode="0"/></CVInstallManager_ClientSetup>
+6252  1870  06/30 06:44:22 ### Completed
+6684  1a18  06/30 06:57:36 ### Start to process client setup request
+6684  1a18  06/30 06:57:36 ### Start to read input file [C:\Program Files\Metallic\ContentStore\Base\PreImageModeFile.xml]
+6684  1a18  06/30 06:57:36 ### Install StandAlone Mode is skipped/not applicable.
+6684  1a18  06/30 06:57:40 ### Completed

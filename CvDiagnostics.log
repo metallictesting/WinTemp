@@ -1,0 +1,80 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : CvDiagnostics                                                               *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::initialize() - ***********************************CvDiagnostics started***********************************
+3796  fa4   06/30 08:50:50 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::collectLogFiles() - Not collecting Log Files.
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::dumpRegistry() - Not collecting registry.
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::runNetstat() - Collecting netstat information
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::runIpconfig() - Collecting IP configuration
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::runCvipinfo() - Collecting cvipinfo information
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::collectSystemInfo() - Collecting net statistics.
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::collectSystemInfo() - Collecting hosts file data.
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::collectSystemInfo() - Collecting system information.
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::collectSystemInfo() - Collecting IPv4 dynamic/ephemeral ports range information.
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::collectSystemInfo() - Collecting IPv6 dynamic/ephemeral ports range information.
+3796  fa4   06/30 08:50:50 ### CvDiagnostics::collectDiskVolumeInfo() - Collecting disk information.
+3796  1738  06/30 08:50:51 ### RunTerminalCommands() - Error executing command : [cd "C:\Program Files\Metallic\ContentStore\Base"  && CVIPInfo any > "C:\Program Files\Metallic\ContentStore\Base\Temp\CvDiagnostics-Info-Collected1656604250\cvipinfo.txt" 2>>&1], Error : [-1]
+3796  1834  06/30 08:50:52 ### RunTerminalCommands() - Error executing command : [%windir%\System32\net statistics server > "C:\Program Files\Metallic\ContentStore\Base\Temp\CvDiagnostics-Info-Collected1656604250\netstatisticsserver.txt" 2>>&1], Error : [1]
+3796  fa4   06/30 08:51:38 ### CvDiagnostics::collectDiskVolumeInfo() - Collecting volume information.
+3796  fa4   06/30 08:51:39 ### CvDiagnostics::checkConnectionWithCS() - Checking network connectivity with CommServer
+3796  fa4   06/30 08:51:39 ### Cvcl::init() - CVCL: Running in FIPS Mode
+3796  fa4   06/30 08:51:39 ### CvDiagnostics::checkConnectionWithCS() - Successfully attached to CommServer
+3796  fa4   06/30 08:51:39 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+3796  fa4   06/30 08:51:39 ### ExtendedLogCollector::getApplicationTypes() - Found [2] applications for client [8426]
+3796  fa4   06/30 08:51:39 ### ExtendedLogCollector::createLogCollectorsObj() - Unsupported app type [33]. Skipping it.
+3796  fa4   06/30 08:51:39 ### ExtendedLogCollector::createLogCollectorsObj() - Unsupported app type [106]. Skipping it.
+3796  fa4   06/30 08:51:39 ### ExtendedLogCollector::createLogCollectorsObj() - Created [0] log collector objects for client [8426]
+3796  fa4   06/30 08:51:39 ### CvDiagnostics::runMount() - Can not collect mount information. 'mount' command is not supported on Windows
+3796  fa4   06/30 08:51:39 ### CvDiagnostics::collectChimneySettings() - Collecting chimney settings
+3796  fa4   06/30 08:51:39 ### CvDiagnostics::collectTcpLatencyInfo() - Collecting TCP Latency Info
+3796  fa4   06/30 08:51:39 ### CvDiagnostics::collectNetworkConfigs() - Collecting Network Configs
+3796  fa4   06/30 08:51:40 ### CvDiagnostics::collectCvFailoverConfig() - CommServeFailover.xml file doesn't exist in job results directory.
+3796  fa4   06/30 08:51:40 ### CvDiagnostics::collectCvFailoverConfig() - CvFailover folder does not exists
+3796  fa4   06/30 08:51:40 ### Not collecting All Users profile logs.
+3796  fa4   06/30 08:52:06 ### CvDiagnostics::addIntermediateInformationFilesToArchive() - Adding collected information to archive
+3796  fa4   06/30 08:52:06 ### CvDiagnostics::finalize() - Collecting CvDiagnostics.log
+3796  fa4   06/30 08:52:06 ### CvDiagnostics::deleteTempDir() - Deleting the Temporary Directory created
+3796  fa4   06/30 08:52:06 ### CvDiagnostics was successful. CvDiagnostics bundle is at C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\Support_4464_7584_1656604183\CvDiagnostics
+6828  1320  06/30 08:53:30 ### CvDiagnostics::initialize() - ***********************************CvDiagnostics started***********************************
+6828  1320  06/30 08:53:30 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+6828  1320  06/30 08:53:30 ### CvDiagnostics::collectLogFiles() - Not collecting Log Files.
+6828  1320  06/30 08:53:30 ### CvDiagnostics::dumpRegistry() - Not collecting registry.
+6828  1320  06/30 08:53:30 ### CvDiagnostics::runNetstat() - Collecting netstat information
+6828  1320  06/30 08:53:30 ### CvDiagnostics::runIpconfig() - Collecting IP configuration
+6828  1320  06/30 08:53:30 ### CvDiagnostics::runCvipinfo() - Collecting cvipinfo information
+6828  1320  06/30 08:53:30 ### CvDiagnostics::collectSystemInfo() - Collecting net statistics.
+6828  1320  06/30 08:53:30 ### CvDiagnostics::collectSystemInfo() - Collecting hosts file data.
+6828  1320  06/30 08:53:30 ### CvDiagnostics::collectSystemInfo() - Collecting system information.
+6828  1320  06/30 08:53:30 ### CvDiagnostics::collectSystemInfo() - Collecting IPv4 dynamic/ephemeral ports range information.
+6828  1320  06/30 08:53:30 ### CvDiagnostics::collectSystemInfo() - Collecting IPv6 dynamic/ephemeral ports range information.
+6828  1320  06/30 08:53:30 ### CvDiagnostics::collectDiskVolumeInfo() - Collecting disk information.
+6828  1ee0  06/30 08:53:32 ### RunTerminalCommands() - Error executing command : [cd "C:\Program Files\Metallic\ContentStore\Base"  && CVIPInfo any > "C:\Program Files\Metallic\ContentStore\Base\Temp\CvDiagnostics-Info-Collected1656604410\cvipinfo.txt" 2>>&1], Error : [-1]
+6828  4e0   06/30 08:53:32 ### RunTerminalCommands() - Error executing command : [%windir%\System32\net statistics server > "C:\Program Files\Metallic\ContentStore\Base\Temp\CvDiagnostics-Info-Collected1656604410\netstatisticsserver.txt" 2>>&1], Error : [1]
+6828  1320  06/30 08:54:18 ### CvDiagnostics::collectDiskVolumeInfo() - Collecting volume information.
+6828  1320  06/30 08:54:19 ### CvDiagnostics::checkConnectionWithCS() - Checking network connectivity with CommServer
+6828  1320  06/30 08:54:19 ### Cvcl::init() - CVCL: Running in FIPS Mode
+6828  1320  06/30 08:54:19 ### CvDiagnostics::checkConnectionWithCS() - Successfully attached to CommServer
+6828  1320  06/30 08:54:20 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+6828  1320  06/30 08:54:20 ### ExtendedLogCollector::getApplicationTypes() - Found [2] applications for client [8426]
+6828  1320  06/30 08:54:20 ### ExtendedLogCollector::createLogCollectorsObj() - Unsupported app type [33]. Skipping it.
+6828  1320  06/30 08:54:20 ### ExtendedLogCollector::createLogCollectorsObj() - Unsupported app type [106]. Skipping it.
+6828  1320  06/30 08:54:20 ### ExtendedLogCollector::createLogCollectorsObj() - Created [0] log collector objects for client [8426]
+6828  1320  06/30 08:54:20 ### CvDiagnostics::runMount() - Can not collect mount information. 'mount' command is not supported on Windows
+6828  1320  06/30 08:54:20 ### CvDiagnostics::collectChimneySettings() - Collecting chimney settings
+6828  1320  06/30 08:54:20 ### CvDiagnostics::collectTcpLatencyInfo() - Collecting TCP Latency Info
+6828  1320  06/30 08:54:20 ### CvDiagnostics::collectNetworkConfigs() - Collecting Network Configs
+6828  1320  06/30 08:54:20 ### CvDiagnostics::collectCvFailoverConfig() - CommServeFailover.xml file doesn't exist in job results directory.
+6828  1320  06/30 08:54:20 ### CvDiagnostics::collectCvFailoverConfig() - CvFailover folder does not exists
+6828  1320  06/30 08:54:20 ### Not collecting All Users profile logs.
+6828  1320  06/30 08:54:31 ### CvDiagnostics::addIntermediateInformationFilesToArchive() - Adding collected information to archive
+6828  1320  06/30 08:54:31 ### CvDiagnostics::finalize() - Collecting CvDiagnostics.log
+6828  1320  06/30 08:54:31 ### CvDiagnostics::deleteTempDir() - Deleting the Temporary Directory created
+6828  1320  06/30 08:54:31 ### CvDiagnostics was successful. CvDiagnostics bundle is at C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\Support_4464_7584_1656604351\CvDiagnostics

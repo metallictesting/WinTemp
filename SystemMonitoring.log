@@ -1,0 +1,80 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : SystemMonitoring                                                            *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+4584  18ec  06/30 06:44:50 ### GetPendingEventsFlushInterval(3064) - EventManager\PendingEventFlushIntervalSec is not set. Defaulting to [3600]
+4584  18ec  06/30 06:44:51 ### GetEnabledPolicyIDs(1580) - XML unserialization failed, CLM not initialized
+4584  18ec  06/30 06:44:51 ### GetPolicies(1608) - XML message sending to getSynchedMonitoringPolicyDetails is:[<?xml version="1.0" encoding="UTF-8" standalone="no" ?><LogMonitoring_GetSynchedMonitoringPolicyDetailsReq clientId="8426" commcellid="2"/>]
+4584  18ec  06/30 06:44:51 ### GetPolicies(1615) - XML messageResponse from getSynchedMPDetailsForContinuous is:[<?xml version="1.0" encoding="UTF-8" standalone="no" ?><LogMonitoring_GetSynchedMonitoringPolicyDetailsResp/>]
+4584  18ec  06/30 06:44:51 ### GetPolicies(1762) - Nas Policy Count [0]
+4584  18ec  06/30 06:44:51 ### Dump(104) - Printing [Current Audit Policies]
+4584  18ec  06/30 06:44:51 ### Dump(361) - Printing [Current Resource Monitoring Policies]
+4584  18ec  06/30 06:44:51 ### WinAuditAgent::Init(58) - Missing path check interval is 180 minutes
+4584  18ec  06/30 06:44:51 ### RemoteAuditAgent::RemoteAuditAgent(83) - Constructing Remote Audit Agent
+4584  18ec  06/30 06:44:51 ### InitRemoteAuditAgent(708) - Successfuly Initialized Remote audit agent
+4584  18ec  06/30 06:44:51 ### NasAuditAgent::NasAuditAgent(37) - fpolicyClientName [sanbgw] mangledHostName [SanBGW*sanbgw*8400] fpolicyServiceName [RecallService]
+4584  18ec  06/30 06:44:51 ### InitNasAuditAgent(2723) - Successfuly Initialized NAS audit agent.
+4584  18ec  06/30 06:44:52 ### NasAuditAgent::SendActivePolicies(100) - Number of NAS audit policies [0]. Nothing to send to fpolicy server.
+4584  18ec  06/30 06:44:52 ### NasAuditAgent::ApplyFilter(149) - Successfully Sent content to RecallService.
+4584  18ec  06/30 06:44:52 ### StartMonitoring(3297) - Sent content to NAS Audit Agent.
+4584  18ec  06/30 06:44:52 ### StartMonitoring(3311) - Initializing Generic resource agent succeeded....
+4584  18ec  06/30 06:44:52 ### StartMonitoring(3327) - Successfully registerd SMExpiryTimerHandler.
+4584  1964  06/30 06:44:52 ### CvGenericTimer::Run(41) - CVTimer started.
+4584  18ec  06/30 06:44:52 ### StartMonitoring(3336) - Successfully registerd SMStatusUpdateHandler.
+4584  18ec  06/30 06:44:52 ### StartMonitoring(3345) - Successfully registerd SMCheckLogLevel.
+4584  18ec  06/30 06:44:52 ### StartMonitoring(3354) - Successfully registerd SMSessionExpiryTimerHandler.
+4584  1898  06/30 06:44:52 ### GenericEventServer(2653) - Starting CvSession server to accept 3rd party events.
+4584  1898  06/30 06:44:52 ### GenericEventServer(2658) - gGenericEventSrvr [00000213B6859C60].
+4584  1738  06/30 06:55:32 ### StopMonitoring(3387) - Going to stop all monitoring.
+4584  1860  06/30 06:55:32 ### MonitorAuditEvents(2204) - Activity Monitoring is stopped.
+4584  1738  06/30 06:55:32 ### WinAuditAgent::Pause(120) - Pausing event collection
+4584  1738  06/30 06:55:32 ### WinObjAuditManager::EnableAuditPolicy(472) - Auditing Mode :1, Maximum Audit Event Count :9
+4584  1738  06/30 06:55:32 ### WinObjAuditManager::EnableAuditPolicy(492) - AuditCategoryObjectAccess, Current setting : |||
+4584  1738  06/30 06:55:32 ### WinObjAuditManager::EnableAuditPolicy(510) - AuditCategoryObjectAccess, New setting : |||
+4584  1738  06/30 06:55:32 ### WinObjAuditManager::EnableAuditPolicy(472) - Auditing Mode :1, Maximum Audit Event Count :9
+4584  1738  06/30 06:55:32 ### WinObjAuditManager::EnableAuditPolicy(580) - AuditCategoryDetailedTracking, Current setting : |||
+4584  1738  06/30 06:55:32 ### WinObjAuditManager::EnableAuditPolicy(598) - AuditCategoryDetailedTracking, New setting : |||
+4584  1738  06/30 06:55:32 ### WinObjAuditManager::EnableAuditPolicy(472) - Auditing Mode :1, Maximum Audit Event Count :9
+4584  1738  06/30 06:55:32 ### WinObjAuditManager::EnableAuditPolicy(522) - AuditCategoryLogon, Current setting : |||
+4584  1738  06/30 06:55:32 ### WinObjAuditManager::EnableAuditPolicy(540) - AuditCategoryLogon, New setting : |||
+4584  1738  06/30 06:55:32 ### WinAuditAgent::~WinAuditAgent(41) - Destroying Audit Agent
+4584  1738  06/30 06:55:32 ### StopAuditAgent(3093) - Stopped Activity monitoring.
+4584  1738  06/30 06:55:32 ### StopGenericResourceAgent(3107) - Stopped Resource monitoring.
+4584  1738  06/30 06:55:32 ### NasAuditAgent::SendRemovedPolicies(121) - Number of deleted NAS audit policies [0]. Nothing to send to fpolicy server.
+4584  1738  06/30 06:55:32 ### StopNASAgent(3121) - Stopped NAS monitoring.
+4584  1738  06/30 06:55:32 ### RemoteAuditAgent::Resume(220) - Resuming Remote Audit Event collection
+4584  1738  06/30 06:55:32 ### RemoteAuditAgent::Pause(213) - Pausing Remote Audit Event collection
+4584  1874  06/30 06:55:32 ### RemoteMonitorThreadFunction(647) - Remote Activity Monitoring is stopped.
+4584  1738  06/30 06:55:32 ### StopRemoteAuditAgent(742) - Stopped Remote Activity monitoring.
+4584  1898  06/30 06:55:32 ### GenericEventServer(2661) - Exiting CVSessionServer starting thread.
+4584  1738  06/30 06:55:33 ### StopMonitoring(3410) - Stopped all monitoring.
+4584  1964  06/30 06:55:33 ### CvGenericTimer::Run(74) - Timer Exiting.
+4464  1294  06/30 06:57:37 ### GetPendingEventsFlushInterval(3064) - EventManager\PendingEventFlushIntervalSec is not set. Defaulting to [3600]
+4464  1294  06/30 06:57:38 ### GetEnabledPolicyIDs(1580) - XML unserialization failed, CLM not initialized
+4464  1294  06/30 06:57:38 ### GetPolicies(1608) - XML message sending to getSynchedMonitoringPolicyDetails is:[<?xml version="1.0" encoding="UTF-8" standalone="no" ?><LogMonitoring_GetSynchedMonitoringPolicyDetailsReq clientId="8426" commcellid="2"/>]
+4464  1294  06/30 06:57:38 ### GetPolicies(1615) - XML messageResponse from getSynchedMPDetailsForContinuous is:[<?xml version="1.0" encoding="UTF-8" standalone="no" ?><LogMonitoring_GetSynchedMonitoringPolicyDetailsResp/>]
+4464  1294  06/30 06:57:38 ### GetPolicies(1762) - Nas Policy Count [0]
+4464  1294  06/30 06:57:38 ### Dump(104) - Printing [Current Audit Policies]
+4464  1294  06/30 06:57:38 ### Dump(361) - Printing [Current Resource Monitoring Policies]
+4464  1294  06/30 06:57:38 ### WinAuditAgent::Init(58) - Missing path check interval is 180 minutes
+4464  1294  06/30 06:57:38 ### RemoteAuditAgent::RemoteAuditAgent(83) - Constructing Remote Audit Agent
+4464  1294  06/30 06:57:38 ### InitRemoteAuditAgent(708) - Successfuly Initialized Remote audit agent
+4464  1294  06/30 06:57:38 ### NasAuditAgent::NasAuditAgent(37) - fpolicyClientName [sanbgw] mangledHostName [SanBGW*sanbgw*8400] fpolicyServiceName [RecallService]
+4464  1294  06/30 06:57:38 ### InitNasAuditAgent(2723) - Successfuly Initialized NAS audit agent.
+4464  1294  06/30 06:57:38 ### NasAuditAgent::SendActivePolicies(100) - Number of NAS audit policies [0]. Nothing to send to fpolicy server.
+4464  1294  06/30 06:57:38 ### NasAuditAgent::ApplyFilter(149) - Successfully Sent content to RecallService.
+4464  1294  06/30 06:57:38 ### StartMonitoring(3297) - Sent content to NAS Audit Agent.
+4464  1294  06/30 06:57:38 ### StartMonitoring(3311) - Initializing Generic resource agent succeeded....
+4464  1294  06/30 06:57:38 ### StartMonitoring(3327) - Successfully registerd SMExpiryTimerHandler.
+4464  1ad4  06/30 06:57:38 ### CvGenericTimer::Run(41) - CVTimer started.
+4464  1294  06/30 06:57:38 ### StartMonitoring(3336) - Successfully registerd SMStatusUpdateHandler.
+4464  1294  06/30 06:57:38 ### StartMonitoring(3345) - Successfully registerd SMCheckLogLevel.
+4464  1294  06/30 06:57:38 ### StartMonitoring(3354) - Successfully registerd SMSessionExpiryTimerHandler.
+4464  1a50  06/30 06:57:38 ### GenericEventServer(2653) - Starting CvSession server to accept 3rd party events.
+4464  1a50  06/30 06:57:38 ### GenericEventServer(2658) - gGenericEventSrvr [00000195EEB1A990].

@@ -1,0 +1,45 @@
+<CVInstallManager_ClientSetup requestType="1" Operationtype="1" LocaleID="0" Focus="Instance001">
+	<CommServeInfo endPoint="https://dlogin.metallic.io">
+		<CommserveHostInfo hostName="@@COMMSERVE@@" clientName="@@COMMSERVE@@" />
+	</CommServeInfo>
+	<installFlags />
+	<ClientAuthentication>
+		<userAccountToLogin password="3458f38f1779d0fa582b77e80c2c44b49f97f6d6f878da3d7" domainName="metallicdemos" userName="sranga" />
+	</ClientAuthentication>
+	<clientComposition>
+		<components>
+			<commonInfo>
+				<storagePolicyToUse storagePolicyName="CV_DEFAULT" storagePolicyId="1" />
+			</commonInfo>
+			<componentInfo ComponentName="File System Core" consumeLicense="0" ComponentId="1" clientSidePackage="1" />
+			<componentInfo ComponentName="MediaAgent" consumeLicense="1" ComponentId="51" clientSidePackage="1" />
+			<componentInfo ComponentName="Storage Accelerator" consumeLicense="1" ComponentId="54" clientSidePackage="1" />
+			<componentInfo ComponentName="VSS Provider" consumeLicense="1" ComponentId="453" clientSidePackage="1" />
+			<componentInfo ComponentName="VSS Hardware Provider" consumeLicense="1" ComponentId="455" clientSidePackage="1" />
+			<componentInfo ComponentName="File System" consumeLicense="0" ComponentId="702" clientSidePackage="1" />
+			<componentInfo ComponentName="Virtual Server" consumeLicense="1" ComponentId="713" clientSidePackage="1" />
+		</components>
+		<patchInformation revisionID="1059" spVersion="2801.0" cumulativeUpdatePackNumber="20" cuTransactionID="4560811" transactionID="4268002" friendlyName="16Jun">
+			<packagePatches pkgId="1" />
+			<packagePatches pkgId="453" />
+			<packagePatches pkgId="455" />
+			<packagePatches pkgId="51" />
+			<packagePatches pkgId="54" />
+			<packagePatches pkgId="702" />
+			<packagePatches pkgId="713" />
+		</patchInformation>
+		<clientInfo>
+			<clientProps ClientInterface="SanBGW" BinarySetID="3" byteOrder="Little-endian" />
+			<client clientPassword="39fb1bc299978c56fe2f4469c893240433bf05eeb83f19d1571ba4b60b4f646800bdad850a56020fd924aae8468adf5b3" installDirectory="C:\Program Files\Metallic\ContentStore" cvdPort="8400">
+				<jobResulsDir path="C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults" />
+				<osInfo Type="Windows" SubType="Server" Version="6.2" PlatformType="X64">
+					<OsDisplayInfo ProcessorType="WinX64" OSName="Windows Server 2019 Datacenter" OSBuild="9200" />
+				</osInfo>
+				<clientEntity hostName="SanBGW" clientName="sanbgw" />
+				<versionInfo GalaxyBuildNumber="BUILD80">
+					<GalaxyRelease ReleaseString="11.0" />
+				</versionInfo>
+			</client>
+		</clientInfo>
+	</clientComposition>
+</CVInstallManager_ClientSetup>

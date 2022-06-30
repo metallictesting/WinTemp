@@ -1,0 +1,62 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : IndexServer                                                                 *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+5356  1394  06/30 08:47:31 ### main() - Initialized On Demand Server with service name [CVODS_indexserver_sanbgw_1]
+5356  1394  06/30 08:47:31 ### Cvcl::init() - CVCL: Running in FIPS Mode
+5356  1394  06/30 08:47:32 ### main() - Loading library at registry Library\sLNIndexServer
+5356  1394  06/30 08:47:32 ### main() - Calling entry point function GetOnDemandSvcLibInstance at registry Library\sLPODS
+5356  1394  06/30 08:47:32 ### isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+5356  1394  06/30 08:47:32 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+5356  1394  06/30 08:47:32 ### Cache size set to 1024 MB (free RAM is 4515 MB)
+5356  13fc  06/30 08:47:32 ### Space check thread started.
+5356  1394  06/30 08:47:32 ### Opened ctsrvr.cfg
+5356  1394  06/30 08:47:38 ### Database Manager initialized successfuly
+5356  1394  06/30 08:47:38 ### main() - Initialization successful.Created guid [47A5EE02-E7CB-4D86-863B-49F2EA5FADC9]
+5356  1394  06/30 08:47:38 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+5356  1394  06/30 08:47:38 ### main() - *************Starting On Demand Server CVODS_indexserver_sanbgw_1*************
+5356  1394  06/30 08:47:38 ### CVWaitableTimer::SetTimer() -  Inactivity Timer created successfully
+5356  1394  06/30 08:47:38 ### main() - On Demand Service Inactivity timeout set to [1200] secs
+5356  17a4  06/30 08:47:38 ### CVDTerminationHandler::_WaitForCVDTermination() - Waiting for CVD Termination
+5356  20    06/30 08:47:38 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/IndexServer_IOCPThreads DWORD registry entry
+5356  20    06/30 08:47:38 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+5356  20    06/30 08:47:38 ### CCvNetworkServer::SelectData() - Listening on port CVODS_indexserver_sanbgw_1/51644/0
+5356  20    06/30 08:47:38 ### OnDemandSvcCallbackXML() - On Demand Service CVODS_indexserver_sanbgw_1 launched and CvNetworkServer is ready
+5356  1da8  06/30 08:47:38 ### ::Ownership() - Acquired Db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84:8FCBE752-BECB-467C-BCBB-1811B4FA0F84].
+5356  1f6c  06/30 08:47:39 ### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [8FCBE752-BECB-467C-BCBB-1811B4FA0F84_IDX_BACKUP1087953] 
+5356  1f6c  06/30 08:47:39 ### INFO: Upto date check returned error for DB [8FCBE752-BECB-467C-BCBB-1811B4FA0F84]. Error:[0xECCC0002:{I2::IdxDbManager::IsDBUptoDateForRequest(675)} + {CQiUTFOSAPI::stat(322)/ErrNo.2.(No such file or directory)}].
+5356  1f6c  06/30 08:47:39 ### INFO: Removing DB and Cache [8FCBE752-BECB-467C-BCBB-1811B4FA0F84].
+5356  1f6c  06/30 08:47:39 ### INFO: No check point present for the DB[8FCBE752-BECB-467C-BCBB-1811B4FA0F84]. Full reconstruction [triggered].
+5356  1f6c  06/30 08:47:39 ### Request [8FCBE752-BECB-467C-BCBB-1811B4FA0F84_IDX_BACKUP1087953] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  1f6c  06/30 08:47:39 1087953 Begin playback of job [1087953] Db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84]
+5356  1f08  06/30 08:48:24 1087953 Finished playback to DB [8FCBE752-BECB-467C-BCBB-1811B4FA0F84], Took [1.879206] seconds to playback [144] commands. Summary: AddItem Commands: [114], Deleted Files:[0], Deleted Folders:[0] and Invalid Delete Commands:[0]
+5356  125c  06/30 08:50:16 ####### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [IDX_BROWSE1656604215-1868] 
+5356  125c  06/30 08:50:16 ####### CVOnDemandSvcClient::SubmitTask() - On Demand service CVODS_logmanager_sanbgw_1 launched at host SanBGW*sanbgw*8400*8402. Unique ID is B402CAFF-B581-48AB-B891-48C277FA6516
+5356  125c  06/30 08:50:16 ####### Got ODS Guid [B402CAFF-B581-48AB-B891-48C277FA6516] from server [LogManager] Host [SanBGW*sanbgw*8400*8402]
+5356  125c  06/30 08:50:17 ####### Request [IDX_BROWSE1656604215-1868] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  1ce0  06/30 08:50:23 ####### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [IDX_BROWSE1656604222-1869] 
+5356  1ce0  06/30 08:50:23 ####### Request [IDX_BROWSE1656604222-1869] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  1f08  06/30 08:51:21 ####### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [IDX_RESTORE1087963] 
+5356  1f08  06/30 08:51:21 ####### Request [IDX_RESTORE1087963] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  75c   06/30 08:51:23 ####### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [IDX_BROWSE1087963Git] 
+5356  75c   06/30 08:51:23 ####### Request [IDX_BROWSE1087963Git] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  1f6c  06/30 08:51:28 ####### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [IDX_RESTORE1087963_2_1525937_1003] 
+5356  1f6c  06/30 08:51:28 ####### Request [IDX_RESTORE1087963_2_1525937_1003] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  125c  06/30 08:51:28 ####### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [IDX_RESTORE1087963_2_1525935_1001] 
+5356  125c  06/30 08:51:28 ####### Request [IDX_RESTORE1087963_2_1525935_1001] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  1ce0  06/30 08:51:28 ####### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [IDX_RESTORE1087963_2_1525937_1004] 
+5356  1ce0  06/30 08:51:28 ####### Request [IDX_RESTORE1087963_2_1525937_1004] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  125c  06/30 08:51:28 ####### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [IDX_RESTORE1087963_2_1525937_1002] 
+5356  125c  06/30 08:51:28 ####### Request [IDX_RESTORE1087963_2_1525937_1002] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  1f08  06/30 08:51:28 ####### INFO: Checking consistency for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] for requestId [IDX_RESTORE1087963_2_1525937_1005] 
+5356  1f08  06/30 08:51:28 ####### Request [IDX_RESTORE1087963_2_1525937_1005] got status [IDX_DB_SUCCESS] for db [8FCBE752-BECB-467C-BCBB-1811B4FA0F84] during consistency check.
+5356  1754  06/30 08:52:33 ####### TPool [DatabasePool]. Ser# [1] Tot [50], Pend [0], Comp [50], Max Par [4], Avg Work Time [262.30 ms], Avg Wait Time [40.87 ms]
+5356  1754  06/30 08:52:33 ####### TPool [IOCPServerPool_CVODS_indexserver_sanbgw_1]. Ser# [1] Tot [2], Pend [2], Comp [0], Max Par [2], Avg Work Time [0.00 s], Avg Wait Time [0.00 s]
+5356  1754  06/30 08:52:33 ####### TPool [CVODS_indexserver_sanbgw_1]. Ser# [0] Tot [12], Pend [0], Comp [12], Max Par [2], Avg Work Time [565.74 us], Avg Wait Time [364.97 us]
+5356  1754  06/30 08:52:33 ####### TPool [CVODS_indexserver_sanbgw_1]. Ser# [1] Tot [53], Pend [0], Comp [53], Max Par [2], Avg Work Time [906.17 us], Avg Wait Time [89.50 us]

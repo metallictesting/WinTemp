@@ -1,0 +1,611 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : SIDBEngine                                                                  *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+7132  1994  06/30 08:46:46 ### 1400314-0-#-# main             1334  ----------------------------SIDB Engine Started--------------------------------
+7132  1994  06/30 08:46:46 ### 1400314-0-#-# main             1336  SIDBEngine [C:\Program Files\Metallic\ContentStore\Base\SIDB2.exe] started for Engine Id [1400314], Copy id [8987], Instance [Instance001], Client [sanbgw],[Requested by Job-Id 1087953] [Reconstruct mode - No]
+7056  ef8   06/30 08:46:46 ### 1400314-1-#-# main             1334  ----------------------------SIDB Engine Started--------------------------------
+7056  ef8   06/30 08:46:46 ### 1400314-1-#-# main             1336  SIDBEngine [C:\Program Files\Metallic\ContentStore\Base\SIDB2.exe] started for Engine Id [1400314], Copy id [8987], Instance [Instance001], Client [sanbgw],[Requested by Job-Id 1087953] [Reconstruct mode - No]
+7132  1994  06/30 08:46:46 ### 1400314-0-#-# Initialize        453  Fetching SIDB information from the CS for Engine [1400314]
+7056  ef8   06/30 08:46:46 ### 1400314-1-#-# Initialize        453  Fetching SIDB information from the CS for Engine [1400314]
+7056  ef8   06/30 08:46:46 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7132  1994  06/30 08:46:46 ### Cvcl::init() - CVCL: Running in FIPS Mode
+7056  ef8   06/30 08:46:46 --- CVMMIdxSIDBStoreInfo::getSIDBSubStoreList() - Received SIDBSubStores [2] for SIDBStoreId [1400314]. 
+7056  ef8   06/30 08:46:46 ### [2] Sub stores with [2] groups configured for engine [1400314]
+7056  ef8   06/30 08:46:46 ### SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 0-1753862-0 => 0-1753862-0 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+7056  ef8   06/30 08:46:46 ### SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 1-1753863-1 => 1-1753863-1 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        488  Store Name [SanBGW_DiskLibrary_Files_1400314], Id [1400314], Group [1]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        489  Path []
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        490  Age (days) [-1]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        491  Client [], Client host name []
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        492  Flags [20930012]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        493  FirstBackupTime [-1], LastSnapTime [0]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        494  Signature type [4]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        495  Num Afs per secondary [1]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        496  PageSize in CSDB [0]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        498  Low disk space threshold [0] MB, Warning threshold [0] MB
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        502  Enabled Backward referencing [No]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        503  Backward referencing Store [0]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        521  Group [1], Split Num [1], Version [-1], Split Id [1753863], Path [F:\DDB\CV_SIDB\2\1400314\Split01], Flags [20900012], ExFlags [0000000000000003], Low Space Threshold [5120] MB, Warning Threshold [10240] MB, First Backup Time [-1], Last Access Time [0], Last Snap Time [0], Last Primary Id [0], ZeroRef BatchNum [0]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        318  Use MemDB [false]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        360  Max Threads [16], Backup Threads [8], Pruning Threads [8]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        365  Setting DB admin thread wakeup time to 600 Sec(s)
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        371  Counter update interval set to 3600 Sec(s)
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        377  Deleted Af prune interval set to 0 Sec(s)
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        382  Primary Id update interval set to [900] seconds
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        388  Idle timeout set to 0 Sec(s)
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        394  Minimum time elapsed since last connect time [30]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        399  Idle Session timeout set to 1800 Sec(s)
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        403  Max connections beyond which pruning requests will be rejected [5]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        409  Allow Add records on chunk failure [false]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        414  Allow Zero Ref pruning during DV [true]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 LoadConfig        419  Space check interval [10] sec
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 CheckDiskSpace   2884  Cannot get the disk space information for [F:\DDB\CV_SIDB\2\1400314\Split01], error=0x80070003:{CQiDirectory::GetSpaceUsage(494)/W32.3.(The system cannot find the path specified. (ERROR_PATH_NOT_FOUND.3))}
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        262  Loading library [ctreedbs.dll].
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        283  Initializing ctree files at path [F:\DDB\CV_SIDB\2\1400314\Group01]. Page Size [32768], IdxMB [0], DatMB [0], Threads [0]
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Create            275  Creating Server configuration file...
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Create            349  Server configuration file created successfully
+7056  ef8   06/30 08:46:46 ### 1400314-1-1753863-1 Initialize        504  Initializing the ctree library...
+7132  1994  06/30 08:46:46 --- CVMMIdxSIDBStoreInfo::getSIDBSubStoreList() - Received SIDBSubStores [2] for SIDBStoreId [1400314]. 
+7132  1994  06/30 08:46:46 ### [2] Sub stores with [2] groups configured for engine [1400314]
+7132  1994  06/30 08:46:46 ### SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 0-1753862-0 => 0-1753862-0 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+7132  1994  06/30 08:46:46 ### SubstoRoutngInfo: EngId[1400314] (GrNo-SubStoId-SpltNo) 1-1753863-1 => 1-1753863-1 Clnt=[sanbgw] Path=[F:\DDB] Status=[0]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        488  Store Name [SanBGW_DiskLibrary_Files_1400314], Id [1400314], Group [0]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        489  Path []
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        490  Age (days) [-1]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        491  Client [], Client host name []
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        492  Flags [20930012]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        493  FirstBackupTime [-1], LastSnapTime [0]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        494  Signature type [4]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        495  Num Afs per secondary [1]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        496  PageSize in CSDB [0]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        498  Low disk space threshold [0] MB, Warning threshold [0] MB
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        502  Enabled Backward referencing [No]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        503  Backward referencing Store [0]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        521  Group [0], Split Num [0], Version [-1], Split Id [1753862], Path [F:\DDB\CV_SIDB\2\1400314\Split00], Flags [20900012], ExFlags [0000000000000003], Low Space Threshold [5120] MB, Warning Threshold [10240] MB, First Backup Time [-1], Last Access Time [0], Last Snap Time [0], Last Primary Id [0], ZeroRef BatchNum [0]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        318  Use MemDB [false]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        360  Max Threads [16], Backup Threads [8], Pruning Threads [8]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        365  Setting DB admin thread wakeup time to 600 Sec(s)
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        371  Counter update interval set to 3600 Sec(s)
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        377  Deleted Af prune interval set to 0 Sec(s)
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        382  Primary Id update interval set to [900] seconds
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        388  Idle timeout set to 0 Sec(s)
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        394  Minimum time elapsed since last connect time [30]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        399  Idle Session timeout set to 1800 Sec(s)
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        403  Max connections beyond which pruning requests will be rejected [5]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        409  Allow Add records on chunk failure [false]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        414  Allow Zero Ref pruning during DV [true]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 LoadConfig        419  Space check interval [10] sec
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 CheckDiskSpace   2884  Cannot get the disk space information for [F:\DDB\CV_SIDB\2\1400314\Split00], error=0x80070003:{CQiDirectory::GetSpaceUsage(494)/W32.3.(The system cannot find the path specified. (ERROR_PATH_NOT_FOUND.3))}
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        262  Loading library [ctreedbs.dll].
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        283  Initializing ctree files at path [F:\DDB\CV_SIDB\2\1400314\Group00]. Page Size [32768], IdxMB [0], DatMB [0], Threads [0]
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Create            275  Creating Server configuration file...
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Create            349  Server configuration file created successfully
+7132  1994  06/30 08:46:46 ### 1400314-0-1753862-0 Initialize        504  Initializing the ctree library...
+7056  ef8   06/30 08:47:07 ### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [1]
+7056  ef8   06/30 08:47:07 ### 1400314-1-1753863-1 InitializeDDB    1126  MS last run time [0], Run Interval [86400] Sec
+7056  ef8   06/30 08:47:07 ### 1400314-1-1753863-1 InitShrd         5794  Initialize shared data at [000001A635CC3CC8]
+7056  ef8   06/30 08:47:07 ### 1400314-1-1753863-1 InitShrd         5991  Txn DiskDB [0], Sec Compacted [0], MaxChunkDelRatio [80], Bloom [0], MemDB [0], Count [16], MaxMemDBMemUsage [0] bytes, MaxMemDBSize [0] MB. Merge Interval Min [0] ms, Max [0] ms, Increment [0] ms, Max MemDB Ops [0], MaxMemDBSecFiles [0], Jrnl Thresholds [10240/20480] MB
+7056  ef8   06/30 08:47:07 ### 1400314-1-1753863-1 Create           1348  Creating the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  ef8   06/30 08:47:07 ### 1400314-1-1753863-1 InitShared         93  DB files are on an SSD disk.
+7056  ef8   06/30 08:47:07 ### 1400314-1-1753863-1 InitShared        131  Using Secondary file page cache. Max Pages [10], Page Size [16384], Use LRU for pages [true], Sec Files LRU length [16]
+7056  ef8   06/30 08:47:07 ### 1400314-1-1753863-1 Create            922  Creating the Disk DB tables.
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 WriteProperties  6627  Ref Af Bmp State [0], Error [0]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 MPSave          15946  Mount path list State [0], Count [0].
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 ZRChkSpcCreat   13485   Creating the zeroref journal. Free space [40362] MB on path [F:\DDB\CV_SIDB\2\1400314\Split01] is above [20480] MB.
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 Initialize         78  Name [ZRJournal], MaxOpenFiles [5], MaxFileSizeMB [64], UseBuffering [0], BufSize [0], Buffers [0]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 Create             96  Creating journal at path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 Create            112  Successfully created journal at path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 ZRChkptJrnl     13218  Checkpointing journal. ZeroRef records logged [1]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 ZRChkptJrnl     13263  Checkpoint done. Position [0 - 1 - 0x00000060], Current [1 - 1 - 0x000000a8]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 ZRWriteProps    13393  ZeroRef journal. Start [0 - 1 - 0x00000060], End [0 - 1 - 0x00000060], Current [1 - 1 - 0x000000a8]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 ZRCreate        13553  Created ZeroRef journal at path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 MSReadCfg       13903  Mark And Sweep. Build Bloom [1], Max Bmp Elems [68719476736]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 MSWriteProps    12261  Use Ref Count [0], Phase [0], Last Run Time [1656604029], Pruning Hint [0], Building bloom [0]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 MSWriteProps    12262  Restart string []
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 MSWriteProps    12264  Bitmap Type [0x0], Bmp File Token [0], Bmp Table Token [0]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 MSWriteProps    12267  Begin Pri Id [0], End Pri Id [0], Pri Count [0], Valid [0], Deleted [0]
+7056  ef8   06/30 08:47:09 ### 1400314-1-1753863-1 MSWriteProps    12269  Begin Sec File Id [0], End Sec FileId [0]
+7056  ef8   06/30 08:47:10 ### Flush time [0.034048 Sec], Change [0], Aligned [1]
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 InitializeDDB    1329  Least bad chunk insert time from prop tbl [0]
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 CfgChunksExpiryDays   277  BCM chunk expiry = [62] days, MM bad chunk expiry = [60] days, Substore last backup elapsed days = [0]
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 SyncDDBAndCS     6121  Going to set Primary Id [1152921504606846976] Start Jrnl [0 - 1 - 0x00000060] End Jrnl [0 - 1 - 0x00000060] ZeroRef BatchNum [1]  in the CSDB
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 ZRSetStartJrnlPos 13149  Setting start journal position. Old [0 - 1 - 0x00000060], New [0 - 1 - 0x00000060]
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 SyncDDBAndCS     6164  oldest snap journal position [0 - 1 - 0x00000060]
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 GetVolumeId      4230  Got GUID [\\?\Volume{5612b17d-10d0-4fd3-a1ec-54c766643991}\] from Path [F:\]
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 RefMpList        2992  Got [1] mount path list from the mediamanager.
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 RefMpList        3066  No disabled mount paths present.
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 Run               821  Pid [7056], High [30968984], Low [2584468133]
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 Run               855  Done initializing the shared area between cvd and SIDB. Will start admin thread.
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 Start              71  Max parallel pruning req [16]. Max iterations [100]. Max Afiles [5000], Idle timeout [5] Sec
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 Start              60  BCM Iterations [25], BCM Chunk Expiry Reg. Override [0] Days, BCM Chunk Expiry Interval [3600] Secs
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 Resume            209  Signaling the bad chunks marker thread to resume.
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 Resume            220  Waiting for a response...
+7056  189c  06/30 08:47:10 ### 1400314-1-1753863-1 TricklePruner     436  Trickle pruner thread alive.
+7056  1824  06/30 08:47:10 ### 1400314-1-1753863-1 BadChunksMarker   290  Bad chunks marker thread alive.
+7056  1824  06/30 08:47:10 ### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [17]
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 Resume            229  Resumed bad chunk marker thread. Rsp [0]
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 FtchBadChnks     3118  Bad chunks records per batch set to 200 ()
+7056  1824  06/30 08:47:10 ### 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1824  06/30 08:47:10 ### 1400314-1-1753863-1 Open              991  DDB Open count is [1]
+7056  ef8   06/30 08:47:10 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 Run               941  Successfully initialized the work queue
+7056  ef8   06/30 08:47:10 ### 1400314-1-1753863-1 Run               946  Starting to listen and receive data from clients.
+7056  ef8   06/30 08:47:10 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+7056  2f0   06/30 08:47:10 ### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [18]
+7056  bc    06/30 08:47:10 ### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [19]
+7056  1b94  06/30 08:47:10 ### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [20]
+7056  a28   06/30 08:47:10 ### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [21]
+7056  c2c   06/30 08:47:10 ### 1400314-1-1753863-1 SelectDataThread  1912  SelectData thread started.
+7056  c2c   06/30 08:47:10 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/SIDBEngine_IOCPThreads DWORD registry entry
+7056  c2c   06/30 08:47:10 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+7056  c2c   06/30 08:47:10 ### CCvNetworkServer::SelectData() - Listening on port SIDB_sanbgw_1400314_1/51597/0
+7056  c2c   06/30 08:47:10 ### 1400314-1-1753863-1 SessionXMLCallback   169  CvNetworkServer ready to accept messages.
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [1]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 InitializeDDB    1126  MS last run time [0], Run Interval [86400] Sec
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 InitShrd         5794  Initialize shared data at [0000025F381C67F8]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 InitShrd         5991  Txn DiskDB [0], Sec Compacted [0], MaxChunkDelRatio [80], Bloom [0], MemDB [0], Count [16], MaxMemDBMemUsage [0] bytes, MaxMemDBSize [0] MB. Merge Interval Min [0] ms, Max [0] ms, Increment [0] ms, Max MemDB Ops [0], MaxMemDBSecFiles [0], Jrnl Thresholds [10240/20480] MB
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 Create           1348  Creating the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 InitShared         93  DB files are on an SSD disk.
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 InitShared        131  Using Secondary file page cache. Max Pages [10], Page Size [16384], Use LRU for pages [true], Sec Files LRU length [16]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 Create            922  Creating the Disk DB tables.
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 WriteProperties  6627  Ref Af Bmp State [0], Error [0]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 MPSave          15946  Mount path list State [0], Count [0].
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 ZRChkSpcCreat   13485   Creating the zeroref journal. Free space [40352] MB on path [F:\DDB\CV_SIDB\2\1400314\Split00] is above [20480] MB.
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 Initialize         78  Name [ZRJournal], MaxOpenFiles [5], MaxFileSizeMB [64], UseBuffering [0], BufSize [0], Buffers [0]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 Create             96  Creating journal at path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 Create            112  Successfully created journal at path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 ZRChkptJrnl     13218  Checkpointing journal. ZeroRef records logged [1]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 ZRChkptJrnl     13263  Checkpoint done. Position [0 - 1 - 0x00000060], Current [1 - 1 - 0x000000a8]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 ZRWriteProps    13393  ZeroRef journal. Start [0 - 1 - 0x00000060], End [0 - 1 - 0x00000060], Current [1 - 1 - 0x000000a8]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 ZRCreate        13553  Created ZeroRef journal at path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 MSReadCfg       13903  Mark And Sweep. Build Bloom [1], Max Bmp Elems [68719476736]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 MSWriteProps    12261  Use Ref Count [0], Phase [0], Last Run Time [1656604036], Pruning Hint [0], Building bloom [0]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 MSWriteProps    12262  Restart string []
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 MSWriteProps    12264  Bitmap Type [0x0], Bmp File Token [0], Bmp Table Token [0]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 MSWriteProps    12267  Begin Pri Id [0], End Pri Id [0], Pri Count [0], Valid [0], Deleted [0]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 MSWriteProps    12269  Begin Sec File Id [0], End Sec FileId [0]
+7132  1994  06/30 08:47:16 ### Flush time [0.031068 Sec], Change [0], Aligned [1]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 InitializeDDB    1329  Least bad chunk insert time from prop tbl [0]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 CfgChunksExpiryDays   277  BCM chunk expiry = [62] days, MM bad chunk expiry = [60] days, Substore last backup elapsed days = [0]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 SyncDDBAndCS     6121  Going to set Start Jrnl [0 - 1 - 0x00000060] End Jrnl [0 - 1 - 0x00000060] ZeroRef BatchNum [1]  in the CSDB
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 ZRSetStartJrnlPos 13149  Setting start journal position. Old [0 - 1 - 0x00000060], New [0 - 1 - 0x00000060]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 SyncDDBAndCS     6164  oldest snap journal position [0 - 1 - 0x00000060]
+7132  1994  06/30 08:47:16 ### 1400314-0-1753862-0 GetVolumeId      4230  Got GUID [\\?\Volume{5612b17d-10d0-4fd3-a1ec-54c766643991}\] from Path [F:\]
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 RefMpList        2992  Got [1] mount path list from the mediamanager.
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 RefMpList        3066  No disabled mount paths present.
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 Run               821  Pid [7132], High [30968984], Low [2584492595]
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 Run               855  Done initializing the shared area between cvd and SIDB. Will start admin thread.
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 Start              71  Max parallel pruning req [16]. Max iterations [100]. Max Afiles [5000], Idle timeout [5] Sec
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 Start              60  BCM Iterations [25], BCM Chunk Expiry Reg. Override [0] Days, BCM Chunk Expiry Interval [3600] Secs
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 Resume            209  Signaling the bad chunks marker thread to resume.
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 Resume            220  Waiting for a response...
+7132  1d48  06/30 08:47:17 ### 1400314-0-1753862-0 TricklePruner     436  Trickle pruner thread alive.
+7132  560   06/30 08:47:17 ### 1400314-0-1753862-0 BadChunksMarker   290  Bad chunks marker thread alive.
+7132  560   06/30 08:47:17 ### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [17]
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 Resume            229  Resumed bad chunk marker thread. Rsp [0]
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 FtchBadChnks     3118  Bad chunks records per batch set to 200 ()
+7132  560   06/30 08:47:17 ### 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  560   06/30 08:47:17 ### 1400314-0-1753862-0 Open              991  DDB Open count is [1]
+7132  1994  06/30 08:47:17 ### Thread pool monitor interval [300] seconds, Refresh interval [60] seconds
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 Run               941  Successfully initialized the work queue
+7132  1994  06/30 08:47:17 ### 1400314-0-1753862-0 Run               946  Starting to listen and receive data from clients.
+7132  1994  06/30 08:47:17 ### CCvNetworkServer::CCvNetworkServer() - CvNetworkServer is using Asynchronous IO model
+7132  165c  06/30 08:47:17 ### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [18]
+7132  1dcc  06/30 08:47:17 ### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [19]
+7132  1284  06/30 08:47:17 ### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [20]
+7132  11a0  06/30 08:47:17 ### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [21]
+7132  518   06/30 08:47:17 ### 1400314-0-1753862-0 SelectDataThread  1912  SelectData thread started.
+7132  518   06/30 08:47:17 ### CCvIOCPServer::Start() - Launching 2 IOCP worker threads. To override, use session/SIDBEngine_IOCPThreads DWORD registry entry
+7132  518   06/30 08:47:17 ### CCvNetworkServer::SelectData() - No port is specifed by user. Check if saved port can be reused
+7132  518   06/30 08:47:17 ### CCvNetworkServer::SelectData() - Listening on port SIDB_sanbgw_1400314_0/51598/0
+7132  518   06/30 08:47:17 ### 1400314-0-1753862-0 SessionXMLCallback   169  CvNetworkServer ready to accept messages.
+7132  4f0   06/30 08:47:17 ### 1400314-0-1753862-0 DisableNagle      375  Disabling nagle on ddb connection
+7132  4f0   06/30 08:47:17 ### 1400314-0-1753862-0 IncSktBuf         412  Socket buffer size [65536]
+7132  4f0   06/30 08:47:17 ### 1400314-0-1753862-0 Initialize         84  Connection Id [1], Socket [0x000000000000058C], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:0/0 CVDistributor.exe(3880:1920)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51598], Peer IP [127.0.0.1], Peer Port [51600]
+7132  18ec  06/30 08:47:17 ### 1400314-0-1753862-0 DisableNagle      375  Disabling nagle on ddb connection
+7132  18ec  06/30 08:47:17 ### 1400314-0-1753862-0 IncSktBuf         412  Socket buffer size [65536]
+7132  18ec  06/30 08:47:17 ### 1400314-0-1753862-0 Initialize         84  Connection Id [2], Socket [0x0000000000000580], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:0/0 CVDistributor.exe(3880:c0c)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51598], Peer IP [127.0.0.1], Peer Port [51599]
+7056  910   06/30 08:47:17 ### 1400314-1-1753863-1 DisableNagle      375  Disabling nagle on ddb connection
+7056  910   06/30 08:47:17 ### 1400314-1-1753863-1 IncSktBuf         412  Socket buffer size [65536]
+7056  910   06/30 08:47:17 ### 1400314-1-1753863-1 Initialize         84  Connection Id [1], Socket [0x0000000000000584], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:0/0 CVDistributor.exe(3880:1920)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51597], Peer IP [127.0.0.1], Peer Port [51606]
+7056  1510  06/30 08:47:17 ### 1400314-1-1753863-1 DisableNagle      375  Disabling nagle on ddb connection
+7056  1510  06/30 08:47:17 ### 1400314-1-1753863-1 IncSktBuf         412  Socket buffer size [65536]
+7056  1510  06/30 08:47:17 ### 1400314-1-1753863-1 Initialize         84  Connection Id [2], Socket [0x0000000000000580], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:0/0 CVDistributor.exe(3880:c0c)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51597], Peer IP [127.0.0.1], Peer Port [51605]
+7132  1f98  06/30 08:47:17 1087953 1400314-0-1753862-0 OnClientMsg      1783  Initializing session with client SanBGW (Id = 2) with JobId = 1087953, RcId = 2177329
+7056  8a4   06/30 08:47:17 1087953 1400314-1-1753863-1 OnClientMsg      1783  Initializing session with client SanBGW (Id = 2) with JobId = 1087953, RcId = 2177329
+7132  1f64  06/30 08:47:17 ####### 1400314-0-1753862-0 Send              146  Send timeout set to [30] sec
+7056  664   06/30 08:47:17 ####### 1400314-1-1753863-1 Send              146  Send timeout set to [30] sec
+7132  1f98  06/30 08:47:17 1087953 1400314-0-1753862-0 OnClientMsg      1783  Initializing session with client SanBGW (Id = 1) with JobId = 1087953, RcId = 2177327
+7056  8a4   06/30 08:47:17 1087953 1400314-1-1753863-1 OnClientMsg      1783  Initializing session with client SanBGW (Id = 1) with JobId = 1087953, RcId = 2177327
+7132  165c  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  165c  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [2]
+7132  1dcc  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1dcc  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [3]
+7056  2f0   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  bc    06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1b94  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7132  1284  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7056  2f0   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [2]
+7132  11a0  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7056  a28   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7132  1284  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [4]
+7056  bc    06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [3]
+7132  11a0  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [5]
+7056  1b94  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [4]
+7132  310   06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [23]
+7132  1d74  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [22]
+7132  310   06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1d74  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  310   06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [6]
+7056  a28   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [5]
+7132  1d74  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [7]
+7132  16e8  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [24]
+7132  1410  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [25]
+7132  16e8  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1410  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  16e8  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [8]
+7132  6cc   06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [26]
+7132  1410  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [9]
+7132  6cc   06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  6cc   06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [10]
+7056  1dc0  06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [22]
+7056  1744  06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [23]
+7056  1dc0  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1dc0  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [6]
+7056  1b38  06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [24]
+7056  1744  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1744  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [7]
+7056  a4c   06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [25]
+7056  1b38  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1b38  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [8]
+7056  1390  06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [26]
+7056  a4c   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  a4c   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [9]
+7056  1e18  06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [27]
+7056  1390  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1390  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [10]
+7056  1e18  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1c1c  06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [28]
+7056  1e18  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [11]
+7056  e64   06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [29]
+7056  1c1c  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1c1c  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [12]
+7056  e64   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1bfc  06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [30]
+7056  a58   06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [31]
+7056  1bfc  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1bfc  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [13]
+7056  a58   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1d90  06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [32]
+7056  e64   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [14]
+7056  a58   06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [15]
+7056  1698  06/30 08:47:17 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [33]
+7056  1d90  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1d90  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [16]
+7056  1698  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              935  Opening the DB tables. CtrlBlk [000001A635CC3CC8], Path [F:\DDB\CV_SIDB\2\1400314\Split01]
+7056  1698  06/30 08:47:17 1087953 1400314-1-1753863-1 Open              991  DDB Open count is [17]
+7132  1804  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [27]
+7132  1458  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [28]
+7132  18c8  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [29]
+7132  1804  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  10d8  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [30]
+7132  1cd0  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [31]
+7132  1458  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1e30  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [32]
+7132  1804  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [11]
+7132  18c8  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  10d8  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1cd0  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1458  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [12]
+7132  1e30  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  18c8  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [13]
+7132  10d8  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [14]
+7132  1cd0  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [15]
+7132  1e30  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [16]
+7132  1320  06/30 08:47:17 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [33]
+7132  1320  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              935  Opening the DB tables. CtrlBlk [0000025F381C67F8], Path [F:\DDB\CV_SIDB\2\1400314\Split00]
+7132  1320  06/30 08:47:17 1087953 1400314-0-1753862-0 Open              991  DDB Open count is [17]
+7132  165c  06/30 08:47:17 1087953 1400314-0-1753862-0 Create            235  Created file [F:\DDB\CV_SIDB\2\1400314\Split00\2980\Secondary_1525937.idx]. Sparse [0], Flags [00000000], Ptr [0000025F5B89F6E0], fd [6], Native fd [1460]
+7132  165c  06/30 08:47:17 1087953 1400314-0-1753862-0 OpenAfEntry     14513  Created AfId [1525937]
+7132  4f0   06/30 08:47:17 ####### 1400314-0-1753862-0 DisableNagle      375  Disabling nagle on ddb connection
+7132  4f0   06/30 08:47:17 ####### 1400314-0-1753862-0 IncSktBuf         412  Socket buffer size [65536]
+7132  4f0   06/30 08:47:17 ####### 1400314-0-1753862-0 Initialize         84  Connection Id [3], Socket [0x00000000000005E0], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:0/0 cvd.exe(4464:8a0)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51598], Peer IP [127.0.0.1], Peer Port [51611]
+7056  910   06/30 08:47:17 ####### 1400314-1-1753863-1 DisableNagle      375  Disabling nagle on ddb connection
+7056  910   06/30 08:47:17 ####### 1400314-1-1753863-1 IncSktBuf         412  Socket buffer size [65536]
+7056  910   06/30 08:47:17 ####### 1400314-1-1753863-1 Initialize         84  Connection Id [3], Socket [0x00000000000005DC], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:0/0 cvd.exe(4464:8a0)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51597], Peer IP [127.0.0.1], Peer Port [51614]
+7056  1014  06/30 08:47:17 ####### 1400314-1-1753863-1 OnClientMsg      1783  Initializing session with client SanBGW (Id = 3) with JobId = 0, RcId = 0
+7132  1d98  06/30 08:47:17 ####### 1400314-0-1753862-0 OnClientMsg      1783  Initializing session with client SanBGW (Id = 3) with JobId = 0, RcId = 0
+7056  2f0   06/30 08:47:18 1087953 1400314-1-1753863-1 Create            235  Created file [F:\DDB\CV_SIDB\2\1400314\Split01\2980\Secondary_1525935.idx]. Sparse [0], Flags [00000000], Ptr [000001A65925BEB0], fd [6], Native fd [1496]
+7056  2f0   06/30 08:47:18 1087953 1400314-1-1753863-1 OpenAfEntry     14513  Created AfId [1525935]
+7132  1dcc  06/30 08:47:20 1087953 1400314-0-1753862-0 Create            235  Created file [F:\DDB\CV_SIDB\2\1400314\Split00\2980\Secondary_1525935.idx]. Sparse [0], Flags [00000000], Ptr [0000025F5B89B720], fd [7], Native fd [1512]
+7132  1dcc  06/30 08:47:20 1087953 1400314-0-1753862-0 OpenAfEntry     14513  Created AfId [1525935]
+7132  4f0   06/30 08:47:20 ####### 1400314-0-1753862-0 DisableNagle      375  Disabling nagle on ddb connection
+7132  4f0   06/30 08:47:20 ####### 1400314-0-1753862-0 IncSktBuf         412  Socket buffer size [65536]
+7132  4f0   06/30 08:47:20 ####### 1400314-0-1753862-0 Initialize         84  Connection Id [4], Socket [0x00000000000005F8], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:0/0 cvd.exe(4464:1454)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51598], Peer IP [127.0.0.1], Peer Port [51617]
+7056  910   06/30 08:47:20 ####### 1400314-1-1753863-1 DisableNagle      375  Disabling nagle on ddb connection
+7056  910   06/30 08:47:20 ####### 1400314-1-1753863-1 IncSktBuf         412  Socket buffer size [65536]
+7056  910   06/30 08:47:20 ####### 1400314-1-1753863-1 Initialize         84  Connection Id [4], Socket [0x00000000000005E0], Desc [sanbgw/SanBGW/SockIP(127.0.0.1)/192.168.1.190:0/0 cvd.exe(4464:1454)], Address Family [IPv4], Local IP [127.0.0.1], Local Port [51597], Peer IP [127.0.0.1], Peer Port [51620]
+7132  1d98  06/30 08:47:20 ####### 1400314-0-1753862-0 OnClientMsg      1783  Initializing session with client SanBGW (Id = 4) with JobId = 0, RcId = 0
+7056  1014  06/30 08:47:20 ####### 1400314-1-1753863-1 OnClientMsg      1783  Initializing session with client SanBGW (Id = 4) with JobId = 0, RcId = 0
+7132  1d98  06/30 08:47:50 ####### 1400314-0-1753862-0 OnClntDiscon     1619  Received disconnect message type [0x09000102]. Id [4], Socket [0x00000000000005F8]
+7132  1d98  06/30 08:47:50 ####### 1400314-0-1753862-0 Remove            120  Removed connection with id [4] from the session list. Present [true]
+7132  1d98  06/30 08:47:50 ####### 1400314-0-1753862-0 Release           125  Ref Count for session with Id [4] is [0]. Scheduling for cleanup
+7132  310   06/30 08:47:50 ####### 1400314-0-1753862-0 SessionCleaner   4039  Cleaning up session [4]
+7132  310   06/30 08:47:50 ####### 1400314-0-1753862-0 SessionCleaner   4044  Destroying session object with id [4]
+7056  1014  06/30 08:47:50 ####### 1400314-1-1753863-1 OnClntDiscon     1619  Received disconnect message type [0x09000102]. Id [4], Socket [0x00000000000005E0]
+7056  1014  06/30 08:47:50 ####### 1400314-1-1753863-1 Remove            120  Removed connection with id [4] from the session list. Present [true]
+7056  1014  06/30 08:47:50 ####### 1400314-1-1753863-1 Release           125  Ref Count for session with Id [4] is [0]. Scheduling for cleanup
+7056  a58   06/30 08:47:50 ####### 1400314-1-1753863-1 SessionCleaner   4039  Cleaning up session [4]
+7056  a58   06/30 08:47:50 ####### 1400314-1-1753863-1 SessionCleaner   4044  Destroying session object with id [4]
+7132  1f98  06/30 08:47:50 ####### 1400314-0-1753862-0 OnClntDiscon     1619  Received disconnect message type [0x09000102]. Id [1], Socket [0x000000000000058C]
+7132  1f98  06/30 08:47:50 ####### 1400314-0-1753862-0 Remove            120  Removed connection with id [1] from the session list. Present [true]
+7132  1f98  06/30 08:47:50 ####### 1400314-0-1753862-0 Release           125  Ref Count for session with Id [1] is [0]. Scheduling for cleanup
+7132  1d74  06/30 08:47:51 ####### 1400314-0-1753862-0 SessionCleaner   4039  Cleaning up session [1]
+7132  1d74  06/30 08:47:51 ####### 1400314-0-1753862-0 SessionCleaner   4044  Destroying session object with id [1]
+7056  8a4   06/30 08:47:51 ####### 1400314-1-1753863-1 OnClntDiscon     1619  Received disconnect message type [0x09000102]. Id [1], Socket [0x0000000000000584]
+7056  8a4   06/30 08:47:51 ####### 1400314-1-1753863-1 Remove            120  Removed connection with id [1] from the session list. Present [true]
+7056  8a4   06/30 08:47:51 ####### 1400314-1-1753863-1 Release           125  Ref Count for session with Id [1] is [0]. Scheduling for cleanup
+7056  e64   06/30 08:47:51 ####### 1400314-1-1753863-1 SessionCleaner   4039  Cleaning up session [1]
+7056  e64   06/30 08:47:51 ####### 1400314-1-1753863-1 SessionCleaner   4044  Destroying session object with id [1]
+7132  1d98  06/30 08:48:07 ####### 1400314-0-1753862-0 OnClntDiscon     1619  Received disconnect message type [0x09000102]. Id [3], Socket [0x00000000000005E0]
+7132  1d98  06/30 08:48:07 ####### 1400314-0-1753862-0 Remove            120  Removed connection with id [3] from the session list. Present [true]
+7132  1d98  06/30 08:48:07 ####### 1400314-0-1753862-0 Release           125  Ref Count for session with Id [3] is [0]. Scheduling for cleanup
+7132  16e8  06/30 08:48:07 ####### 1400314-0-1753862-0 SessionCleaner   4039  Cleaning up session [3]
+7132  16e8  06/30 08:48:07 ####### 1400314-0-1753862-0 SessionCleaner   4044  Destroying session object with id [3]
+7056  1014  06/30 08:48:07 ####### 1400314-1-1753863-1 OnClntDiscon     1619  Received disconnect message type [0x09000102]. Id [3], Socket [0x00000000000005DC]
+7056  1014  06/30 08:48:07 ####### 1400314-1-1753863-1 Remove            120  Removed connection with id [3] from the session list. Present [true]
+7056  1014  06/30 08:48:07 ####### 1400314-1-1753863-1 Release           125  Ref Count for session with Id [3] is [0]. Scheduling for cleanup
+7056  1bfc  06/30 08:48:07 ####### 1400314-1-1753863-1 SessionCleaner   4039  Cleaning up session [3]
+7056  1bfc  06/30 08:48:07 ####### 1400314-1-1753863-1 SessionCleaner   4044  Destroying session object with id [3]
+7132  1f98  06/30 08:48:07 ####### 1400314-0-1753862-0 OnClntDiscon     1619  Received disconnect message type [0x09000102]. Id [2], Socket [0x0000000000000580]
+7132  1f98  06/30 08:48:07 ####### 1400314-0-1753862-0 Remove            120  Removed connection with id [2] from the session list. Present [true]
+7132  1f98  06/30 08:48:07 ####### 1400314-0-1753862-0 Release           125  Ref Count for session with Id [2] is [0]. Scheduling for cleanup
+7132  1410  06/30 08:48:07 ####### 1400314-0-1753862-0 SessionCleaner   4039  Cleaning up session [2]
+7132  1410  06/30 08:48:07 ####### 1400314-0-1753862-0 SessionCleaner   4044  Destroying session object with id [2]
+7056  8a4   06/30 08:48:07 ####### 1400314-1-1753863-1 OnClntDiscon     1619  Received disconnect message type [0x09000102]. Id [2], Socket [0x0000000000000580]
+7056  8a4   06/30 08:48:07 ####### 1400314-1-1753863-1 Remove            120  Removed connection with id [2] from the session list. Present [true]
+7056  8a4   06/30 08:48:07 ####### 1400314-1-1753863-1 Release           125  Ref Count for session with Id [2] is [0]. Scheduling for cleanup
+7056  1c1c  06/30 08:48:07 ####### 1400314-1-1753863-1 SessionCleaner   4039  Cleaning up session [2]
+7056  1c1c  06/30 08:48:07 ####### 1400314-1-1753863-1 SessionCleaner   4044  Destroying session object with id [2]
+7132  1994  06/30 08:48:07 ####### 1400314-0-1753862-0 AdminThread      2143  Going to wait for [0] seconds
+7056  ef8   06/30 08:48:07 ####### 1400314-1-1753863-1 AdminThread      2143  Going to wait for [0] seconds
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 LogCtrs          2537  [CLSI  Signture Query Handler], Exp Avg [0.691974], Samples [57], Intrvl Time [39.442541], Intrvl Invoked [57], Intrvl Avg [0.691974]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 LogCtrs          2537  [CLSI  Commit Records request Handler], Exp Avg [0.000029], Samples [57], Intrvl Time [0.001632], Intrvl Invoked [57], Intrvl Avg [0.000029]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 LogCtrs          2537  [SyncSplits], Exp Avg [0.000000], Samples [4], Intrvl Time [0.000000], Intrvl Invoked [4], Intrvl Avg [0.000000]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 LogCtrs          6754  Primary [57]-[7419349]-[57]-[7419349]-[0]-[0], Secondary [57]-[7419349]-[57]-[7419349]-[0]-[0], Pending Deletes [0]-[0]-[0]-[0]-[0]-[0], Lonely [0]-[0]-[0]-[0]-[0]-[0], Uncommitted [0]-[0]-[57]-[7419349]-[57]-[7419349], Bad [0]-[0]-[0]-[0]-[0]-[0]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Properties-Add Average [0.000011] Sec/Count, Rate [91974.752029] Count/Sec, Time [0.000554], Count [51]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Properties-Find-Crc64 FindFirst Average [0.000006] Sec/Count, Rate [174358.974359] Count/Sec, Time [0.000293], Count [51]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Primary-Add Average [0.000021] Sec/Count, Rate [48133.761189] Count/Sec, Time [0.001184], Count [57]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Primary-Update Average [0.000006] Sec/Count, Rate [173674.588665] Count/Sec, Time [0.000328], Count [57]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Primary-Find-Id FindFirst Average [0.000007] Sec/Count, Rate [146907.216495] Count/Sec, Time [0.000388], Count [57]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Primary-Find-Crc64 FindFirst Average [0.000013] Sec/Count, Rate [76284.796574] Count/Sec, Time [0.000747], Count [57]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Archive-Add Average [0.000074] Sec/Count, Rate [13531.799729] Count/Sec, Time [0.000148], Count [2]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Archive-Find-Id FindFirst Average [0.000021] Sec/Count, Rate [48065.918975] Count/Sec, Time [0.000437], Count [21]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 LogCtrs           458  Queue [Backup Queue], Waiting [0], Busy [0]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 LogCtrs           458  Queue [Pruning Queue], Waiting [0], Busy [0]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 LogCtrs           460  Total Waiting [0], Total Busy [0]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               244  +-[WorkQueue Counters]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539    +-Backup Queue Wait Average [0.905007] Sec/Count, Rate [1.104964] Count/Sec, Time [57.015438], Count [63]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Log               539    +-Backup Queue Proc Average [0.626146] Sec/Count, Rate [1.597073] Count/Sec, Time [39.447170], Count [63]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Stop              111  Signaling the trickle pruner thread to stop.
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Stop              120  Waiting for the trickle pruner thread to exit.
+7132  1d48  06/30 08:48:08 ####### 1400314-0-1753862-0 TricklePruner     461  Quit event triggered.
+7132  1d48  06/30 08:48:08 ####### 1400314-0-1753862-0 TricklePruner     529  Message processor loop exited.
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Stop              125  Wait completed.
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Stop              191  Signaling the bad chunks marker thread to stop.
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Stop              197  Waiting for the trickle pruner thread to exit.
+7132  560   06/30 08:48:08 ####### 1400314-0-1753862-0 OnStop            678  Quit event triggered.
+7132  560   06/30 08:48:08 ####### 1400314-0-1753862-0 OnStop            687  Setting Id [0]
+7132  560   06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [18]
+7132  560   06/30 08:48:08 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [17]
+7132  560   06/30 08:48:08 ####### 1400314-0-1753862-0 BadChunksMarker   363  Message processor loop exited.
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Stop              202  Wait completed.
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 LeastBadChnkInsTime   158  Setting least bad chunk insert time in prop tbl [0]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Suspend           335  Waiting for queue to get empty
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Suspend           340  Queue is empty. Pending work items [0]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Suspend           367  Going to suspend [16] threads
+7132  6cc   06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [17]
+7132  1458  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [16]
+7132  18c8  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [15]
+7132  1cd0  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [14]
+7132  1320  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [13]
+7132  1dcc  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [12]
+7132  11a0  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [11]
+7132  1d74  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [10]
+7132  10d8  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [9]
+7132  1804  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [8]
+7132  1284  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [7]
+7132  1e30  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [6]
+7132  310   06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [5]
+7132  165c  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [4]
+7132  16e8  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [3]
+7132  1410  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [2]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Suspend           388  Suspended all [16] threads successfully.
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 SyncDDBAndCS     6121  Going to set Primary Id [57]  in the CSDB
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 LogCtrs          2537  [CLSI  Signture Query Handler], Exp Avg [0.357179], Samples [41], Intrvl Time [14.644319], Intrvl Invoked [41], Intrvl Avg [0.357179]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 LogCtrs          2537  [CLSI  Commit Records request Handler], Exp Avg [0.000030], Samples [41], Intrvl Time [0.001228], Intrvl Invoked [41], Intrvl Avg [0.000030]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 LogCtrs          2537  [SyncSplits], Exp Avg [0.000000], Samples [4], Intrvl Time [0.000001], Intrvl Invoked [4], Intrvl Avg [0.000000]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 LogCtrs          6754  Primary [41]-[5503869]-[41]-[5503869]-[0]-[0], Secondary [41]-[5503869]-[41]-[5503869]-[0]-[0], Pending Deletes [0]-[0]-[0]-[0]-[0]-[0], Lonely [0]-[0]-[0]-[0]-[0]-[0], Uncommitted [0]-[0]-[41]-[5503869]-[41]-[5503869], Bad [0]-[0]-[0]-[0]-[0]-[0]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Properties-Add Average [0.000012] Sec/Count, Rate [85070.892410] Count/Sec, Time [0.000600], Count [51]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Properties-Find-Crc64 FindFirst Average [0.000011] Sec/Count, Rate [91941.590049] Count/Sec, Time [0.000555], Count [51]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Primary-Add Average [0.000029] Sec/Count, Rate [34002.322110] Count/Sec, Time [0.001206], Count [41]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Primary-Update Average [0.000007] Sec/Count, Rate [150073.206442] Count/Sec, Time [0.000273], Count [41]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Primary-Find-Id FindFirst Average [0.000007] Sec/Count, Rate [147111.589523] Count/Sec, Time [0.000279], Count [41]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Primary-Find-Crc64 FindFirst Average [0.000037] Sec/Count, Rate [27143.330023] Count/Sec, Time [0.001511], Count [41]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Archive-Add Average [0.000221] Sec/Count, Rate [4524.886878] Count/Sec, Time [0.000221], Count [1]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Archive-Find-Id FindFirst Average [0.000035] Sec/Count, Rate [28589.580686] Count/Sec, Time [0.000630], Count [18]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 LogCtrs           458  Queue [Backup Queue], Waiting [0], Busy [0]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 LogCtrs           458  Queue [Pruning Queue], Waiting [0], Busy [0]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 LogCtrs           460  Total Waiting [0], Total Busy [0]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               244  +-[WorkQueue Counters]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539    +-Backup Queue Wait Average [0.139544] Sec/Count, Rate [7.166186] Count/Sec, Time [6.419035], Count [46]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Log               539    +-Backup Queue Proc Average [0.318432] Sec/Count, Rate [3.140390] Count/Sec, Time [14.647862], Count [46]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Stop              111  Signaling the trickle pruner thread to stop.
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Stop              120  Waiting for the trickle pruner thread to exit.
+7056  189c  06/30 08:48:08 ####### 1400314-1-1753863-1 TricklePruner     461  Quit event triggered.
+7056  189c  06/30 08:48:08 ####### 1400314-1-1753863-1 TricklePruner     529  Message processor loop exited.
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Stop              125  Wait completed.
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Stop              191  Signaling the bad chunks marker thread to stop.
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Stop              197  Waiting for the trickle pruner thread to exit.
+7056  1824  06/30 08:48:08 ####### 1400314-1-1753863-1 OnStop            678  Quit event triggered.
+7056  1824  06/30 08:48:08 ####### 1400314-1-1753863-1 OnStop            687  Setting Id [0]
+7056  1824  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [18]
+7056  1824  06/30 08:48:08 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [17]
+7056  1824  06/30 08:48:08 ####### 1400314-1-1753863-1 BadChunksMarker   363  Message processor loop exited.
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Stop              202  Wait completed.
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 LeastBadChnkInsTime   158  Setting least bad chunk insert time in prop tbl [0]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Suspend           335  Waiting for queue to get empty
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Suspend           340  Queue is empty. Pending work items [0]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Suspend           367  Going to suspend [16] threads
+7056  1e18  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [17]
+7056  a4c   06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [16]
+7056  1744  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [15]
+7056  1dc0  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [14]
+7056  a28   06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [13]
+7056  bc    06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [12]
+7056  1d90  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [11]
+7056  e64   06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [10]
+7056  1c1c  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [9]
+7056  1b38  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [8]
+7056  1698  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [7]
+7056  1b94  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [6]
+7056  a58   06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [5]
+7056  1390  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [4]
+7056  1bfc  06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [3]
+7056  2f0   06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [2]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Suspend           388  Suspended all [16] threads successfully.
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 SyncDDBAndCS     6121  Going to set Primary Id [1152921504606847017]  in the CSDB
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 SyncDDBAndCS     6164  oldest snap journal position [0 - 1 - 0x00000060]
+7132  1994  06/30 08:48:08 ####### 1400314-0-1753862-0 Close            1618  Closing the DB tables. DDB Open count is [1]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 SyncDDBAndCS     6164  oldest snap journal position [0 - 1 - 0x00000060]
+7056  ef8   06/30 08:48:08 ####### 1400314-1-1753863-1 Close            1618  Closing the DB tables. DDB Open count is [1]
+7056  ef8   06/30 08:48:09 ####### Flush time [0.078557 Sec], Change [0], Aligned [1]
+7132  1994  06/30 08:48:09 ####### Flush time [0.070504 Sec], Change [0], Aligned [1]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 MSWriteProps    12261  Use Ref Count [0], Phase [0], Last Run Time [1656604029], Pruning Hint [0], Building bloom [0]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 MSWriteProps    12262  Restart string []
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 MSWriteProps    12264  Bitmap Type [0x0], Bmp File Token [0], Bmp Table Token [0]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 MSWriteProps    12267  Begin Pri Id [0], End Pri Id [0], Pri Count [0], Valid [0], Deleted [0]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 MSWriteProps    12269  Begin Sec File Id [0], End Sec FileId [0]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 MSClose         14090  Closed mark and sweep. iRet [0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 MSWriteProps    12261  Use Ref Count [0], Phase [0], Last Run Time [1656604036], Pruning Hint [0], Building bloom [0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 MSWriteProps    12262  Restart string []
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 MSWriteProps    12264  Bitmap Type [0x0], Bmp File Token [0], Bmp Table Token [0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 MSWriteProps    12267  Begin Pri Id [0], End Pri Id [0], Pri Count [0], Valid [0], Deleted [0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 MSWriteProps    12269  Begin Sec File Id [0], End Sec FileId [0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 MSClose         14090  Closed mark and sweep. iRet [0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 ZRWriteProps    13393  ZeroRef journal. Start [0 - 1 - 0x00000060], End [0 - 1 - 0x00000060], Current [1 - 1 - 0x000000a8]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 ZRClose         13874  Closed ZeroRef logging. iRet [0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 WriteProperties  6627  Ref Af Bmp State [0], Error [0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 MPSave          15946  Mount path list State [2], Count [1].
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 LogCtrs          6754  Primary [57]-[7419349]-[57]-[7419349]-[0]-[0], Secondary [57]-[7419349]-[57]-[7419349]-[0]-[0], Pending Deletes [0]-[0]-[0]-[0]-[0]-[0], Lonely [0]-[0]-[0]-[0]-[0]-[0], Uncommitted [0]-[0]-[57]-[7419349]-[57]-[7419349], Bad [0]-[0]-[0]-[0]-[0]-[0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Properties-Add Average [0.000024] Sec/Count, Rate [41152.263374] Count/Sec, Time [0.000049], Count [2]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Properties-Update Average [0.000005] Sec/Count, Rate [211480.362538] Count/Sec, Time [0.000132], Count [28]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 Log               539  DDB Counters-Properties-Find-Crc64 FindFirst Average [0.000008] Sec/Count, Rate [120288.692863] Count/Sec, Time [0.000249], Count [30]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 Close            1766  Last Open Time [1656604036], Primary Seq [57], Secondary Seq [0]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 Close             818  Going to close secondary files
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 ZRWriteProps    13393  ZeroRef journal. Start [0 - 1 - 0x00000060], End [0 - 1 - 0x00000060], Current [1 - 1 - 0x000000a8]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 ZRClose         13874  Closed ZeroRef logging. iRet [0]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 WriteProperties  6627  Ref Af Bmp State [0], Error [0]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 MPSave          15946  Mount path list State [2], Count [1].
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 LogCtrs          6754  Primary [41]-[5503869]-[41]-[5503869]-[0]-[0], Secondary [41]-[5503869]-[41]-[5503869]-[0]-[0], Pending Deletes [0]-[0]-[0]-[0]-[0]-[0], Lonely [0]-[0]-[0]-[0]-[0]-[0], Uncommitted [0]-[0]-[41]-[5503869]-[41]-[5503869], Bad [0]-[0]-[0]-[0]-[0]-[0]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Properties-Add Average [0.000023] Sec/Count, Rate [44052.863436] Count/Sec, Time [0.000045], Count [2]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Properties-Update Average [0.000005] Sec/Count, Rate [207100.591716] Count/Sec, Time [0.000135], Count [28]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 Log               539  DDB Counters-Properties-Find-Crc64 FindFirst Average [0.000010] Sec/Count, Rate [103842.159917] Count/Sec, Time [0.000289], Count [30]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 Close            1766  Last Open Time [1656604027], Primary Seq [41], Secondary Seq [0]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 Close             818  Going to close secondary files
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 Close             891  Tracking [1] archive files, [0] chunks
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 Close             891  Tracking [2] archive files, [0] chunks
+7056  19d8  06/30 08:48:09 ####### 1400314-1-1753863-1 BlkFilesFlush    1535  Blocking and flushing all files.
+7056  19d8  06/30 08:48:09 ####### 1400314-1-1753863-1 InitThread        628  Initialized thread with ctree library. ctThrdHandle [17]
+7056  19d8  06/30 08:48:09 ####### 1400314-1-1753863-1 BlkFilesFlush    1628  Flushing file [F:\DDB\CV_SIDB\2\1400314\Split01\Archive.dat]
+7132  f18   06/30 08:48:09 ####### 1400314-0-1753862-0 BlkFilesFlush    1535  Blocking and flushing all files.
+7132  f18   06/30 08:48:09 ####### 1400314-0-1753862-0 InitThread        628  Initialized thread with ctree library. ctThrdHandle [17]
+7132  f18   06/30 08:48:09 ####### 1400314-0-1753862-0 BlkFilesFlush    1628  Flushing file [F:\DDB\CV_SIDB\2\1400314\Split00\Archive.dat]
+7056  19d8  06/30 08:48:09 ####### 1400314-1-1753863-1 BlkFilesFlush    1628  Flushing file [F:\DDB\CV_SIDB\2\1400314\Split01\Primary.dat]
+7132  f18   06/30 08:48:09 ####### 1400314-0-1753862-0 BlkFilesFlush    1628  Flushing file [F:\DDB\CV_SIDB\2\1400314\Split00\Primary.dat]
+7132  f18   06/30 08:48:09 ####### 1400314-0-1753862-0 BlkFilesFlush    1628  Flushing file [F:\DDB\CV_SIDB\2\1400314\Split00\Properties.dat]
+7056  19d8  06/30 08:48:09 ####### 1400314-1-1753863-1 BlkFilesFlush    1628  Flushing file [F:\DDB\CV_SIDB\2\1400314\Split01\Properties.dat]
+7056  19d8  06/30 08:48:09 ####### 1400314-1-1753863-1 BlkFilesFlush    1628  Flushing file [F:\DDB\CV_SIDB\2\1400314\Split01\ZeroRef.dat]
+7132  f18   06/30 08:48:09 ####### 1400314-0-1753862-0 BlkFilesFlush    1628  Flushing file [F:\DDB\CV_SIDB\2\1400314\Split00\ZeroRef.dat]
+7056  19d8  06/30 08:48:09 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [17]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 CloseStateFile    203  Updating and closing the state file.
+7132  f18   06/30 08:48:09 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [17]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 CloseStateFile    203  Updating and closing the state file.
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 UnInitShrd       6017  Uninitialize shared data at [000001A635CC3CC8]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 UnInitShrd       6017  Uninitialize shared data at [0000025F381C67F8]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [1]
+7056  ef8   06/30 08:48:09 ####### 1400314-1-1753863-1 AdminThread      2299  Telling CvSessionServer to stop and abort all connections. 
+7056  ef8   06/30 08:48:09 ####### CCvNetworkServer::Quit() - Quit is received.
+7056  1510  06/30 08:48:09 ####### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+7056  910   06/30 08:48:09 ####### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [1]
+7132  1994  06/30 08:48:09 ####### 1400314-0-1753862-0 AdminThread      2299  Telling CvSessionServer to stop and abort all connections. 
+7132  1994  06/30 08:48:09 ####### CCvNetworkServer::Quit() - Quit is received.
+7132  18ec  06/30 08:48:09 ####### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+7132  4f0   06/30 08:48:09 ####### CCvIOCPServer::WorkerThread() - Quit flag is set. Exiting.
+7056  e30   06/30 08:48:10 ####### CCvNetworkServer::LogStatisticsThread() - Statistics thread is exiting.
+7132  3a0   06/30 08:48:10 ####### CCvNetworkServer::ListenThread() - ListenThread is exiting.
+7132  3a0   06/30 08:48:10 ####### CCvNetworkServer::Quit() - Quit is received.
+7132  478   06/30 08:48:10 ####### CCvNetworkServer::LogStatisticsThread() - Statistics thread is exiting.
+7132  518   06/30 08:48:10 ####### CCvIOCPServer::CleanUp() - Waiting for IOCP threads to come down
+7132  518   06/30 08:48:10 ####### CCvIOCPServer::CleanUp() - IOCP threads are down now
+7132  518   06/30 08:48:10 ####### CCvNetworkServer::SelectData() - Waiting for network server threads to come down
+7056  1088  06/30 08:48:10 ####### CCvNetworkServer::ListenThread() - ListenThread is exiting.
+7056  1088  06/30 08:48:10 ####### CCvNetworkServer::Quit() - Quit is received.
+7056  c2c   06/30 08:48:10 ####### CCvIOCPServer::CleanUp() - Waiting for IOCP threads to come down
+7056  c2c   06/30 08:48:10 ####### CCvIOCPServer::CleanUp() - IOCP threads are down now
+7056  c2c   06/30 08:48:10 ####### CCvNetworkServer::SelectData() - Waiting for network server threads to come down
+7132  518   06/30 08:48:10 ####### CCvNetworkServer::SelectData() - Network server threads are down
+7132  518   06/30 08:48:10 ####### 1400314-0-1753862-0 SelectDataThread  1921  SelectData thread exiting.
+7132  1994  06/30 08:48:10 ####### 1400314-0-1753862-0 AdminThread      2307  Waiting for the work queue to become empty
+7132  1994  06/30 08:48:10 ####### 1400314-0-1753862-0 DeInitialize       55  Waiting for the thread pool to empty itself...
+7132  1458  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [28]
+7132  18c8  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [29]
+7132  1cd0  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [31]
+7132  10d8  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [30]
+7132  6cc   06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [26]
+7132  11a0  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [21]
+7132  1d74  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [22]
+7132  1284  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [20]
+7132  1e30  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [32]
+7132  165c  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [18]
+7132  1804  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [27]
+7132  16e8  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [24]
+7132  310   06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [23]
+7132  1320  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [33]
+7132  1410  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [25]
+7132  1dcc  06/30 08:48:10 ####### 1400314-0-1753862-0 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [19]
+7056  c2c   06/30 08:48:10 ####### CCvNetworkServer::SelectData() - Network server threads are down
+7056  c2c   06/30 08:48:10 ####### 1400314-1-1753863-1 SelectDataThread  1921  SelectData thread exiting.
+7056  ef8   06/30 08:48:10 ####### 1400314-1-1753863-1 AdminThread      2307  Waiting for the work queue to become empty
+7056  ef8   06/30 08:48:10 ####### 1400314-1-1753863-1 DeInitialize       55  Waiting for the thread pool to empty itself...
+7056  1e18  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [27]
+7056  bc    06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [19]
+7056  e64   06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [29]
+7056  a58   06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [31]
+7056  1698  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [33]
+7056  1744  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [23]
+7056  a28   06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [21]
+7056  a4c   06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [25]
+7056  1dc0  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [22]
+7056  1c1c  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [28]
+7056  1b38  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [24]
+7056  1b94  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [20]
+7056  1bfc  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [30]
+7056  1d90  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [32]
+7056  2f0   06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [18]
+7056  1390  06/30 08:48:10 ####### 1400314-1-1753863-1 UninitThrd        843  Uninitialized thread with ctree library. ctThrdHandle [26]
+7056  ef8   06/30 08:48:12 ####### 1400314-1-1753863-1 AdminThread      2341  AdminThread Cleanup done! Exiting... 
+7056  1794  06/30 08:48:12 ####### 1400314-1-1753863-1 ExternalEventMonitor  3991  Urgent quit event set.
+7056  ef8   06/30 08:48:12 ####### 1400314-1-1753863-1 Run              1013  SIDB Exiting.
+7056  ef8   06/30 08:48:12 ####### 1400314-1-1753863-1 main             1370  ----------------------------SIDB Engine Stopped--------------------------------
+7132  1994  06/30 08:48:12 ####### 1400314-0-1753862-0 AdminThread      2341  AdminThread Cleanup done! Exiting... 
+7132  1fec  06/30 08:48:12 ####### 1400314-0-1753862-0 ExternalEventMonitor  3991  Urgent quit event set.
+7132  1994  06/30 08:48:12 ####### 1400314-0-1753862-0 Run              1013  SIDB Exiting.

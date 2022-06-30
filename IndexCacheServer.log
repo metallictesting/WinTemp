@@ -1,0 +1,20 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : IndexCacheServer                                                            *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+6396  19f8  06/30 06:44:14 ### reloadCatalogServerConfiguration: AntiChatter key is set in reg. Decoupled mode MA Installation. Prevent opening connection to MM on CS...
+7892  1eb8  06/30 06:57:40 ### start reloading Indexing configuration: 
+7892  1eb8  06/30 06:57:40 ### reload Indexing configuration: processing MA [sanbgw]
+7892  1eb8  06/30 06:57:40 ### reload Indexing configuration: got responce with error code [0]
+7892  1eb8  06/30 06:57:40 ### reload Indexing configuration: got empty ICS name
+7892  1eb8  06/30 06:57:40 ### reload Indexing configuration: set ICS disabled
+7892  1eb8  06/30 06:57:40 ### reload Indexing configuration: nothing is enabled - disable ICS
+7892  1eb8  06/30 06:57:41 ### reload Indexing configuration: ICS was disabled and is disabled
+7892  1eb8  06/30 06:57:41 ### completed reload Indexing configuration
+7892  e18   06/30 06:58:42 ### EvDebug::refreshDebugLevel() - Changing Debug level from 3 to 1

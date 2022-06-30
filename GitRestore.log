@@ -1,0 +1,212 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : GitRestore                                                                  *
+* Commserver : cms01039c1us02:cms01039c1us02.cvmscloud.commvault.com                       *
+* Version    : 11.2801.21                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+1304  1f48  06/30 08:51:16 1087963 DistributedIDA::CMaster::InitializeEvEvent(328) - =======================
+1304  1d2c  06/30 08:51:16 1087963 SetupEventConnection() - Connection to EvMgrs is successfull
+1304  1f48  06/30 08:51:16 1087963 DistributedIDA::CMaster::InitializeEvEvent(329) - STARTING DistributedIDA
+1304  1f48  06/30 08:51:16 1087963 DistributedIDA::CMaster::InitializeEvEvent(330) - -----------------------
+1304  1f48  06/30 08:51:16 1087963 GetSubclientFolderByAppType() - Building generic JobResults directory, AppTypeId=0
+1304  1f48  06/30 08:51:16 1087963 Cvcl::init() - CVCL: Running in FIPS Mode
+1304  1f48  06/30 08:51:16 1087963 isCCSDbEnabled() - Use CCSDb Enabled [0] IsCloudLaptop [0] IsFSCoreLaptop [0]
+1304  1f48  06/30 08:51:16 1087963 CVDC_FileSystem::CRestoreClientConfig::processJobOptions(3121) - Destination client is not a distributed client. Multi-Streamed restore will be performed. 
+1304  1f48  06/30 08:51:16 1087963 CVDC_FileSystem::CRestoreClientConfig::processJobOptions(3141) - Source client is not a distributed client. Indexing version check needs to be performed
+1304  1f48  06/30 08:51:16 1087963 CVDC_FileSystem::CRestoreClientConfig::parseArguments(2952) - RestoreStreamStarvationFactor: 2
+1304  1f48  06/30 08:51:16 1087963 CVDC_FileSystem::CRestoreClientConfig::parseArguments(2963) - MaxRestoreTasksPerAFile: 4
+1304  1f48  06/30 08:51:16 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - +++ 
+1304  1f48  06/30 08:51:17 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - +++ 
+1304  1f48  06/30 08:51:17 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - --- 0:00.013168 
+1304  1f48  06/30 08:51:17 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - --- 0:00.297779 
+1304  1f48  06/30 08:51:17 1087963 DistributedIDA::CMaster::registerWithJM(856) - Use jm control role [1]
+1304  1f48  06/30 08:51:17 1087963 Init() - Initializing job control [token=1087963:2:1:0:0:57231,cn=sanbgw], serverName [cms01039c1us02.cvmscloud.commvault.com], ControlFlag [1], Job Id [1087963]
+1304  1f48  06/30 08:51:17 1087963 CVJobCtrlLog::registerProcess(): successfully created file [C:\Program Files\Metallic\ContentStore\Base\JobControl\1.304]
+1304  1f48  06/30 08:51:17 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+1304  1f48  06/30 08:51:17 1087963 CVGit::CGitRestoreCoordinator::loadNodeConfiguration(741) - adding access node [sanbgw]
+1304  1f48  06/30 08:51:17 1087963 CVGit::CGitRestoreCoordinator::loadNodeConfiguration(747) - Added [1] access nodes
+1304  1f48  06/30 08:51:17 1087963 DistributedIDA::ICoordinator::UpdateSubclientDirectory(572) - Subclient directory distribution is not enabled.
+1304  1f48  06/30 08:51:18 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+1304  1f48  06/30 08:51:18 1087963 CVGit::CGitRestoreCoordinator::ProcessRestoreOptions(130) - Destination Instance ID [4945], jobid [1087963] , IsInplace restore [0]
+1304  1f48  06/30 08:51:18 1087963 CVGit::CGitRestoreCoordinator::ProcessRestoreOptions(142) - Base URL [https://api.github.com]
+1304  1f48  06/30 08:51:18 1087963 CVGit::CGitRestoreCoordinator::ProcessRestoreOptions(157) - Source instance ID [4945], is [GitHub]
+1304  1f48  06/30 08:51:18 1087963 CVGit::CGitRestoreCoordinator::ProcessRestoreOptions(167) - Staging Info [<App_StagingPathDetails impersonationType="0"><impersonateUser/></App_StagingPathDetails>]
+1304  1f48  06/30 08:51:18 1087963 CVGit::CGitRestoreCoordinator::ProcessRestoreOptions(251) - Destination orgnization name [rrskumar4], is user account [1]
+1304  1f48  06/30 08:51:18 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::Initialize(639) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::Initialize(195) - Restore task XML [<?xml version='1.0' encoding='utf-8' ?><TMMsg_JobOption><restoreOptions><browseOption commCellId="2" browseJobId="1087953" browseJobCommCellId="2"><timeRange fromTime="1656603954" toTime="1656604103"/></browseOption><commonOptions preserveLevel="1" stripLevelType="0" unconditionalOverwrite="1"/><destination destAppId="134" restoreOnlyIfTargetExists="0" noOfStreams="10" inPlace="0"><destPath val=""/><destClient clientId="8445" clientName="GitHubUsr_1"/><destinationInstance instanceName="GitHubUsr" instanceId="4945"/></destination><fileOption><sourceItem val="/rrskumar4/PowerCLI-Example-Scripts"/></fileOption><cloudAppsRestoreOptions instanceType="33"><cloudStorageRestoreOptions restoreToFileSystem="0"><restoreDestination instanceType="33"/></cloudStorageRestoreOptions><gitHubRestoreOptions accountName="rrskumar4" accountType="1"/></cloudAppsRestoreOptions><qrOption destAppTypeId="134"/></restoreOptions><commonOpts notifyUserOnJobCompletion="0" subscriptionInfo="&lt;Api_Subscription subscriptionId =&quot;181618&quot;/&gt;"/></TMMsg_JobOption>]
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::PopulateRestoreOptions(361) - Skip MOunt points: 0
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::getFromTime(1718) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - --- 0:00.010978 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - --- 0:00.033507 
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::getFromTime(1788) - Using From Time value [1656603954]
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::getFromTime(1718) - --- 0:00.084520 
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::getToTime(1795) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - --- 0:00.015191 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - --- 0:00.176243 
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::getToTime(1795) - --- 0:00.333355 
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::ValidateRestoreTimes(2278) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::ValidateRestoreTimes(2278) - --- 0:00.014680 
+1304  1f48  06/30 08:51:18 1087963 CStartClientRestore::CheckPendingFileRenames(2220) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - +++ 
+1304  1f48  06/30 08:51:18 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - +++ 
+1304  1f48  06/30 08:51:19 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - --- 0:00.017076 
+1304  1f48  06/30 08:51:19 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - --- 0:00.043400 
+1304  1f48  06/30 08:51:19 1087963 CStartClientRestore::CheckPendingFileRenames(2220) - --- 0:00.068649 
+1304  1f48  06/30 08:51:19 1087963 CStartClientRestore::getToTime(1795) - +++ 
+1304  1f48  06/30 08:51:19 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - +++ 
+1304  1f48  06/30 08:51:19 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - +++ 
+1304  1f48  06/30 08:51:19 1087963 CLiveSyncReplication::FetchAllReplicationIDs(574) - --- 0:00.012768 
+1304  1f48  06/30 08:51:19 1087963 CLiveSyncReplication::InitLiveSyncRestore(473) - --- 0:00.034883 
+1304  1f48  06/30 08:51:19 1087963 CStartClientRestore::getToTime(1795) - --- 0:00.056462 
+1304  1f48  06/30 08:51:19 1087963 ParametersValid() - Warning: empty destination path received
+1304  1f48  06/30 08:51:19 1087963 NetMessage::verifyResponseHeader() - Error Code [655362] returned - [Error decrypting password].
+1304  1f48  06/30 08:51:19 1087963 ClientInterfaceNet::lookup() - Error decrypting password
+1304  1f48  06/30 08:51:19 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::CreateBrowseRequest(1848) - Setting browse job ID 1087953 and commcell ID 2
+1304  1f48  06/30 08:51:20 1087963 IDXBROWSECL Sending init request [<?xml version="1.0" encoding="UTF-8" standalone="no" ?><databrowse_BrowseRequest opType="1" pathType="0"><session sessionId="1087963"/><entity _type_="0" applicationId="134" backupsetId="18693" clientId="8445" commCellId="2" instanceId="4945" subclientId="23682"/><paths path="/rrskumar4/PowerCLI-Example-Scripts"/><timeRange fromTime="1656603954" toTime="1656604103"/><options DoNotCacheFilters="0" PreferContentServer="0" adjustPerLastDRTime="0" browseFromCSDB="0" browseFromJobType="0" browseFromLatestJob="0" bulkOperation="0" bypassSubclientConfig="1" caseInsensitive="0" caseManagerDataCopy="0" createRestoreVectors="0" cycleBrowse="0" disableSnapOptimizer="0" doPrediction="0" downloadSystemScan="0" downloadTrueUpStubScanOutput="0" enforceSuperBrowse="0" fetchFileProperties="0" fixPaths="0" folderDelete="0" fsExtentBrowse="0" getACLs="0" hideEmptyExtents="0" imageBrowse="0" includeAgedData="0" includeAllParents="0" includeCheckSum="0" includeEndUserErasedItems="0" includeExtentCRC="0" includeMetadata="0" includeRunningJobs="0" includeSoftCommittedJobs="0" includeVersions="0" instantSend="0" internalReq="0" isOneTouchRestore="0" machineLiveBrowse="0" nasFilerType="0" nasSynthDirRestore="2" nasSynthRestore="0" nonRecursiveNASRestore="0" onePassRedundancy="0" onePassStubQuery="0" prepareSystemScan="0" pruneFromSource="0" queryAgedArchiveFileData="0" reCreateRestoreVector="0" refCopy="0" refCopyCloudMigration="0" refCopySF="0" relationshipBrowse="0" restoreIndex="1" sendBackListOfAfiles="0" sendOutputToFile="0" sharedFolderBrowse="0" showDeletedFiles="0" showFavoriteAndShareInfo="0" showFolderSize="0" showOnlyDeleted="0" showOnlyNew="0" showThumbnail="0" skipDataPrediction="0" skipIndexRestore="0" skipInvalidMimeClassification="0" skipLatestVersion="0" skipMountPoints="0" skipNasRenamedDirs="0" skipProgressMessage="0" skipSynthFullJobs="0" synthFull="0" tableViewBrowse="0" translateSyncPath="0" translateToVMReq="0" useLatestCycle="0" useUptoDateIndexOnly="0" userRequest="1" verifyArchiverQuery="0" viewBackupCopy="0" vsDiskBrowse="0" vsExtentBrowse="0" vsFileBrowse="1" vsListVMs="0" vsLiveSyncBrowse="0" vsVolumeBrowse="0" vsaFileLevelRestore="0"/><mode mode="0"/><ma _type_="3" clientId="0"/><advOptions applyStrictACL="0" browseViewName="" copyPrecedence="0" datasourceId="0" includePsuedoItems="0" retryLimit="10" retryWaitSecs="300" skipACLChecks="0" skipUptodateCheck="0" stubAsData="0" timeoutSecs="1800" validateAfiles="0" vmCentricClient="0"><advConfig recallRequest="0" useProtocolVersion="0"><browseAdvancedConfigReq commcellId="2" currentJobId="1087963" jobType="0"><additionalFlags flagType="0" key="RequestorType" value="Restore"/></browseAdvancedConfigReq><browseAdvancedConfigBrowseByJob commcellId="2" jobId="1087953" jobType="0"/></advConfig></advOptions><queries queryId="0" type="0"><dataParam><paging firstNode="0" pageSize="4294967295" skipNode="0"/></dataParam></queries><queries queryId="countQuery" type="1"><aggrParam aggrType="4"/></queries><applicationInfo><indexingInfo extendedOptions="#SkipAppendingVersion=&quot;0&quot;" idxAppType="0" jobId="0" multiClientRequest="0"/></applicationInfo></databrowse_BrowseRequest>] to CS
+1304  1f48  06/30 08:51:21 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::CreateBrowseRequest(1996) - Setting extended options - '#UseIndexingV2="1"'
+1304  1f48  06/30 08:51:21 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::CreateBrowseRequest(1999) - Launching Create Restore Vector request
+1304  1f48  06/30 08:51:21 1087963 CVOnDemandSvcClient::SubmitTask() - On Demand service CVODS_indexserver_sanbgw_1 launched at host SanBGW*sanbgw*8400. Unique ID is 47A5EE02-E7CB-4D86-863B-49F2EA5FADC9
+1304  1f48  06/30 08:51:21 1087963 CVOnDemandSvcClient::Attach() - Successfully attached to on Demand service CVODS_indexserver_sanbgw_1 launched at host SanBGW*sanbgw*8400. Unique ID is 47A5EE02-E7CB-4D86-863B-49F2EA5FADC9
+1304  1f48  06/30 08:51:22 1087963 CVGit::CGitStartClientRestore::ProcessBrowseResponsePathValue(118) - Identified Repo path [/rrskumar4/PowerCLI-Example-Scripts], afile id [1525935]
+1304  1f48  06/30 08:51:22 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::ProcessBrowseResponse(2235) - Index 0 Commcell 2, AFile 1525935, m_ulSubTaskId 0, Agroup 0, NumItems 1, HasExtents no, StartOffset 0, TotalSize 0, AFileType 2, NodeName [NONE]
+1304  1f48  06/30 08:51:22 1087963 CVGit::CGitStartClientRestore::ProcessBrowseResponsePathValue(118) - Identified Repo path [/rrskumar4/PowerCLI-Example-Scripts], afile id [1525937]
+1304  1f48  06/30 08:51:22 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::ProcessBrowseResponse(2235) - Index 0 Commcell 2, AFile 1525937, m_ulSubTaskId 0, Agroup 0, NumItems 31, HasExtents no, StartOffset 0, TotalSize 0, AFileType 2, NodeName [NONE]
+1304  1f48  06/30 08:51:22 1087963 IDXBROWSECL Sending init request [<?xml version="1.0" encoding="UTF-8" standalone="no" ?><databrowse_BrowseRequest opType="1" pathType="0"><session sessionId="1087963Git"/><entity _type_="0" applicationId="134" backupsetId="18693" clientId="8445" commCellId="2" instanceId="4945" subclientId="23682"/><paths path="/rrskumar4/PowerCLI-Example-Scripts"/><timeRange fromTime="1656603954" toTime="1656604103"/><options DoNotCacheFilters="0" PreferContentServer="0" adjustPerLastDRTime="0" browseFromCSDB="0" browseFromJobType="0" browseFromLatestJob="0" bulkOperation="0" bypassSubclientConfig="1" caseInsensitive="0" caseManagerDataCopy="0" createRestoreVectors="0" cycleBrowse="0" disableSnapOptimizer="0" doPrediction="0" downloadSystemScan="0" downloadTrueUpStubScanOutput="0" enforceSuperBrowse="0" fetchFileProperties="1" fixPaths="0" folderDelete="0" fsExtentBrowse="0" getACLs="0" hideEmptyExtents="0" imageBrowse="0" includeAgedData="0" includeAllParents="0" includeCheckSum="0" includeEndUserErasedItems="0" includeExtentCRC="0" includeMetadata="0" includeOnlyCommitedJobs="1" includeRunningJobs="0" includeSoftCommittedJobs="0" includeVersions="0" instantSend="0" internalReq="0" isOneTouchRestore="0" machineLiveBrowse="0" nasFilerType="0" nasSynthDirRestore="2" nasSynthRestore="0" nonRecursiveNASRestore="0" onePassRedundancy="0" onePassStubQuery="0" prepareSystemScan="0" pruneFromSource="0" queryAgedArchiveFileData="0" reCreateRestoreVector="0" refCopy="0" refCopyCloudMigration="0" refCopySF="0" relationshipBrowse="0" restoreIndex="1" sendBackListOfAfiles="0" sendOutputToFile="0" sharedFolderBrowse="0" showDeletedFiles="0" showFavoriteAndShareInfo="0" showFolderSize="0" showOnlyDeleted="0" showOnlyNew="0" showThumbnail="0" skipDataPrediction="0" skipIndexRestore="0" skipInvalidMimeClassification="0" skipLatestVersion="0" skipMountPoints="0" skipNasRenamedDirs="0" skipProgressMessage="0" skipSynthFullJobs="0" synthFull="0" tableViewBrowse="0" translateSyncPath="0" translateToVMReq="0" useLatestCycle="0" useUptoDateIndexOnly="0" userRequest="1" verifyArchiverQuery="0" viewBackupCopy="0" vsDiskBrowse="0" vsExtentBrowse="0" vsFileBrowse="1" vsListVMs="0" vsLiveSyncBrowse="0" vsVolumeBrowse="0" vsaFileLevelRestore="0"/><mode mode="0"/><ma _type_="3" clientId="0"/><advOptions applyStrictACL="0" browseViewName="" copyPrecedence="0" datasourceId="0" includePsuedoItems="0" retryLimit="10" retryWaitSecs="300" skipACLChecks="0" skipUptodateCheck="0" stubAsData="0" timeoutSecs="1800" validateAfiles="0" vmCentricClient="0"><advConfig recallRequest="0" useProtocolVersion="0"><browseAdvancedConfigReq commcellId="2" currentJobId="1087963" jobType="0"><additionalFlags flagType="0" key="RequestorType" value="Restore"/></browseAdvancedConfigReq><browseAdvancedConfigBrowseByJob commcellId="2" jobId="1087953" jobType="0"/></advConfig></advOptions><queries queryId="0" type="0"><dataParam><paging firstNode="0" pageSize="4294967295" skipNode="0"/></dataParam></queries><queries queryId="countQuery" type="1"><aggrParam aggrType="4"/></queries><applicationInfo><indexingInfo extendedOptions="#SkipAppendingVersion=&quot;0&quot;" idxAppType="0" jobId="0" multiClientRequest="0"><flags SynthFullStreamMode="0" browseFromCache="0" createRestVectors="0" crossComponentWorker="0" getVectorNames="0" includeVersions="0" instantSend="0" isRefCopyClient="0" mergeMultiClientBrowseData="0" multiEntityBrowse="0" populateCache="0" retentionBrowse="0" showFolderSize="0" showItemsMarkedDeleted="0" superBrowse="0" superBrowseNoLock="0" superBrowseWorker="0" syntheticFull="0"/></indexingInfo></applicationInfo></databrowse_BrowseRequest>] to CS
+1304  1f48  06/30 08:51:23 1087963 CVOnDemandSvcClient::SubmitTask() - On Demand service CVODS_indexserver_sanbgw_1 launched at host SanBGW*sanbgw*8400. Unique ID is 47A5EE02-E7CB-4D86-863B-49F2EA5FADC9
+1304  1f48  06/30 08:51:23 1087963 CVOnDemandSvcClient::Attach() - Successfully attached to on Demand service CVODS_indexserver_sanbgw_1 launched at host SanBGW*sanbgw*8400. Unique ID is 47A5EE02-E7CB-4D86-863B-49F2EA5FADC9
+1304  1f48  06/30 08:51:23 1087963 CVGit::CGitStartClientRestore::FetchMetadataFromIndex(378) - organization [rrskumar4], Repository [PowerCLI-Example-Scripts], UserAccount [1], Repository description [], type [public]
+1304  1f48  06/30 08:51:23 1087963 CVGit::CGitStartClientRestore::FetchMetadataFromIndex(381) - AfileID [1525935]
+1304  1f48  06/30 08:51:23 1087963 CVGit::CGitStartClientRestore::FetchMetadataFromIndex(381) - AfileID [1525937]
+1304  1f48  06/30 08:51:23 1087963 FSSubclientConf::load(696) - +++ 
+1304  1f48  06/30 08:51:24 1087963 FSSubclientConf::load(696) - --- 0:00.453312 
+1304  1f48  06/30 08:51:24 1087963 FSSubclientConf::load(221) - Cannot get content history for backup set 18693, code 655376
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::prepareRequest(1056) - Adding extended option [8FCBE752-BECB-467C-BCBB-1811B4FA0F84:8FCBE752-BECB-467C-BCBB-1811B4FA0F84]
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::logParameters(1175) - commcell - 2
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::logParameters(1177) - source client - 8445
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::logParameters(1179) - dest client - 8445
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::logParameters(1181) - apptype - 134
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::logParameters(1183) - instance - 4945
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::logParameters(1185) - 18693
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::logParameters(1187) - subclient - 23682
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::logParameters(1190) - source path - [/rrskumar4/PowerCLI-Example-Scripts]
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::logParameters(1192) - dest path - []
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CStartClientRestoreDistributed::Initialize(639) - --- 0:06.323834 
+1304  1f48  06/30 08:51:24 1087963 JOBRESCACHEDIR: Galaxy 6.1-style Index Cache is not supported. Any index located in the cache sub-folder [C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\2] will be treat as 'not present'.
+1304  1f48  06/30 08:51:24 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CRestore::CreateTaskCreatePolicy(1086) - Limiting number of Tasks per AFile from 20 to 4(max)
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CRestore::CreateTaskCreatePolicy(1089) - Each AFile will be split in to 4 Tasks
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CRestoreTaskSplitByAFile::GetTasks(180) - Index 0 Commcell 2, AFile 1525935, m_ulSubTaskId 0, Agroup 0, NumItems 1, HasExtents no, StartOffset 0, TotalSize 0, AFileType 2, NodeName [NONE]
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CRestoreTaskSplitByAFile::GetTasks(180) - Index 1 Commcell 2, AFile 1525937, m_ulSubTaskId 0, Agroup 0, NumItems 8, HasExtents no, StartOffset 0, TotalSize 0, AFileType 2, NodeName [NONE]
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CRestoreTaskSplitByAFile::GetTasks(180) - Index 2 Commcell 2, AFile 1525937, m_ulSubTaskId 1, Agroup 0, NumItems 8, HasExtents no, StartOffset 8, TotalSize 0, AFileType 2, NodeName [NONE]
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CRestoreTaskSplitByAFile::GetTasks(180) - Index 3 Commcell 2, AFile 1525937, m_ulSubTaskId 2, Agroup 0, NumItems 8, HasExtents no, StartOffset 16, TotalSize 0, AFileType 2, NodeName [NONE]
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CRestoreTaskSplitByAFile::GetTasks(180) - Index 4 Commcell 2, AFile 1525937, m_ulSubTaskId 3, Agroup 0, NumItems 7, HasExtents no, StartOffset 24, TotalSize 0, AFileType 2, NodeName [NONE]
+1304  1f48  06/30 08:51:24 1087963 DistributedIDA::ICoordinator::initialize(102) - Loaded 7 tasks
+1304  1f48  06/30 08:51:24 1087963 JOBRESULTSTABLE(C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\10879 removing copy 'C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963'
+1304  1f48  06/30 08:51:24 1087963 DistributedIDA::CMaster::UpdateJMMisc(489) - Updating client list [8426] to JM Misc table
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CRestore::ProcessRestartString(1409) - This is not a restarted job
+1304  1f48  06/30 08:51:24 1087963 CVDC_FileSystem::CRestore::getStreamReservationInfoForNode(532) - Number of workers[7] needed is less than number of workers configured[10]. Limiting the number of workers to [7]
+1304  1f48  06/30 08:51:24 1087963 DistributedIDA::CMaster::getReservations(953) - Stream reservation is not required.
+1304  1f48  06/30 08:51:24 1087963 DistributedIDA::CMaster::registerNodes(1006) - common agents arguments:1087963 1087963 -j 1087963 -pkg Git -at 134 -jt 1087963:2:1:0:0:57231 -restore -fc 0:0:0 -cn sanbgw -vm Instance001 -controller -phase restore
+1304  1f48  06/30 08:51:24 1087963 DistributedIDA::CMaster::registerNodes(1009) - common agents arguments:1087963 1087963 -j 1087963 -pkg Git -at 134 -jt 1087963:2:1:0:0:57231 -restore -fc 0:0:0 -vm Instance001 -controller -phase restore
+1304  1f48  06/30 08:51:24 1087963 DistributedIDA::CMaster::registerNodes(1012) - common agents arguments:1087963 1087963 -j 1087963 -pkg Git -at 134 -jt 1087963:2:1:0:0:57231 -restore -fc 0:0:0 -controller -phase restore
+1304  1f48  06/30 08:51:24 1087963 DistributedIDA::CMaster::registerNodes(1064) - for sanbgw:  -numWorkers 7  -multinode 
+1304  1dc0  06/30 08:51:24 1087963 DistributedIDA::CMaster::streamRefresh(3534) - Started
+1304  1c60  06/30 08:51:24 1087963 DistributedIDA::CCoordinatorReports::Run(147) - Reports are printed every 300 seconds
+1304  1f48  06/30 08:51:24 1087963 CVRemoteAgentServer::AddAgent() - Added Agent [sanbgw]
+1304  1f48  06/30 08:51:25 1087963 CVRemoteAgentServer::StartRemoteAgent() - Starting Remote Agent [sanbgw]
+1304  1f48  06/30 08:51:25 1087963 CVRemoteAgentServer::StartRemoteAgent() - Launching agent executable [CVDistributor.exe] on [SanBGW*sanbgw*8400] with args [1087963 1087963 -j 1087963 -pkg Git -at 134 -jt 1087963:2:1:0:0:57231 -restore -fc 0:0:0 -controller -phase restore  -numWorkers 7  -multinode ]
+1304  1f48  06/30 08:51:25 1087963 CVRemoteAgentServer::StartRemoteAgent() - Started Agent [sanbgw]
+1304  1f48  06/30 08:51:25 1087963 DistributedIDA::CMaster::OnAgentStarted(2024) - Got AgentStarted for sanbgw
+1304  1f48  06/30 08:51:26 1087963 CVDC_FileSystem::CRestore::getNodeStartAcknowledgeMessage(611) - NodeInit <?xml version="1.0" encoding="UTF-8" standalone="no" ?><DistributedIDA_NodeInit><options name="MasterNodeName" value="sanbgw"/><options name="DistributedIDAStateFile" value="C:\Program Files\Metallic\ContentStore\iDataAgent\JobResults\CV_JobResults\2\0\1087963\DistributedIDAStateFile_1304_1656604284"/></DistributedIDA_NodeInit>
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1591) - will update task with m_iReferenceId 0
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1601) - task 0 reserved for stream 1001 
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1606) - task refID:0 assigned to stream 1001 on node sanbgw
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1622) - will update task with m_iReferenceId 0
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1630) - task 0 started on stream 1001 
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1591) - will update task with m_iReferenceId 1
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1601) - task 1 reserved for stream 1002 
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1606) - task refID:1 assigned to stream 1002 on node sanbgw
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1622) - will update task with m_iReferenceId 1
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1630) - task 1 started on stream 1002 
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1591) - will update task with m_iReferenceId 2
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1601) - task 2 reserved for stream 1003 
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1606) - task refID:2 assigned to stream 1003 on node sanbgw
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1622) - will update task with m_iReferenceId 2
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1630) - task 2 started on stream 1003 
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1591) - will update task with m_iReferenceId 3
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1601) - task 3 reserved for stream 1004 
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1606) - task refID:3 assigned to stream 1004 on node sanbgw
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1622) - will update task with m_iReferenceId 3
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1630) - task 3 started on stream 1004 
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1591) - will update task with m_iReferenceId 4
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1601) - task 4 reserved for stream 1005 
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1606) - task refID:4 assigned to stream 1005 on node sanbgw
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1622) - will update task with m_iReferenceId 4
+1304  1f48  06/30 08:51:26 1087963 DistributedIDA::CMaster::DispatchTasks(1630) - task 4 started on stream 1005 
+1304  1f48  06/30 08:51:41 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+1304  1f48  06/30 08:51:41 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+1304  1f48  06/30 08:51:41 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+1304  1f48  06/30 08:51:41 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+1304  1f48  06/30 08:51:43 1087963 DistributedIDA::CMaster::TaskComplete(3402) - task 3 status reported : 5
+1304  1f48  06/30 08:51:43 1087963 DistributedIDA::CMaster::TaskComplete(3402) - task 1 status reported : 5
+1304  1f48  06/30 08:51:43 1087963 DistributedIDA::CMaster::TaskComplete(3402) - task 2 status reported : 5
+1304  1f48  06/30 08:51:43 1087963 DistributedIDA::CMaster::TaskComplete(3402) - task 4 status reported : 5
+1304  1f48  06/30 08:51:44 1087963 JM Client  CVJobClient::initialize(): Got remote host [cms01039c1us02.cvmscloud.commvault.com].
+1304  1f48  06/30 08:51:45 1087963 DistributedIDA::CMaster::TaskComplete(3402) - task 0 status reported : 5
+1304  1f48  06/30 08:51:45 1087963 DistributedIDA::CMaster::DispatchTasks(1591) - will update task with m_iReferenceId 5
+1304  1f48  06/30 08:51:45 1087963 DistributedIDA::CMaster::DispatchTasks(1601) - task 5 reserved for stream 1001 
+1304  1f48  06/30 08:51:45 1087963 DistributedIDA::CMaster::DispatchTasks(1606) - task refID:5 assigned to stream 1001 on node sanbgw
+1304  1f48  06/30 08:51:45 1087963 DistributedIDA::CMaster::DispatchTasks(1622) - will update task with m_iReferenceId 5
+1304  1f48  06/30 08:51:45 1087963 DistributedIDA::CMaster::DispatchTasks(1630) - task 5 started on stream 1001 
+1304  1f48  06/30 08:52:01 1087963 DistributedIDA::CMaster::TaskComplete(3402) - task 5 status reported : 5
+1304  1f48  06/30 08:52:01 1087963 DistributedIDA::CMaster::DispatchTasks(1591) - will update task with m_iReferenceId 6
+1304  1f48  06/30 08:52:01 1087963 DistributedIDA::CMaster::DispatchTasks(1601) - task 6 reserved for stream 1001 
+1304  1f48  06/30 08:52:01 1087963 DistributedIDA::CMaster::DispatchTasks(1606) - task refID:6 assigned to stream 1001 on node sanbgw
+1304  1f48  06/30 08:52:01 1087963 DistributedIDA::CMaster::DispatchTasks(1622) - will update task with m_iReferenceId 6
+1304  1f48  06/30 08:52:01 1087963 DistributedIDA::CMaster::DispatchTasks(1630) - task 6 started on stream 1001 
+1304  1f48  06/30 08:52:01 1087963 DistributedIDA::CMaster::TaskComplete(3402) - task 6 status reported : 5
+1304  1f48  06/30 08:52:01 1087963 CVDC_FileSystem::CRestore::OnPhaseEnd(2331) - Ending restore phase[All]
+1304  1f48  06/30 08:52:01 1087963 CVDC_FileSystem::CRestore::getTask(695) - No more task available to schedule
+1304  1f48  06/30 08:52:01 1087963 CVDC_FileSystem::CRestore::OnIdle(2116) - stopping node sanbgw
+1304  1f48  06/30 08:52:12 1087963 DistributedIDA::CMaster::ControllerDone(2872) - Node sanbgw reported complete status:0
+1304  1f48  06/30 08:52:13 1087963 CVDC_FileSystem::CRestore::processMessage(803) - Unknown message for file system restore. Message type : 150995202
+1304  1f48  06/30 08:52:13 1087963 DistributedIDA::CMaster::OnAgentStopped(2034) - Got AgentStopped for sanbgw
+1304  1f48  06/30 08:52:13 1087963 DistributedIDA::CMaster::OnAgentStopped(2262) - no active nodes left. Will release streams.
+1304  1f48  06/30 08:52:13 1087963 CVRemoteAgentServer::MonitorAgents() - There are no running agents
+1304  1c60  06/30 08:52:13 1087963 DistributedIDA::CCoordinatorReportsPrivate::printReport(388) - 
+REPORT:--- Progress Report ----------------------------------------------------------------------------------------
+REPORT:                            |Status  |Rst| Objects | Success | Failed  | Skipped | Data GB |  GB/h
+REPORT:  Node:sanbgw               |Complete|  0|       32|       32|         |         |    0.012|    543.2
+REPORT:Stream:1001                 |Running |  0|        1|        1|         |         |    0.012|   2374.3
+REPORT: Stream:1001|Running:0 Failed:0 Complete:3
+REPORT:Stream:1002                 |Running |  0|        8|        8|         |         |    0.000|      0.4
+REPORT: Stream:1002|Running:0 Failed:0 Complete:1
+REPORT:Stream:1003                 |Running |  0|        8|        8|         |         |    0.000|      2.2
+REPORT: Stream:1003|Running:0 Failed:0 Complete:1
+REPORT:Stream:1004                 |Running |  0|        8|        8|         |         |    0.000|      3.7
+REPORT: Stream:1004|Running:0 Failed:0 Complete:1
+REPORT:Stream:1005                 |Running |  0|        7|        7|         |         |    0.000|     17.4
+REPORT: Stream:1005|Running:0 Failed:0 Complete:1
+REPORT:-----------------------------------------------------------------------------------------------------------
+REPORT:                            |TOTAL   |  0|       32|       32|         |         |    0.012|    543.2
+1304  1c60  06/30 08:52:13 1087963 DistributedIDA::CCoordinatorReports::Run(208) - report thread finished
+1304  1dc0  06/30 08:52:13 1087963 DistributedIDA::CMaster::streamRefresh(3614) - done
+1304  1f48  06/30 08:52:13 1087963 CVDC_FileSystem::CRestore::OnComplete(1971) - Marking Job as Success
+1304  1f48  06/30 08:52:13 1087963 CStartClientRestore::UpdateRebootEvent(2068) - +++ 
+1304  1f48  06/30 08:52:13 1087963 CStartClientRestore::UpdateRebootEvent(2068) - --- 0:00.028297 
+1304  1f48  06/30 08:52:13 1087963 DistributedIDA::CMaster::endPhaseTasks(3889) - m_jsStatus:1 m_jsStatusFor:1 m_jsPendingCause:4
+1304  1f48  06/30 08:52:13 1087963 Sending SUCCESS complete message to JM, 1087963
+1304  165c  06/30 08:52:13 1087963 CVJobCtrlLog::unregisterProcess(): successfully removed file [C:\Program Files\Metallic\ContentStore\Base\JobControl\1.304]
+1304  1f48  06/30 08:52:13 1087963 CVGit::CGitRestoreCoordinator::~CGitRestoreCoordinator(59) - Get ProjectInfo: 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+1304  1f48  06/30 08:52:13 1087963 CVGit::CGitRestoreCoordinator::~CGitRestoreCoordinator(60) - Create Project: 0:00.000000, 0 samples, 0:00.000000 average, 0/second
+1304  1f48  06/30 08:52:13 1087963 main(160) - ---------------------
+1304  1f48  06/30 08:52:13 1087963 main(161) - ENDING DistributedIDA
+1304  1f48  06/30 08:52:13 1087963 main(162) - =====================

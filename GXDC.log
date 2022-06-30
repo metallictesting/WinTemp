@@ -1,0 +1,20 @@
+********************************************************************************************
+* Machine    : sanbgw:SanBGW (SanBGW) (Instance001)                                        *
+* IP Addrs   : 192.168.1.190                                                               *
+* Module     : GXDC                                                                        *
+* Commserver : :                                                                           *
+* Version    : 11.2801.20                                                                  *
+* Date       : 2022/06/30 (Pacific Standard Time GMT-08:00)                                *
+* OS Type    : Windows Server 2019 DatacenterMajor.: 6, Minor.: 2 Server 4.0  (Build 9200) *
+********************************************************************************************
+
+4584  189c  06/30 06:44:12 ### OBJECT CDataClassifierThread(103) - +++ 0x00000213B5CC1590
+4584  189c  06/30 06:44:12 ### CDataClassifierThread::Init(157) - Monitoring event [Global\GXDC_ThreadEvent_001]
+4584  1904  06/30 06:44:12 ### CDataClassifierThread::Run(308) - +++ 
+4584  1904  06/30 06:44:12 ### CServiceConfiguration::ReadRegistryParameters(122) - DataClassification services are not enabled; no volumes will be monitored
+4584  1904  06/30 06:55:33 ### CDataClassifierThread::Run(308) - --- 11:21.010563 
+4584  1738  06/30 06:55:33 ### OBJECT CDataClassifierThread(103) - --- 11:21.215501 0x00000213B5CC1590
+4464  1d28  06/30 06:57:36 ### OBJECT CDataClassifierThread(103) - +++ 0x00000195EE09E8E0
+4464  1d28  06/30 06:57:36 ### CDataClassifierThread::Init(157) - Monitoring event [Global\GXDC_ThreadEvent_001]
+4464  18f4  06/30 06:57:36 ### CDataClassifierThread::Run(308) - +++ 
+4464  18f4  06/30 06:57:36 ### CServiceConfiguration::ReadRegistryParameters(122) - DataClassification services are not enabled; no volumes will be monitored
